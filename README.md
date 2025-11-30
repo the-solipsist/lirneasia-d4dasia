@@ -1,4 +1,4 @@
-# Data for Development: Asia
+# Harnessing Data for Democratic Development in South and Southeast Asia (D4D Asia)
 
 **Investigating data governance policies and practices in South and Southeast Asia.**
 
@@ -92,3 +92,5 @@ To create symbolic links inside each country folder pointing to the generated PD
 ## 📄 License
 
 All report contents in this repository are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/ "null"). You are free to share and adapt the material, provided you give appropriate credit to LIRNEasia and the respective authors.
+
+All code contained in this repository are licensed under the [Zero Clause BSD licence (0BSD)](https://opensource.org/license/0bsd).
