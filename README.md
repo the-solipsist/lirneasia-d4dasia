@@ -88,3 +88,7 @@ To create symbolic links inside each country folder pointing to the generated PD
 ```bash
 ./_scripts/link-pdfs.sh
 ```
+
+## 📄 License
+
+All report contents in this repository are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/ "null"). You are free to share and adapt the material, provided you give appropriate credit to LIRNEasia and the respective authors.
