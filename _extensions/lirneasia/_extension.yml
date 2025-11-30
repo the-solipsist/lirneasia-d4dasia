@@ -9,5 +9,3 @@ contributes:
         - typst-template.typ
         - typst-show.typ
         - page.typ
-        - notes.typ
-
