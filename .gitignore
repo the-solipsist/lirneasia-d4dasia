@@ -1,0 +1,15 @@
+# Ignore jujutsu
+/.jj/
+
+# Ignore the workspace folder
+/_workspace/
+
+# Ignore Quarto build artifacts and temp files
+/.quarto/
+/_site/
+*.typ
+*.md
+!README.md
+*.log
+.DS_Store
+

@@ -1,0 +1,34 @@
+# brand.yml
+meta:
+  name: LIRNEasia
+  link: 
+    home: https://lirneasia.net
+    twitter: https://x.com/LIRNEasia
+    facebook: https://www.facebook.com/lirneasia
+    youtube: https://www.youtube.com/@LIRNEasia-
+    linkedin: https://lk.linkedin.com/company/lirneasia
+    instagram: https://www.instagram.com/lirneasia
+color:
+  palette:
+    lirneasia-red: "#A51212"
+    lirneasia-orange: "#F26837"
+    lirneasia-grey: "#9B9B9B"
+    lirneasia-blue-grey: "#454751"
+    lirneasia-yellow: "#FCBA02"
+    red: lirneasia-red
+    orange: lirneasia-orange
+    grey: lirneasia-grey
+    blue: lirneasia-blue-grey
+    yellow: lirneasia-yellow
+  primary: red
+  secondary: orange
+  tertiary: grey
+    
+typography:
+  base:
+    family: Aptos
+    size: 12pt
+  headings:
+    family: Montserrat
+    weight: bold
+    color: red

@@ -1,0 +1,45 @@
+project:
+  title: "Data for Development: Asia"
+  output-dir: reports/
+
+# 1. Branding
+# Assumes _brand.yml is in the root directory
+brand: _extensions/lirneasia/brand.yml
+
+# 2. Global Metadata
+lang: en-US
+date: "October 2025" # Default date, can be overridden in country files
+date-format: long
+license: "CC BY"
+
+# 3. Navigation & Structure
+toc: true
+toc-depth: 3
+toc-indent: 1.5em
+number-sections: true
+section-numbering: "1.1"
+
+# 4. Figures & Tables
+lof: true # List of Figures
+lot: true # List of Tables
+tbl-cap-location: top
+
+# 5. Bibliography & Citations
+# This loads the MASTER bibliography. 
+# Country-specific bibs are merged in the country folder.
+bibliography: d4dasia-bibliography.yaml
+csl: chicago-shortened-notes-bibliography-no-url.csl
+reference-section-title: References
+citeproc: true
+
+# 6. Format Settings
+format:
+  lirneasia-typst:
+    # Keeps intermediate files for debugging. 
+    # (See note below about .gitignore)
+    keep-typ: true 
+    keep-md: true
+
+# 7. Editor Preferences
+editor:
+  render-on-save: true

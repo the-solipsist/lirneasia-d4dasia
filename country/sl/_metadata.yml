@@ -1,0 +1,7 @@
+# country/sl/_metadata.yml
+
+# Merges the root bibliography with the local SL bibliography
+bibliography: 
+  - ../../d4dasia-bibliography.yaml
+  - d4dasia-bib-sl.yaml
+
