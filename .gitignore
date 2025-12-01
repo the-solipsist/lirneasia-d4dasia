@@ -1,27 +1,31 @@
 # Ignore the workspace/archive
 /_workspace/
 
-# Quarto internals & Build Directory
+# Quarto internals & build Directory
 /.quarto/
+/_freeze/
 /_site/
 /_build/
-/country/*/assets/
-/country/*/logos/
 /.jj/
 
 # Intermediate files
+/country/*/assets/
+/country/*/logos/
 *.typ
 *.md
-!README.md
-!COPYING.md
-!COPYING-0BSD.md
 *.log
-.DS_Store
 
-# PDF STRATEGY:
+# Output files
 # 1. Ignore all PDFs by default (prevents tracking them in country/ folders)
 *.pdf
 
-# 2. BUT force-track PDFs in the reports folder
+# BUT force-track:
+# PDFs in the reports folder
+# Typst files in the _extensions folder
+# README / COPYING files.
 !reports/*.pdf
-**/*.quarto_ipynb
+!_extensions/**/*.typ
+
+!README.md
+!COPYING.md
+!COPYING-0BSD.md
