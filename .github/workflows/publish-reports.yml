@@ -34,6 +34,14 @@ jobs:
         # must be executable BEFORE 'quarto render' runs, or the build will fail.
         run: chmod +x _scripts/link-pdfs.sh
 
+      - name: Debug - Check Font File Size
+        run: |
+          echo "Checking size of a Montserrat font file..."
+          ls -lh _extensions/lirneasia/assets/fonts/montserrat/Montserrat-Regular.ttf
+          
+          echo "Checking content of the file (first 50 bytes)..."
+          head -c 50 _extensions/lirneasia/assets/fonts/montserrat/Montserrat-Regular.ttf
+
       - name: Render Project
         # This generates PDFs and automatically runs link-pdfs.sh via the post-render hook
         run: quarto render
