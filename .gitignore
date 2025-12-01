@@ -5,7 +5,8 @@
 /.quarto/
 /_site/
 /_build/
-/reports/*/assets/
+/country/*/assets/
+/country/*/logos/
 /.jj/
 
 # Intermediate files

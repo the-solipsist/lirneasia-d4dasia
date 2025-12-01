@@ -13,7 +13,7 @@ contributes:
         - typst-show.typ
         - page.typ
       font-paths: 
-        - fonts/montserrat
-        - fonts/aptos
+        - assets/fonts/montserrat
+        - assets/fonts/aptos
       format-resources:
-        - assets/
+        - assets/logos
