@@ -44,7 +44,12 @@ jobs:
 
       - name: Render Project
         # This generates PDFs and automatically runs link-pdfs.sh via the post-render hook
+        # We set the TYPST_FONT_PATHS environment variable to the absolute path
+        # of your fonts directory. $(pwd) resolves to the project root.
+        env:
+          TYPST_FONT_PATHS: ${{ github.workspace }}/_extensions/lirneasia/assets/fonts
         run: quarto render
+
 
       - name: Commit and Push
         run: |
