@@ -1,0 +1,55 @@
+name: Render and Publish Reports
+
+on:
+  push:
+    branches: [ main ]
+    # Only trigger if QMD, style, or config files change (saves resources)
+    paths:
+      - 'country/**/*.qmd'
+      - '_quarto.yml'
+      - '_extensions/**'
+      - 'shared/**'
+      - '_scripts/**'
+  # Allow manual trigger from GitHub UI
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: pre-release
+
+      - name: Prepare Scripts
+        # CRITICAL: Since _quarto.yml has a post-render hook, this script
+        # must be executable BEFORE 'quarto render' runs, or the build will fail.
+        run: chmod +x _scripts/link-pdfs.sh
+
+      - name: Render Project
+        # This generates PDFs and automatically runs link-pdfs.sh via the post-render hook
+        run: quarto render
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Force add reports folder to ensure PDFs are staged even if .gitignore rules are tricky
+          git add -f reports/
+          
+          # Commit only if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 Auto-generated PDF reports"
+            git push
+          fi
