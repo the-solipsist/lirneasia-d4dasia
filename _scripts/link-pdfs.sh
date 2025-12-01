@@ -1,43 +1,26 @@
 #!/bin/bash
 
-# Get the absolute path of the project root (one level up from this script)
-# This ensures the script works even if called from different locations
+# Define paths
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-
-PDF_DIR="$PROJECT_ROOT/reports"
+REPORTS_DIR="$PROJECT_ROOT/reports"
 COUNTRY_DIR="$PROJECT_ROOT/country"
 
-echo "🔗 Linking PDFs from reports/ to country directories..."
+# 1. Prepare reports directory
+mkdir -p "$REPORTS_DIR"
 
-# Check if reports directory exists
-if [ ! -d "$PDF_DIR" ]; then
-    echo "❌ Error: Directory 'reports' not found. Run 'quarto render' first."
-    exit 1
-fi
+echo "🔍 Harvesting PDFs from country folders..."
 
-# Loop through all PDFs
-for pdf_path in "$PDF_DIR"/*.pdf; do
-    filename=$(basename "$pdf_path")
-    # Extract 'sl' from '..._sl.pdf'
-    country_code=$(echo "$filename" | sed -n 's/.*_\([a-z]\{2\}\)\.pdf$/\1/p')
-
-    if [ -n "$country_code" ]; then
-        target_dir="$COUNTRY_DIR/$country_code"
-        
-        if [ -d "$target_dir" ]; then
-            # The relative path from inside country/xx/ back to reports/
-            # This path is static and does not change based on where the script is
-            relative_link="../../reports/$filename"
-            
-            # Go to target dir to create the link
-            pushd "$target_dir" > /dev/null
-            rm -f "$filename"
-            ln -s "$relative_link" "$filename"
-            echo "✅ Linked $filename inside country/$country_code/"
-            popd > /dev/null
-        else
-            echo "⚠️  Skipping $filename: $target_dir not found."
-        fi
+# 2. Find PDFs in country subdirectories and Hard Link them to reports/
+# We use 'ln -f' (force) to update the link if the file changed.
+# Hard links make the file appear in reports/ as a real file, not a shortcut.
+find "$COUNTRY_DIR" -name "*.pdf" | while read source_pdf; do
+    filename=$(basename "$source_pdf")
+    
+    # Check if we are accidentally finding a file already in reports (just in case)
+    if [[ "$source_pdf" != *"/reports/"* ]]; then
+        ln -f "$source_pdf" "$REPORTS_DIR/$filename"
+        echo "   ✅ Hard-linked $filename to reports/"
     fi
 done
 
+echo "✨ Done. PDFs in reports/ are ready for Git."

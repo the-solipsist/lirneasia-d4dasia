@@ -1,15 +1,24 @@
-# Ignore jujutsu
-/.jj/
-
-# Ignore the workspace folder
+# Ignore the workspace/archive
 /_workspace/
 
-# Ignore Quarto build artifacts and temp files
+# Quarto internals & Build Directory
 /.quarto/
 /_site/
+/_build/
+/reports/*/assets/
+/.jj/
+
+# Intermediate files
 *.typ
 *.md
 !README.md
 *.log
 .DS_Store
 
+# PDF STRATEGY:
+# 1. Ignore all PDFs by default (prevents tracking them in country/ folders)
+*.pdf
+
+# 2. BUT force-track PDFs in the reports folder
+!reports/*.pdf
+**/*.quarto_ipynb

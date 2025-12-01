@@ -1,34 +1,34 @@
 project:
   title: "Data for Development: Asia"
-  output-dir: reports/
-
-# 1. Branding
-# Assumes _brand.yml is in the root directory
-brand: _extensions/lirneasia/brand.yml
-
-# 2. Global Metadata
+  render:
+    - "*.qmd"
+  post-render: _scripts/link-pdfs.sh
+  
+# 1. Global metadata
 lang: en-US
 date: "October 2025" # Default date, can be overridden in country files
 date-format: long
 license: "CC BY"
 
-# 3. Navigation & Structure
+# 3. Tables and lists
 toc: true
 toc-depth: 3
 toc-indent: 1.5em
-number-sections: true
-section-numbering: "1.1"
-
-# 4. Figures & Tables
 lof: true # List of Figures
 lot: true # List of Tables
+
+# 3. Numbering and captions
+number-sections: true
+section-numbering: "1.1"
+number-depth: 3
+fig-cap-location: bottom
 tbl-cap-location: top
 
-# 5. Bibliography & Citations
+# 5. Bibliography and citations
 # This loads the MASTER bibliography. 
 # Country-specific bibs are merged in the country folder.
-bibliography: d4dasia-bibliography.yaml
-csl: chicago-shortened-notes-bibliography-no-url.csl
+bibliography: shared/d4dasia-bib.json
+csl: shared/chicago-shortened-notes-bibliography-subsequent-author.csl
 reference-section-title: References
 citeproc: true
 
