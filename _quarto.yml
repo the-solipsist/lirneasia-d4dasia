@@ -1,7 +1,7 @@
 project:
   title: "Data for Development: Asia"
   render:
-    - "*.qmd"
+    - "country/*/*.qmd"
   post-render: _scripts/link-pdfs.sh
   
 # 1. Global metadata

@@ -15,5 +15,5 @@ contributes:
       font-paths: 
         - fonts/montserrat
         - fonts/aptos
-  resources:
-    - assets/
+      format-resources:
+        - assets/

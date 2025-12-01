@@ -1,90 +1,11 @@
-## Abbreviations {.unlisted .unnumbered}
+## List of abbreviations
 
 ```{=html}
-<table><tr><td></td><td></td></tr><tr><td>AI</td><td>Artificial Intelligence</td></tr><tr><td>AIC</td><td>Asia Internet Coalition</td></tr><tr><td>APTA</td><td>Asia-Pacific Trade Agreement</td></tr><tr><td>CBSL</td><td>Central Bank of Sri Lanka</td></tr><tr><td>CI</td><td>Critical Information</td></tr><tr><td>CINTEC</td><td>Computer and Information Technology Council of Sri Lanka</td></tr><tr><td>COMPOL</td><td>National Computer Policy</td></tr><tr><td>CRIB</td><td>Credit Information Bureau of Sri Lanka</td></tr><tr><td>CSA STAR</td><td>Cloud Security Alliance Security, Trust, Assurance and Risk Program</td></tr><tr><td>CeSP CSP</td><td>Certificate Service Provide Cloud Service Provider</td></tr><tr><td>DCS</td><td>Department of Census and Statistics</td></tr><tr><td>DIPA</td><td>Digital Infrastructure Protection Agency</td></tr><tr><td>DPA</td><td>Data Protection Authority</td></tr><tr><td>DRP</td><td>Department of Registration of Persons</td></tr><tr><td>DSZ</td><td>Digital Sovereignty Zones</td></tr><tr><td>EMV</td><td>Europay, Mastercard, Visa</td></tr><tr><td>ETA</td><td>Electronic Transactions Act</td></tr><tr><td>EU</td><td>European Union</td></tr><tr><td>FGDs</td><td>Focus Group Discussions</td></tr><tr><td>FOSS</td><td>Free and Open Source Software</td></tr><tr><td>FTA</td><td>Free Trade Agreement</td></tr><tr><td>GAIA-X</td><td>European Data Infrastructure Initiative (France and Germany)</td></tr><tr><td>GIC</td><td>Government Information Center</td></tr><tr><td>GoSL</td><td>Government of Sri Lanka</td></tr><tr><td>GovPay</td><td>Government Unified Digital Payments Platform</td></tr><tr><td>HR</td><td>Human Resources</td></tr><tr><td>ICCPR</td><td>International Covenant on Civil and Political Rights</td></tr><tr><td>ICT</td><td>Information and Communication Technology</td></tr><tr><td>ICTA</td><td>Information and Communication Technology Agency of Sri Lanka</td></tr><tr><td>IDRC</td><td>International Development Research Centre</td></tr><tr><td>ISO</td><td>International Organization for Standardization</td></tr><tr><td>ISO/IEC 27017</td><td>International Standard for Cloud Security</td></tr><tr><td>KYC</td><td>Know Your Customer</td></tr><tr><td>LGC</td><td>Lanka Government Cloud</td></tr><tr><td>LGN</td><td>Lanka Government Network</td></tr><tr><td>LGPS</td><td>Lanka Government Payment Service</td></tr><tr><td>LIFe</td><td>Lanka Interoperability Framework</td></tr><tr><td>LIS</td><td>Land Information System</td></tr><tr><td>LNDX</td><td>National Data Exchange (NDX)</td></tr><tr><td>MOSIP</td><td>Modular Open Source Identity Platform</td></tr><tr><td>MOU</td><td>Memorandum of Understanding</td></tr><tr><td>MP</td><td>Member of Parliament</td></tr><tr><td>MPAs</td><td>Marine Protected Areas</td></tr><tr><td>NARESA</td><td>Natural Resources, Energy and Science Authority of Sri Lanka</td></tr><tr><td>NDX</td><td>National Data Exchange</td></tr><tr><td>NFP</td><td>National Fuel Pass</td></tr><tr><td>NIC</td><td>National Identity Card</td></tr><tr><td>NIST</td><td>National Institute of Standards and Technology</td></tr><tr><td>NSDI</td><td>National Spatial Data Infrastructure</td></tr><tr><td>OGP</td><td>Open Government Partnership</td></tr><tr><td>OSA</td><td>Online Safety Act</td></tr><tr><td>OSM</td><td>Open Street Maps</td></tr><tr><td>PA</td><td>Public Authority</td></tr><tr><td>PDPA</td><td>Personal Data Protection Act</td></tr><tr><td>PUF</td><td>Public Use Files</td></tr><tr><td>QRC</td><td>Quick Response Code</td></tr><tr><td>R\&amp;D</td><td>Research and Development</td></tr><tr><td>RTI</td><td>Right to Information</td></tr><tr><td>RTIC</td><td>Right to Information Commission</td></tr><tr><td>SAARC</td><td>South Asian Association for Regional Cooperation</td></tr><tr><td>SAFTA</td><td>South Asian Free Trade Area</td></tr><tr><td>SL</td><td>Sri Lanka</td></tr><tr><td>SL CERT</td><td>Sri Lanka Computer Emergency Readiness Team</td></tr><tr><td>SL-GEA</td><td>Sri Lanka Government Enterprise Architecture</td></tr><tr><td>SLSD</td><td>Sri Lanka Survey Department</td></tr><tr><td>SLSI</td><td>Sri Lanka Standards Institute</td></tr><tr><td>SMEs</td><td>Small and Medium Enterprises</td></tr><tr><td>UN</td><td>United Nations</td></tr><tr><td>UN ECC</td><td>United Nations Electronic Communication Convention</td></tr><tr><td>UNCITRAL</td><td>United Nations Commission on International Trade Law</td></tr><tr><td>UNDP</td><td>United Nations Development Programme</td></tr><tr><td>VPN</td><td>Virtual Private Network</td></tr></table>
+<table><tr><td></td><td></td></tr><tr><td>AI</td><td>Artificial Intelligence</td></tr><tr><td>AIC</td><td>Asia Internet Coalition</td></tr><tr><td>APTA</td><td>Asia-Pacific Trade Agreement</td></tr><tr><td>CBSL</td><td>Central Bank of Sri Lanka</td></tr><tr><td>CI</td><td>Critical Information</td></tr><tr><td>CINTEC</td><td>Computer and Information Technology Council of Sri Lanka</td></tr><tr><td>COMPOL</td><td>National Computer Policy</td></tr><tr><td>CRIB</td><td>Credit Information Bureau of Sri Lanka</td></tr><tr><td>CSA STAR</td><td>Cloud Security Alliance Security, Trust, Assurance and Risk Program</td></tr><tr><td>CeSP CSP</td><td>Certificate Service Provide Cloud Service Provider</td></tr><tr><td>DCS</td><td>Department of Census and Statistics</td></tr><tr><td>DIPA</td><td>Digital Infrastructure Protection Agency</td></tr><tr><td>DPA</td><td>Data Protection Authority</td></tr><tr><td>DRP</td><td>Department of Registration of Persons</td></tr><tr><td>DSZ</td><td>Digital Sovereignty Zones</td></tr><tr><td>EMV</td><td>Europay, Mastercard, Visa</td></tr><tr><td>ETA</td><td>Electronic Transactions Act</td></tr><tr><td>EU</td><td>European Union</td></tr><tr><td>FGDs</td><td>Focus Group Discussions</td></tr><tr><td>FOSS</td><td>Free and Open Source Software</td></tr><tr><td>FTA</td><td>Free Trade Agreement</td></tr><tr><td>GAIA-X</td><td>European Data Infrastructure Initiative (France and Germany)</td></tr><tr><td>GIC</td><td>Government Information Center</td></tr><tr><td>GoSL</td><td>Government of Sri Lanka</td></tr><tr><td>GovPay</td><td>Government Unified Digital Payments Platform</td></tr><tr><td>HR</td><td>Human Resources</td></tr><tr><td>ICCPR</td><td>International Covenant on Civil and Political Rights</td></tr><tr><td>ICT</td><td>Information and Communication Technology</td></tr><tr><td>ICTA</td><td>Information and Communication Technology Agency of Sri Lanka</td></tr><tr><td>IDRC</td><td>International Development Research Centre</td></tr><tr><td>ISO</td><td>International Organization for Standardization</td></tr><tr><td>ISO/IEC 27017</td><td>International Standard for Cloud Security</td></tr><tr><td>KYC</td><td>Know Your Customer</td></tr><tr><td>LGC</td><td>Lanka Government Cloud</td></tr><tr><td>LGN</td><td>Lanka Government Network</td></tr><tr><td>LGPS</td><td>Lanka Government Payment Service</td></tr><tr><td>LIFe</td><td>Lanka Interoperability Framework</td></tr><tr><td>LIS</td><td>Land Information System</td></tr><tr><td>LNDX</td><td>National Data Exchange (NDX)</td></tr><tr><td>MOSIP</td><td>Modular Open Source Identity Platform</td></tr><tr><td>MOU</td><td>Memorandum of Understanding</td></tr><tr><td>MP</td><td>Member of Parliament</td></tr><tr><td>MPAs</td><td>Marine Protected Areas</td></tr><tr><td>NARESA</td><td>Natural Resources, Energy and Science Authority of Sri Lanka</td></tr><tr><td>NDX</td><td>National Data Exchange</td></tr><tr><td>NFP</td><td>National Fuel Pass</td></tr><tr><td>NIC</td><td>National Identity Card</td></tr><tr><td>NIST</td><td>National Institute of Standards and Technology</td></tr><tr><td>NSDI</td><td>National Spatial Data Infrastructure</td></tr><tr><td>OGP</td><td>Open Government Partnership</td></tr><tr><td>OSA</td><td>Online Safety Act</td></tr><tr><td>OSM</td><td>Open Street Maps</td></tr><tr><td>PA</td><td>Public Authority</td></tr><tr><td>PDPA</td><td>Personal Data Protection Act</td></tr><tr><td>PUF</td><td>Public Use Files</td></tr><tr><td>QR code</td><td>Quick Response Code</td></tr><tr><td>R&amp;D</td><td>Research and Development</td></tr><tr><td>RTI</td><td>Right to Information</td></tr><tr><td>RTIC</td><td>Right to Information Commission</td></tr><tr><td>SAARC</td><td>South Asian Association for Regional Cooperation</td></tr><tr><td>SAFTA</td><td>South Asian Free Trade Area</td></tr><tr><td>SL</td><td>Sri Lanka</td></tr><tr><td>SL CERT</td><td>Sri Lanka Computer Emergency Readiness Team</td></tr><tr><td>SL-GEA</td><td>Sri Lanka Government Enterprise Architecture</td></tr><tr><td>SLSD</td><td>Sri Lanka Survey Department</td></tr><tr><td>SLSI</td><td>Sri Lanka Standards Institute</td></tr><tr><td>SMEs</td><td>Small and Medium Enterprises</td></tr><tr><td>UN</td><td>United Nations</td></tr><tr><td>UN ECC</td><td>United Nations Electronic Communication Convention</td></tr><tr><td>UNCITRAL</td><td>United Nations Commission on International Trade Law</td></tr><tr><td>UNDP</td><td>United Nations Development Programme</td></tr><tr><td>VPN</td><td>Virtual Private Network</td></tr></table>
 ```
+{{< include /shared/about-this-report.qmd >}}
 
-# About this report
-
-## About LIRNEasia
-
-LIRNEasia is a pro-poor, pro-market regional policy think tank. Our mission is *Catalysing policy change and solutions through research to improve the lives of people in the Asia and Paciﬁc using knowledge, information and technology*.
-
- 
-
-Address: 15 2/1, Balcombe Place, Colombo 8, Sri Lanka.\
-Telephone: +94 11 267 1160\
-Email: [info\@lirneasia.net](mailto:info@lirneasia.net){.email}\
-Website: <https://lirneasia.net/>\
-Twitter: <https://x.com/LIRNEasia>\
-Facebook: <https://www.facebook.com/lirneasia/>\
-YouTube: [https://www.youtube.com/\@LIRNEasia-](https://www.youtube.com/@LIRNEasia-){.uri}\
-LinkedIn: <https://lk.linkedin.com/company/lirneasia>\
-Instagram: <https://www.instagram.com/lirneasia/>\
-
- 
-
-## Funding
-
-This work was carried out with the aid of a grant from the International Development Research Centre, Ottawa, Canada. The views expressed herein do not necessarily represent those of IDRC or its Board of Governors.
-
-# Introduction
-
-This report on data governance in Sri Lanka is part of the “Harnessing Data for Democratic Development in South and Southeast Asia” (D4DAsia) project, which aims, *inter alia*, to create and mobilize new knowledge about tensions, gaps, and the evolution of the data governance ecosystem, taking into account formal and informal policies and practices.
-
-In today's digital age, data governance ecosystems play a crucial role in shaping our societies. These ecosystems, comprising policies, laws, practices, behaviors, and technologies, aim to govern data in ways that protect rights, foster innovation, enhance transparency, and ultimately promote democratic and inclusive governance. However, the landscape of data governance is complex and often fraught with challenges, particularly in South and Southeast Asia.
-
-A data governance ecosystem comprises the policies, laws, practices, behaviors, and technologies that govern data. An ideal data governance system would protect rights, enable innovation, enhance transparency, and contribute to achieving democratic and inclusive governance. Throughout the remainder of the report, unless the context indicates otherwise, the term “policies” is used as shorthand for policies, statutes, regulations, rules, administrative orders, and even practices and technologies used to implement these as part of the data governance ecosystem.
-
-Data is increasingly being recognized as an enabler for development. It is an essential requirement for policymaking and monitoring of development goals and targets. When effectively managed, data can be used as an asset to support significant development actions such as poverty reduction, food security, mitigating the impact of climate change, and disaster management. If mismanaged, it can exacerbate inequalities and undermine the development potential of the same actions.
-
-The D4DAsia project has produced nine reports so far — seven detailed individual country reports which deal with the issues of data governance in the following countries: India, Indonesia, Nepal, Pakistan, Philippines, Sri Lanka and Thailand; a detailed look at data protection in South Korea; and a synthesis report that summarizes the findings from the various countries while drawing out the contrasts amongst them, along with detailed findings to the research questions we posed, which were:
-
-1.  What is common, and what is nationally specific, in the emerging data governance architectures in South and Southeast Asia? What are the explanations?
-
-2.  What are the implications of the emergent nature of the governance architecture? Because there is no overall design that envisions how the parts fit together, it is likely that there will be friction points and even contradictions. How are these being worked out?
-
-3.  The emerging governance architecture involves trade-offs among objectives such as greater accountability of powerholders, economic growth, including the creation of employment and wealth, resilience of systems, etc. How have different societies: (a) explicitly recognized the trade-offs or not; and (b) handled them?
-
-4.  Are there legislative or policy innovations with potential for replication? What are the modalities of sharing experiences? Are developing countries learning from each other, or are they learning from the developed countries?
-
-5.  How were the laws and bills developed? What expertise was brought to bear? How open were the procedures? How receptive were drafters to suggestions and criticisms?
-
-6.  How were capacity challenges addressed: by simplifying the laws or by tolerating incomplete implementation?
-
-## Structure of the report
-
-### Governance background
-
-The report starts by providing contextual information about the constitution and governance framework in Sri Lanka, including how lawmaking powers are distributed and delegated, the powers of the judiciary to overturn laws or to enforce policies, and the legal and regulatory background in the country.
-
-### Increasing openness / access
-
-The report then discusses policies that increase openness or access. By this, we mean policies that allow greater access by citizens, consumers, and corporations to data, or facilitate interoperability or cross-border data transfer. Specifically, we do not include increased governmental access to citizens’ private data or non-public corporate data.
-
-This section discusses open data policies, the question of how much governmental data is made available proactively, and how much is reactive as well as the quality of data being disseminated. The report also assesses government policies favoring or requiring free and open source software (FOSS) or open standards, noting any specific standards that are mandated.
-
-### Decreasing openness/access
-
-The report then moves on to discuss the opposite, i.e., laws, policies, and practices which decrease openness or access. By this we mean decreasing access of citizens, consumers, and corporations to data. To be clear, this is not a negative value judgement, since upholding important individual and collective rights, such as privacy and public security, necessitates reducing citizens’ access to data.
-
-This theme explores issues of security, such as whether there are any data retention or localization requirements, restrictions on the right to access information (such as national security, privacy, etc.) and exceptions to data security requirements for law enforcement. We further discuss the privacy and copyright framework in brief and specifically try to answer whether there are any exceptions for search engines as well as for research and artificial intelligence (AI).
-
-The final section of the report provides a comprehensive examination of the policy gaps and frictions within the data governance framework. Here, we conducted a detailed analysis of two critical legislative frameworks:
-
--   The Right to Information (RTI) Act, its implementation, and its role in enhancing transparency.
-
--   The Personal Data Protection Act, its provisions, and its implications for privacy and data governance.
-
-The report concludes with a summary of key findings, highlighting areas of progress, and existing challenges.
-
-The issue of data governance and the policies surrounding its implementation is critical for governments, citizens, and businesses across the world. As mentioned earlier, we use the term data governance to refer to “diverse arrangements, including technical, policy, regulatory or institutional provisions, that affect data and their creation, collection, storage, use, protection, access, sharing and deletion across policy domains and organizational and national borders” [@oecdGoingDigital2022].
-
-## Methodology and limitations
-
-This study was conducted through a combination of legal and policy analysis and interviews with selected key stakeholders. The report seeks to present a nuanced understanding of the existing data governance framework, highlighting areas of successful implementation as well as gaps.
-
-It is important to note that the majority of this research was conducted in late 2023 and early 2024 and reflects the state of policies during that time; there have been amendments and updates since that may not be discussed below. We have included some recent updates, such as the Draft Cloud Strategy released in June 2025. Additionally, some policies/draft policies mentioned below may no longer be accessible on official websites due to subsequent policy updates.
+{{< include /shared/introduction.qmd >}}
 
 # Background
 

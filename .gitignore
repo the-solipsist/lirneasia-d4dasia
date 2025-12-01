@@ -12,6 +12,8 @@
 *.typ
 *.md
 !README.md
+!COPYING.md
+!COPYING-0BSD.md
 *.log
 .DS_Store
 
