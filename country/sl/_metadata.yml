@@ -1,7 +1,10 @@
-# country/sl/_metadata.yml
-
-# Merges the root bibliography with the local SL bibliography
+title: "Data Governance Framework: Sri Lanka"
+subtitle: "Data for Development --- South and Southeast Asia"
+short-title: "D4D Asia: Sri Lanka Data Governance Report"
+author: 
+  - "Ashwini Natesan"
+  - "Chiranthi Rajapakse"
+date: October 2025
 bibliography: 
-  - ../../d4dasia-bibliography.yaml
-  - d4dasia-bib-sl.yaml
+  - d4dasia-bib-sl.json
 
