@@ -27,12 +27,14 @@ typography:
   base:
     family: Sorts Mill Goudy
     size: 11pt
-    source: Google
   headings:
     family: Montserrat
     weight: bold
     color: red
-    source: Google
   fonts:
     - family: Sarabun
+      source: google
+    - family: Sorts Mill Goudy
+      source: google
+    - family: Montserrat
       source: google
