@@ -25,9 +25,14 @@ color:
     
 typography:
   base:
-    family: Aptos
-    size: 12pt
+    family: Sorts Mill Goudy
+    size: 11pt
+    source: Google
   headings:
     family: Montserrat
     weight: bold
     color: red
+    sourc: Google
+  fonts:
+    - family: Sarabun
+      source: google

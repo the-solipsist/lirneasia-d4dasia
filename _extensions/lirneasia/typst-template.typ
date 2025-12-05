@@ -102,7 +102,7 @@
   // ───────────────────────────────────────────────────────────────────────────
 
   // [STYLE] Core Font Settings
-  // The document must use the brand font (Aptos) at 12pt to ensure
+  // The document must use the brand font to ensure
   // consistency with other corporate documents.
   set text(
     lang: lang,
