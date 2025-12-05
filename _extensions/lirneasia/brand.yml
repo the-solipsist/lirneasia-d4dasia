@@ -32,7 +32,7 @@ typography:
     family: Montserrat
     weight: bold
     color: red
-    sourc: Google
+    source: Google
   fonts:
     - family: Sarabun
       source: google
