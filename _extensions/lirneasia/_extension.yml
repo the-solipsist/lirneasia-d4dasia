@@ -12,8 +12,5 @@ contributes:
         - typst-template.typ
         - typst-show.typ
         - page.typ
-      font-paths: 
-        - assets/fonts/montserrat
-        - assets/fonts/aptos
       format-resources:
         - assets/logos
