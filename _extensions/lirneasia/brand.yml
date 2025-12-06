@@ -7,14 +7,6 @@ meta:
     youtube: https://www.youtube.com/@LIRNEasia-
     linkedin: https://lk.linkedin.com/company/lirneasia
     instagram: https://www.instagram.com/lirneasia
-logo:
-  images:
-    background-first-page: 
-      path: assets/logos/la-background-first.svg
-    background-other-page: 
-      path: assets/logos/la-background.svg
-    full-logo: 
-      path: assets/logos/la-logo-full.png
 color:
   palette:
     lirneasia-red: "#A51212"
