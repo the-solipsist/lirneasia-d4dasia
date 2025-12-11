@@ -2,7 +2,7 @@ name: Render and Publish Reports
 
 on:
   push:
-    # Trigger on main AND any branch starting with "test-"
+    # Trigger on main AND any branch starting with "test"
     branches: [ 'main', 'test*' ]
     paths:
       - 'country/**/*.qmd'
@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write # Required for releases
 
 jobs:
   build-and-publish:
@@ -24,7 +24,14 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
-          lfs: true 
+          path: main-repo
+
+      - name: Check out Fonts
+        uses: actions/checkout@v4
+        with:
+          repository: the-solipsist/fonts 
+          path: font-repo
+          ref: main
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -32,33 +39,57 @@ jobs:
           version: pre-release
 
       - name: Prepare Scripts
-        run: chmod +x _scripts/link-pdfs.sh
+        run: chmod +x main-repo/_scripts/link-pdfs.sh
 
       - name: Install Custom Fonts
         run: |
           sudo apt-get update && sudo apt-get install -y fontconfig
           mkdir -p ~/.local/share/fonts
-
-          # Copy flat list of fonts to system directory
-          cp -r _extensions/lirneasia/assets/fonts/* ~/.local/share/fonts/
-
+          cp -r font-repo/*.ttf ~/.local/share/fonts/
           fc-cache -fv
-          
-          # Debug: Check for one of the new fonts (e.g., Bitter)
-          echo "Checking for Bitter..."
-          fc-list | grep "Bitter" || echo "⚠️ Font not found in fc-list"
 
       - name: Render Project
+        working-directory: main-repo
         run: quarto render
 
-      - name: Commit and Push
+      - name: Collect PDFs
+        working-directory: main-repo
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f reports/
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "🤖 Auto-generated PDF reports"
-            git push
-          fi
+          mkdir -p report_pdfs
+          cp reports/*.pdf report_pdfs/
+
+      - name: Zip PDFs
+        working-directory: main-repo/report_pdfs
+        run: zip -r ../report_pdfs.zip .
+
+      # --- BRANCH SPECIFIC LOGIC STARTS HERE ---
+
+      # CASE 1: Test Branch -> Upload Artifact (Temporary)
+      - name: Upload Artifact (Test Branch)
+        if: startsWith(github.ref, 'refs/heads/test')
+        uses: actions/upload-artifact@v4
+        with:
+          name: report_pdfs.zip
+          path: |
+            main-repo/report_pdfs/*.pdf
+          retention-days: 14
+
+      # CASE 2: Main Branch -> Create Release (Permanent)
+      - name: Generate Release Tag
+        if: github.ref == 'refs/heads/main'
+        id: tag
+        run: |
+          echo "release_tag=$(date +'%Y-%m-%d')-$(git -C main-repo rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Release (Main Branch)
+        if: github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.tag.outputs.release_tag }}
+          name: Report Build ${{ steps.tag.outputs.release_tag }}
+          files: |
+            main-repo/report_pdfs/*.pdf
+            main-repo/report_pdfs.zip
+          draft: false
+          prerelease: true
+          overwrite_files: true 

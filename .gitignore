@@ -18,12 +18,14 @@
 # Output files
 # 1. Ignore all PDFs by default (prevents tracking them in country/ folders)
 *.pdf
+/*
+/*report*/
 
 # BUT force-track:
 # PDFs in the reports folder
 # Typst files in the _extensions folder
 # README / COPYING files.
-!reports/*.pdf
+#!reports/*.pdf
 !_extensions/**/*.typ
 
 !README.md
