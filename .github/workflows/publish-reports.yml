@@ -2,15 +2,15 @@ name: Render and Publish Reports
 
 on:
   push:
-    branches: [ main ]
-    # Only trigger if QMD, style, or config files change (saves resources)
+    # Trigger on main AND any branch starting with "test-"
+    branches: [ 'main', 'test*' ]
     paths:
       - 'country/**/*.qmd'
       - '_quarto.yml'
       - '_extensions/**'
       - 'shared/**'
       - '_scripts/**'
-  # Allow manual trigger from GitHub UI
+      - '.github/workflows/publish-reports.yml'
   workflow_dispatch:
 
 permissions:
@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          lfs: true 
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -30,36 +32,30 @@ jobs:
           version: pre-release
 
       - name: Prepare Scripts
-        # CRITICAL: Since _quarto.yml has a post-render hook, this script
-        # must be executable BEFORE 'quarto render' runs, or the build will fail.
         run: chmod +x _scripts/link-pdfs.sh
 
-      - name: Debug - Check Font File Size
+      - name: Install Custom Fonts
         run: |
-          echo "Checking size of a Montserrat font file..."
-          ls -lh _extensions/lirneasia/assets/fonts/montserrat/Montserrat-Regular.ttf
+          sudo apt-get update && sudo apt-get install -y fontconfig
+          mkdir -p ~/.local/share/fonts
+
+          # Copy flat list of fonts to system directory
+          cp -r _extensions/lirneasia/assets/fonts/* ~/.local/share/fonts/
+
+          fc-cache -fv
           
-          echo "Checking content of the file (first 50 bytes)..."
-          head -c 50 _extensions/lirneasia/assets/fonts/montserrat/Montserrat-Regular.ttf
+          # Debug: Check for one of the new fonts (e.g., Bitter)
+          echo "Checking for Bitter..."
+          fc-list | grep "Bitter" || echo "⚠️ Font not found in fc-list"
 
       - name: Render Project
-        # This generates PDFs and automatically runs link-pdfs.sh via the post-render hook
-        # We set the TYPST_FONT_PATHS environment variable to the absolute path
-        # of your fonts directory. $(pwd) resolves to the project root.
-        env:
-          TYPST_FONT_PATHS: ${{ github.workspace }}/_extensions/lirneasia/assets/fonts
         run: quarto render
-
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Force add reports folder to ensure PDFs are staged even if .gitignore rules are tricky
           git add -f reports/
-          
-          # Commit only if there are changes
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

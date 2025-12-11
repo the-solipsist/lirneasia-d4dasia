@@ -108,7 +108,8 @@
     lang: lang,
     region: region,
     font: font,
-    size: fontsize
+    size: fontsize,
+    // fallback: false
   )
 
   // [STYLE] Line Spacing (Leading)
