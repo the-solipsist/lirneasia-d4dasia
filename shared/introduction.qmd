@@ -1,6 +1,6 @@
 # Introduction
 
-This report on data governance in Sri Lanka is part of the “Harnessing Data for Democratic Development in South and Southeast Asia” (D4DAsia) project, which aims, *inter alia*, to create and mobilize new knowledge about tensions, gaps, and the evolution of the data governance ecosystem, taking into account formal and informal policies and practices.
+This report on data governance in **{{< meta country >}}** is part of the “Harnessing Data for Democratic Development in South and Southeast Asia” (D4DAsia) project, which aims, *inter alia*, to create and mobilize new knowledge about tensions, gaps, and the evolution of the data governance ecosystem, taking into account formal and informal policies and practices.
 
 In today's digital age, data governance ecosystems play a crucial role in shaping our societies. These ecosystems, comprising policies, laws, practices, behaviors, and technologies, aim to govern data in ways that protect rights, foster innovation, enhance transparency, and ultimately promote democratic and inclusive governance. However, the landscape of data governance is complex and often fraught with challenges, particularly in South and Southeast Asia.
 
@@ -26,7 +26,7 @@ The D4DAsia project has produced nine reports so far — seven detailed individu
 
 ### Governance background
 
-The report starts by providing contextual information about the constitution and governance framework in Sri Lanka, including how lawmaking powers are distributed and delegated, the powers of the judiciary to overturn laws or to enforce policies, and the legal and regulatory background in the country.
+The report starts by providing contextual information about the constitution and governance framework in **{{< meta country >}}**, including how lawmaking powers are distributed and delegated, the powers of the judiciary to overturn laws or to enforce policies, and the legal and regulatory background in the country.
 
 ### Increasing openness / access
 
@@ -40,6 +40,11 @@ The report then moves on to discuss the opposite, i.e., laws, policies, and prac
 
 This theme explores issues of security, such as whether there are any data retention or localization requirements, restrictions on the right to access information (such as national security, privacy, etc.) and exceptions to data security requirements for law enforcement. We further discuss the privacy and copyright framework in brief and specifically try to answer whether there are any exceptions for search engines as well as for research and artificial intelligence (AI).
 
+::: {.content-visible when-meta="country:Pakistan"}
+The last part of the report consists of a deep dive examining the policy gaps and frictions in the data governance framework.
+:::
+
+::: {.content-visible when-meta="country:Sri Lanka"}
 The final section of the report provides a comprehensive examination of the policy gaps and frictions within the data governance framework. Here, we conducted a detailed analysis of two critical legislative frameworks:
 
 -   The Right to Information (RTI) Act, its implementation, and its role in enhancing transparency.
@@ -47,11 +52,14 @@ The final section of the report provides a comprehensive examination of the poli
 -   The Personal Data Protection Act, its provisions, and its implications for privacy and data governance.
 
 The report concludes with a summary of key findings, highlighting areas of progress, and existing challenges.
+:::
 
 The issue of data governance and the policies surrounding its implementation is critical for governments, citizens, and businesses across the world. As mentioned earlier, we use the term data governance to refer to “diverse arrangements, including technical, policy, regulatory or institutional provisions, that affect data and their creation, collection, storage, use, protection, access, sharing and deletion across policy domains and organizational and national borders” [@oecdGoingDigital2022].
 
+::: {.content-visible when-meta="country:Sri Lanka"}
 ## Methodology and limitations
 
 This study was conducted through a combination of legal and policy analysis and interviews with selected key stakeholders. The report seeks to present a nuanced understanding of the existing data governance framework, highlighting areas of successful implementation as well as gaps.
 
 It is important to note that the majority of this research was conducted in late 2023 and early 2024 and reflects the state of policies during that time; there have been amendments and updates since that may not be discussed below. We have included some recent updates, such as the Draft Cloud Strategy released in June 2025. Additionally, some policies/draft policies mentioned below may no longer be accessible on official websites due to subsequent policy updates.
+:::

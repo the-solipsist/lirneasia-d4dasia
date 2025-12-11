@@ -7,6 +7,8 @@ meta:
     youtube: https://www.youtube.com/@LIRNEasia-
     linkedin: https://lk.linkedin.com/company/lirneasia
     instagram: https://www.instagram.com/lirneasia
+    brand: https://dribbble.com/shots/18550205-LIRNEasia-Solutions-Logo
+
 color:
   palette:
     lirneasia-red: "#A51212"
@@ -21,20 +23,34 @@ color:
     yellow: lirneasia-yellow
   primary: red
   secondary: orange
-  tertiary: grey
-    
+  tertiary: grey    
+
 typography:
+  fonts:
+    - family: Sarabun
+      source: google
+    - family: "Sorts Mill Goudy"
+      source: google
+    - family: Montserrat
+      source: google
   base:
-    family: Sorts Mill Goudy
-    size: 11pt
+    family: "Sorts Mill Goudy"
+    size: 12pt
   headings:
     family: Montserrat
     weight: bold
     color: red
-  fonts:
-    - family: Sarabun
-      source: google
-    - family: Sorts Mill Goudy
-      source: google
-    - family: Montserrat
-      source: google
+
+logo:
+  images:
+    lirneasia-logo:
+      path: assets/logos/la-logo-full.png
+      alt: LIRNEasia logo
+    lirneasia-background:
+      path: assets/logos/la-background.svg
+      alt: LIRNEasia Morse Code Logo
+    lirneasia-background-first:
+      path: assets/logos/la-background-first.svg
+      alt: LIRNEasia Morse Code Logo
+  small: lirneasia-background
+  medium: lirneasia-logo
