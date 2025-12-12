@@ -1,8 +1,12 @@
 title: lirneasia
 author: Pranesh Prakash
 version: 1.0.0
-quarto-required: ">=1.8.0"
+quarto-required: ">=1.9.13"
 contributes:
+  project:
+    project:
+      type: default
+    format: lirneasia-typst
   metadata:
     project:
       brand: _brand.yml
@@ -12,5 +16,10 @@ contributes:
         - typst-template.typ
         - typst-show.typ
         - page.typ
+      variables:
+        images:
+          la-background-first: assets/logos/la-background-first.svg
+          la-background: assets/logos/la-background.svg
+          la-logo: assets/logos/la-logo-full.png
       format-resources:
         - assets/logos

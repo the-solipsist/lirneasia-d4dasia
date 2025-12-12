@@ -27,18 +27,31 @@ color:
 
 typography:
   fonts:
-    - family: Sarabun
+    - family: "EB Garamond"
+      style: [normal, italic]
+      weight: [400, 600, 700]
+      source: google
+    - family: "Cormorant Garamond"
+      style: [normal, italic]
+      weight: [400, 600, 700]
       source: google
     - family: "Sorts Mill Goudy"
+      style: [normal, italic]
       source: google
     - family: Montserrat
       source: google
+      style: [normal, italic]
+      weight: [400, 500, 600, 700]
+    - family: Sarabun
+      source: google
+      style: [normal, italic]
+      weight: [400, 700]
   base:
-    family: "Sorts Mill Goudy"
+    family: "Cormorant Garamond"
     size: 12pt
   headings:
     family: Montserrat
-    weight: bold
+    weight: 500
     color: red
 
 logo:
@@ -54,3 +67,4 @@ logo:
       alt: LIRNEasia Morse Code Logo
   small: lirneasia-background
   medium: lirneasia-logo
+  large: lirneasia-background-first
