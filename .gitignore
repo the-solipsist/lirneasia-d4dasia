@@ -9,8 +9,8 @@
 /.jj/
 
 # Intermediate files
-/country/*/assets/
-/country/*/logos/
+/reports/*/assets/
+/reports/*/logos/
 *.typ
 *.md
 *.log
@@ -18,8 +18,10 @@
 # Output files
 # 1. Ignore all PDFs by default (prevents tracking them in country/ folders)
 *.pdf
-/*
-/*report*/
+# 2. Ignore all directories with PDF in their name (e.g., prevents tracking of reports_pdf/)
+/*pdf*/
+template.html
+template_files
 
 # BUT force-track:
 # PDFs in the reports folder
