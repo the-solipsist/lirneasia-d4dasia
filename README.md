@@ -1,34 +1,56 @@
-# Data for Development: Asia
+# Harnessing Data for Democratic Development in South and Southeast Asia
 
-**Investigating data governance policies and practices in South and Southeast Asia.**
+This project is undertaken by [LIRNEasia](https://lirneasia.net) and funded by [IDRC](https://idrc-cdri.ca).
 
-This project is undertaken by [LIRNEasia](https://lirneasia.net "null") and funded by [IDRC](https://idrc-cdri.ca "null"). The repository contains the source code and text required to generate reports for seven focus countries—India, Indonesia, Nepal, Pakistan, Philippines, Sri Lanka, and Thailand—as well as a smaller report on data protection from South Korea.
+The repository contains the [reports in PDF format](https://github.com/the-solipsist/lirneasia-d4dasia/releases), along with all the files needed to produce the PDF reports.
+
+## Report PDFs
+
+We use GitHub Actions to automatically generate PDFs each time any content is changed.
+
+* **Report PDFs:**: You can find the report PDFs under [Releases](https://github.com/the-solipsist/lirneasia-d4dasia/releases).
+
+* **Test Repo Reports PDFs:** Usually, users won't need to access these, as these are for testing purposes only.  If you still need to access these, 
+  go to the **Actions** tab on GitHub. Click on the latest "test" repo workflow run. Scroll down to the **Artifacts** section. Download the `d4dasia_report-pdfs` ZIP file.
+
 
 ## 📂 Project Structure
 
-This project uses [Quarto](https://quarto.org "null") and [Typst](https://typst.app/ "null"). The files are organized to separate content, logic, and build outputs.
+This project uses [Quarto](https://quarto.org) and [Typst](https://typst.app/). The files are organized to separate content, formatting, and build outputs (i.e., the PDFs).
 
 ### Directory Layout
 
 * **`_quarto.yml`**: Project-level configuration.
 
-* **`shared/`**:
+* **`bibliography/`**:
 
-  * `d4dasia-bib.json`: Master bibliography (CSL JSON format).
+  * `d4dasia-bib.json`: Master bibliography (CSL JSON format, generated using BetterBibTex and Zotero).
 
-  * `*.csl`: Citation Style Language files.
+  * `*.csl`: Citation Style Language files, which are used to format citations in the appropriate style (such as the CMoS 18th edition).
 
-* **`reports/`**: The local output directory. **Note:** This folder is ignored by git (`.gitignore`). It is populated only when you run `quarto render` locally.
+* **`reports-pdfs/`**: The local output directory. **Note:** This folder is ignored by git (`.gitignore`). It is populated only when you run `quarto render` locally.
 
-* **`_scripts/`**: Helper scripts for the build process (`link-pdfs.sh`).
+* **`_scripts/`**: Helper scripts for the build process (`link-pdfs.ts`).
 
 * **`_extensions/lirneasia/`**:
 
-  * Contains the Typst template (`typst-template.typ`) and `brand.yml` for LIRNEasia house style.
+  This directory contains files needed to generate any LIRNEasia report.
 
-* **`country/`**: Source files for individual country reports.
+  * `_extension.yml`: YAML file that provides Quarto with information about the 'lirneasia' extension.
 
-  * `in/` (India), `id/` (Indonesia), `np/` (Nepal), `pk/` (Pakistan), `sl/` (Sri Lanka), `th/` (Thailand), `kr/` (South Korea).
+  * `_brand.yml`:  LIRNEasia house style, including colours and typography.
+
+  * `assets/logos/`: LIRNEasia logos for background watermark and for the title page.
+
+  * Typst templates partials, for use with Quarto (e.g., `typst-template.typ`, `typst-show.typ`, etc.)
+
+* **`reports-source/`**: Source files for individual country reports, the synthesis report, and shared content.
+
+  * Country reports in: `id/` (Indonesia), `in/` (India), `lk/` (Sri Lanka), `np/` (Nepal), `ph/` (Philippines), `pk/` (Pakistan), `th/` (Thailand), `kr/` (South Korea).
+
+  * Synthesis report: `synthesis/`
+
+  * Shared content: `common/`
 
 ### Country Directory Format
 
@@ -38,108 +60,89 @@ Each country folder (e.g., `country/sl/`) follows this standard structure:
 
 * **Metadata:** `_metadata.yml` (Country-specific settings).
 
-* **Assets:** `images/` folder containing local diagrams and photos.
+* **Assets:** `images/` folder containing local diagrams and photos. (Optional, if images are used.)
 
-* **Local Bibliography:** `d4dasia-bib-{xx}.json` (Optional, for country-specific citations).
+* **Local Bibliography:** `d4dasia-bib-{xx}.json` (Optional, for country-specific citations not included in the master bibliography file).
 
 ## 🛠️ Prerequisites & Setup
 
 To replicate this project locally, ensure you have the following installed:
 
-* **Git** (or Jujutsu)
+* [**Git**](https://git-scm.com/) (and, optionally [Jujutsu](https://www.jj-vcs.dev/latest/), if you prefer to use `jj` as the front-end for Git).
+ 
+* [**Quarto**](https://quarto.org/docs/get-started/). Note: Quarto bundles [`pandoc`](https://pandoc.org/) and [`typst`](https://typst.app/), so there's no need to install them separately unless you're debugging).
+ 
+To edit the Quarto Markdown (`.qmd`) files locally, it is recommended to use a suitable text editor, which can handle bibliography files, etc., like one of the following:
 
-* [**Quarto CLI**](https://quarto.org/docs/get-started/ "null") (v1.4+)
+* [**VS Code**](https://code.visualstudio.com/). The [Quarto Extension](https://quarto.org/docs/tools/vscode/index.html) is recommended if using VS Code.
 
-* **Visual Studio Code** (Recommended, with the Quarto Extension)
+* [**Zettlr**](https://zettlr.com).
+
+To handle the bibliography, it is advisable to use:
+
+* [**Zotero**](https://www.zotero.org/).
+
+* [**BetterBibTex**]](https://retorque.re/zotero-better-bibtex/).  This is an add-on for Zotero.  
+  The citation key pattern used is `auth.lower + shorttitle(2,2) + year`.  (Note: default is `auth.lower + shorttitle(3,3) + year`.
 
 ### 1. Clone the Repository
 
-```
+```bash
 git clone git@github.com:the-solipsist/lirneasia-d4dasia.git d4dasia
 cd d4dasia
 ```
 
-### 2. Fonts (Important!)
+### 2. Render the Reports
 
-To keep this repository lightweight, the font files (Sorts Mill Goudy, Montserrat, Sarabun, etc.) are **not included** in this repository. They are managed in a separate external repository to handle large binary files efficiently.
-
-* **For CI/CD (GitHub Actions):** The workflow automatically checks out the font repository (`the-solipsist/fonts`) alongside the main code and installs them into the runner's system environment.
-
-* **For Local Development:** You must ensure the required fonts are installed on your system.
-
-  * **Latin:** [Sorts Mill Goudy](https://fonts.google.com/specimen/Sorts+Mill+Goudy "null"), [Montserrat](https://fonts.google.com/specimen/Montserrat "null").
-
-  * **Thai:** [Sarabun](https://fonts.google.com/specimen/Sarabun "null").
-
-  * _Note: `brand.yml` is configured to fetch these from Google Fonts automatically if you use a Quarto version that supports full brand management, but system installation is strongly recommended for Typst stability._
-
-### 3. Render the Reports
-
-To generate the PDFs locally, run the following command. The outputs will be placed in the `reports/` directory.
+To generate the PDFs locally, run the appropriate `render` command. 
 
 **To render the entire project:**
 
-```
+```bash
 quarto render
 ```
 
 **To render a specific country report (e.g., Sri Lanka):**
 
-```
-quarto render country/sl/d4dasia_country-report_sl.qmd
-```
-
-### 4. Organize Outputs (Optional)
-
-To create hard links inside the `reports/` folder pointing to the generated PDFs in `country/` folders, run the helper script (this runs automatically in CI):
-
-```
-./_scripts/link-pdfs.sh
+```bash
+quarto render report/sl/d4dasia_country-report_sl.qmd
 ```
 
-## 📚 Bibliography Management
+The PDFs will be placed next to each `.qmd` file. After the PDFs are generated, the PDFs are automatically hard-linked to the `report-pdfs/` folder through a Quarto `post-render` script from `_scripts/`, defined in `_quarto.yml`.
 
-1\. Master Bibliography (shared/d4dasia-bib.json)
 
-The main citation data is stored in the shared/ directory. This file is automatically generated by Zotero (using BetterBibTex CSL JSON export).
+## 📚 Bibliography management
 
-> **Warning:** Do not edit the master JSON file manually. Changes will be overwritten during the next Zotero export.
+1. Master bibliography (bibliography/d4dasia-bib.json)
 
-2\. Country-Specific Bibliographies
+The main citation data is stored in the `bibliography/` directory. This file is automatically generated by Zotero (using BetterBibTex CSL JSON export).
 
-Some reports (e.g., Sri Lanka) require specialized citations not found in the master list. These are stored within the country directory (e.g., country/sl/d4dasia-bib-sl.json) and merged via the country's \_metadata.yml file.
+> **Warning:** Do not edit the master JSON file manually. If you need to make changes, make the changes in Zotero and export the file to ensure Zotero & d4dasia-bib.json are in sync.
+
+2. Country-specific bibliographies
+
+Some reports currently (and hopefully not for long) require specialized citations not found in the master list. These are stored within the country directory (e.g., country/sl/d4dasia-bib-sl.json) and merged via the country's `_metadata.yml` file.
+
+3. Citation styles
+
+Some citation styles (`*.csl` files) have been placed in this directory.  The appropriate CSL file can be referenced in `_quarto.yml` to automatically generate appropriate citations and a bibliography for each report.
 
 ## 🤖 CI/CD (GitHub Actions)
 
-This repository uses GitHub Actions to automatically render PDFs on every push.
-
-* **Triggers:** Pushes to `main` and any branch starting with `test` (e.g., `test`, `test-fonts`).
-
-* **Accessing Reports:** Generated PDFs are **not committed** to the repository to prevent bloat. Instead, they are available as **Artifacts**.
-
-  1. Go to the **Actions** tab on GitHub.
-
-  2. Click on the latest workflow run.
-
-  3. Scroll down to the **Artifacts** section.
-
-  4. Download the `d4dasia-reports` ZIP file.
-
-* **Workflow Steps:**
+The CI/CD workflow is the following:
 
   1. Check out main code into `main-repo`.
 
-  2. **Check out Fonts:** Clones the external font repository (`the-solipsist/fonts`) into `font-repo`.
+  2. Install Quarto.
 
-  3. **Install Fonts:** Copies fonts from `font-repo` to the Linux runner's system font directory.
+  3. Render PDFs by using Quarto with Typst + Pandoc + Citeproc + bibliography file(s).
 
-  4. Install Quarto.
+  4. If test repo: Collects generated PDFs and uploads them as artifacts to the Action run page as a zip file.
 
-  5. Render PDF.
-
-  6. **Upload Artifacts:** Collects generated PDFs and uploads them to the Action run page.
+  5. If main repo: Collects generated PDFs as well as a zip file, and creates a tagged release.
 
 ## 📄 License
 
-All report contents in this repository are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/ "null"). You are free to share and adapt the material, provided you give appropriate credit to LIRNEasia and the respective authors.
+All report contents in this repository are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the material, provided you give appropriate credit to LIRNEasia and the respective authors.
 
+All code contained in this repository are licensed under the [Zero Clause BSD licence (0BSD)](https://opensource.org/license/0bsd).
