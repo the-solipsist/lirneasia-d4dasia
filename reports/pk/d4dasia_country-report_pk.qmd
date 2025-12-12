@@ -1,6 +1,6 @@
-{{< include /shared/about-this-report.qmd >}}
+{{< include ../common/about-this-report.qmd >}}
 
-{{< include /shared/introduction.qmd >}}
+{{< include ../common/introduction.qmd >}}
 
 
 ### **Overview of the Pakistan Data Governance Landscape**
@@ -625,8 +625,4 @@ In the laws, phrases like "critical personal data", "legitimate interest", "publ
 Climate change is another area where policymaking capacity does exist, but execution falters. Pakistan is one of the countries worst affected by, and at high risk of, climate change and related events. It has developed multiple policies to combat climate change, and the Pakistan Meteorological Department collects and maintains data about climate change and issues warnings. However, when it comes to risk mitigation, Pakistan's absence from the Climate Change Performance Index 2023 speaks volumes. 
 
 Despite what has been discussed above, Pakistan has no option but to move forward to generate more and more actionable data using digital technologies and disclose these datasets to the public for more democratic and inclusive governance.
-
-
-
-# Bibliography {.refs}
 
