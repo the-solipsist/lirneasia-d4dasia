@@ -26,27 +26,10 @@ jobs:
         with:
           path: main-repo
 
-      - name: Check out Fonts
-        uses: actions/checkout@v4
-        with:
-          repository: the-solipsist/fonts 
-          path: font-repo
-          ref: main
-
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: pre-release
-
-      - name: Prepare Scripts
-        run: chmod +x main-repo/_scripts/link-pdfs.sh
-
-      - name: Install Custom Fonts
-        run: |
-          sudo apt-get update && sudo apt-get install -y fontconfig
-          mkdir -p ~/.local/share/fonts
-          cp -r font-repo/*.ttf ~/.local/share/fonts/
-          fc-cache -fv
 
       - name: Render Project
         working-directory: main-repo
@@ -55,12 +38,12 @@ jobs:
       - name: Collect PDFs
         working-directory: main-repo
         run: |
-          mkdir -p report_pdfs
-          cp reports/*.pdf report_pdfs/
+          mkdir -p d4dasia_report-pdfs
+          cp report_pdfs/*.pdf d4dasia_report-pdfs/
 
       - name: Zip PDFs
-        working-directory: main-repo/report_pdfs
-        run: zip -r ../report_pdfs.zip .
+        working-directory: main-repo/d4dasia_report-pdfs
+        run: zip -r ../d4dasia_report-pdfs.zip .
 
       # --- BRANCH SPECIFIC LOGIC STARTS HERE ---
 
@@ -69,9 +52,8 @@ jobs:
         if: startsWith(github.ref, 'refs/heads/test')
         uses: actions/upload-artifact@v4
         with:
-          name: report_pdfs.zip
-          path: |
-            main-repo/report_pdfs/*.pdf
+          name: d4dasia_report-pdfs
+          path: main-repo/d4dasia_report-pdfs/*.pdf
           retention-days: 14
 
       # CASE 2: Main Branch -> Create Release (Permanent)
@@ -88,8 +70,8 @@ jobs:
           tag_name: ${{ steps.tag.outputs.release_tag }}
           name: Report Build ${{ steps.tag.outputs.release_tag }}
           files: |
-            main-repo/report_pdfs/*.pdf
-            main-repo/report_pdfs.zip
+            main-repo/d4dasia_report-pdfs/*.pdf
+            main-repo/d4dasia_report-pdfs.zip
           draft: false
           prerelease: true
           overwrite_files: true 
