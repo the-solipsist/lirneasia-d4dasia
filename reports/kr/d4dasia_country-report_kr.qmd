@@ -38,6 +38,8 @@
   USD      United States Dollar
   -------- --------------------------------------------------------------
 
+{{< include ../common/about-this-report.qmd >}}
+
 # South Korea\'s data laws: An overview 
 
 South Korea is a global frontrunner in crafting a comprehensive legal

@@ -1,3 +1,4 @@
+{{< include ../common/about-this-report.qmd >}}
 
 # Executive Summary
 
@@ -302,6 +303,7 @@ the Convention\'s obligations for expedited disclosure. Expediting
 access to traffic data is deemed a necessity for comprehensive
 cybercrime investigations.
 
+{{< include ../common/introduction.qmd >}}  
 
 # 1 Introduction
 

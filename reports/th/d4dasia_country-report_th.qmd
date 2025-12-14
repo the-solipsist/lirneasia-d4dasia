@@ -107,6 +107,7 @@
   XML      Extensible Markup Language
   -----------------------------------------------------------------------
 
+{{< include ../common/about-this-report.qmd >}}
 
 # Executive summary
 
@@ -198,6 +199,8 @@ but successful reform will ultimately require local adaptation and
 political will. Data governance in Thailand is at a crossroads: whether
 it becomes a tool for democratization or control depends on the choices
 made in the coming years.
+
+{{< include ../common/introduction.qmd >}}
 
 # Introduction
 
