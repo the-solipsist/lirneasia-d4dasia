@@ -322,11 +322,11 @@ In order to discuss the data governance landscape in South and Southeast
 Asia, we must first delineate what we mean by the term data. One way of
 looking at data, perhaps the most commonly used method, which is also
 preferred by businesses, is to view it as property
-\[@kitchinCriticalDataStudies2014\]. It can also be looked at in terms
+[@kitchinCriticalDataStudies2014]. It can also be looked at in terms
 of the social relations it develops, or in terms of how it represents
 people, and the cultural, political and epistemic value that it
-generates \[@viljoenRelationalTheoryData2021\]
-\[@boydCriticalQuestionsBig2012\]. In this report, we seek to avoid
+generates [@viljoenRelationalTheoryData2021]
+[@boydCriticalQuestionsBig2012]. In this report, we seek to avoid
 looking at 'data' as being merely synonymous with 'information', which
 risks bringing issues such as freedom of expression, censorship, etc.,
 which we hold to be outside the realm of 'data' governance. Rather, the
@@ -338,7 +338,7 @@ Most academic works that discuss data governance have an implicit idea
 of what "data governance" means, which they do not spell out. Even when
 they spell it out, as the OECD does, it leads to a situation where some
 focus on data protection, while others focus on cross-border flow of
-data and issues like data localization \[@oecdGoingDigitalGuide2022\].
+data and issues like data localization [@oecdGoingDigitalGuide2022].
 We decided to take a broader view in which data governance refers to
 diverse arrangements, including technical, policy, regulatory or
 institutional provisions, that affect data and their creation,
@@ -361,12 +361,12 @@ misinformation, etc.
 Data is increasingly being recognized as an enabler for development. It
 is an essential requirement for policy making and monitoring of
 development goals and targets
-\[@asiandevelopmentbankDataDevelopment2022\]. When effectively managed,
+[@asiandevelopmentbankDataDevelopment2022]. When effectively managed,
 data can be used as an asset to support significant development actions
 such as poverty reduction, food security, mitigating impact of climate
 change, and disaster management. If mismanaged, it can exacerbate
 inequalities and undermine the development potential of the same actions
-\[@vinuesaRoleArtificialIntelligence2020\]. Data governance ecosystems
+[@vinuesaRoleArtificialIntelligence2020]. Data governance ecosystems
 are made up of policies, laws, practices, behaviors, and technologies
 that govern data. An ideal data governance system would protect rights,
 enable innovation, improve transparency, and help in bringing about
@@ -390,7 +390,7 @@ The policymaking process in South and Southeast Asia is often opaque,
 non-participatory, and non-consultative and the policies themselves may
 not necessarily be evidence-based being instead influenced by power and
 political agendas, such as intimidating and discouraging dissent against
-the ruling dispensation \[@IDRCHarnessingDataDemocratic\]. Moreover,
+the ruling dispensation [@IDRCHarnessingDataDemocratic]. Moreover,
 institutions involved in the data governance ecosystem usually do not
 have the wherewithal to bring about substantial change. For those
 outside formal policy-making processes there are very few opportunities
@@ -401,11 +401,11 @@ Effect, i.e., where EU rules are often used as a template by other
 jurisdictions owing to its overall political influence coupled with its
 experience, expertise, etc., which makes it easier for other countries
 to copy and enforce rules that closely copy EU regulations
-\[@bradfordEuropeanUnionGlobalised2021\]. Further, the civil law
+[@bradfordEuropeanUnionGlobalised2021]. Further, the civil law
 tradition of the EU usually leads to more precise and detailed rules
 which are easier to emulate, especially in developing countries that may
 have less-skilled administrative agencies and judiciaries
-\[@bradfordEuropeanUnionGlobalised2021\]. This study provides empirical
+[@bradfordEuropeanUnionGlobalised2021]. This study provides empirical
 evidence on whether the Brussels Effect exists in South and Southeast
 Asia in relation to data governance, and how strong it is.
 
@@ -556,7 +556,7 @@ governance to refer to "diverse arrangements, including technical,
 policy, regulatory or institutional provisions, that affect data and
 their creation, collection, storage, use, protection, access, sharing
 and deletion across policy domains and organizational and national
-borders" \[@oecdGoingDigitalGuide2022\].
+borders" [@oecdGoingDigitalGuide2022].
 
 ## Increasing openness / access
 
@@ -651,7 +651,7 @@ assesses the legal frameworks of countries for accessing information
 held by the government, Sri Lanka has the best score (131) followed
 closely by India (126), Nepal (112) and Pakistan (108), Indonesia (100)
 with Thailand (75) and Philippines (47) lagging considerably behind
-\[@centreforlawanddemocracyGlobalRightInformation2023\]
+[@centreforlawanddemocracyGlobalRightInformation2023]
 
 ##### India
 
@@ -699,7 +699,7 @@ Indonesia, are subject to a harm test. Institutions are mandated to
 explain exemptions restrictively, and information may not be restricted
 permanently. Additionally, a mandatory public interest override applies
 to all exemptions, allowing the release of protected information if it
-serves a larger interest \[@PublicInformationDisclosure2008\].
+serves a larger interest [@PublicInformationDisclosure2008].
 
 ##### Nepal
 
@@ -749,31 +749,31 @@ Ordinance") was issued by the President of the Philippines (exercising
 his power as the administrative head of the executive), which
 established an administrative procedure within the executive branch of
 government for reviewing and granting requests for access to government
-records and documents \[@InstitutionalizingPhilippineOpen2023\].
+records and documents [@InstitutionalizingPhilippineOpen2023].
 Although the FOI Ordinance was silent as to the utilization of the
 Internet in dealing with requests for information (and indeed refers to
 an offline process), the government by November 2016 had launched an
 online portal through which such requests could be submitted and
-documents released \[@ranadaDuterteGovtLaunches2016\].
+documents released [@ranadaDuterteGovtLaunches2016].
 
 ##### Sri Lanka
 
 The right to information is guaranteed as a fundamental right by Article
-14A of the Constitution of Sri Lanka \[@ConstitutionSL2023\].
+14A of the Constitution of Sri Lanka [@ConstitutionSL2023].
 Statutorily manifesting this right, the Right to Information Act No 12
 of 2016 ("RTI Act") was passed on 4^th^ August 2016 and operationalized
-on 3 February 2017 \[@RightInformationAct2016\]. The RTI Act provides
+on 3 February 2017 [@RightInformationAct2016]. The RTI Act provides
 for both proactive and reactive disclosure. It imposes a duty on the
 Minister to publish a report in electronic form in relation to the
 functioning of the Ministry, budget, operations, and so on
-\[@RightInformationAct2016\].[^1] It also requires Ministries to make
+[@RightInformationAct2016].[^1] It also requires Ministries to make
 all details that are relevant to any new projects publicly accessible
 three months prior to the commencement of a project
-\[@RightInformationAct2016\].[^2] Regulation 20 issued under the RTI Act
+[@RightInformationAct2016].[^2] Regulation 20 issued under the RTI Act
 for proactive disclosure requires all public authorities[^3] to submit,
 at the very minimum, information in relation to the institution,
 operation, budget, and other essential details
-\[@RegulationsPromulgatedRight2017\]. There are several exemptions given
+[@RegulationsPromulgatedRight2017]. There are several exemptions given
 in section 5(1) of the Act which would prevent the disclosure of
 information such as personal information, national security, prejudicial
 to the economy, trade secrets, medical records, professional confidence,
@@ -868,18 +868,18 @@ India\'s evolving socio-economic landscape.
 As per Law No. 16 of 1997 statistics are collected by the Centre of
 Indonesian Statistics (BPS) which follows data such as census, survey,
 the compilation of administrative products and other methods in keeping
-with developments in science and technology \[@Statistics1997\].[^4]
+with developments in science and technology [@Statistics1997].[^4]
 Censuses are to be conducted at least once every ten years and consist
 of: (i) a population census; (ii) an agricultural census; and (iii) an
-economic census \[@Statistics1997\].[^5] Compilation of administrative
+economic census [@Statistics1997].[^5] Compilation of administrative
 products is owned by government institutions but is available for public
 utilization unless prevailing legislation specifies otherwise. Every
 individual has an equal opportunity to access the compilation of
 administrative products owned by a non-government institution, an
 organization, an individual, or another part of the community but must
 maintain regard for the legally protected rights of an individual or an
-institution \[@Statistics1997\].[^6] BPS may publish the statistics it
-has collected in the Official Statistics News \[@Statistics1997\].[^7]
+institution [@Statistics1997].[^6] BPS may publish the statistics it
+has collected in the Official Statistics News [@Statistics1997].[^7]
 All data from BPS is available at
 [[bps.go.id]{.underline}](https://www.bps.go.id/id) or directly at BPS'
 national, provincial and local offices.
@@ -895,7 +895,7 @@ organized and reliable. The Statistics Act sets out the standard for
 demographic indicators. It also creates a repository for the data
 collected. It also states that provincial or local governments may
 collect, process, analyze, publish, distribute or store the statistical
-data \[@StatisticsAct2022\]. The information processed and collected
+data [@StatisticsAct2022]. The information processed and collected
 pursuant to the Statistics Act is published on the website of the
 National Statistical Office.
 
@@ -914,7 +914,7 @@ Authority i.e. Secretary, Statistics Division.
 The Republic Act No. 10625 established the Philippine Statistics
 Authority (PSA) which is the highest policy-making body on statistical
 matters, with its data the official and controlling statistics of the
-government \[@PhilippineStatisticalAct2013\]. The PSA is particularly
+government [@PhilippineStatisticalAct2013]. The PSA is particularly
 required to collect, compile, analyze, abstract and publish statistical
 information relating to the country's economic, social, demographic,
 political affairs and general activities and condition of the people.
@@ -934,22 +934,22 @@ bring about amendments as required. The data dissemination section of
 the Department of Census and Statistics ("DCS") provides access to the
 official statistical publications and datasets available on its main
 website electronically and from the Departmental sales counter for
-printed publications \[@DepartmentCensusStatisticsb\] \[@LankaDatta\].
+printed publications [@DepartmentCensusStatisticsb] [@LankaDatta].
 Further, data users with advanced statistical requirements can make a
-request to the DCS \[@DepartmentCensusStatistics\].
+request to the DCS [@DepartmentCensusStatistics].
 
 ##### Thailand
 
 Section 6 of the Statistics Act B.E. 2550 (2007) imposes the
 responsibility on the National Statistical Office of Thailand (NSOT) to
-prepare, collect and create statistics \[@nationalstatisticalofficeNSO\]
-\[@StatisticsActBE25502007\]. The NSOT has a significant role in
+prepare, collect and create statistics [@nationalstatisticalofficeNSO]
+[@StatisticsActBE25502007]. The NSOT has a significant role in
 maintaining and operating databases and accessibility to public
 information and all government agencies are required to cooperate with
-the NSOT \[@opendevelopmentthailandPersonalDataProtection2021\] [^8] to
+the NSOT [@opendevelopmentthailandPersonalDataProtection2021] [^8] to
 create catalogues of government data focusing on statistics and
 directory services
-\[@nationalstatisticalofficeIntroductionGovernmentData2020\].
+[@nationalstatisticalofficeIntroductionGovernmentData2020].
 
 ### Other proactive disclosure of information
 
@@ -1057,24 +1057,24 @@ to patent examiners worldwide to prevent misappropriation.
 Among other laws, Law No. 40 of 1999 not only recognizes the press\'s
 right to information but also emphasizes the public\'s entitlement to
 seek, acquire, and disseminate ideas and information
-\[@PressLawNo401999\]. Additionally, the Environmental Protection and
+[@PressLawNo401999]. Additionally, the Environmental Protection and
 Management Act, Law No. 32/2009 also compels governments to establish
 environmental information systems for publishing crucial data, such as
 environmental status, vulnerability maps, and other pertinent
 information. Indonesia also has an Archives Act that provides for the
 preservation of records but there are no rules governing a systematic
 declassification of documents. Material prior to Indonesian Independence
-can be found at the National Archives \[@IndonesiaArchivesUS\].
+can be found at the National Archives [@IndonesiaArchivesUS].
 
 ##### Nepal
 
 The Archives Preservation Act, 2046 (1986) was enacted on May 28, 2008
 and provides for the establishment of a national archives responsible
 for maintaining records in a systematic and secure manner
-\[@ArchivesPreservationAct1986\].[^9] Individuals are granted access to
+[@ArchivesPreservationAct1986].[^9] Individuals are granted access to
 non-prohibited records upon application to the National Archives in the
 prescribed format and payment of applicable fees
-\[@ArchivesPreservationRule2007\].[^10] A brief overview of the Archives
+[@ArchivesPreservationRule2007].[^10] A brief overview of the Archives
 Act indicates that it comes under reactive disclosure as information is
 disclosed only after a request is made to view any record. It also
 actively excludes the disclosure of 'prohibited records' which are
@@ -1101,17 +1101,17 @@ well as certain privately-held data, owing to public interest or
 pursuant to any public purpose. Examples of such laws include the 1930
 Law on Registry of Civil Status (Act No. 3753) (which records civil
 status of persons, including births, deaths, marriages, and changes of
-name, etc.) \[@LawRegistryCivil1930\], the Republic Act No. 11909 (which
+name, etc.) [@LawRegistryCivil1930], the Republic Act No. 11909 (which
 mandates developing a civil registry database and virtual viewing
 facility that would allow the easier verification of the authenticity of
-such civil registry records) \[@PermanentValidityCertificates2022\], the
+such civil registry records) [@PermanentValidityCertificates2022], the
 1979 Property Registration Decree (which mandates the registration of
 certificates of title confirming land ownership)
-\[@PropertyRegistrationDecree1978\], the Republic Act 9470 (which
+[@PropertyRegistrationDecree1978], the Republic Act 9470 (which
 establishes the National Archives of the Philippines, the official
 repository of public records and archives where they are preserved,
 conserved and made available to the public)
-\[@NationalArchivesPhilippines2007\], etc.
+[@NationalArchivesPhilippines2007], etc.
 
 ##### Sri Lanka
 
@@ -1122,8 +1122,8 @@ preservation of public records. Section 16 of the Act sets out that the
 Minister has the power to make regulations allowing for public access to
 public archives and terms and conditions. The Minister also has the
 power to prohibit or restrict disclosure of information
-\[@NationalArchivesLaw1973\].[^11] Gazette Regulations for this were
-issued in 1979 and amended in 1980 \[@PublicAccessGovernment1980\].
+[@NationalArchivesLaw1973].[^11] Gazette Regulations for this were
+issued in 1979 and amended in 1980 [@PublicAccessGovernment1980].
 According to information on the National Archives, these are the most
 recently issued regulations.
 
@@ -1133,7 +1133,7 @@ the existing archiving regulations. The draft National Policy on
 Archives and Records Management describes this as one of the priority
 issues that need to be addressed and the Policy gives detailed
 recommendations on addressing it, including revising the existing
-Archives Act \[@DraftNationalPolicyArchives2023\].[^12] The policy also
+Archives Act [@DraftNationalPolicyArchives2023].[^12] The policy also
 notes that in June 2023, the Sri Lanka National Archives became a
 signatory to the Universal Declaration of Archives (UDA), which states
 that the global community of archives and archivists undertake to
@@ -1142,7 +1142,7 @@ collaborate so that "Archives are made accessible to everyone\...".
 A Committee has been appointed to revise the existing National Archives
 Law. A Framework for National Archives and Records Management
 Legislation was released in January 2024, by the Committee
-\[@FrameworkNationalArchives2024\]. Part III contains suggested
+[@FrameworkNationalArchives2024]. Part III contains suggested
 regulations regarding increasing public access to records and setting up
 systems for management of records.
 
@@ -1171,7 +1171,7 @@ In a global open data index that ranks countries based on both coverage
 and on openness, the countries are ranked in the following order:
 Indonesia (26), Philippines (36), India (82), Sri Lanka (96), Thailand
 (99), Nepal (117), and Pakistan (121)
-\[@opendatawatchOpenDataInventory2023\].
+[@opendatawatchOpenDataInventory2023].
 
 In order to explore the open data framework in the jurisdictions studied
 we asked certain questions, the answers to which would ideally give us a
@@ -1282,31 +1282,31 @@ websites for access by the public.
 
 The Indian government\'s approach to open data has evolved significantly
 since the publication of the first report on open government data in
-India in 2010 \[@wrightOpenGovernmentData2010\]. Following early
+India in 2010 [@wrightOpenGovernmentData2010]. Following early
 research and discussions about joining the Open Government Partnership,
 which India eventually didn't, India launched its National Data Sharing
 and Accessibility Policy (NDSAP) in 2012, which saw the Right to
-Information Act as its basis \[@deyIndiaOpenGovernment2013\]
-\[@departmentofscienceandtechnologyNationalDataSharing2012\]. This
+Information Act as its basis [@deyIndiaOpenGovernment2013]
+[@departmentofscienceandtechnologyNationalDataSharing2012]. This
 policy encourages the sharing of non-sensitive, publicly funded data
 from various government entities. To implement this policy, the
 government introduced the data.gov.in portal as a centralized platform
 for accessing government datasets
-\[@ministryofelectronicsandinformationtechnologyOpenGovernmentData2022\].
+[@ministryofelectronicsandinformationtechnologyOpenGovernmentData2022].
 While the portal has published numerous resources and received
 significant traffic, it has faced challenges such as inconsistent data
 quality, outdated information, and gaps in critical datasets
-\[@agarwalIndiaMustMore2015\]. The government has continued to refine
+[@agarwalIndiaMustMore2015]. The government has continued to refine
 its approach, introducing implementation guidelines in 2015, and
 publishing the \"Government Open Data License -- India\" in 2017 to
 govern the use of released data
-\[@ogddivisionnicImplementationGuidelinesNDSAP2015\]
-\[@GovernmentOpenData\].
+[@ogddivisionnicImplementationGuidelinesNDSAP2015]
+[@GovernmentOpenData].
 
 In parallel with these national efforts, several Indian states and
 cities have developed their own open data policies. These include
 initiatives in Sikkim, Odisha, Telangana, Punjab, Chandigarh, Karnataka,
-and Tamil Nadu \[@panjiarComparisonStatelevelData2022\]. These policies
+and Tamil Nadu [@panjiarComparisonStatelevelData2022]. These policies
 aim to promote transparency, increase citizen engagement, and improve
 decision-making at more localized levels. However, the effectiveness of
 both national and state-level open data initiatives has been mixed, with
@@ -1323,7 +1323,7 @@ importance of accurate and transparent data in the development planning
 process. To make transparency manifested for the public to access, the
 government has developed e-services that frequently proved unpopular,
 unsustainable, or fragmented
-\[@unitednationsGearingEgovernmentSupport2018\]. However, a substantial
+[@unitednationsGearingEgovernmentSupport2018]. However, a substantial
 transformation in e-government practices transpired before 2018,
 characterized by the inception of unified data and services. The initial
 steps toward achieving data-driven digital service delivery in Indonesia
@@ -1348,14 +1348,14 @@ to the general public such as the Credit Information Bureau of Nepal,
 Office of Company Registrar, Department of Land Management and Archives,
 etc. Information processed and collected pursuant to the Statistics Act
 is published on the website of the National Statistical Office
-\[@nationalstatisticsofficeCensusNepal2021\]. The Supreme Court of Nepal
-also publishes case laws on its website \[@SupremeCourtNepal\], and the
+[@nationalstatisticsofficeCensusNepal2021]. The Supreme Court of Nepal
+also publishes case laws on its website [@SupremeCourtNepal], and the
 Ministry of Finance publishes the budget for every fiscal year including
 the Expenditure Details (the Red Book)
-\[@ministryoffinanceFiscalBudget2023\]. Provincial and local governments
+[@ministryoffinanceFiscalBudget2023]. Provincial and local governments
 also publish their budgets, which can be publicly accessed through the
 website of the Ministry of Federal Affairs and General Administration
-\[@mofagaLocalBudget\].
+[@mofagaLocalBudget].
 
 ##### Pakistan
 
@@ -1374,7 +1374,7 @@ The Open Data Portal (data.gov.ph) serves as a central platform for
 various government agencies to publish open datasets and receives
 contributions from seventeen (17) government departments and agencies.
 Further the Philippine Statistics Authority which was established in
-2013 through Republic Act No. 10625 \[@PhilippineStatisticalAct2013\]
+2013 through Republic Act No. 10625 [@PhilippineStatisticalAct2013]
 and is primarily responsible for all national censuses and surveys, runs
 OpenSTAT (openstat.psa.gov.ph) for accessing official statistical data.
 Other government websites like dbm.gov.ph, fdpp.dilg.gov.ph, and
@@ -1384,7 +1384,7 @@ government data.
 ##### Sri Lanka
 
 The Dissemination Policy on Microdata, Department of Census and
-Statistics \[@deptofcensusandstatisticssrilankaDataDissaPolicy2007\] of
+Statistics [@deptofcensusandstatisticssrilankaDataDissaPolicy2007] of
 2014 sets out the guidelines that the Department of Census and
 Statistics should follow in publishing and disseminating statistical
 data to all users, to support policy formulation and decision making.
@@ -1399,34 +1399,34 @@ In 2015, the Thai government initiated its Open Government Data project
 by commissioning the EGA to compile a list of types of public
 information that needed to be disclosed and then ordering all government
 agencies to provide the required public information on the list for
-uploading to data.go.th \[@thaipublicaPrayutOrderedElectronic2015\].
+uploading to data.go.th [@thaipublicaPrayutOrderedElectronic2015].
 This one-stop information website contains information pertinent to, for
 example, culture, law and justice, education, economy and finance,
 public health, official statistics, agriculture, social welfare,
 transportation and logistics, politics, sciences and technology and
 local and regional affairs. It is still extremely active today. There
 have been 3,878,375 users and 14,920,495 visits as of October 9, 2023
-\[@thaipublicaPrayutOrderedElectronic2015\]. Additionally, the Census
+[@thaipublicaPrayutOrderedElectronic2015]. Additionally, the Census
 Office provides data on its own website. The statistics in the form of
 data catalogs are uploaded to and made publicly available on
 catalog.nso.go.th. For scholarly literature, the ThaiLIS Digital
 Collection (TCD) serves as a repository of dissertations, theses and
 research reports from several colleges and universities nationwide
-\[@ThaiLISDigitalCollection\]. Thailand also has an academic journal
+[@ThaiLISDigitalCollection]. Thailand also has an academic journal
 database, Thai Journals Online (ThaiJO). It is supported by Thailand
 Science Research and Innovation (TSRI), an agency under the Ministry of
 Higher Education, Science, Research and Innovation, National Electronics
 and Computer Technology Center, as well as Thai-Journal Citation Index
-Center and leading Thai universities \[@thaijournalonlineThaiJo21\].
+Center and leading Thai universities [@thaijournalonlineThaiJo21].
 With regard to geoinformatics, the Ministry of Natural Resources and
 Environment is the main government agency responsible for making this
 information available, which can be accessed via data.go.th
-\[@digitalgovernmentdevelopmentagencyGeographicInformationServices2015\].
+[@digitalgovernmentdevelopmentagencyGeographicInformationServices2015].
 According to the Cabinet resolution on April 24, 2011, all information
 covered by Sections 7[^13] and 9[^14] of the Official Information Act
 B.E.2540 (1997) must be made publicly available on the websites of all
-government agencies \[@OfficialInformationAct1997\]
-\[@ministryofinteriorReportImplementation2012\].
+government agencies [@OfficialInformationAct1997]
+[@ministryofinteriorReportImplementation2012].
 
 #### Open data in practice
 
@@ -1450,7 +1450,7 @@ While there is a functional national open data portal (data.gov.in), it
 suffers from a number of deficiencies, including outdated data sets.
 However, private and non-profit entities have often stepped in to fill
 in the gaps by launching portals like Open Budgets India
-\[@Openbudgetsindiaorg\].
+[@Openbudgetsindiaorg].
 
 ##### Indonesia
 
@@ -1514,27 +1514,27 @@ country. The RTI regime in Sri Lanka primarily relies on reactive
 disclosures. A study conducted by a think-tank revealed that over 70% of
 public authorities (only Ministries) had disclosed online less than 40%
 of the information they were required to by the RTI Act
-\[@veriteresearchProactiveDisclosureRTI2023\]. This shows the low level
+[@veriteresearchProactiveDisclosureRTI2023]. This shows the low level
 of compliance amongst public authorities; even the offices of the
 President and Prime Minister had disclosed less than 20% of required
 information and ranked among the least compliant -- the Ministry of
 Technology scoring lowest overall
-\[@veriteresearchProactiveDisclosureRTI2023\]. The study also
+[@veriteresearchProactiveDisclosureRTI2023]. The study also
 highlighted a very high language bias across most public authorities.
 Only the Office of the President and Ministry of Wildlife consistently
 published information online in all three languages, i.e. English,
 Sinhala and Tamil. Overall, across all public authorities, nearly half
 of all information online was disclosed in English, but only 37% was
 disclosed in Sinhala and just 29% in Tamil
-\[@veriteresearchProactiveDisclosureRTI2023\]. The majority of the
+[@veriteresearchProactiveDisclosureRTI2023]. The majority of the
 public authorities had failed to submit annual reports although they are
-statutorily required \[@veriteresearchProactiveDisclosureRTI2023\].
+statutorily required [@veriteresearchProactiveDisclosureRTI2023].
 
 ##### Thailand
 
 In 2023 the Digital Government Development Committee issued an
 Announcement on Data Quality Assessment Framework for Government
-Agencies 2023 \[@ruangchaweeAnnouncementDigitalGovernment2023\]. Its
+Agencies 2023 [@ruangchaweeAnnouncementDigitalGovernment2023]. Its
 handbook aims to provide a framework and tools for assessing the quality
 of public information in relation to data management, monitoring and
 control. Its main purpose is to provide users of public information with
@@ -1607,22 +1607,22 @@ India has implemented various policies to promote Free/Libre/Open Source
 Software (FOSS) at both national and state levels. At the national
 level, initiatives began as early as 2004 with the National Informatics
 Centre sharing the government\'s FOSS experiences
-\[@loneyIndiaSharesOpensource2004\]. The establishment of the National
+[@loneyIndiaSharesOpensource2004]. The establishment of the National
 Resource Centre for Free & Open Source Software (NRCFOSS) in 2005 marked
 a significant step, focusing on developing FOSS capacity, including the
-BOSS Linux operating system \[@MajorFOSSInitiatives2021\]
-\[@CDACFreeOpen2018\]. The National Policy on Information Technology
+BOSS Linux operating system [@MajorFOSSInitiatives2021]
+[@CDACFreeOpen2018]. The National Policy on Information Technology
 (2012), followed by the Policy on Adoption of Open Source Software for
 Government of India (2014) and the Policy on Collaborative Application
 Development (2015), further solidified the government\'s commitment to
-FOSS adoption in e-Governance systems \[@NationalPolicyInformation2012\]
-\[@departmentofelectronics&informationtechnologyPolicyCollaborativeApplication2015\].
+FOSS adoption in e-Governance systems [@NationalPolicyInformation2012]
+[@departmentofelectronics&informationtechnologyPolicyCollaborativeApplication2015].
 
 At the state level, Kerala has been a pioneer in FOSS adoption,
-particularly in education \[@krishnaswamyFreeOpenSource2012\]. Other
+particularly in education [@krishnaswamyFreeOpenSource2012]. Other
 states like Assam have also formulated policies promoting FOSS use in
 government departments and educational institutions
-\[@AssamITPolicy2009\]. While these policies aim to encourage FOSS
+[@AssamITPolicy2009]. While these policies aim to encourage FOSS
 adoption in the public sector, they are not legally enforceable. In the
 private sector, there are no mandates for FOSS usage, but organizations
 like the Free Software Movement of India, Swecha, IT for Change, and
@@ -1661,7 +1661,7 @@ markets. Additionally, the Nepal E-Government Interoperability Framework
 (the "NeGIF") highly recommends and encourages the use of open standards
 and open-source software for better interoperability to achieve the goal
 of better governance, providing faster services and reducing redundancy
-of information \[@NepalEGovernmentInteroperability2011\]. However, the
+of information [@NepalEGovernmentInteroperability2011]. However, the
 NeGIF could not be implemented till now despite it being published in
 2011.
 
@@ -1693,7 +1693,7 @@ issued under the current administration.
 
 The Sri Lanka FOSS Adoption (Draft) states that most of the government's
 projects have been developed using FOSS
-\[@SriLankaGovernmentFOSSAdoption\]. It mentions that using free and
+[@SriLankaGovernmentFOSSAdoption]. It mentions that using free and
 open source software has been the practice but does not mention anything
 of preferring FOSS for projects. It can, however, be gathered that FOSS
 has been the preference.
@@ -1704,13 +1704,13 @@ Although the Open Source Education and Development Association (OSEDA)
 aims to promote the studies and development of open source software, it
 is limited to the private sector, and the Thai government does not give
 enough importance to the development of open source software at the
-moment \[@sipaTechnology2016\].
+moment [@sipaTechnology2016].
 
 ### Open standards
 
 \"When it comes to economic, social and cultural rights (ESCRs) in an
 information society, free software and open standards are both
-particularly significant\" \[@abrahamFreeOpenSource2016\]. In terms of
+particularly significant\" [@abrahamFreeOpenSource2016]. In terms of
 the International Covenant on Economic, Social, and Cultural Rights, by
 promoting open access to software and information, free and open source
 software (FOSS) and open standards further Article 13\'s call for equal
@@ -1721,7 +1721,7 @@ by governments enables the right to work under Article 6, as workers can
 gain transferable digital skills and apply them using freely available
 tools. Overall, FOSS and open standards are critical for realizing the
 ICESCR\'s vision of equitable access to education, technology, culture,
-and work opportunities for all \[@abrahamFreeOpenSource2016\].
+and work opportunities for all [@abrahamFreeOpenSource2016].
 
 **Is there a policy that requires open standards to be preferred by the
 Government or requires specific open standards to be used by the
@@ -1792,27 +1792,27 @@ The Indian government has taken several steps to promote open standards
 in both public and private sectors. In 2010, India adopted a national
 policy on open standards for e-governance, although its implementation
 has been limited, despite various e-Gov standards having been notified
-\[@hariharanOpenStandardsPolicy2010\]
-\[@departmentofinformationtechnologyPolicyOpenStandards2010\]. The
+[@hariharanOpenStandardsPolicy2010]
+[@departmentofinformationtechnologyPolicyOpenStandards2010]. The
 government has also introduced Guidelines for Indian Government Websites
 (GIGW), which adopt the Web Content Accessibility Guidelines (WCAG) for
 governmental websites and apps
-\[@nationalinformaticscentreGuidelinesIndianGovernment2023\]. A 2012
+[@nationalinformaticscentreGuidelinesIndianGovernment2023]. A 2012
 analysis had already revealed that many government websites were not
 fully compliant with these guidelines, referring to the 2009 version of
-the Guidelines \[@narasimhanAccessibilityGovernmentWebsites2012\]. The
+the Guidelines [@narasimhanAccessibilityGovernmentWebsites2012]. The
 concept of \"Digital Public Infrastructure\" has been promoted by the
 government, emphasizing interoperability and open standards
-\[@SummaryUnionBudget2023\].
+[@SummaryUnionBudget2023].
 
 In the private sector, some open standards are mandated, such as the
 XBRL standard for financial reporting in the MCA21 project.
 Organizations like the Indian Software Product Industry RoundTable
 (iSPIRT) have advocated for open standards as part of the \"India
 Stack\", potentially influencing private sector adoption
-\[@matthanIndiasApproachData2022\]. The government has also launched the
+[@matthanIndiasApproachData2022]. The government has also launched the
 Open Network for Digital Commerce (ONDC) to promote standardized
-operations in digital commerce \[@ONDCProject2022\]. These initiatives
+operations in digital commerce [@ONDCProject2022]. These initiatives
 reflect a growing emphasis on open standards across both public and
 private sectors in India, although challenges in implementation and
 enforcement persist.
@@ -1821,7 +1821,7 @@ enforcement persist.
 
 [Although there are policies such as \"One Data Indonesia\" ("ODI")
 which aim to enhance government data interoperability and utilization
-\[@swajatiKajianKebijakanDan2021\],]{.mark}[^18] [Presidential
+[@swajatiKajianKebijakanDan2021],]{.mark}[^18] [Presidential
 Regulation No. 95/2018 on Electronic-Based Government System (SPBE)
 is]{.mark} [a reference in the development of SPBE for all government
 agencies and Digital Government in Indonesia; and]{.mark} [the Ministry
@@ -1837,7 +1837,7 @@ Government strategy to increase public trust.]{.mark}
 The National Cybersecurity Policy, 2080 (2023) encourages the use of
 open standards to facilitate interoperability and data exchange between
 various information technology systems and services
-\[@NationalCyberSecurity2023a\].[^19] However, it does not enforce their
+[@NationalCyberSecurity2023a].[^19] However, it does not enforce their
 usage; rather, it encourages the adoption of globally recognized
 standards and software. Additionally, a representative from the
 Government Integrated Data Center and the Ministry of Communication and
@@ -1848,7 +1848,7 @@ Framework (the "NeGIF") highly recommends and encourages the use of open
 standards and open-source software for better interoperability to
 achieve the goal of better governance, providing faster services and
 reducing redundancy of information
-\[@NepalEGovernmentInteroperability2011\]. It provides for a
+[@NepalEGovernmentInteroperability2011]. It provides for a
 comprehensive plan and detailed standards with the best practices around
 the world for the implementation of open source and open standard for
 interoperability. However, the NeGIF could not be implemented till now,
@@ -1874,7 +1874,7 @@ specifications that comply with the definition of open standards,
 contribute to open systems, and are relevant to systems'
 interconnectivity, data integration, presentation and interface,
 e-services access, and content management metadata
-\[@InteroperabilityStandards2021\]. The Circulars do not, however,
+[@InteroperabilityStandards2021]. The Circulars do not, however,
 establish specific technical standards beyond general principles.
 
 #### Sri Lanka
@@ -1897,7 +1897,7 @@ Accessibility Guidelines 2.0 (WCAG 2.0) standards. The WCAG 2.0,
 introduced by the World Wide Web Consortium (W3C), is an international
 set of guidelines to increase web content accessibility, including to
 people with disabilities
-\[@electronicgovernmentagencyGovernmentWebsiteStandard2012\].[^20]
+[@electronicgovernmentagencyGovernmentWebsiteStandard2012].[^20]
 
 ## Decreasing openness / access
 
@@ -2060,9 +2060,9 @@ persons which may result in the loss of other persons.
 ##### Nepal
 
 There are provisions in the RTI (Right to Information) Act for
-classification of information \[@RightInformationAct2007\][^21] and
+classification of information [@RightInformationAct2007][^21] and
 keeping information confidential for a maximum period of 30 years
-\[@RightInformationAct2007\].[^22] However, it is not explicitly stated
+[@RightInformationAct2007].[^22] However, it is not explicitly stated
 whether these provisions apply specifically to personal data for
 security purposes. While the laws of Nepal are silent on data residency
 or data localization, there is a cabinet decision which states that all
@@ -2136,7 +2136,7 @@ generally do not apply to government data stored or processed in the
 cloud, provided that appropriate controls or security measures are
 present. However, sensitive, above-sensitive, and highly sensitive
 government data may be subject to some residency restrictions
-\[@AmendmentsDepartmentCircular2020\].[^24]
+[@AmendmentsDepartmentCircular2020].[^24]
 
 ##### Sri Lanka
 
@@ -2148,7 +2148,7 @@ Banks and Banking Direction No. 16 of 2021 mandates that 'Domestic
 Systematically Important Banks' must have Critical Information systems
 in place. For such systems (including those used for Know Your Customer
 or KYC), disaster recovery arrangements must be located locally
-\[@srilankaBankingActDirections2021\]. Additionally, third-party service
+[@srilankaBankingActDirections2021]. Additionally, third-party service
 providers such as cloud servers located outside Sri Lanka must be
 approved by the licensed Bank\'s Board of Directors and comply with
 certain conditions.
@@ -2162,13 +2162,13 @@ requires service providers to retain traffic data for at least 90 days
 from the date the data entered the computer system. In addition, it must
 store the user's data, for identification purposes, for at least 90 days
 after the expiration date of a service
-\[@ComputerRelatedCrimeAct2007\].[^25] The Personal Data Protection Act
+[@ComputerRelatedCrimeAct2007].[^25] The Personal Data Protection Act
 makes it compulsory for data controllers to specify the period of data
 retention (in accordance with the purpose of the personal data
 collection) and inform data subjects prior or during the consent request
-\[@PersonalDataProtection2019\].[^26] In addition, data controllers have
+[@PersonalDataProtection2019].[^26] In addition, data controllers have
 a duty to delete or destroy the personal data after the data retention
-has expired \[@PersonalDataProtection2019\].[^27]
+has expired [@PersonalDataProtection2019].[^27]
 
 #### Restrictions on Right to Information
 
@@ -2321,17 +2321,17 @@ territorial integrity, harmony between communities, public morals,
 contempt and sedition. The Telecommunication Act, 2053 (1997) gives
 special power to the Government of Nepal where it can control or stop
 transmission of information in the state of emergency or national
-security in the country \[@nepalTelecommunicationsAct1993\].[^28] The
+security in the country [@nepalTelecommunicationsAct1993].[^28] The
 Press and Publications Act, 2048 (1991) provides for restriction
-\[@PressPublicationAct1991\][^29] and prohibition
-\[@PressPublicationAct1991\][^30] on publication on any matter which
+[@PressPublicationAct1991][^29] and prohibition
+[@PressPublicationAct1991][^30] on publication on any matter which
 undermines the sovereignty and integrity of Nepal or, disrupts security,
 peace and order or, creates enmity among the people of various castes,
 tribes, religions, classes, region, communities and spreading communal
 disharmony or, hurting decency, morals and social honor of the people
 PressPublicationAct1991.[^31] It also provides for the restriction on
 imports of foreign publications along the same lines
-\[@PressPublicationAct1991\].[^32]
+[@PressPublicationAct1991].[^32]
 
 ##### Pakistan
 
@@ -2358,13 +2358,13 @@ lists several restrictions on the right to access information. These
 include the doctrine of executive privilege, information related to
 national security, defense, or international relations, law enforcement
 and protection of public and personal safety, confidentiality, and
-privacy \[@InventoryExceptionsExecutive2016\]. The 1997 Indigenous
+privacy [@InventoryExceptionsExecutive2016]. The 1997 Indigenous
 People's Rights Act, which grants the Indigenous peoples of Philippines
 ownership and control over their cultural and intellectual property,
 including their genetic data and biological resources within ancestral
 lands and domains, requires the free and prior informed consent of the
 indigenous communities before such data can be accessed
-\[@IndigenousPeoplesRights1997\]. The Data Privacy Act of 2012 along
+[@IndigenousPeoplesRights1997]. The Data Privacy Act of 2012 along
 with a number of other sectoral laws such as the 2004 Violence Against
 Women and Their Children Act, the 2022 Anti-Online Sexual Abuse and
 Exploitation of Children and Anti-Child Sexual Abuse and Exploitation
@@ -2381,13 +2381,13 @@ health or morals and of the reputation or the rights of others, privacy,
 prevention of contempt of court, protection of parliamentary privilege,
 for preventing the disclosure of information communicated in confidence,
 or for maintaining the authority and impartiality of the judiciary
-\[@ConstitutionSL2023\].[^33] Sri Lanka Telecommunications Act No. 25 of
+[@ConstitutionSL2023].[^33] Sri Lanka Telecommunications Act No. 25 of
 1991 (as amended) ("SLTA"), Computer Crime Act No. 24 of 2007,
 International Covenant on Civil and Political Rights Act No. 56 of 2007,
 the Prevention of Terrorism Act of 1979 and Public Security Ordinance No
 25 of 1947 (in the event of an emergency being declared). The Online
 Safety Act No 9 of 2024 with its broad provisions seeks to regulate
-disinformation online, amongst others \[@OnlineSafetyAct2024a\].
+disinformation online, amongst others [@OnlineSafetyAct2024a].
 
 ##### Thailand
 
@@ -2550,13 +2550,13 @@ Indonesia are subject to a harm test. Equally, there is a mandatory
 public interest override applicable to all exemptions; should revealing
 the information serve a "larger interest," the otherwise protected
 information shall be released to the public
-\[@PublicInformationDisclosure2008\].[^34] The RTI Act provides for
+[@PublicInformationDisclosure2008].[^34] The RTI Act provides for
 internal and external appeal options. Internally, the appeal is with the
 supervisor of the information officer. An external administrative appeal
 is possible with the Information Committee, an independent institution
 competent for overseeing the implementation of the RTI Act. It consists
 of the central, provincial, and, if required, district/municipal
-Information Committees \[@PublicInformationDisclosure2008\].[^35]
+Information Committees [@PublicInformationDisclosure2008].[^35]
 
 ##### Nepal
 
@@ -2599,7 +2599,7 @@ enforcement authorities may be authorized by the trial courts by virtue
 of a warrant to intercept computer data that allows authorities to
 listen, record, monitor or surveil the content of communications
 including the procuring of content of computer data through access and
-use of a computer system \[@RuleCybercrimeWarrants2018\]. The
+use of a computer system [@RuleCybercrimeWarrants2018]. The
 application for the warrant must establish, among others, the existence
 of a probable cybercrime offence, and the communication or computer data
 that is sought to be intercepted.
@@ -2608,7 +2608,7 @@ In connection with suspected terrorists or members of terrorist
 organizations, the 2020 Anti-Terrorism Act allows for the Court of
 Appeals to issue an order authorizing law enforcement or military to
 secretly wiretap, listen to, or intercept any private communications
-between such suspects \[@AntiTerrorismAct2020\]. The order may be issued
+between such suspects [@AntiTerrorismAct2020]. The order may be issued
 by the Court of Appeals upon determination that there is probable cause
 that any of the crimes defined under the Anti-Terrorism Act has been, is
 being, or is about to be committed.
@@ -2783,7 +2783,7 @@ an "adequacy decision" has been taken or where certain other contractual
 conditions are satisfied or where conditions for lawful processing such
 as consent are satisfied. It is to be noted that the PDPA provides for
 different conditions for cross border transfer of data by State and
-non-State entities \[@srilankaPersonalDataProtection2022\].
+non-State entities [@srilankaPersonalDataProtection2022].
 
 ##### Thailand
 
@@ -2797,7 +2797,7 @@ the Personal Data Committee issued the Committee's Announcement on the
 Criteria for Protecting Personal Data Sent or Transferred Abroad
 including the factors to be considered when examining "appropriate
 safeguards to protect the personal data"
-\[@royalgazetteAnnouncementPersonalData2023\].
+[@royalgazetteAnnouncementPersonalData2023].
 
 #### Exemption for large-scale data scraping
 
@@ -3044,23 +3044,23 @@ materials can be used without the authorization of the copyright owner
 or author, provided such use is not prejudicial to the economic rights
 of the copyright owner. These exceptions include;
 
-\(i\) reproduction for personal purpose \[@nepalCopyrightAct2002\];[^37]
+\(i\) reproduction for personal purpose [@nepalCopyrightAct2002];[^37]
 
-\(ii\) citation \[@nepalCopyrightAct2002\];[^38]
+\(ii\) citation [@nepalCopyrightAct2002];[^38]
 
 \(iii\) teaching and learning, which includes reproduction of a small
 portion of any published work by way of citation, writing, or
 audio-visual aid, and for educational activities performed in the
-classroom \[@nepalCopyrightAct2002\];[^39]
+classroom [@nepalCopyrightAct2002];[^39]
 
 \(iv\) library and archives, where one copy can be reproduced in case
-copyright work is destroyed or is old \[@nepalCopyrightAct2002\];[^40]
+copyright work is destroyed or is old [@nepalCopyrightAct2002];[^40]
 
 \(v\) dissemination of information to the general public via
-broadcasting or print newspaper \[@nepalCopyrightAct2002\];[^41] and
+broadcasting or print newspaper [@nepalCopyrightAct2002];[^41] and
 
 \(vi\) importation of one copy of a work for personal use
-\[@nepalCopyrightAct2002\].[^42]
+[@nepalCopyrightAct2002].[^42]
 
 Therefore, from the given provisions of the Copyright Act, it can be
 inferred that there is no implied exception for the use of copyrighted
@@ -3085,7 +3085,7 @@ copyrighted works for certain purposes, including research.
 The Intellectual Property Rights Act No 36 of 2003 governs copyrights
 and related rights in Sri Lanka. Section 11 of the Act (Fair use)
 recognizes exceptions for research purposes
-\[@srilankaIntellectualPropertyAct2003\]. Section 11(1) states,
+[@srilankaIntellectualPropertyAct2003]. Section 11(1) states,
 "Notwithstanding the provisions of subsection (1) of section 9, the fair
 use of a work, including such use by reproduction in copies or by any
 other means specified by that section, for purposes such as criticism,
@@ -3202,13 +3202,13 @@ copyright.
 
 The Intellectual Property Rights Act No 36 of 2003 governs copyrights
 and related rights in Sri Lanka
-\[@srilankaIntellectualPropertyAct2003\]. The Act does not recognize any
+[@srilankaIntellectualPropertyAct2003]. The Act does not recognize any
 exemptions for training AI models. Further, the Intellectual Property
 Rights Act 2003 does not contain take down provisions or provisions for
 the transient or incidental storage of a work or performance for the
 process of electronic transmission or communication to the public (for
 example, provisions similar to the amendments introduced in 2012 to the
-Indian Copyright Act) \[@IndiaCopyrightAmendmentAct2012\]. The lack of
+Indian Copyright Act) [@IndiaCopyrightAmendmentAct2012]. The lack of
 such amendments means that there are no provisions under Sri Lankan law
 to legalize the transient or incidental storage of works carried out by
 search engines such as Google.

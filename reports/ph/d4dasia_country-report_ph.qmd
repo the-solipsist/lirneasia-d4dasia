@@ -425,7 +425,7 @@ governance to refer to \"diverse arrangements, including technical,
 policy, regulatory or institutional provisions, that affect data and
 their creation, collection, storage, use, protection, access, sharing
 and deletion across policy domains and organisational and national
-borders\"\[@oecdGoingDigitalGuide2022\].
+borders\"[@oecdGoingDigitalGuide2022].
 
 # 2 Overview of the Philippine Data Governance Landscape
 
@@ -434,7 +434,7 @@ policy concerning data flows or data governance. Data does not easily
 fit into the categories of property under the 1949 Civil Code, which
 distinguishes only between real and personal property and further
 categorizes personal property as generally tangible objects
-\[@CivilCodePhilippines1949\]. The absence of unequivocal proprietary
+[@CivilCodePhilippines1949]. The absence of unequivocal proprietary
 rights over data has resulted in a more casual treatment of data as
 objects, in a manner that differs from the more deliberate approach to
 more conventional types of property where the legal ties that bind are
@@ -454,10 +454,10 @@ governmental functions. The Philippines has endorsed and implemented, to
 some extent, the Open Government Declaration, which relates to the
 promotion of \"transparent, participatory, inclusive and accountable
 governance,\" as a member of the OGP
-\[@OGPAbout2023\]\[@OpenGovernmentDeclaration2011\]. Other developments
+[@OGPAbout2023][@OpenGovernmentDeclaration2011]. Other developments
 include the enactment of the 2007 National Archives of the Philippines
 Act and an executive order implementing the constitutional right to
-freedom of information \[@NationalArchivesPhilippines2007\].
+freedom of information [@NationalArchivesPhilippines2007].
 
 However, these changes have not resulted in, or do not imply the
 existence of, a unitary framework policy on data governance. The closest
@@ -489,7 +489,7 @@ When it comes to public data, the Philippines has fundamental policies
 as ordained under the Philippine Constitution that mandate transparency
 and disclosure of government records and data as the general rule, even
 as the Constitution itself accommodates the possibility of legislated
-exceptions \[@ConstitutionRepublicPhilippines1987\]. The Bill of Rights,
+exceptions [@ConstitutionRepublicPhilippines1987]. The Bill of Rights,
 particularly Section 7, Article III of the Constitution, guarantees the
 right of the people to information on matters of public concern; however
 the same provision states that people\'s access to official records, to
@@ -508,13 +508,13 @@ implementing the constitutional right to access information ostensibly
 guaranteed by the constitutional provisions. There are statutes such as
 the 2007 National Archives Act that nonetheless govern the management
 and administration of public records, with a thrust of ensuring their
-preservation \[@NationalArchivesPhilippines2007\].
+preservation [@NationalArchivesPhilippines2007].
 
 In 2016, an Executive Order (\"FOI Ordinance\") issued by the President
 of the Philippines established an administrative procedure within the
 executive branch of government for reviewing and granting requests for
 access to government records and documents
-\[@InstitutionalizingPhilippineOpen2023\].[^1] This mechanism is powered
+[@InstitutionalizingPhilippineOpen2023].[^1] This mechanism is powered
 through an online portal and created a greater public expectation that
 citizens may request government documents and data online. The FOI
 Ordinance, however, has not deterred government agencies from
@@ -533,7 +533,7 @@ The Philippine Constitution, particularly Article II, Section 28,
 requires that the \"State adopts and implements a policy of full public
 disclosure of all its transactions involving public interest \[s\]ubject
 to reasonable conditions prescribed by law\"
-\[@ConstitutionRepublicPhilippines1987\]. However, this provision,
+[@ConstitutionRepublicPhilippines1987]. However, this provision,
 unlike Article III, Section 7, falls within the general declarations of
 state policies that, under Philippine jurisprudence, generally, are not
 by themselves the source of legal rights or obligations that are
@@ -556,11 +556,11 @@ that mandated the non-discretionary publication in either the Official
 Gazette or in a newspaper of general circulation of all statutes, and of
 all administrative rules and regulations if their purpose is to enforce
 or implement existing law pursuant also to a valid delegation
-\[@TanadaTuvera1986\]. Further, the 1987 Administrative Code also
+[@TanadaTuvera1986]. Further, the 1987 Administrative Code also
 required that every rule promulgated by an administrative agency be
 filed with the University of the Philippines Law Center as a condition
 for such rule becoming the basis for any sanction against any party or
-persons \[@InstitutingAdministrativeCode1987\]. The compulsory force of
+persons [@InstitutingAdministrativeCode1987]. The compulsory force of
 these holdings does not extend to such government information/data that
 is not in the form of a rule or regulation. However, the constitutional
 policy of transparency, coupled with the emergence of the internet as a
@@ -572,7 +572,7 @@ A mandated policy of government disclosure also necessarily requires a
 policy of preservation of such covered data. The recent advent of data
 privacy policies, with their emphasis on limited data sharing and
 retention dictated strictly by need, may have driven holders of
-government data towards lesser access \[@NPCPCOOWork2020\].
+government data towards lesser access [@NPCPCOOWork2020].
 
 ##### 2.1.1.1 Open Government Data under Auspices of Open Government Partnership
 
@@ -580,11 +580,11 @@ The Philippines is among the eight founding members of OGP, a broad
 international coalition of 75 countries formed in 2011 that aims to
 promote increased access to information and disclosure about
 governmental activities at every level of government
-\[@OpenGovernmentDeclaration2011\].[^2] In June 2023, the Philippines\'
+[@OpenGovernmentDeclaration2011].[^2] In June 2023, the Philippines\'
 government institutionalized its commitments under OGP through the
 promulgation of Executive Order No. 31, which established a Steering
 Committee that sets the direction, programs and activities of PH-OGP
-\[@InstitutionalizingPhilippineOpen2023\]. The Executive Order also
+[@InstitutionalizingPhilippineOpen2023]. The Executive Order also
 committed to the establishment of a national action plan to formulate
 programs and policies that conform to the OGP\'s values.
 
@@ -618,7 +618,7 @@ the statistical data that it collates.
 ##### 2.1.1.3 Philippine Statistics Authority (PSA) OpenSTAT (openstat.psa.gov.ph)
 
 The PSA was established in 2013 through the 2013 Philippine Statistical
-Act \[@PhilippineStatisticalAct2013\]. The PSA is the highest
+Act [@PhilippineStatisticalAct2013]. The PSA is the highest
 policy-making body on statistical matters. As such, it is primarily
 responsible for all national censuses and surveys, sectoral statistics,
 consolidation of selected administrative recording systems, and
@@ -629,7 +629,7 @@ general activities and condition of the people. The PSA was also tasked
 in 2017 as the primary implementing agency to carry out the 2017
 Philippine Identification System Act, the law that established a single
 national identification system for all citizens and resident aliens of
-the Philippines \[@PhilippineIdentificationSystems2018\].
+the Philippines [@PhilippineIdentificationSystems2018].
 
 The PSA is required further to collaborate with departments of the
 national government in the collection, compilation, maintenance, and
@@ -642,7 +642,7 @@ accounts. While these mandates clearly align with the purpose of the
 Open Data initiative, the PSA does not appear to be actively involved
 with that initiative, especially in a public-facing manner. Instead, it
 maintains a separate public access online platform known as OpenStat
-\[@PSAOpenSTAT\], which contains the statistics generated and compiled
+[@PSAOpenSTAT], which contains the statistics generated and compiled
 by the PSA at the national and sub-national levels, organized into three
 major domains \-- demographics and social statistics, economic
 statistics, and environment and multi-domain statistics.
@@ -651,7 +651,7 @@ The data in the OpenStat platform is available under an open data
 license which allows for the use of the data without restrictions save
 for proper source attribution. The data made available online by the PSA
 includes summarized and/or aggregated data, as well as microdata that is
-available on a separate webpage \[@PSADAHome\].
+available on a separate webpage [@PSADAHome].
 
 A review of the PSA\'s OpenStat platform reveals that the included
 datasets are more comprehensive and more substantive than those that are
@@ -683,7 +683,7 @@ procurement plans. Government procurement is controlled by the
 Government Procurement Reform Act, which requires a single online portal
 (known as PhilGEPS) serving as the primary source on all government
 procurement, and the facility by which all government entities are to
-procure common supplies \[@GovernmentProcurementReform2003\].
+procure common supplies [@GovernmentProcurementReform2003].
 
 All agencies of the Philippine government are also required to maintain
 a Transparency Seal posted in their websites which contain the following
@@ -708,7 +708,7 @@ data:
 
 - annual reports on the status of income authorized by law to be
   retained or used and be deposited outside of the National Treasury
-  \[@GeneralAppropriationsAct2021\].
+  [@GeneralAppropriationsAct2021].
 
 Thus, even if an agency\'s budget data is not part of the larger
 datasets under the Open Data Portal, such information is required to be
@@ -720,16 +720,16 @@ Local Government Units of the Philippines were, under the 1991 Local
 Government Code, specifically required to post a summary of all revenues
 collected and funds received including the appropriations and
 disbursement of such funds during the fiscal year
-\[@LocalGovernmentCode1991\].[^3] The summary had to be posted within 30
+[@LocalGovernmentCode1991].[^3] The summary had to be posted within 30
 days from the end of each fiscal year in at least three publicly
 accessible and conspicuous places in the local government unit. In 2010,
 the Department of Interior and Local Government (DILG) required local
 governments to make available online, whether through their own websites
 or through the website of the department, financial documents including
 annual budgets, cash flows, fund utilization and bidding information
-\[@FullDisclosureLocal2010\]. DILG has likewise established a Full
+[@FullDisclosureLocal2010]. DILG has likewise established a Full
 Disclosure Policy Portal (fdpp.dilg.gov.ph) where such local government
-information may be accessed \[@FullDisclosureLocal2010\].
+information may be accessed [@FullDisclosureLocal2010].
 
 ##### 2.1.1.6 Advanced Science and Technology Institute (ASTI) Datasets (asti.dost.gov.ph/coare/datasets)
 
@@ -750,9 +750,9 @@ available through its own website hosted by the university.[^4]
 The 1997 National Archives Act governs all public records with archival
 value, as well as archival and records management programs and
 activities in all branches of government
-\[@NationalArchivesPhilippines2007\].[^5] The law established the NAP,
+[@NationalArchivesPhilippines2007].[^5] The law established the NAP,
 where public archives are stored, preserved, conserved and made
-available to the public \[@NationalArchivesPhilippines2007\].[^6]
+available to the public [@NationalArchivesPhilippines2007].[^6]
 Archives refer to public records, papers, periodicals, books or other
 materials, whether electronic, audio-visual, or print, which by their
 nature and characteristics have enduring value and have been selected
@@ -819,12 +819,12 @@ Version 1.0 for implementation by government agencies. PeGIF was
 intended to define the common knowledge, principles, and standards that
 national government agencies were to use in the design of data and
 information systems to enable data exchange and reuse across agencies
-\[@ApprovalPhilippineElectronic2014\].[^7] PeGIF promised to implement
+[@ApprovalPhilippineElectronic2014].[^7] PeGIF promised to implement
 specifications that comply with the definition of open standards,
 contribute to open systems, and are relevant to systems\'
 interconnectivity, data integration, presentation and interface,
 e-services access, and content management metadata
-\[@InteroperabilityStandards2021\].
+[@InteroperabilityStandards2021].
 
 A succeeding ICTO-DOST circular pertained to information
 interoperability, defined as \"the ability to transfer and use
@@ -832,7 +832,7 @@ information in a uniform and effective manner across multiple
 organizations and information technology systems\... ensuring that
 organizations share a common understanding and meaning for information
 that is shared across different IT systems\"
-\[@ApprovalPhilippineElectronic2015\]. The circular states that
+[@ApprovalPhilippineElectronic2015]. The circular states that
 information interoperability is achieved reliably through the use of
 controlled terminologies, and controlled mapping-tables and
 mapping-rules for any transformation. Among the stated operating
@@ -849,9 +849,9 @@ sharing, and the production of information interoperability assets.
 
 In 2015, the ICTO-DOST was abolished by the law creating DICT, with its
 functions and powers transferred to the new executive department
-\[@ActCreatingDepartment2016\]. DICT then became the executive
+[@ActCreatingDepartment2016]. DICT then became the executive
 department tasked as the primary policy and implementing entity in
-developing the national ICT agenda \[@ActCreatingDepartment2016\].[^8]
+developing the national ICT agenda [@ActCreatingDepartment2016].[^8]
 
 Although the ICTO-DOST was abolished, the PeGIF circulars remain in
 force; the DICT has not formally repealed them. However, the DICT has
@@ -864,10 +864,10 @@ FOI Ordinance\") mandates government offices to create and/or maintain
 accurate and reasonably complete records of important information in
 appropriate formats, and implement a records management system that
 facilitates easy identification, retrieval and communication of
-information to the public \[@OperationalizingExecutiveBranch2016a\],[^9]
+information to the public [@OperationalizingExecutiveBranch2016a],[^9]
 as a means to operationalize the constitutional right to information and
 state policies to ensure full public disclosure and transparency in the
-public service \[@OperationalizingExecutiveBranch2016a\].[^10]
+public service [@OperationalizingExecutiveBranch2016a].[^10]
 
 The DPA requires personal data controllers, including the government, to
 implement reasonable and appropriate organizational, physical, and
@@ -881,7 +881,7 @@ circular states that the commission recommends ISO/IEC 27018 as the most
 appropriate certification for the service or function provided by a
 service provider that is engaged either for the storage of data or as a
 personal information processor acting under the control of the agency
-\[@ISOIEC27018\].[^12]
+[@ISOIEC27018].[^12]
 
 ##### 2.1.1.9 Use of Free and Open-Source Software
 
@@ -895,7 +895,7 @@ Masterplan, acknowledged that the framework for \"e-Government systems
 and applications\" includes \"encouraging an open-source software
 development framework\"; however, this has not been translated into
 definite rules or policy regulations issued under the current
-administration \[@EGovernmentMasterplan20222019\].
+administration [@EGovernmentMasterplan20222019].
 
 #### 2.1.2. Reactive Government Policies on Allowing Access
 
@@ -933,14 +933,14 @@ to impose limitations by law does not impair the enforceability of the
 right before Philippine courts. The Philippine Supreme Court has
 affirmed the provision as the basis for requiring the disclosure of
 information pertaining to government housing loans extended to members
-of the legislature \[@RicardoValmonteFeliciano1989\], about successful
+of the legislature [@RicardoValmonteFeliciano1989], about successful
 bidders in public infrastructure projects
-\[@InitiativeDialogueEmpowerment2012\], and details about the equipment
+[@InitiativeDialogueEmpowerment2012], and details about the equipment
 and devices to be used in automated national elections
-\[@TeofistoGuingonaJr2010\]. It has been the basis for the Philippine
+[@TeofistoGuingonaJr2010]. It has been the basis for the Philippine
 Supreme Court to enjoin the President from barring executive officials
 from giving testimony before legislative committees
-\[@SenatePhilippinesEduardo2006\].
+[@SenatePhilippinesEduardo2006].
 
 The Philippine legislature has yet to enact a statute that would
 administer the right to information specified under Article III, Section
@@ -956,7 +956,7 @@ Nonetheless, in 2016, the Philippine government enacted Executive Order
 No. 02 (\"2016 FOI Ordinance\") with the intention of operationalizing
 within the executive branch the constitutional right to information, the
 President doing so in his capacity as the administrative head of the
-executive \[@OperationalizingExecutiveBranch2016a\]. In the absence of
+executive [@OperationalizingExecutiveBranch2016a]. In the absence of
 an FOI statute, Executive Order No. 02 is the most important Philippine
 ordinance concerning the right to information. It establishes an
 administrative procedure for the filing and processing of requests for
@@ -996,7 +996,7 @@ Significantly, even though the Executive Order was silent as to the
 utilization of the internet in dealing with requests for information
 (and indeed refers to an offline process), the government launched an
 online portal through which such requests can be submitted and documents
-released in November 2016 \[@ranadaDuterteGovtLaunches2016\]. The portal
+released in November 2016 [@ranadaDuterteGovtLaunches2016]. The portal
 is available at
 [[\[www.foi.gov.ph\]{.underline}]{.underline}](http://www.foi.gov.ph/).
 As of September 2023, a total of 185,727 eFOI requests were lodged
@@ -1017,9 +1017,9 @@ The 1930 Law on Registry of Civil Status (Act No. 3753) remains the
 basic law governing the civil register that records the civil status of
 persons, including births, deaths, marriages, and changes of name, all
 of which must be recorded with the local civil registrar
-\[@LawRegistryCivil1930\]. Such registration requirements are also
+[@LawRegistryCivil1930]. Such registration requirements are also
 reiterated in Articles 407 and 408 of the 1949 Civil Code
-\[@CivilCodePhilippines1949\]. Every city and municipality has their own
+[@CivilCodePhilippines1949]. Every city and municipality has their own
 local civil registrar who keeps their own books that record the civil
 status of persons. The books making up the civil register and all
 documents relating thereto are considered public documents, access to
@@ -1029,13 +1029,13 @@ or by the PSA. Following the enactment of Republic Act No. 11909 in
 2022, DICT was mandated to develop a civil registry database and virtual
 viewing facility that would allow the easier verification of the
 authenticity of such civil registry records
-\[@PermanentValidityCertificates2022\].
+[@PermanentValidityCertificates2022].
 
 The registration of private land ownership is currently governed by the
 1979 Property Registration Decree, which mandates the registration of
 certificates of title confirming land ownership, with the issuance of
 such certificates the function of Registers of Deed in every province
-and city \[@PropertyRegistrationDecree1978\]. The office of the Register
+and city [@PropertyRegistrationDecree1978]. The office of the Register
 of Deeds is a public repository of records of instruments such as deeds
 of absolute sale affecting registered or unregistered lands, with such
 instruments required to be registered with the Register of Deeds.
@@ -1051,14 +1051,14 @@ across provinces and cities.
 ##### 2.1.2.3 Land Management Data
 
 The Philippines\' Land Management Bureau adopted LAMS in 2010
-\[@ImprovingManagementLand2010\]. LAMS is an \"enhanced land record
+[@ImprovingManagementLand2010]. LAMS is an \"enhanced land record
 management facility that ensures integrity of and access to land
 information such as cadastral maps, isolated survey plans, public land
 applications, \[and\] patents and titles\"
-\[@ImprovingManagementLand2010\].[^13] The issuance which formalizes the
+[@ImprovingManagementLand2010].[^13] The issuance which formalizes the
 adoption of the system adheres to the policy that the Land Management
 Bureau shall ensure maximum access to land information by both the
-government and the public \[@ImprovingManagementLand2010\].[^14]
+government and the public [@ImprovingManagementLand2010].[^14]
 Notably, while LAMS is operational within the various offices of the
 Land Management Bureau, with access granted to the various Registers of
 Deed in cities and municipalities, the promised access to the public has
@@ -1068,16 +1068,16 @@ yet to be operationalized.
 
 The 2019 Revised Corporation Code currently provides for the regulatory
 jurisdiction of SEC over all corporations
-\[@RevisedCorporationCode2019\]. The SEC oversees the registration of a
+[@RevisedCorporationCode2019]. The SEC oversees the registration of a
 corporation and is also the body to which the reporting requirements of
 corporations required under the Code are to be submitted. The Code
 requires the annual submission by every corporation doing business in
 the Philippines, whether domestic or foreign, of annual financial
 statements and a general information sheet. SEC treats a corporation\'s
 articles of incorporation, by-laws, and related documents as public
-records, which are available to the public \[@SECPrivacyPolicy\]. The
+records, which are available to the public [@SECPrivacyPolicy]. The
 SEC has an online viewing system, the SEC i-View, which allows the
-public to view and print such company reports for a fee \[@SECIView\].
+public to view and print such company reports for a fee [@SECIView].
 
 #### 2.1.3 Private Sector Mandates Promoting Openness
 
@@ -1094,16 +1094,16 @@ Philippine Competition Act, enables the Philippine Competition
 Commission (PCC) to gain access to certain commercial documents and
 records relevant to merger or acquisition agreements where the value of
 the transaction exceeds one billion pesos
-(P1,000,000,000)\[@PhilippineCompetitionAct2015\]. These agreements
+(P1,000,000,000)[@PhilippineCompetitionAct2015]. These agreements
 cannot be concluded by the parties until 30 days after providing
 notification to the PCC in the form and with information on the
 transaction together with documents such as copies of the preliminary
 agreement, non-compete agreements, studies and reports related to the
 transaction, and confidential information memoranda, banker\'s books and
-third-party documents \[@PhilippineCompetitionAct2015\].[^15] This
+third-party documents [@PhilippineCompetitionAct2015].[^15] This
 requirement is in line with PCC\'s mandate to review proposed mergers
 and acquisitions to ensure that they do not violate Philippine
-competition laws \[@PhilippineCompetitionAct2015\].[^16]
+competition laws [@PhilippineCompetitionAct2015].[^16]
 
 ##### 2.1.3.2 Transparency-oriented \-- Credit Information Records
 
@@ -1111,7 +1111,7 @@ Through CISA, the Philippines established \"a comprehensive and
 centralized credit information system for the collection and
 dissemination of fair and accurate information relevant to, or arising
 from, credit and credit-related activities of all entities participating
-in the financial system\" \[@CreditInformationSystem2008\].[^17] This
+in the financial system\" [@CreditInformationSystem2008].[^17] This
 enables lending institutions such as banks to more comprehensively
 assess the credit-worthiness of a prospective borrower through the
 borrower\'s basic credit data, or the \"positive and negative
@@ -1120,27 +1120,27 @@ application for and availment of a credit facility and any information
 on the borrower\'s creditworthiness in the possession of the submitting
 entity and other factual and objective information related or relevant
 thereto in the submitting entity\'s data files or that of other sources
-of information\" \[@CreditInformationSystem2008\].[^18] The specific
+of information\" [@CreditInformationSystem2008].[^18] The specific
 information used to assess a borrower\'s basic credit data is listed in
 the Implementing Rules and Regulations of the CISA
-\[@ImplementingRulesRegulationCISA2009\]
-\[@CreditInformationSystem2008\].[^19]
+[@ImplementingRulesRegulationCISA2009]
+[@CreditInformationSystem2008].[^19]
 
 CISA established a state-owned corporation, CIC, with the mandate to
 receive and consolidate basic credit data, act as the central repository
 of credit information and provide access to reliable, standardized
 information on credit history and financial condition of borrowers
-\[@CreditInformationSystem2008\].[^20] Under current procedures, CIC
+[@CreditInformationSystem2008].[^20] Under current procedures, CIC
 requires the lending institutions to collect the information comprising
 the basic credit data from the borrower itself, with CIC then processing
 the data into the basic form. Entities involved in the process,
 including CIC, submitting entities[^21] and those with access to
 information are required to hold credit information under strict
-confidentiality \[@CreditInformationSystem2008\].[^22] Meanwhile, CIC is
+confidentiality [@CreditInformationSystem2008].[^22] Meanwhile, CIC is
 authorized to release and disclose consolidated basic credit data only
 to specific entities[^23] such as accessing entities,[^24] special
 accessing entities,[^25] outsource entities[^26] and borrowers
-\[@CreditInformationSystem2008\].[^27] The borrower, by having access to
+[@CreditInformationSystem2008].[^27] The borrower, by having access to
 the consolidated basic credit data, can dispute the assessment given to
 it.
 
@@ -1197,7 +1197,7 @@ jurisprudence, and rules and regulations.
 The above-mentioned exceptions are listed in a Memorandum from the
 Executive Secretary dated 24 November 2016, also known as Inventory of
 Exceptions to Executive Order No. 2 (S. 2016)
-\[@InventoryExceptionsExecutive2016\]. Executive Order No. 2, or the FOI
+[@InventoryExceptionsExecutive2016]. Executive Order No. 2, or the FOI
 Ordinance, had directed the preparation of an inventory of exceptions to
 access to information based on such exceptions \"enshrined in the
 Constitution, existing law or jurisprudence.\" The justifications for
@@ -1209,7 +1209,7 @@ regulation enacted by Congress or executive agencies, or a judicial
 doctrine pronounced by the Supreme Court, judicial decisions in the
 Philippines applying or interpreting the laws or the Constitution
 forming a part of the legal system of the Philippines
-\[@CivilCodePhilippines1949\]. Thus, the government stands at risk of
+[@CivilCodePhilippines1949]. Thus, the government stands at risk of
 violating laws and incurring legal liability in exercising discretion in
 making data available in defiance of these exceptions as legislated or
 as judicially defined.
@@ -1239,26 +1239,26 @@ exempted from disclosure.
 
 The governing regulation for the classification of executive documents
 and records as \"secret\" is a 1964 Memorandum Circular issued by the
-Office of the President \[@PromulgatingRulesGoverning1964\]. Under the
+Office of the President [@PromulgatingRulesGoverning1964]. Under the
 circular, official matters requiring protection in the interest of
 national security are limited to four categories of classification, each
-with its own level of accessibility \[@PromulgatingRulesGoverning1964\].
+with its own level of accessibility [@PromulgatingRulesGoverning1964].
 
 - **\"Top Secret\"** matters (i.e., the unauthorized disclosure of which
   would cause exceptionally grave damage to the nation, politically,
   economically, or from a security aspect) may only be copied,
   extracted, or reproduced when the classifying authority (i.e., the
   Head of the Department) has authorized such action
-  \[@PromulgatingRulesGoverning1964\].[^29] Top secret matters are not
+  [@PromulgatingRulesGoverning1964].[^29] Top secret matters are not
   allowed to be transmitted by mail, express or electrical means, unless
-  in cryptographic form \[@PromulgatingRulesGoverning1964\].[^30]
+  in cryptographic form [@PromulgatingRulesGoverning1964].[^30]
 
 - **\"Secret\"** matters (i.e., the unauthorized disclosure of which
   would endanger national security, cause serious injury to the interest
   or prestige of the nation or of any governmental activity, or would be
   of great damage to a foreign nation), limitations on whose
   reproduction are similar to those on top secret matters
-  \[@PromulgatingRulesGoverning1964\].[^31]
+  [@PromulgatingRulesGoverning1964].[^31]
 
 - **\"Confidential\"** matters (i.e., the unauthorized disclosure of
   which, while not endangering national security, would be prejudicial
@@ -1267,23 +1267,23 @@ with its own level of accessibility \[@PromulgatingRulesGoverning1964\].
   an individual or would be of advantage to a foreign nation), whose
   reproduction is generally authorized, except when the originator or a
   higher authority has specifically denied it
-  \[@PromulgatingRulesGoverning1964\].[^32]
+  [@PromulgatingRulesGoverning1964].[^32]
 
 - **\"Restricted\"** matters (i.e., those which require special
   protection other than that determined to be Top Secret, Secret, or
   Confidential), whose reproduction is authorized
-  \[@PromulgatingRulesGoverning1964\].[^33] In this regard, government
+  [@PromulgatingRulesGoverning1964].[^33] In this regard, government
   personnel are prohibited from keeping a private record containing
   statements of facts or opinions, either official or personal,
   concerning matters which are related to or which affect national
-  interest or security \[@PromulgatingRulesGoverning1964\].[^34]
+  interest or security [@PromulgatingRulesGoverning1964].[^34]
 
 As earlier noted, under the National Archives Act, NAP does not grant
 access to official information, records or documents to the requesting
 public for, among others: (1) national defense or security matters;
 established privilege matters; (3) investigatory records; (4) matters
 that endanger the stability of financial institutions
-\[@RulesRegulationsGoverning2009\].[^35] Such determination, under that
+[@RulesRegulationsGoverning2009].[^35] Such determination, under that
 law, are made by the Executive Director of the National Archives.
 
 Philippine laws also criminalize certain acts of dissemination of
@@ -1297,7 +1297,7 @@ insubordination, disloyalty, mutiny, or refusal of duty).[^36]
 The Philippine Constitution recognizes, respects, and protects the
 rights of indigenous cultural communities to preserve and develop their
 cultures, traditions and institutions
-\[@ConstitutionRepublicPhilippines1987\].[^37] The principal law
+[@ConstitutionRepublicPhilippines1987].[^37] The principal law
 governing indigenous people\'s rights is the 1997 Indigenous People\'s
 Rights Act, a law that entitles indigenous peoples of the
 Philippines[^38] (IPPs) to full ownership and control over their
@@ -1305,11 +1305,11 @@ cultural and intellectual rights[^39] in communal fashion, such
 community intellectual rights forming part of their right to cultural
 integrity, which they have the right to own, control, develop and
 protect
-\[@IndigenousPeoplesRights1997\]\[@ImplementingRulesRegulations1998\].
+[@IndigenousPeoplesRights1997][@ImplementingRulesRegulations1998].
 
 The said law recognizes the inherent rights of IPPs to self-governance
 and self-determination with regard to their values, practices and
-institutions \[@ImplementingRulesRegulations1998\].[^40] To
+institutions [@ImplementingRulesRegulations1998].[^40] To
 operationalize the state policy to respect, recognize, and protect the
 right of IPPs to preserve and protect their culture, traditions and
 institutions, the law establishes that IPPs have the right to practice
@@ -1317,37 +1317,37 @@ and revitalize their own cultural traditions and customs, as well as the
 right to restitution of cultural, intellectual, religious and spiritual
 property taken without their free and prior informed consent or in
 violation of their laws, traditions and customs
-\[@ImplementingRulesRegulations1998\]. Having full ownership and control
+[@ImplementingRulesRegulations1998]. Having full ownership and control
 over their cultural and intellectual rights, IPPs have the right to
 special measures to control, develop and protect their sciences,
 technologies and cultural manifestations, including derivatives of these
-resources \[@ImplementingRulesRegulations1998\]. With regard to
+resources [@ImplementingRulesRegulations1998]. With regard to
 biological and genetic resources, access is allowed within ancestral
 lands and domains of the Indigenous Cultural Communities/IPPs only with
 the free and prior informed consent of such communities
-\[@ImplementingRulesRegulations1998\].[^41]
+[@ImplementingRulesRegulations1998].[^41]
 
 The National Commission on Indigenous Peoples (NCIP), in conjunction
 with the Intellectual Property Office, issued rules and regulations on
 intellectual property rights application and registration protecting the
 indigenous knowledge systems and practices of Indigenous Cultural
 Communities/Indigenous Peoples
-(ICCs/IPPs)\[@RulesRegulationsIntellectual2016\]. Under these rules, the
+(ICCs/IPPs)[@RulesRegulationsIntellectual2016]. Under these rules, the
 right to indigenous knowledge systems and practices is an inherent part
 of their cultural patrimony, which ICCs/IPPs have the right to regulate
 access for research and documentation and which they have the right to
 own, control, develop and protect
-\[@RevisedGuidelinesFree2012\]\[@RulesRegulationsIntellectual2016\].[^42]
+[@RevisedGuidelinesFree2012][@RulesRegulationsIntellectual2016].[^42]
 Although the guidelines were issued in relation to large
 scale/extractive/intrusive activities, NPC has considered the guidelines
-in obtaining consent from ICCs \[@NPCAdvisoryOpinionb\].
+in obtaining consent from ICCs [@NPCAdvisoryOpinionb].
 
 The Philippines has particular controls on the prospecting of biological
 and genetic resources for scientific and commercial purposes. Executive
 Order No. 247, promulgated by the Philippine President in 1995,
 establishes a regulatory framework for such prospecting of biological
 and genetic resources as well as their by-products and derivatives
-\[@PrescribingGuidelinesEstablishing1995\]. If the prospecting were to
+[@PrescribingGuidelinesEstablishing1995]. If the prospecting were to
 be within the ancestral lands and domains of ICCs, the prior informed
 consent of such communities must be obtained, in accordance with the
 customary laws of the concerned communities. The executive order
@@ -1363,11 +1363,11 @@ that the researcher who oversaw the study had not secured the necessary
 clearances from the NCIP. This was characterized by NPC in an advisory
 opinion as a failure to secure the requisite informed consent from the
 IPPs, notwithstanding the researcher\'s claims that they had secured the
-consent directly from the subjects \[@NPCAdvisoryOpinionb\]. NPC
+consent directly from the subjects [@NPCAdvisoryOpinionb]. NPC
 concluded that the failure to comply with the procedural and documentary
 requirements on consent as prescribed by the NCIP resulted in invalid
 informed consent as required under the Indigenous People\'s Rights Act
-\[@IndigenousPeoplesRights1997\]. Despite the pronouncement, the
+[@IndigenousPeoplesRights1997]. Despite the pronouncement, the
 advisory opinion did not impose any sanctions or award damages on
 account of the violation.
 
@@ -1390,7 +1390,7 @@ also influenced data retention policies within the government.
 Personal information must be retained only for as long as necessary for
 the fulfillment of the purposes for which the data was obtained, for the
 establishment, exercise or defense of legal claims, for legitimate
-purposes or as provided by law \[@DataPrivacyAct2012\].[^43] This,
+purposes or as provided by law [@DataPrivacyAct2012].[^43] This,
 however, does not affect the accessibility of information *per se*
 (i.e., it neither decreases nor increases openness of the data to the
 public); it is merely a mandate to retain for as long as necessary.
@@ -1402,19 +1402,19 @@ retention periods of data depending on the type.
 There is currently no law governing data localization. However, DICT has
 prescribed, through a circular, the Philippine Government\'s Cloud First
 Policy, which includes a provision on data residency
-\[@PrescribingPhilippineGovernments2017\]. Section 12.2 of the circular
+[@PrescribingPhilippineGovernments2017]. Section 12.2 of the circular
 as amended states that \"\[a\]s a general rule, no residency
 restrictions shall be placed on government data stored or processed in
 the cloud, provided that appropriate controls or security measures are
 present.\" By way of exception, the storage or processing of sensitive,
 above-sensitive and highly-sensitive government data were made subject
 of some residency restrictions
-\[@PrescribingPhilippineGovernments2017\].[^44] The data residency in
+[@PrescribingPhilippineGovernments2017].[^44] The data residency in
 such cases is restricted to the Philippine territory or (only in the
 case of sensitive government data) also to other states with which the
 Philippines has enforceable extradition treaties for the turn-over of
 persons accused or convicted of violating Philippine laws
-\[@PrescribingPhilippineGovernments2017\].[^45]
+[@PrescribingPhilippineGovernments2017].[^45]
 
 Data-sharing agreements across government agencies are further governed
 by NPC Circular No. 16-02. The Implementing Rules to the DPA require
@@ -1436,7 +1436,7 @@ custody must be done via a secure encrypted link.
 
 To protect and preserve the integrity and confidentiality of bank
 accounts, the Philippines enacted the 2001 Anti-Money Laundering Act
-\[@AntiMoneyLaunderingAct2001\]. Under this Act, as amended, covered
+[@AntiMoneyLaunderingAct2001]. Under this Act, as amended, covered
 persons[^46] are required to report covered and suspicious transactions
 to the AMLC. The 2018 Implementing Rules and Regulations of the
 Anti-Money Laundering Act lists the following covered transactions: 1) a
@@ -1446,24 +1446,24 @@ jewelry dealers, dealers in precious metals and dealers in precious
 stones in cash or other equivalent monetary instrument exceeding
 1,000,000 pesos (PHP1,000,000); and 3) a casino cash transaction
 exceeding 5,000,000 pesos (PHP5,000,000) or its equivalent in other
-currency \[@2018ImplementingRules2018\].[^47] In addition, transactions
+currency [@2018ImplementingRules2018].[^47] In addition, transactions
 that are considered suspicious or transactions that were conducted or
 happened under suspicious circumstances
-\[@AntiMoneyLaunderingAct2003\][^48] are also reported to AMLC
-\[@AntiMoneyLaunderingAct2003\].[^49] Suspicious transactions that are
+[@AntiMoneyLaunderingAct2003][^48] are also reported to AMLC
+[@AntiMoneyLaunderingAct2003].[^49] Suspicious transactions that are
 related to terrorism financing, pursuant to the 2012 Terrorism Financing
 Prevention and Suppression Act, are also reported to the AMLC
-\[@ActDefiningCrime2012\].[^50]
+[@ActDefiningCrime2012].[^50]
 
 Under the 2021 AMLC Registration and Reporting Guidelines, the Covered
 Transaction Reports and Suspicious Transaction Reports are submitted in
 electronic form and filed through AMLC\'s File Transfer and Reporting
-Facility \[@AMLCRegistration2021\]. The guidelines also list the
+Facility [@AMLCRegistration2021]. The guidelines also list the
 specific information required to be included in the reports such as the
 transaction date and time, transaction amount, nature and purpose of the
 transaction, information about the parties involved and other
 participants (such as counterparty, issuer, transactor, etc.,) and
-details of suspicion, if applicable \[@AMLCRegistration2021\].[^51]
+details of suspicion, if applicable [@AMLCRegistration2021].[^51]
 
 ##### 2.2.1.5 Establishing and maintaining government digitized databases
 
@@ -1491,23 +1491,23 @@ System Act, the collection of personal information of all Philippine
 citizens and resident aliens for the purpose of issuing an official
 government-issued identification document known as the PhilID, with the
 underlying information stored in a registry known as the PhilSys
-Registry \[@PhilippineIdentificationSystems2018\]. The personal
+Registry [@PhilippineIdentificationSystems2018]. The personal
 information collected covers a person\'s full name, sex, blood type,
 marital status, date and place of birth, address, a front-facing
 photograph, fingerprint information, an iris scan, and other biometric
-information \[@PhilippineIdentificationSystems2018\].[^52] Each
+information [@PhilippineIdentificationSystems2018].[^52] Each
 registrant, as well as a person upon birth, is assigned a randomly
 generated, unique and permanent identification number
-\[@PhilippineIdentificationSystems2018\].[^53] The resulting PhilID
+[@PhilippineIdentificationSystems2018].[^53] The resulting PhilID
 contains a QR code with the fingerprint information and other security
 features as safeguards for data privacy and security and the prevention
-of falsified cards \[@PhilippineIdentificationSystems2018\].[^54]
+of falsified cards [@PhilippineIdentificationSystems2018].[^54]
 
 An individual\'s record in the Registry is considered to be an official
 and sufficient proof of identity,[^55] with the PhilID mandated by the
 law to be honored and accepted, subject to authentication, in all
 transactions requiring proof or verification of identity
-\[@PhilippineIdentificationSystems2018\].[^56] With this requirement, it
+[@PhilippineIdentificationSystems2018].[^56] With this requirement, it
 is expected that more citizens would be able to engage in transactions
 that require proof of identity, thus allowing for greater financial
 inclusion. The greater engagement of citizens in such transactions could
@@ -1523,7 +1523,7 @@ enabled by a community-based monitoring system (\"CMBS\") that
 \"generates updated and disaggregated data necessary in targeting
 beneficiaries, conducting more comprehensive poverty analysis and needs
 prioritization, designing appropriate policies and interventions, and
-monitoring impact over time\" \[@CommunityBasedMonitoringSystem2019\].
+monitoring impact over time\" [@CommunityBasedMonitoringSystem2019].
 The resulting CMBS as defined by law is \"an organized technology-based
 system of collecting, processing and validating necessary disaggregated
 data that may be used for planning, program implementation and impact
@@ -1555,26 +1555,26 @@ and Modernization Act to be established by the National Bureau of
 Investigation (\"NBI\") for civilian identification, including
 individual identifying marks, fingerprints, and dental records, as well
 as all derogatory and criminal records
-\[@NationalBureauInvestigation2016\].[^57] The NBI is also required to
+[@NationalBureauInvestigation2016].[^57] The NBI is also required to
 maintain databases for ballistic records of firearms, and a DNA databank
-\[@NationalBureauInvestigation2016\].[^58] The Anti-Terrorism Council is
+[@NationalBureauInvestigation2016].[^58] The Anti-Terrorism Council is
 required under the 2020 Anti-Terrorism Act to \"establish and maintain
 comprehensive database information systems on terrorism, terrorist
 activities, and counter-terrorism operations\"
-\[@AntiTerrorismAct20202020\].[^59] A government coordinating body
+[@AntiTerrorismAct20202020].[^59] A government coordinating body
 tasked with enforcing anti-trafficking and laws against the online
 sexual exploitation of children is required to maintain a database
 (including such information as fingerprints and complete criminal
 history) of all adults convicted of sexual abuse or exploitation of
-children \[@AntiOnlineSexualAbuse2022\].[^60] The Land Transportation
+children [@AntiOnlineSexualAbuse2022].[^60] The Land Transportation
 Office is required under the 2019 Motorcycle Crime Prevention Act
-\[@MotorcycleCrimePrevention2019\] to maintain and a database registry
+[@MotorcycleCrimePrevention2019] to maintain and a database registry
 of motorcycles, including details about the vehicles\' owners, to
 facilitate retrieval for official investigation and law enforcement
 purposes[^61]; the general law on motor vehicle registration enacted in
-1964 \[@LandTransportationTraffic1964\] as well as the law establishing
+1964 [@LandTransportationTraffic1964] as well as the law establishing
 the Land Transportation Office
-\[@EstablishingLandTransportation1985\][^62] had been silent on the
+[@EstablishingLandTransportation1985][^62] had been silent on the
 maintenance of a general database or registry of all motorized land
 vehicles even as it had required their registration.[^63]
 
@@ -1583,15 +1583,15 @@ law, the Anti-Money Laundering Council was authorized under the
 Implementing Rules of the Anti-Money Laundering Act to establish an
 information sharing system to enable the storing, tracking and analysis
 of money laundering transactions for the prevention, detection and
-investigation of money laundering offenses \[@AMLA2001Amended2018\]. The
+investigation of money laundering offenses [@AMLA2001Amended2018]. The
 Council was thus mandated to install a computerized system to be used in
 the creation and maintenance of an information database
-\[@AntiMoneyLaunderingAct2003\].[^64] Philippine money-laundering laws
+[@AntiMoneyLaunderingAct2003].[^64] Philippine money-laundering laws
 also impose requirements on private sector-held data; covered
 institutions such as banks are required not only to report so-called
 covered customer transactions that meet prescribed threshold amounts,
 but also to maintain such records of transactions for at least 5 years
-\[@AntiMoneyLaunderingAct2001\].[^65] While the law itself was silent as
+[@AntiMoneyLaunderingAct2001].[^65] While the law itself was silent as
 to the standards to be applied for the maintenance of these records, the
 Implementing Rules as revised in 2018 required those a subset of covered
 person \-- those considered as \"complex\" \-- to adopt an electronic
@@ -1599,28 +1599,28 @@ anti-money laundering/counter-terrorism financing system capable of
 monitoring risks associated with money laundering and terrorism
 financing, as well as generating timely reports for the guidance and
 information of its board of directors and senior management
-\[@AMLA2001Amended2018\].[^66]
+[@AMLA2001Amended2018].[^66]
 
 ##### 2.2.1.6 SIM Card Registration Information
 
 The 2022 SIM Card Registration Act was enacted to provide law
 enforcement agencies the tools to resolve crimes which involve the
 utilization of SIM cards used to empower cellular phone subscription
-accounts \[@SIMCardRegistration2022\]. All end-users are required under
+accounts [@SIMCardRegistration2022]. All end-users are required under
 the law to register their SIMs with the public telecommunications
 entities providing the account, utilizing government-issued ID cards or
-similar identity documents \[@SIMCardRegistration2022\]. The end-users
+similar identity documents [@SIMCardRegistration2022]. The end-users
 are also to provide their full name, date of birth, sex, and address,
 with the registration form accomplished electronically through a
 platform or website to be provided by the public telecommunications
-entities (PTEs) \[@SIMCardRegistration2022\]. Access to the information
+entities (PTEs) [@SIMCardRegistration2022]. Access to the information
 in the database maintained by the PTEs may be mandated by a duly-issued
 subpoena by a competent authority pursuant to an investigation based on
 a sworn complaint that a specific mobile number was or is being used in
 the commission of a crime or that it was utilized as a means to commit a
 malicious, fraudulent or unlawful act, and that the complaint is unable
 to ascertain the identity of the perpetrator
-\[@SIMCardRegistration2022\].
+[@SIMCardRegistration2022].
 
 #### 2.2.2 Decreasing Openness to Favor Individuals
 
@@ -1632,7 +1632,7 @@ data protection is the most comprehensive of these laws.
 
 The 2012 DPA requires lawful basis for the processing of personally
 identifying information, with the standards for lawful basis prescribed
-in the law itself \[@DataPrivacyAct2012\]. The law also guarantees data
+in the law itself [@DataPrivacyAct2012]. The law also guarantees data
 subjects \-- any natural person \-- several rights with respect to their
 personally identifying information. The operative effects of these twin
 concepts have resulted in significant limitations in the collection,
@@ -1648,7 +1648,7 @@ e.g., privacy attaching to certain locations such as one\'s home
 without interference from the state. The right to privacy of one\'s
 personally identifying information was recognized by the Philippine
 Supreme Court before the enactment of DPA, in its 1998 decision in *Ople
-v. Torres* \[@BlasOpleRuben1998\]. Nonetheless, the subsequent law
+v. Torres* [@BlasOpleRuben1998]. Nonetheless, the subsequent law
 ushered in a more definitive regime for the protection of personal data.
 Most crucially, unlike the basic framework of the Bill of Rights where
 individual rights are guaranteed protection against interference by
@@ -1680,11 +1680,11 @@ Under the General Data Privacy Principles of the DPA, personal data must
 be retained only for as long as necessary for the fulfillment of the
 purposes for which the data was obtained or for the establishment,
 exercise or defense of legal claims, or for legitimate business
-purposes, or as provided by law \[@DataPrivacyAct2012\].[^67]
+purposes, or as provided by law [@DataPrivacyAct2012].[^67]
 Thereafter, personal data should be disposed of or discarded in a secure
 manner that would prevent further processing, unauthorized access, or
 disclosure to any other party or the public, or prejudice the interests
-of the data subjects \[@ImplementingRulesRegulations2016\].[^68]
+of the data subjects [@ImplementingRulesRegulations2016].[^68]
 
 In addition, there was also a specific mention of the non-applicability
 of the provisions on the rights of the data subject, transmissibility of
@@ -1697,16 +1697,16 @@ the DPA seemingly added a specific requirement under this exception,
 i.e., for data to be exempted from the application of DPA, the research
 should be \"intended for a public benefit, \[and\] subject to the
 requirements of applicable laws, regulations, or ethical standards\"
-\[@ImplementingRulesRegulations2016\].[^69]
+[@ImplementingRulesRegulations2016].[^69]
 
 With respect to cross-border data transfers, although there are no
 specific restrictions, the NPC has addressed the matter of free flow of
 data in relation to the DPA. It stated in an opinion that the DPA
 \"concerns itself with the free flow of data but limited to the specific
-context of personal data processing\" \[@NPCAdvisoryOpinion2022\].
+context of personal data processing\" [@NPCAdvisoryOpinion2022].
 Transfer of personal data, including cross-border transfers are expected
 to adhere to the general privacy principles
-\[@NPCAdvisoryOpinion2022\].[^70] Transfer of personal data (whether
+[@NPCAdvisoryOpinion2022].[^70] Transfer of personal data (whether
 within or across borders) would be considered as processing, which under
 the DPA can only be permitted if it fulfills any of the criteria as
 enumerated under Section 12 and Section 13 (for sensitive personal
@@ -1715,7 +1715,7 @@ ensure that \"recipients of personal data outside the Philippines
 process data in a manner consistent with the requirements of the DPA and
 must put in place contractual or other reasonable safeguards to
 guarantee a comparable level of protection for data transferred\"
-\[@NPCAdvisoryOpinion2022\].
+[@NPCAdvisoryOpinion2022].
 
 Other statutes also establish context-specific privacy rights in favor
 of individuals.
@@ -1724,31 +1724,31 @@ The 2013 Philippine Statistical Act that implements the PhilSys ID
 system classifies as privileged communication (and thus inadmissible as
 evidence in any proceeding) individual data furnished by a respondent to
 the PSA concerning statistical inquiries, surveys and census
-\[@PhilippineStatisticalAct2013\].[^71] Information collected by the PSA
+[@PhilippineStatisticalAct2013].[^71] Information collected by the PSA
 in the implementation of the national ID system under the 2017 PhilSys
 Act is similarly covered under the protection
-\[@PhilippineIdentificationSystems2018\]. SIM card registration
+[@PhilippineIdentificationSystems2018]. SIM card registration
 information is also treated as absolutely confidential under Section 9
-of the 2022 SIM Card Registration Act \[@SIMCardRegistration2022\].
+of the 2022 SIM Card Registration Act [@SIMCardRegistration2022].
 
 Other laws address the privacy concerns of individual members of
 vulnerable sectors. The 2004 Violence Against Women and Their Children
 Act imposes confidentiality requirements for all records pertaining to
 cases of violence against women and their children, with violations of
 confidentiality punishable with contempt of court
-\[@AntiViolenceWomenTheir2004\].[^72] The 2022 Anti-Online Sexual Abuse
+[@AntiViolenceWomenTheir2004].[^72] The 2022 Anti-Online Sexual Abuse
 and Exploitation of Children and Anti-Child Sexual Abuse and
 Exploitation Materials Act similarly requires that any record concerning
 a victim of child sexual abuse or exploitation be kept confidential
-\[@AntiViolenceWomenTheir2004\].[^73] The names of children alleged,
+[@AntiViolenceWomenTheir2004].[^73] The names of children alleged,
 accused of, or adjudged as having committed a criminal offense under
 Philippine law are required to be kept confidential under the 2006
-Juvenile Justice and Welfare Act \[@JuvenileJusticeWelfare2006\].[^74]
+Juvenile Justice and Welfare Act [@JuvenileJusticeWelfare2006].[^74]
 Confidentiality of persons with HIV or AIDS is required under the 2018
-Philippine HIV and AIDS Policy Act \[@PhilippineHIVAIDS2018\][^75], and
+Philippine HIV and AIDS Policy Act [@PhilippineHIVAIDS2018][^75], and
 for all relevant information related to persons with psychiatric,
 neurologic, and psychological health needs under the 2018 Mental Health
-Act \[@MentalHealthAct2018\].[^76]
+Act [@MentalHealthAct2018].[^76]
 
 The 2008 Rule on the Writ of Habeas Data was promulgated by the
 Philippine Supreme Court to provide a judicial remedy to persons whose
@@ -1757,7 +1757,7 @@ by an unlawful act or omission, whether by a public official or
 employee, or by a private individual, or by an entity engaged in the
 gathering, collecting or storing of data or information regarding the
 person, family, home and correspondence of the aggrieved party
-\[@RuleWritHabeas2008\]. The courts, through this writ, may, after
+[@RuleWritHabeas2008]. The courts, through this writ, may, after
 deliberating on the petition, order the deletion, destruction or
 rectification of the erroneous data or information. The rule was enacted
 prior to the 2012 DPA, which offers similar relief, though primarily
@@ -1768,7 +1768,7 @@ Habeas Data remains in force and available as a remedy.
 
 Copyright is a legal protection afforded to literary, scholarly,
 scientific, and artistic works, and derivative works
-\[@IntellectualPropertyCode1997\].[^77] It gives the owner of the
+[@IntellectualPropertyCode1997].[^77] It gives the owner of the
 copyright exclusive right to carry out, authorize or prevent the
 following acts: a) reproduction of the work or substantial portion of
 the work; b) dramatization, translation, adaptation, abridgment,
@@ -1788,17 +1788,17 @@ coordination or arrangement of their contents. This protection does not
 affect the force of any subsisting copyright upon the original works
 employed or any part thereof, nor can it be construed to imply any right
 to such use of the original works, or to secure or extend copyright in
-such original works \[@IntellectualPropertyCode1997\].[^78] This
+such original works [@IntellectualPropertyCode1997].[^78] This
 provision on derivative works is, so far, the only provision that might
 relate to web scraping considering that currently, there are no specific
 laws or regulations in the Philippines that intentionally regulate web
 scraping. The works are generally protected by copyright during the
 lifetime of the author and for 50 years after their death
-\[@IntellectualPropertyCode1997\].[^79]
+[@IntellectualPropertyCode1997].[^79]
 
 One of the limitations of the rights given to copyright owners is the
 exception of fair use of copyrighted work from being considered as an
-infringement of copyright \[@IntellectualPropertyCode1997\]. Section 185
+infringement of copyright [@IntellectualPropertyCode1997]. Section 185
 of the 1997 Intellectual Property Code states \"\[t\]he fair use of a
 copyrighted work for criticism, comment, news reporting, teaching
 including limited number of copies for classroom use, scholarship,
@@ -1816,7 +1816,7 @@ the authorization of the author or copyright owner of a computer
 program, as long as such copy or adaptation is necessary for the use of
 the computer program in conjunction with a computer, and for archival or
 replacement purposes in the event that the original program is lost or
-rendered unusable \[@IntellectualPropertyCode1997\].[^80]
+rendered unusable [@IntellectualPropertyCode1997].[^80]
 
 With respect to authorship, it should be noted though that the 1997
 Intellectual Property Code does not recognize works that were purely
@@ -1824,26 +1824,26 @@ generated by artificial intelligence. Under the 1997 Intellectual
 Property Code, copyright over original literary and artistic works
 generally belong to the author, who under the law, is defined as a
 \"natural person,\" thus excluding non-humans, as well as juridical
-persons \[@IntellectualPropertyCode1997\].[^81] Currently, there are no
+persons [@IntellectualPropertyCode1997].[^81] Currently, there are no
 laws or regulations in the Philippines that specifically govern AI
 authorship.
 
 Copyright over original literary and artistic works belong by default to
 the author unless the work was created pursuant to a commission or in
-the course of employment \[@IntellectualPropertyCode1997\].[^82]
+the course of employment [@IntellectualPropertyCode1997].[^82]
 Copyright may likewise be assigned, even to a juridical person
-\[@IntellectualPropertyCode1997\].[^83]
+[@IntellectualPropertyCode1997].[^83]
 
 Independent of copyright, the author of a work also has \"moral
 rights,\" which include the right of attribution, the withholding of a
 work from publication, and the prevention of any alteration or
-modification of the work \[@IntellectualPropertyCode1997\].[^84]
+modification of the work [@IntellectualPropertyCode1997].[^84]
 
 The Philippines protects undisclosed information or trade secrets. It is
 listed in the Intellectual Property Code as one of the intellectual
 property rights in accordance with the Agreement on Trade-Related
 Aspects of Intellectual Property Rights (\"TRIPS
-Agreement\")\[@TRIPS1995\]. Under the TRIPS Agreement, undisclosed
+Agreement\")[@TRIPS1995]. Under the TRIPS Agreement, undisclosed
 information is protected. Undisclosed information is defined as \"any
 form or type of financial, business, scientific, technical, economic or
 engineering information, including the whole or any portion or phase of
@@ -1851,14 +1851,14 @@ any process, procedure, formula, improvement, pattern, plan, design,
 prototype, code, compilation, program, method, technique, or listing of
 names, addresses or telephone numbers, whether tangible or intangible,
 stored, compiled, or memorialized physically, electronically,
-graphically, photographically, or in writing\" \[@TRIPS1995\].[^85] This
+graphically, photographically, or in writing\" [@TRIPS1995].[^85] This
 protection includes being immune from modes of discovery. Some noted
 exceptions to the rule on non-disclosure of undisclosed information
 includes cases when courts may require the disclosure of information
 \"where it is indispensable for doing justice\" and in cases when other
 applicable laws \[\-\--\]{.mark} for instance in cases regarding
 consumer products \[\-\--\]{.mark} require it
-\[@AirPhilippinesCorporation2007\].
+[@AirPhilippinesCorporation2007].
 
 ##### 2.2.2.3 Data Privacy and Security
 
@@ -1871,27 +1871,27 @@ of such communications service (collectively, \"service providers\")
 with respect to \"traffic data\", or any computer data other than the
 content of the communication including, but not limited to, the
 communication\'s origin, destination, route, time, date, size, duration,
-or type of underlying service \[@CybercrimePreventionAct2012\]. Service
+or type of underlying service [@CybercrimePreventionAct2012]. Service
 providers are required to preserve for a period of at least six months
 such traffic data as well as the subscriber information (including
 assigned network addresses) associated with the traffic data
-\[@CybercrimePreventionAct2012\]. Such information may be disclosed to
+[@CybercrimePreventionAct2012]. Such information may be disclosed to
 law enforcement if authorized under a court warrant; the six-month
 preservation period enables law enforcement to secure the information
-necessary for a warrant \[@CybercrimePreventionAct2012\].
+necessary for a warrant [@CybercrimePreventionAct2012].
 
 Another provision of the 2012 Cybercrime Prevention Act, which would
 have authorized law enforcement authorities to collect or record traffic
 data in real time even without a warrant as long as there was \"due
 cause\", was struck down by the Philippine Supreme Court as
 unconstitutional in the case of *Disini v. Secretary of Justice*
-\[@CybercrimePreventionAct2012\]\[@JoseJesusDisini2014\]. The court
+[@CybercrimePreventionAct2012][@JoseJesusDisini2014]. The court
 agreed with the observation that \"when seemingly random bits of traffic
 data are gathered in bulk, pooled together, and analyzed, they reveal
 patterns of activities which can then be used to create profiles of the
 persons under surveillance\", with analysts then able to determine \"a
 person\'s close associations, religious views, political affiliations,
-even sexual preferences\" \[@JoseJesusDisini2014\]. For that reason, the
+even sexual preferences\" [@JoseJesusDisini2014]. For that reason, the
 court held that the Cybercrime Prevention Act should have been narrowly
 drawn to protect individual rights, and that the legislated standard of
 \"due cause\" was too general, empowering law enforcement with unlimited
@@ -1936,7 +1936,7 @@ increasing confidence in their use.
 The DPA requires personal data controllers, including the government, to
 implement reasonable and appropriate organizational, physical, and
 technical measures intended for the protection of personal data
-\[@DataPrivacyAct2012\].[^86] These measures are intended for the
+[@DataPrivacyAct2012].[^86] These measures are intended for the
 protection of personal information against any accidental or unlawful
 destruction, alteration, and disclosure, as well as any other unlawful
 processing. A personal information controller is required to implement
@@ -1944,11 +1944,11 @@ such measures to protect personal information against both natural
 dangers (such as accidental loss or destruction) as well as human
 dangers. The need for such security measures is reiterated in the
 implementing rules and regulations of DPA
-\[@ImplementingRulesRegulations2016\][^87], which requires an entity
+[@ImplementingRulesRegulations2016][^87], which requires an entity
 involved in the processing of personal data to maintain records that
 sufficiently describes their data processing system, including a general
 description of the organizational, physical, and technical security
-measures in place \[@ImplementingRulesRegulations2016\].[^88]
+measures in place [@ImplementingRulesRegulations2016].[^88]
 
 Notably, the detailed technical data security requirements issued by the
 NPC for government agencies processing personal data, such as the
@@ -1961,16 +1961,16 @@ Several categories of personal data are exempt from the scope of DPA.
 These includes \"personal information processed for journalistic,
 artistic, literary or research purposes,\" thus enabling journalists
 among others to perform their work without fear
-\[@ImplementingRulesRegulations2016\].[^89] However, the exemption is
+[@ImplementingRulesRegulations2016].[^89] However, the exemption is
 qualified. Personal information processed for journalistic,[^90]
 artistic or literary purposes is only exempted if it is done \"to uphold
 freedom of speech, of expression, or of the press, \[and is\] subject to
 requirements of other applicable law or regulations\"
-\[@ImplementingRulesRegulations2016\].[^91] On the other hand, personal
+[@ImplementingRulesRegulations2016].[^91] On the other hand, personal
 information processed for research purposes is only exempt \"if it is
 intended for a public benefit \[and is\] subject to the requirements of
 applicable laws, regulations, or ethical standards\"
-\[@ImplementingRulesRegulations2016\].[^92]
+[@ImplementingRulesRegulations2016].[^92]
 
 Another important exemption relates to matters of public concern, such
 as information about individuals employed by government with respect to
@@ -1978,15 +1978,15 @@ their positions or functions, or information relating to discretionary
 benefits of a financial nature given by the government to an individual,
 or information about individuals performing services under contract to
 the government that relates to the services performed
-\[@ImplementingRulesRegulations2016\].[^93]
+[@ImplementingRulesRegulations2016].[^93]
 
 Yet another important category of exempted personal data relates to data
 necessary to carry out the functions of public authority, such as law
 enforcement or regulatory authorities who would necessarily need to
 process personal information as they undertake their investigatory
-functions \[@ImplementingRulesRegulations2016\].[^94] Information
+functions [@ImplementingRulesRegulations2016].[^94] Information
 relevant to enforcement of banking and money-laundering laws are
-similarly exempt \[@ImplementingRulesRegulations2016\].[^95]
+similarly exempt [@ImplementingRulesRegulations2016].[^95]
 
 ***Applicable to specific private sector entities***
 
@@ -1996,7 +1996,7 @@ or networks are deemed as \"Critical Information Infrastructure\" (CII)
 \-\-- systems deemed so vital to the country that interference with
 them, their incapacitation or destruction would have a debilitating
 impact on security, national or economic security, national health, or a
-combination of such matters \[@PrescribingPoliciesRules2017\].[^96]
+combination of such matters [@PrescribingPoliciesRules2017].[^96]
 Private sector entities that have been classified as CIIs are those
 engaged in transportation, energy, water, health, emergency services,
 banking and finance, business process outsourcing, telecommunications,
@@ -2004,37 +2004,37 @@ and media.
 
 CIIs are required to comply with the Philippine National Standard on
 Information Security Management System ISO/IEC 27001
-\[@PrescribingPoliciesRules2017\].[^97] CIIs are required to participate
+[@PrescribingPoliciesRules2017].[^97] CIIs are required to participate
 in an annual security assessment program by DICT that includes a
 security evaluation of operational systems based on ISO/IEC TR
-19791:2010 \[@PrescribingPoliciesRules2017\].[^98] CIIs are also
+19791:2010 [@PrescribingPoliciesRules2017].[^98] CIIs are also
 required to create their own Computer Emergency Response Teams (CERT),
 and to secure from DICT a Certificate of Cybersecurity Compliance based
 on criteria stipulated in ISO/IEC 15408 and ISO 18045 as reference
 standards.
 
 In 2020, through DICT Circular No. 10
-(2020)\[@AmendmentsDepartmentCircular2020\], the Philippine Cloud First
+(2020)[@AmendmentsDepartmentCircular2020], the Philippine Cloud First
 Policy was expanded to cover not just government agencies, but also
 \"cloud service providers, intermediaries, and other private entities
 with transactions, contracts, or data related to, in connection with, or
 arising from the rendition of cloud computing services for the
 Philippine government\"
-\[@PrescribingPhilippineGovernments2017\]\[@AmendmentsDepartmentCircular2020\].[^99]
+[@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^99]
 However, unlike government agencies, such private entities are not
 required to adopt cloud computing as the preferred ICT deployment
 strategy
-\[@PrescribingPhilippineGovernments2017\]\[@AmendmentsDepartmentCircular2020\][^100]
+[@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020][^100]
 or to utilize the data classification models prescribed by the policy
 for government agencies
-\[@PrescribingPhilippineGovernments2017\]\[@AmendmentsDepartmentCircular2020\].[^101]
+[@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^101]
 Such covered private sector entities are, by virtue of the amended
 circular, subject to restrictions when processing government data,
 including the recognition of the authority of the Philippine government
 to determine the management, use, processing, storage, security and
 accessibility of its data with sole control over the encryption keys
 thereto
-\[@PrescribingPhilippineGovernments2017\]\[@AmendmentsDepartmentCircular2020\].[^102]
+[@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^102]
 
 ###### Exceptions to Data Security for Law Enforcement
 
@@ -2052,7 +2052,7 @@ trial courts by virtue of a warrant to intercept computer data that
 allows authorities to listen, record, monitor or surveil the content of
 communications, including the procuring of content of computer data
 through access and use of a computer system
-\[@RuleCybercrimeWarrants2018\]. The application for the warrant must
+[@RuleCybercrimeWarrants2018]. The application for the warrant must
 establish, among others, the existence of a probable cybercrime offense,
 and the communication or computer data that is sought to be intercepted.
 
@@ -2060,7 +2060,7 @@ In connection with suspected terrorists or members of terrorist
 organizations, the 2020 Anti-Terrorism Act allows for the Court of
 Appeals to issue an order authorizing law enforcement or military to
 secretly wiretap, listen to, or intercept any private communications
-between such suspects \[@AntiTerrorismAct2020\]. The order may be issued
+between such suspects [@AntiTerrorismAct2020]. The order may be issued
 by the Court of Appeals upon determination that there is probable cause
 that any of the crimes defined under the Anti-Terrorism Act has been, is
 being, or is about to be committed.
@@ -2069,19 +2069,19 @@ In connection with offenses related to online sexual abuse or
 exploitation of children or child sexual abuse or exploitation
 materials, the 2022 Anti-Online Sexual Abuse or Exploitation of Children
 (OSAEC) and Anti-Child Sexual Abuse or Exploitation Materials (CSAEM)
-Act \[@AntiOnlineSexualAbuse2022\], law enforcement officers may be
+Act [@AntiOnlineSexualAbuse2022], law enforcement officers may be
 authorized by a regional trial court to track, intercept, view, monitor,
 surveil, listen to, and record, by technical or electronic means, any
 communications, information or messages, including the procurement of
 content data, transmitted by means of a computer system involving at
 least one person reasonably believed to have committed violations under
-the said law \[@AntiOnlineSexualAbuse2022\].[^103] In addition, the law
+the said law [@AntiOnlineSexualAbuse2022].[^103] In addition, the law
 specifically states that when the offense involves the use of computer
 systems and digital platforms, a court order shall not be required for a
 law enforcement officer acting in an undercover capacity to intercept a
 communication with a person reasonably believed to have committed,
 committing, or about to commit any of the violations in the said law
-\[@AntiOnlineSexualAbuse2022\].[^104] In instances when an order is
+[@AntiOnlineSexualAbuse2022].[^104] In instances when an order is
 required, the application must establish that: there are reasonable
 grounds to believe that any of the crimes covered has been committed, is
 being committed, or is about to be committed; there are reasonable
@@ -2089,7 +2089,7 @@ grounds to believe that evidence that will be obtained is essential to
 the conviction of any person for, or to the solution of, or to the
 prevention of, any such crime; and there are no other means readily
 available for obtaining such evidence
-\[@AntiOnlineSexualAbuse2022\].[^105]
+[@AntiOnlineSexualAbuse2022].[^105]
 
 # 3 Recommendations Towards Increasing Data Flows
 
@@ -2163,16 +2163,16 @@ government is DPA. The Act has been commonly invoked towards the end of
 denying access to information. At times, the invocation can be
 misplaced, such as when it is intended to shield government data that
 cannot be used to identify specific individuals and is hence outside the
-scope of the Act \[@NotContradictionPrivacy2020\].
+scope of the Act [@NotContradictionPrivacy2020].
 
 Moreover, the law itself acknowledges the right to access of information
 on matters of public concern, thus exempting from its scope personal
 information about public officials relating to their public functions,
 or those performing services under government contracts or about
 recipients of discretionary benefits of a financial nature
-\[@DataPrivacyAct2012\].[^106] The law also excludes information
+[@DataPrivacyAct2012].[^106] The law also excludes information
 necessary to carry out functions of public authorities such as law
-enforcement agencies \[@DataPrivacyAct2012\].[^107] However, Sections 25
+enforcement agencies [@DataPrivacyAct2012].[^107] However, Sections 25
 of the law also imposes criminal penalties including prison time for
 unauthorized processing of personal information, an act that includes
 disclosures of personal information that violate the law. Section 36
@@ -2201,7 +2201,7 @@ data sharing and prescribe any necessary safeguards for the protection
 of individual rights such as that of privacy. The President is
 recognized by the Constitution as having control of all the executive
 departments, bureaus, and offices
-\[@ConstitutionRepublicPhilippines1987\].[^108] By virtue of such
+[@ConstitutionRepublicPhilippines1987].[^108] By virtue of such
 authority, the President may require inter-agency sharing of
 information; the FOI Statute already stands as one standing example, as
 does 1993 Executive Order No. 53, which directs all government agencies
@@ -2257,7 +2257,7 @@ requirement it prescribed through the 2018 Rule on Cybercrime Warrants.
 The Rules do allow law enforcement authorities to, without need of
 judicial intervention, direct service providers to preserve traffic data
 for a period of six months from the date of transaction
-\[@RuleCybercrimeWarrants2018\].[^109] However, law enforcement is not
+[@RuleCybercrimeWarrants2018].[^109] However, law enforcement is not
 able to access such preserved traffic data without obtaining from a
 court a Warrant to Disclose Computer Data (WDCD). The WDCD is also
 resorted to for law enforcement to obtain subscriber information and
@@ -2271,7 +2271,7 @@ probable cause requirement, probable cause requiring \"such facts and
 circumstances that would lead a reasonably prudent man to believe that
 an offense has been committed and the objects sought in connection with
 that offense are in the place to be searched\"
-\[@MicrosoftCorporationLotus2004\]. The Rules on Cybercrime Warrants
+[@MicrosoftCorporationLotus2004]. The Rules on Cybercrime Warrants
 conflate the warrant requirements for traffic data, content data, and
 subscriber information even if the Budapest Convention differentiates
 all three. These burdensome requirements were necessitated by the
@@ -2305,7 +2305,7 @@ available in the Philippines to compel the production of evidence, such
 as a subpoena which does not require the prior establishment of probable
 cause as required by the Constitution, subjected as it is by a mere
 determination of relevance to the issue subject of the controversy
-\[@DomingoRocoEdwardo2005\]. The judicial oversight that the Supreme
+[@DomingoRocoEdwardo2005]. The judicial oversight that the Supreme
 Court determined was necessary to ensure that individual privacy
 concerns are not overridden can be established through a subpoena-like
 process.
@@ -2317,7 +2317,7 @@ for a resort to legislative measures. The Constitution vests on the
 Supreme Court the exclusive power to \"promulgate rules concerning the
 protection and enforcement of constitutional rights, pleading, practice,
 and procedure in all courts\"
-\[@ConstitutionRepublicPhilippines1987\].[^110] Only the Supreme Court
+[@ConstitutionRepublicPhilippines1987].[^110] Only the Supreme Court
 may enact procedural rules, including rules governing the issuance of
 both warrants and subpoenas. Thus, the expeditious measures required
 under the Budapest Convention, should they involve judicial intervention
@@ -2345,7 +2345,7 @@ framework.
 # 4 References
 
 [^1]: The FOI website may be found here:
-    \[@FreedomInformationPhilippines\].
+    [@FreedomInformationPhilippines].
 
 [^2]: Other founding members are Brazil, Indonesia, Mexico, Norway,
     South Africa, the United Kingdom, and the United States.
@@ -2369,7 +2369,7 @@ framework.
 [^11]: ISO/IEC 27002 is an international standard that provides guidance
     on the establishment, implementation and improvement of and
     Information Security Management System. For additional information,
-    please see \[@ISOIEC27002\].
+    please see [@ISOIEC27002].
 
 [^12]: ISO/IEC 27018 establishes control objectives, controls and
     guidelines for the implementation of measures to protect personally
@@ -2379,7 +2379,7 @@ framework.
 
 [^14]: See Section 4(ii) of the Policy.
 
-[^15]: See Section 17 of the Act. See also \[@PCCNotificationForm\]
+[^15]: See Section 17 of the Act. See also [@PCCNotificationForm]
 
 [^16]: See Section 16 of the Act.
 
@@ -2438,8 +2438,8 @@ framework.
 
 [^35]: See Rule 13.
 
-[^36]: See \[@ActPunishEspionage1941\] Article 117, 120;
-    \[@ActPunishEspionage1941\] Sections 1\--3, 10.
+[^36]: See [@ActPunishEspionage1941] Article 117, 120;
+    [@ActPunishEspionage1941] Sections 1\--3, 10.
 
 [^37]: See Article XIV, Section 17 of the Constitution.
 
@@ -2488,7 +2488,7 @@ framework.
 
 [^45]: See Section 12.2 of the Policy.
 
-[^46]: \[@AMLA2001Amended2018\] lists the following covered persons:
+[^46]: [@AMLA2001Amended2018] lists the following covered persons:
 
     The following are the covered persons under the AMLA:
 
@@ -2611,7 +2611,7 @@ framework.
 
 [^60]: See Section 37 of the Act.
 
-[^61]: See Section 6 of \[@MotorcycleCrimePrevention2019\].
+[^61]: See Section 6 of [@MotorcycleCrimePrevention2019].
 
 [^62]: By virtue of the 1973 Constitution and the Transitory Clauses of
     the 1987 Constitution, Presidential Decrees and Executive Orders
@@ -2622,7 +2622,7 @@ framework.
 [^63]: However, the LTO was recently required under the 2022 Vintage
     Vehicle Regulation Act to maintain a database of all operating
     \"vintage vehicles\" manufacture 40 or more years ago. See
-    \[@VintageVehicleRegulation2022\], Section 19 (RA 11698).
+    [@VintageVehicleRegulation2022], Section 19 (RA 11698).
 
 [^64]: See Rule 7.2(7) of the Act.
 
@@ -2705,7 +2705,7 @@ framework.
 
 [^89]: See Sec. 4(d) of the Act.
 
-[^90]: See also \[@NPCAdvisoryOpinion2017\] on the use of the
+[^90]: See also [@NPCAdvisoryOpinion2017] on the use of the
     journalistic purposes exemption.
 
 [^91]: See Sec. 5(b) of the Act.
@@ -2724,19 +2724,19 @@ framework.
 
 [^98]: See Section IV, Part C of the Policy.
 
-[^99]: \[@PrescribingPhilippineGovernments2017\] as amended by
-    \[@AmendmentsDepartmentCircular2020\], Section 3.1.
+[^99]: [@PrescribingPhilippineGovernments2017] as amended by
+    [@AmendmentsDepartmentCircular2020], Section 3.1.
 
-[^100]: \[@PrescribingPhilippineGovernments2017\] as amended by
-    \[@AmendmentsDepartmentCircular2020\],
+[^100]: [@PrescribingPhilippineGovernments2017] as amended by
+    [@AmendmentsDepartmentCircular2020],
 
     Section 5.2.
 
-[^101]: \[@PrescribingPhilippineGovernments2017\] as amended by
-    \[@AmendmentsDepartmentCircular2020\], Section 9.2.
+[^101]: [@PrescribingPhilippineGovernments2017] as amended by
+    [@AmendmentsDepartmentCircular2020], Section 9.2.
 
-[^102]: \[@PrescribingPhilippineGovernments2017\] as amended by
-    \[@AmendmentsDepartmentCircular2020\], Section 14.1.
+[^102]: [@PrescribingPhilippineGovernments2017] as amended by
+    [@AmendmentsDepartmentCircular2020], Section 14.1.
 
 [^103]: See Section 23 of the Act.
 

@@ -105,7 +105,7 @@ and protection, and 3) data industry promotion (see Table 1).
 +========================+========================+===================+
 
 Source: Korean Data Industry White Paper 2022, KDA
-\[@KDADataIndustry2022\].
+[@KDADataIndustry2022].
 
 ## 1.1 Data Protection Laws
 
@@ -141,7 +141,7 @@ including communication, as a fundamental right. Its Constitutional
 Court and Supreme Court have ruled that the right to informational
 self-determination -- the individual's right to control their personal
 information -- is a distinct fundamental right
-\[@parkSouthKoreaData2021\].
+[@parkSouthKoreaData2021].
 
 The legislative drive towards stringent data protection was
 significantly influenced by a series of high-profile cyberattacks and
@@ -227,7 +227,7 @@ instance, PIPC imposed a penalty surcharge of KRW 6.7 billion (approx.
 \$5.2 million) on a global social media firm for providing personal data
 to a third-party operator without consent in 2020, and KRW 6.44 billion
 (\$5 million) for another firm for using personally recognizable facial
-images without consent in 2021 \[@parkSouthKoreaData2021\].
+images without consent in 2021 [@parkSouthKoreaData2021].
 
 #### 1.1.1.1 Challenges of the 2011 PIPA 
 
