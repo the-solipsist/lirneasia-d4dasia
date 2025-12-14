@@ -5,7 +5,7 @@ on:
     # Trigger on main AND any branch starting with "test"
     branches: [ 'main', 'test*' ]
     paths:
-      - 'country/**/*.qmd'
+      - 'reports/**/*.qmd'
       - '_quarto.yml'
       - '_extensions/**'
       - 'shared/**'
