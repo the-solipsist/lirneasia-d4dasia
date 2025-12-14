@@ -1,101 +1,3 @@
-Oliver Reyes
-
-October 2025
-
-# About LIRNEasia
-
-LIRNEasia is a pro-poor, pro-market regional policy think tank. Our
-mission is *Catalysing policy change and solutions through research to
-improve the lives of people in the Asia and Pacific using knowledge,
-information and technology.*
-
-Address: 15 2/1, Balcombe Place, Colombo 8, Sri Lanka.
-
-Telephone: +94 11 267 1160
-
-Email: [[info@lirneasia.net]{.underline}](mailto:info@lirneasia.net)
-
-Website: [[https://lirneasia.net/]{.underline}](https://lirneasia.net/)
-
-Twitter -
-[[https://x.com/LIRNEasia]{.underline}](https://x.com/LIRNEasia)
-
-Facebook -
-[[https://www.facebook.com/lirneasia/]{.underline}](https://www.facebook.com/lirneasia/)
-
-YouTube --
-[[https://www.youtube.com/@LIRNEasia-]{.underline}](https://www.youtube.com/@LIRNEasia-)
-
-LinkedIn -
-[[https://lk.linkedin.com/company/lirneasia]{.underline}](https://lk.linkedin.com/company/lirneasia)
-
-Instagram -
-[[https://www.instagram.com/lirneasia/?hl=en]{.underline}](https://www.instagram.com/lirneasia/?hl=en)
-
-# About this report
-
-This work was carried out with the aid of a grant from the International
-Development Research Centre, Ottawa, Canada. The views expressed herein
-do not necessarily represent those of IDRC or its Board of Governors.
-
-# Table of Contents
-
-[***About LIRNEasia 2***](#about-lirneasia)
-
-[***About this report 2***](#about-this-report)
-
-[***Table of Contents 3***](#table-of-contents)
-
-> [**Table of Figures 4**](#table-of-figures)
->
-> [**List of Tables 4**](#list-of-tables)
->
-> [**Abbreviations 5**](#abbreviations)
-
-[***Executive Summary 1***](#executive-summary)
-
-[***1 Introduction 7***](#introduction)
-
-> [1.1 Structure of the report 8](#structure-of-the-report)
->
-> [1.1.1 Governance background 8](#governance-background)
->
-> [1.1.2 Increasing openness / access 8](#increasing-openness-access)
->
-> [1.1.3 Decreasing openness / access 8](#decreasing-openness-access)
-
-[***2 Overview of the Philippine Data Governance Landscape
-9***](#overview-of-the-philippine-data-governance-landscape)
-
-> [2.1 Policies that Increase Access to Data
-> 10](#policies-that-increase-access-to-data)
->
-> [2.2 Policies that Decrease Openness
-> 22](#policies-that-decrease-openness)
-
-[***3 Recommendations Towards Increasing Data Flows
-42***](#recommendations-towards-increasing-data-flows)
-
-> [3.1 Absence of a Unified/Centralized Framework for Inter-Government
-> Sharing and Providing Open Access to Government Data
-> 42](#absence-of-a-unifiedcentralized-framework-for-inter-government-sharing-and-providing-open-access-to-government-data)
->
-> [3.2 Increasing Access to Traffic Data
-> 44](#increasing-access-to-traffic-data)
-
-[***4 References 46***](#references)
-
-## Table of Figures
-
-[Figure 1: Screenshot 1 4](#_heading=h.y9i4duppyjiw)
-
-[Figure 2: Screenshot 2 4](#_heading=h.4v1ow04ec2sx)
-
-## List of Tables
-
-[Table 1: Number of FGDs 4](#_heading=h.slrx3n2g626z)
-
-## Abbreviations
 
 # Executive Summary
 
@@ -400,7 +302,6 @@ the Convention\'s obligations for expedited disclosure. Expediting
 access to traffic data is deemed a necessity for comprehensive
 cybercrime investigations.
 
-#  
 
 # 1 Introduction
 
