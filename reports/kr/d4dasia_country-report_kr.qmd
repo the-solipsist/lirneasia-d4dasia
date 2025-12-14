@@ -283,7 +283,7 @@ external hacking, technical failures, or human errors. As a result,
 business leaders often became reluctant to champion data-driven
 initiatives, and companies faced growing difficulty in recruiting
 qualified professionals willing to assume the legally risky role of
-overseeing data protection \[yoonPersonalInfo2020\].
+overseeing data protection [@yoonPersonalInfo2020].
 
 ### 1.1.2 2023 Amendments and Data Industry Promotion Acts 
 
@@ -377,7 +377,7 @@ Definitions and examples***
 +======================+=======================+======================+
 
 Source: Adapted from Shin & Kim (2021), Dokdok.co (2021), and Kim EC,
-Kim EY, Lee HC & Yoo BJ (2021)\[kimDetailsOutlookThree2021\].
+Kim EY, Lee HC & Yoo BJ (2021)[@kimDetailsOutlookThree2021].
 
 The 2023 amendments, which took effect in September 2023, introduced
 further guardrails in response to emerging technologies such as
