@@ -58,7 +58,7 @@
   XBRL          eXtensible Business Reporting Language
   ---------------------------------------------------------------------------
 
-# 1 Introduction
+# Introduction
 
 This report is part of the Data for Development project which aims, *inter alia*, to create and mobilize new knowledge about tensions, gaps, and the evolution of the data governance ecosystem taking into account formal and informal policies and practices.
 
@@ -627,7 +627,7 @@ Although the Open Source Education and Development Association (OSEDA) aims to p
 
 While Indonesia has issued Presidential Regulation No. 95/2018 on Electronic-Based Government System (SPBE), the Philippines ICT Office has issued circulars to implement specifications that comply with open standards but does not specify any open standards. Sri Lanka has a policy which specifies a set of open standards, but the policy is only in the draft stage. Nepal has two policies which recommend adoption of open standards, one was issued only in 2023 so it is too early to comment upon its effect, but the other which was issued in 2011 and even provides for a comprehensive plan and detailed standards with best practices, has still not been implemented. Only Thailand has an existing policy which is a handbook which specifies WCAG 2.0 as a specific standard for government websites.
 
-#### 2.1.6.1 India
+#### India
 
 The Indian government has taken several steps to promote open standards in both public and private sectors. In 2010, India adopted a national policy on open standards for e-governance, although its implementation has been limited, despite various e-Gov standards having been notified [@hariharanOpenStandardsPolicy2010] [@departmentofinformationtechnologyPolicyOpenStandards2010]. The government has also introduced Guidelines for Indian Government Websites (GIGW), which adopt the Web Content Accessibility Guidelines (WCAG) for governmental websites and apps [@nationalinformaticscentreGuidelinesIndianGovernment2023]. A 2012 analysis had already revealed that many government websites were not fully compliant with these guidelines, referring to the 2009 version of the Guidelines [@narasimhanAccessibilityGovernmentWebsites2012]. The concept of \"Digital Public Infrastructure\" has been promoted by the government, emphasizing interoperability and open standards [@SummaryUnionBudget2023].
 

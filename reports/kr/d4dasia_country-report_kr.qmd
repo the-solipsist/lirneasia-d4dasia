@@ -72,9 +72,9 @@ Examples of these laws can be broadly categorized into three interrelated domain
 
 Source: Korean Data Industry White Paper 2022, KDA [@KDADataIndustry2022].
 
-## 1.1 Data Protection Laws
+## Data Protection Laws
 
-### 1.1.1 Personal Information Protection Act (PIPA)
+### Personal Information Protection Act (PIPA)
 
 A defining strength of South Korea's approach to data governance is its pioneering and stringent legal framework on data privacy protection. Referred to as the 'Three Data Laws' in Korea, there are three major laws that underpin the responsible use and rigorous protection of personal information: the Personal Information Protection Act (PIPA), the Promotion of Information and Communications Network Utilization and Information Protection Act (\'Network Act\'), and the Credit Information Protection Act (\'Credit Information Act\').
 
@@ -98,7 +98,7 @@ PIPA places strict responsibilities on organizations that handle personal data. 
 
 PIPA is enforced primarily by the Personal Information Protection Committee (PIPC), the central data protection regulatory authority. It can investigate complaints, issue corrective orders, and impose significant fines. Before the 2020 amendments, serious violations could even result in imprisonment or heavy administrative fines. Additionally, data handlers may have civil liability to any data subjects who suffer from the violation. The PIPC and related agencies, such as the Korean Communications Commission (KCC) and the Financial Services Commission (FSC), have been proactive in enforcing PIPA. In high-profile cases, for instance, PIPC imposed a penalty surcharge of KRW 6.7 billion (approx. \$5.2 million) on a global social media firm for providing personal data to a third-party operator without consent in 2020, and KRW 6.44 billion (\$5 million) for another firm for using personally recognizable facial images without consent in 2021 [@parkSouthKoreaData2021].
 
-#### 1.1.1.1 Challenges of the 2011 PIPA
+#### Challenges of the 2011 PIPA
 
 South Korea's strict data protection laws were pioneering moves towards a rights-based, comprehensive data privacy regime in the midst of accelerating digitization and growing threats to cybersecurity. However, as the landscape of digital technology evolved, particularly around the utilization of large-scale data, these stringent data protection laws began to face new challenges and limitations. The emergence of big data innovation, followed by artificial intelligence, requires more flexible approaches and clear guidelines that can foster data-driven innovation in the private sector.
 
@@ -108,7 +108,7 @@ While mergers and acquisitions (M&A) are a common practice in the tech industry,
 
 Further, the PIPA's heavy penalties and criminal liability for data protection officers created a psychological barrier that discouraged businesses from actively pursuing new data innovation. The role of data protection officers, including designated Chief Privacy Officers, was defined quite broadly. Depending on the nature of the violation, it could trigger investigations that extended to the business's top leadership, including CEOs and CTOs. These accountability provisions applied not only to deliberate misconduct such as data theft or unauthorized disclosure, but also to accidental incidents arising from external hacking, technical failures, or human errors. As a result, business leaders often became reluctant to champion data-driven initiatives, and companies faced growing difficulty in recruiting qualified professionals willing to assume the legally risky role of overseeing data protection [@yoonPersonalInfo2020].
 
-### 1.1.2 2023 Amendments and Data Industry Promotion Acts
+### 2023 Amendments and Data Industry Promotion Acts
 
 With the growing recognition of data as a strategic resource for the 4th industrial revolution, the South Korean National Assembly began to acknowledge the limitations of the existing data protection laws. In 2018, it initiated a series of 'legal hackathons', bringing together business and legal experts, government agencies, academics, and civil society to discuss the key issues and recommend improvements to the proposed amendments. As a result, significant amendments were introduced to the three data laws in 2020, followed by further reforms in 2023, with the goal of achieving a more effective balance between data privacy and data-driven innovation.
 
@@ -166,7 +166,7 @@ The law officially acknowledges data as important 'assets with economic value', 
 
 # 
 
-# 2 Lessons Learned from the South Korean Experience
+# Lessons Learned from the South Korean Experience
 
 As a global frontrunner in digital transformation, South Korea was an early mover in establishing a comprehensive legal framework to safeguard citizens' data privacy and security in the early 2010s. Its decade-long experience, marked by various trials and errors in data governance, illuminates the challenges and complexities of balancing privacy rights with the demands of data-driven innovation in a rapidly evolving technology landscape.
 
@@ -182,7 +182,7 @@ Lastly, while remaining anchored in core democratic principles, data protection 
 
 Data privacy and industry innovation should not be seen as opposing forces or the two ends of the data protection spectrum. Instead, its relationship can be understood as mutually reinforcing and complementary in the digital ecosystem. Privacy should serve not as a constraint, but as a foundational value upon which ethical and sustainable innovation is built. A data protection model that places privacy at its core, enabling the responsible reuse, combining, and sharing of data, can create a virtuous cycle in which trust supports innovation, and innovation reinforces trust. Emphasizing privacy not only safeguards individual rights but also fosters a safe environment conducive to fair and responsible technological advancement. As demonstrated in the South Korean case, achieving such a framework requires not only sound legislation but also institutional coordination, active stakeholder engagement, and a readiness to learn from both domestic lessons and global best practices.
 
-# 3 References
+# References
 
 DLA Piper. (2023). *Data Protection Laws of the World Handbook 2023*. [[https://www.dlapiperdataprotection.com/]{.underline}](https://www.dlapiperdataprotection.com/) Retrieved October 10, 2023.
 
