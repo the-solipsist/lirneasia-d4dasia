@@ -38,7 +38,7 @@
   USD      United States Dollar
   -------- ------------------------------------------------------------
 
-{{\< include ../common/about-this-report.qmd \>}}
+{{< include ../common/about-this-report.qmd >}}
 
 # South Korea\'s data laws: An overview
 

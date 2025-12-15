@@ -2,22 +2,27 @@ name: Render and Publish Reports
 
 on:
   push:
-    # Trigger on main AND any branch starting with "test"
     branches: [ 'main', 'test*' ]
-    paths:
+    # NEW: Trigger on version tags (v1.0, v2.0, etc.)
+    tags: [ 'v*' ] 
+    paths: &trigger_paths
       - 'reports/**/*.qmd'
       - '_quarto.yml'
       - '_extensions/**'
-      - 'shared/**'
-      - '_scripts/**'
-      - '.github/workflows/publish-reports.yml'
-  workflow_dispatch:
+      - 'bibliography/**'
+  
+  pull_request:
+    branches: [ 'main' ]
+    paths: *trigger_paths
+    types: [opened, synchronize, reopened, closed]
 
 permissions:
-  contents: write # Required for releases
+  contents: write
+  pull-requests: write
 
 jobs:
   build-and-publish:
+    if: github.event.action != 'closed'
     runs-on: ubuntu-latest
     
     steps:
@@ -25,6 +30,32 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: main-repo
+          fetch-depth: 0
+
+      - name: Get Date and Tags
+        id: metadata
+        working-directory: main-repo
+        run: |
+          echo "date=$(date +'%Y-%m-%d %H:%M')" >> $GITHUB_OUTPUT
+          echo "short_date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+          echo "commit=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
+      # Notify Start (Safely)
+      - name: Notify Build Start
+        if: github.event_name == 'pull_request'
+        id: notify_start
+        uses: actions/github-script@v7
+        continue-on-error: true # Don't crash if API fails
+        with:
+          script: |
+            const prNumber = context.issue.number;
+            const { data: comment } = await github.rest.issues.createComment({
+              issue_number: prNumber,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `⏳ **Building PDF Preview...**\n\nThis comment will update when the files are ready.`
+            });
+            return comment.id;
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -35,43 +66,89 @@ jobs:
         working-directory: main-repo
         run: quarto render
 
-      - name: Collect PDFs
-        working-directory: main-repo
-        run: |
-          mkdir -p d4dasia_report-pdfs
-          cp report_pdfs/*.pdf d4dasia_report-pdfs/
-
       - name: Zip PDFs
-        working-directory: main-repo/d4dasia_report-pdfs
+        working-directory: main-repo/report_pdfs
         run: zip -r ../d4dasia_report-pdfs.zip .
 
-      # --- BRANCH SPECIFIC LOGIC STARTS HERE ---
-
-      # CASE 1: Test Branch -> Upload Artifact (Temporary)
-      - name: Upload Artifact (Test Branch)
-        if: startsWith(github.ref, 'refs/heads/test')
-        uses: actions/upload-artifact@v4
-        with:
-          name: d4dasia_report-pdfs
-          path: main-repo/d4dasia_report-pdfs/*.pdf
-          retention-days: 14
-
-      # CASE 2: Main Branch -> Create Release (Permanent)
-      - name: Generate Release Tag
-        if: github.ref == 'refs/heads/main'
-        id: tag
-        run: |
-          echo "release_tag=$(date +'%Y-%m-%d')-$(git -C main-repo rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-
-      - name: Release (Main Branch)
-        if: github.ref == 'refs/heads/main'
+      # --- CASE 1: PR PREVIEW ---
+      
+      - name: Publish Preview Release (PR)
+        if: github.event_name == 'pull_request'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.tag.outputs.release_tag }}
-          name: Report Build ${{ steps.tag.outputs.release_tag }}
+          tag_name: preview-pr-${{ github.event.pull_request.number }}
+          name: "Preview: PR #${{ github.event.pull_request.number }}"
+          body: |
+            **⚠️ Work in Progress**
+            Preview for PR #${{ github.event.pull_request.number }}.
+            
+            *(Updated at: ${{ steps.metadata.outputs.date }})*
           files: |
-            main-repo/d4dasia_report-pdfs/*.pdf
+            main-repo/report_pdfs/*.pdf
             main-repo/d4dasia_report-pdfs.zip
           draft: false
           prerelease: true
-          overwrite_files: true 
+          overwrite_files: true
+
+      - name: Update Comment with Link
+        # HARDENED: Only run if it's a PR AND the start comment actually succeeded
+        if: github.event_name == 'pull_request' && steps.notify_start.outputs.result
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const commentId = ${{ steps.notify_start.outputs.result }};
+            const ownerName = context.repo.owner;
+            const repoName = context.repo.repo;
+            const tagName = `preview-pr-${context.issue.number}`;
+            const downloadLink = `https://github.com/${ownerName}/${repoName}/releases/download/${tagName}/d4dasia_report-pdfs.zip`;
+            
+            await github.rest.issues.updateComment({
+              comment_id: commentId,
+              owner: ownerName,
+              repo: repoName,
+              body: `✅ **PDF Preview Ready!**\n\n📥 **[Download PDFs (Zip)](${downloadLink})**`
+            });
+
+      # --- CASE 2: MAIN BRANCH SNAPSHOT (Draft) ---
+
+      - name: Release (Main Snapshot)
+        # Run only on pushes to 'main' that are NOT tags
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.metadata.outputs.short_date }}-${{ steps.metadata.outputs.commit }}
+          name: "Current Draft: ${{ steps.metadata.outputs.short_date }}"
+          files: |
+            main-repo/report_pdfs/*.pdf
+            main-repo/d4dasia_report-pdfs.zip
+          draft: false
+          prerelease: false 
+          overwrite_files: true
+
+      # --- CASE 3: FINAL RELEASE (Official v1.0) ---
+
+      - name: Release (Official Version)
+        # Run only if the push is a TAG starting with 'v'
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          # Note: We don't specify tag_name because the trigger IS the tag
+          files: |
+            main-repo/report_pdfs/*.pdf
+            main-repo/d4dasia_report-pdfs.zip
+          draft: false
+          prerelease: false # This is the "Stable" release
+          generate_release_notes: true # GitHub auto-generates a changelog
+
+  # JOB 2: CLEANUP
+  cleanup-preview:
+    if: github.event.action == 'closed' && github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete Preview Release and Tag
+        uses: dev-drprasad/delete-tag-and-release@v1.1
+        with:
+          tag_name: preview-pr-${{ github.event.pull_request.number }}
+          delete_release: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

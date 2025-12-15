@@ -1,4 +1,4 @@
-{{\< include ../common/about-this-report.qmd \>}}
+{{< include ../common/about-this-report.qmd >}}
 
 # Executive Summary
 
@@ -90,7 +90,7 @@ The DPA is also frequently invoked to deny access, sometimes inaccurately, even 
 
 Another critical area for improvement is increasing access to traffic data for law enforcement. The Supreme Court\'s ruling in *Disini v. Secretary of Justice* that made a judicial warrant a requirement for traffic data collection has hampered cybercrime investigations, as traffic data is often the first step in identifying anonymous online criminals. The Budapest Convention on Cybercrime, which the Philippines acceded to in 2018, distinguishes traffic data from content data and subscriber information, requiring \"expeditious disclosures\" of traffic data to identify service providers and communication paths, without necessitating a judicial warrant (only a \"production order\"). The current warrant requirement in the Philippines, which conflates traffic, content, and subscriber data, is seen as burdensome and contrary to the Convention\'s differentiated treatment and call for expediency. Since the Supreme Court has exclusive power to promulgate procedural rules, it could modify existing rules to introduce a subpoena-like process for traffic data, balancing the court\'s concern for individual privacy with the Convention\'s obligations for expedited disclosure. Expediting access to traffic data is deemed a necessity for comprehensive cybercrime investigations.
 
-{{\< include ../common/introduction.qmd \>}}
+{{< include ../common/introduction.qmd >}}
 
 # Introduction
 

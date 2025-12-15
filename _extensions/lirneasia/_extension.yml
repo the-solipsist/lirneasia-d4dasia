@@ -18,8 +18,14 @@ contributes:
         - page.typ
       variables:
         images:
-          la-background-first: assets/logos/la-background-first.svg
-          la-background: assets/logos/la-background.svg
-          la-logo: assets/logos/la-logo-full.png
+          la-background-first: 
+            path: assets/logos/la-background-first.svg
+            alt: Grey LIRNEasia Morse Code logo for background
+          la-background: 
+            path: assets/logos/la-background.svg
+            alt: Grey LIRNEasia Morse Code logo for background
+          la-logo: 
+            path: assets/logos/la-logo-full.png
+            alt: LIRNEasia logo, full
       format-resources:
         - assets/logos

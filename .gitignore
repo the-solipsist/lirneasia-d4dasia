@@ -34,3 +34,5 @@ template_files
 !COPYING.md
 !COPYING-0BSD.md
 **/*.quarto_ipynb
+
+/.luarc.json
