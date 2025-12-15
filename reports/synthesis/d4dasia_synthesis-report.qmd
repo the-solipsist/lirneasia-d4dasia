@@ -162,7 +162,7 @@ The first part looks at the constitutional provisions and statutory laws that en
 
 **Does the right to information have constitutional status? Is there an RTI Act? What is the scope of the RTI Act? Is proactive disclosure mandated or only reactive disclosure? Are there exceptions?**
 
-###### **Table 1: Laws and policies on the right to information**
+###### Table 1: Laws and policies on the right to information
 
 +-------------+---------------------------------------------------------------------+
 | Country     | Laws/policies on the right to information                           |
@@ -246,7 +246,7 @@ Section 58 of the Thai Constitution B.E.2540 (1997) was the first provision that
 
 Similar to the right to information, all jurisdictions have a statutory requirement for collection of statistical data to help with various development activities of the government. The mandate of such statutes is usually implemented through a dedicated office or authority which is also responsible for making the data accessible to the public. Further, in the cases of India, the Philippines and Thailand, other government agencies and departments are also mandated to cooperate with this agency in order to collect and maintain the data and databases.
 
-###### **Table 2: Laws and policies on the collection of statistics**
+###### Table 2: Laws and policies on the collection of statistics
 
 +-----------------------------------+--------------------------------------------------+
 | Country                           | Laws/policies on the collection of statistics    |
@@ -308,7 +308,7 @@ Section 6 of the Statistics Act B.E. 2550 (2007) imposes the responsibility on t
 
 All the countries studied have a national archive which is maintained according to a statutory framework and a specific authority is responsible for the collection and maintenance of the materials as well as for allowing access to the same to individuals. Other than archiving legislation there are other legislations which also allow for dissemination of information to the public such as the property registry and certain civil records which are openly accessible to the public in Philippines, while environmental data is mandated to be disclosed by the Indonesian Environmental Protection and Management Act, Law No. 32/2009.
 
-###### **Table 3: Other laws/policies requiring proactive disclosure of information**
+###### Table 3: Other laws/policies requiring proactive disclosure of information
 
 +-----------------------------------+----------------------------------------------------------------------------------------+
 | Country                           | Other laws/policies requiring proactive disclosure                                     |
@@ -403,7 +403,7 @@ In order to explore the open data framework in the jurisdictions studied we aske
 
 **1. Does any legislation or policy require open data? Are there any websites which proactively make data available? If there's an open data portal, how** **effective is it?**
 
-###### **Table 4: Laws and policies on open data**
+###### Table 4: Laws and policies on open data
 
 +-----------------------------------+----------------------------------------------------------------------------------+
 | Country                           | Laws/policies on open data                                                       |
@@ -533,7 +533,7 @@ In 2023 the Digital Government Development Committee issued an Announcement on D
 
 **Is there a policy that requires free/libre/open source software to be preferred by the Government?**
 
-###### **Table 5: Laws and policies on FOSS**
+###### Table 5: Laws and policies on FOSS
 
 +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Country                           | Laws/policies on FOSS                                                                                                                                                                                           |
@@ -595,7 +595,7 @@ Although the Open Source Education and Development Association (OSEDA) aims to p
 
 **Is there a policy that requires open standards to be preferred by the Government or requires specific open standards to be used by the Government?**
 
-###### **Table 6: Laws and policies on open standards**
+###### Table 6: Laws and policies on open standards
 
 +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
 | Country                           | Laws/policies on the right to information                                                                                        |
@@ -665,7 +665,7 @@ In 2012, the Electronic Government Agency or the EGA (i.e., the predecessor of t
 
 **1. Are there any data retention or data localization requirements?**
 
-###### **Table 7: Laws and policies on data retention or localization**
+###### Table 7: Laws and policies on data retention or localization
 
 +-----------------------------------+----------------------------------------------------------------------------------------+
 | Country                           | Laws/policies on data retention or localization                                        |
@@ -784,7 +784,7 @@ There are two main laws which impose regulations on data retention. The first is
 
 **2. Are there any restrictions to the right to access information such as national security, public order, privacy, etc.?**
 
-###### **Table 8 Laws and policies regarding restrictions on access to information**
+###### Table 8 Laws and policies regarding restrictions on access to information
 
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Country                           | Laws/policies on restricting access to information                                                                      |
@@ -889,7 +889,7 @@ Under the 2017 Thai Constitution, the constitutional rights and liberties may be
 
 **3. Are there any exceptions to data protection for law enforcement such as interception, etc.?**
 
-###### **Table 9 Laws and policies on exceptions to privacy for law enforcement**
+###### Table 9 Laws and policies on exceptions to privacy for law enforcement
 
 +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------+
 | Country                           | Laws/policies on exceptions to privacy for law enforcement                                                                 |
@@ -999,7 +999,7 @@ There are certain pieces of legislation that allow authorities to conduct survei
 
 **1. Does the privacy law have any restriction on cross border data transfers?**
 
-###### **Table 10 Restrictions on cross-border data transfers in country privacy laws**
+###### Table 10 Restrictions on cross-border data transfers in country privacy laws
 
 +-----------------------------------+------------------------------------------------------------------------------------------------------------------+
 | Country                           | Laws/policies on the right to information                                                                        |
@@ -1065,7 +1065,7 @@ The provision which regulates the transfer of personal data from Thailand to oth
 
 **2. Are there any exceptions or exemptions (either full or limited) under data protection laws for large scale data scraping, e.g., for creating search engines or as training data for machine learning models?**
 
-###### **Table 11: Exemptions to data protection laws for data scraping**
+###### Table 11: Exemptions to data protection laws for data scraping
 
 +-----------------------------------+-----------------------------------------------------------------------------------------------------+
 | Country                           | Exemptions to data protection laws for data scraping                                                |
@@ -1133,7 +1133,7 @@ The Personal Data Protection Act 2019 is the primary legislation that safeguards
 
 Thailand, India, Indonesia, Pakistan, Sri Lanka, and the Philippines have specific exemptions in their copyright laws for use for research purposes, though restricted in many cases. While Nepal doesn't provide an exception for research, it still covers educational purposes and libraries.
 
-###### **Table 12: Exceptions to copyright law for research purposes**
+###### Table 12: Exceptions to copyright law for research purposes
 
 +-----------------------------------+-------------------------------------------------------------------------+
 | Country                           | Laws/policies on the right to information                               |
@@ -1202,7 +1202,7 @@ Copyright law in Thailand recognizes exceptions for research purposes. Section 3
 
 General Comment: None of the countries studied, with the possible exception of India, have specific exceptions for training AI models, while some like Thailand and India have exceptions that cover search engines' storage of copyrighted materials, as those are "incidental."
 
-###### **Table 13: Exceptions to copyright law for training AI models or search engines**
+###### Table 13: Exceptions to copyright law for training AI models or search engines
 
 +-----------------------------------+-------------------------------------------------------------------+
 | Country                           | Exceptions to copyright law for training AI models/search engines |
@@ -1263,7 +1263,7 @@ As far as machine learning is concerned, there is no specific provision that add
 
 None of the jurisdictions studied specifically grant copyright to literary, artistic, musical, etc., works generated by AI, but none explicitly prohibit copyright existing over such works. The Indian law specifically provides authorship over computer-generated works to the person who causes the work to be created.
 
-###### **Table 14: Recognition of copyright in work generated by AI**
+###### Table 14: Recognition of copyright in work generated by AI
 
 +-----------------------------------+--------------------------------------------------------------+
 | Country                           | Laws/policies on the right to information                    |

@@ -3,7 +3,7 @@
 {{< include ../common/introduction.qmd >}}
 
 
-### **Overview of the Pakistan Data Governance Landscape**
+### Overview of the Pakistan Data Governance Landscape
 
 **Overview of data governance regime**
 
