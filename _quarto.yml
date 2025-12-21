@@ -2,7 +2,7 @@ project:
   title: "Data for Development: Asia"
   type: lirneasia
   render:
-    - "reports/*/*.qmd"
+    - "reports/*/d4dasia*.qmd"
     - "!reports/common/*.qmd" # Do not render included files
   post-render: quarto run _scripts/link-pdfs.ts
   
@@ -38,7 +38,7 @@ citeproc: true
 format:
   lirneasia-typst:
     # Keeps intermediate files for debugging. 
-    # (See note below about .gitignore)
+    # (They're ignored by git, thanks to .gitignore)
     keep-typ: true 
     keep-md: true
 
