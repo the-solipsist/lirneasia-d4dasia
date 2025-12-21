@@ -127,7 +127,7 @@ jobs:
             main-repo/report_pdfs/*.pdf
             main-repo/d4dasia_report-pdfs.zip
           draft: false
-          prerelease: false 
+          prerelease: true
           overwrite_files: true
 
       # --- CASE 3: FINAL RELEASE (Official v1.0) ---
