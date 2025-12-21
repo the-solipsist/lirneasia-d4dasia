@@ -27,5 +27,3 @@ contributes:
           la-logo: 
             path: assets/logos/la-logo-full.png
             alt: LIRNEasia logo, full
-      format-resources:
-        - assets/logos

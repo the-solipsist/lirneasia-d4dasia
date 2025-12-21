@@ -136,15 +136,15 @@
       if here().page() == 1 {
         // Front Cover Logic
         place(dx: -1.82cm, dy: -0.93cm)[
-          #image("$images.la-background-first$", width: 14.01cm, height: 11.35cm)
+          #image("$images.la-background-first.path$", width: 14.01cm, height: 11.35cm)
         ]
         place(dx: 12.93cm, dy: 1.64cm)[
-          #image("$images.la-logo$", width: 6.74cm, height: 2.03cm)
+          #image("$images.la-logo.path$", width: 6.74cm, height: 2.03cm)
         ]
       } else {
         // Continuation Page Logic
         place(dx: -2.22cm, dy: -3.26cm)[
-          #image("$images.la-background$", width: 9.55cm, height: 7.73cm)
+          #image("$images.la-background.path$", width: 9.55cm, height: 7.73cm)
         ]
       }
     }
