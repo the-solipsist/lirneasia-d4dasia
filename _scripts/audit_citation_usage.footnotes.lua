@@ -1,3 +1,24 @@
+--[[ LUA FILTER: Audit Citations in Footnotes
+  ========================================
+  
+  Parent Script:
+    _scripts/audit_citation_usage.ts
+  
+  Purpose:
+    This Pandoc Lua filter is used to identify citations that are located *inside* 
+    footnotes. This is often an issue in citation styles that prefer citations 
+    to be in the main body or use a specific footnote style that conflicts 
+    with manual placement.
+  
+  How it works:
+    1. It listens for 'Note' (Footnote) elements.
+    2. Inside each footnote, it walks the content to find 'Cite' elements.
+    3. It prints a structured log to stderr for every citation found.
+  
+  Output Format (stderr):
+    File: <filename> | Footnote #<n> | CiteKey: @<key>
+]]
+
 local note_count = 0
 
 function Note(elem)
