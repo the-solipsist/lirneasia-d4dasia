@@ -16,6 +16,11 @@ on:
     paths: *trigger_paths
     types: [opened, synchronize, reopened, closed]
 
+# Prevent multiple simultaneous runs on the same PR/branch from clashing
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
   pull-requests: write
