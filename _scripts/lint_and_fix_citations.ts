@@ -29,6 +29,7 @@ import { parse } from "stdlib/flags";
 // --- CONFIGURATION ---
 const scriptDir = dirname(fromFileUrl(import.meta.url));
 const reportsDir = join(scriptDir, "../reports");
+const validKeysPath = join(scriptDir, "../bibliography/citekeys-valid.txt");
 
 // --- ARGUMENT PARSING ---
 const args = parse(Deno.args, {
@@ -42,22 +43,18 @@ const isFixMode = args.fix;
 /**
  * Pattern: Escaped Citations
  * Finds: \[@citation] (where both brackets are escaped by Pandoc)
- * Goal: Remove the backslash.
- * Logic: Match literal `\[`, then capture non-backslashes (content), then literal `\]`.
  */
 const REGEX_ESCAPED = new RegExp("\\\\\\\[(@[^\\\\]+)\\\\\\]", "g");
 
 /**
  * Pattern: Consecutive Citations
  * Finds: [@A] followed by optional whitespace followed by [@B]
- * Goal: Merge into [@A; @B]
  */
 const REGEX_CONSECUTIVE = /\\\[(@[^\\]+)\\\](\s*)\\\s*\\\[(@[^\\]+)\\\]/g;
 
 /**
  * Pattern: Citation next to Footnote
  * Finds: [@cite][^1] or [@cite].[^1]
- * Goal: Flag for manual review (style guide usually prefers one over the other).
  */
 const REGEX_CITE_FOOTNOTE = /\\\[@[^\\]+\\\]([.,;]?)\s*\\\[\^[^\\]+\\\]/g;
 
@@ -72,9 +69,20 @@ console.log(
 );
 console.log("-".repeat(60));
 
+// Load Valid Keys for "Missing @" check
+let validKeys = new Set<string>();
+try {
+  const keysContent = await Deno.readTextFile(validKeysPath);
+  validKeys = new Set(keysContent.split("\n").map(k => k.trim()).filter(k => k));
+  console.log(`Loaded ${validKeys.size} valid citation keys.`);
+} catch (e) {
+  console.warn(`⚠️ Warning: Could not load valid keys from ${validKeysPath}. "Missing @" check will be skipped.`);
+}
+
 let stats = {
   fixedEscapes: 0,
   mergedCitations: 0,
+  missingAtFixed: 0,
   manualFlags: 0,
   filesChanged: 0
 };
@@ -104,6 +112,8 @@ async function processFile(filePath: string) {
   const REGEX_ESCAPED = new RegExp("\\\\\\[(@[^\\\\]+)\\\\\\]", "g");
   const REGEX_CONSECUTIVE = /\[(@[^\]]+)\](\s*)\[(@[^\]]+)\]/g;
   const REGEX_CITE_FOOTNOTE = /\[@[^\]]+\]([.,;]?)\s*\[\^[^\]]+\]/g;
+  // Match [key] where key is NOT starting with @, ^, #
+  const REGEX_MISSING_AT = /\[([^@^#\s\]][^\]\s]*)\]/g;
 
   const logs: string[] = [];
   let fileHasChanges = false;
@@ -120,7 +130,24 @@ async function processFile(filePath: string) {
   });
 
   // ---------------------------------------------------------
-  // PASS 2: Merge Consecutive Citations (e.g. [@A][@B])
+  // PASS 2: Fix Missing @ (e.g. [Smith2020])
+  // ---------------------------------------------------------
+  if (validKeys.size > 0) {
+    content = content.replace(REGEX_MISSING_AT, (match, key) => {
+      // Validate against known bibliography
+      if (validKeys.has(key)) {
+        const replacement = `[@${key}]`;
+        logs.push(`   \x1b[32m[Add @]\x1b[0m        ${match} -> ${replacement}`);
+        stats.missingAtFixed++;
+        fileHasChanges = true;
+        return replacement;
+      }
+      return match;
+    });
+  }
+
+  // ---------------------------------------------------------
+  // PASS 3: Merge Consecutive Citations (e.g. [@A][@B])
   // ---------------------------------------------------------
   // We loop until no more mergeable pairs are found to handle chains of 3+
   let hasMatches = true;
@@ -146,7 +173,7 @@ async function processFile(filePath: string) {
   }
 
   // ---------------------------------------------------------
-  // PASS 3: Audit (Citation + Footnote)
+  // PASS 4: Audit (Citation + Footnote)
   // ---------------------------------------------------------
   // This is read-only; we don't fix it automatically.
   let match;
@@ -178,12 +205,13 @@ function printSummary() {
   console.log("-".repeat(60));
   console.log("Summary:");
   console.log(`   Escapes Fixed:     ${stats.fixedEscapes}`);
+  console.log(`   Missing @ Fixed:   ${stats.missingAtFixed}`);
   console.log(`   Merges Proposed:   ${stats.mergedCitations}`);
   console.log(`   Manual Flags:      ${stats.manualFlags}`);
   
   if (isFixMode) {
     console.log(`   Files Modified:    ${stats.filesChanged}`);
-  } else if (stats.fixedEscapes > 0 || stats.mergedCitations > 0) {
+  } else if (stats.fixedEscapes > 0 || stats.mergedCitations > 0 || stats.missingAtFixed > 0) {
     console.log("\n   Run with \x1b[1m--fix\x1b[0m to apply changes.");
   }
 }
