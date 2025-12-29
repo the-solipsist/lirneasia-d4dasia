@@ -1,43 +1,4 @@
 ------------------------------------------------------------
-High Match:  @APISetu2020  ->  @ministryofelectronicsandinformationtechnologyAPISetu2020  (Score: 1.50)
-   Method: Structure | Reason: Year: 2020; Fail key in valid title; Title exact; Author enrich
-   reports/in/d4dasia_country-report_in.qmd:
-     "...overnment created an open API platform known as "API Setu" [@APISetu2020].  This website provides a directory of central and state g..."
-
-------------------------------------------------------------
-High Match:  @AntiTerrorismAct1997  ->  @nationalassemblyofpakistanAntiTerrorismAct1997  (Score: 1.50)
-   Method: Structure | Reason: Year: 1997; Fail key in valid title; Title exact; Author enrich
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...1948[@UnitedNations1948]  -   The Anti-Terrorism Act, 1997[@AntiTerrorismAct1997]  -   The National Counter Terrorism Authority Act, 2013[@N..."
-
-------------------------------------------------------------
-High Match:  @AntiTerrorismAct2020  ->  @congressofthephilippinesAntiTerrorismAct2020  (Score: 1.50)
-   Method: Structure | Reason: Year: 2020; Fail key in valid title; Title exact; Author enrich
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...intercept any private communications between such suspects [@AntiTerrorismAct2020]. The order may be issued by the Court of Appeals upon dete..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...intercept any private communications between such suspects [@AntiTerrorismAct2020]. The order may be issued by the Court of Appeals upon dete..."
-
-------------------------------------------------------------
-High Match:  @AntiTerrorismAct20202020  ->  @congressofthephilippinesAntiTerrorismAct2020  (Score: 1.50)
-   Method: Structure | Reason: Year: 2020; Fail key in valid title; Title exact; Author enrich
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "..., terrorist activities, and counter-terrorism operations\" [@AntiTerrorismAct20202020].[^59] A government coordinating body tasked with enforcing..."
-
-------------------------------------------------------------
-High Match:  @BankingAct2021  ->  @centralbankofsrilankaBankingAct2021  (Score: 1.50)
-   Method: Structure | Reason: Year: 2021; Fail key in valid title; Title exact; Author enrich
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...requirements concerning the data of financial institutions [@BankingAct2021][@FinanceBusinessAct2022]. We have limited our analysis bel..."
-
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...a Disaster Recovery arrangement has to be located locally [@BankingAct2021].  Where an information system infrastructure is managed or..."
-
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...ank, its customers, the CBSL, and the Sri Lankan judiciary [@BankingAct2021]. It can be gathered that CBSL has included these provision..."
-
-------------------------------------------------------------
 High Match:  @CopyrightAct1957a  ->  @copyrightofficegovernmentofindiaCopyrightAct1957  (Score: 1.50)
    Method: Structure | Reason: Year: 1957; Fail key in valid title; Title exact; Author enrich
    reports/lk/d4dasia_country-report_lk.qmd:
@@ -201,12 +162,6 @@ High Match:  @parkSouthKoreaData2021  ->  @parkSouthKorea2021  (Score: 1.50)
 
    reports/kr/d4dasia_country-report_kr.qmd:
      "...sonally recognizable facial images without consent in 2021 [@parkSouthKoreaData2021].  #### Challenges of the 2011 PIPA  South Korea's strict d..."
-
-------------------------------------------------------------
-High Match:  @pereraSemiPresidentialisationExecutive2024  ->  @pereraSemipresidentialisationExecutive2024  (Score: 1.50)
-   Method: Structure | Reason: Year: 2024; Key vs title: 88%; Title exact; Author: perera (CSL)
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...ment with a Prime Minister playing a relatively minor role [@pereraSemiPresidentialisationExecutive2024]. In 2015, the 19th Amendment to the Constitution altered t..."
 
 ------------------------------------------------------------
 High Match:  @plumkosonProtectionRightBe2022  ->  @plumkosonProtectionRight2022  (Score: 1.50)
@@ -470,6 +425,12 @@ High Match:  @loneyIndiaSharesOpensource2004  ->  @loneyIndiaShares2004  (Score:
      "...ormatics Centre sharing the government\'s FOSS experiences [@loneyIndiaSharesOpensource2004]. The establishment of the National Resource Centre for Fre..."
 
 ------------------------------------------------------------
+High Match:  @AntiTerrorismAct20202020  ->  @AntiTerrorismAct2020  (Score: 1.40)
+   Method: Structure | Reason: Year: 2020; Fail key in valid title; Title exact
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "..., terrorist activities, and counter-terrorism operations\" [@AntiTerrorismAct20202020].[^59] A government coordinating body tasked with enforcing..."
+
+------------------------------------------------------------
 High Match:  @informationandcommunicationtechnologyofsrilankaictaSriLanka2022  ->  @SriLanka2022  (Score: 1.40)
    Method: Structure | Reason: Year: 2022; Fail key in valid title; Title exact
    reports/lk/d4dasia_country-report_lk.qmd:
@@ -486,21 +447,6 @@ High Match:  @nepalTelecommunicationsAct1993  ->  @TelecommunicationsAct1993  (S
    Method: Structure | Reason: Year: 1993; Fail key in valid title; Title exact
    reports/synthesis/d4dasia_synthesis-report.qmd:
      "...the state of emergency or national security in the country [@nepalTelecommunicationsAct1993].[^28] The Press and Publications Act, 2048 (1991) provides..."
-
-------------------------------------------------------------
-High Match:  @ActCarrying2022  ->  @nationalassemblyofthailandActCarrying2022  (Score: 1.40)
-   Method: Structure | Reason: Year: 2022; Key vs title: 75%; Title exact; Author enrich
-   reports/th/d4dasia_country-report_th.qmd:
-     "...c Service via Electronic Means B.E. 2565 (APSEM) was passed[@ActCarrying2022]. In essence, the law grants citizens the right to access a..."
-
-------------------------------------------------------------
-High Match:  @AntiMoneyLaunderingAct2001  ->  @congressofthephilippinesAntiMoneyLaundering2001  (Score: 1.40)
-   Method: Structure | Reason: Year: 2001; Fail key in valid title; Title strong (86%); Author enrich
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...the Philippines enacted the 2001 Anti-Money Laundering Act [@AntiMoneyLaunderingAct2001]. Under this Act, as amended, covered persons[^46] are requ..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...maintain such records of transactions for at least 5 years [@AntiMoneyLaunderingAct2001].[^65] While the law itself was silent as to the standards..."
 
 ------------------------------------------------------------
 High Match:  @NationalArchivesLaw1973  ->  @parliamentofthedemocraticsocialistrepublicofsrilankaNationalArchives1973  (Score: 1.39)
@@ -536,36 +482,6 @@ High Match:  @OnlineSafetyAct2024a  ->  @lboOnlineSafety2024  (Score: 1.37)
      "...or other representation, or a combination of any of these’ [@OnlineSafetyAct2024a].  In November 2024, it was reported that a six-month suspe..."
 
 ------------------------------------------------------------
-High Match:  @AntiOnlineSexualAbuse2022  ->  @congressofthephilippinesAntiOnlineSexual2022  (Score: 1.35)
-   Method: Structure | Reason: Year: 2022; Fail key in valid title; Title strong (76%); Author enrich
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...ults convicted of sexual abuse or exploitation of children [@AntiOnlineSexualAbuse2022].[^60] The Land Transportation Office is required under the..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...i-Child Sexual Abuse or Exploitation Materials (CSAEM) Act [@AntiOnlineSexualAbuse2022], law enforcement officers may be authorized by a regional..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...y believed to have committed violations under the said law [@AntiOnlineSexualAbuse2022].[^103] In addition, the law specifically states that when..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "..., or about to commit any of the violations in the said law [@AntiOnlineSexualAbuse2022].[^104] In instances when an order is required, the applica..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...other means readily available for obtaining such evidence [@AntiOnlineSexualAbuse2022].[^105]  # Recommendations Towards Increasing Data Flows  T..."
-
-------------------------------------------------------------
-High Match:  @AICWarnsSri2023  ->  @digitalwatchobservatoryAICWarns2023  (Score: 1.34)
-   Method: Structure | Reason: Year: 2023; Fail key in valid title; Title strong (73%); Author enrich
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...ally hampering the growth of the country’s digital economy [@AICWarnsSri2023]. The International Commission of Jurists issued a statemen..."
-
-------------------------------------------------------------
-High Match:  @agarwalIndiaMustMore2015  ->  @agarwalIndiaMust2015  (Score: 1.31)
-   Method: Structure | Reason: Year: 2015; Key vs title: 86%; Title weak (69%); Author: agarwal (CSL)
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...ality, outdated information, and gaps in critical datasets [@agarwalIndiaMustMore2015]. The government has continued to refine its approach, intr..."
-
-------------------------------------------------------------
 High Match:  @royalgazetteAnnouncementDigitalCommittee2020  ->  @royalgazetteAnnouncementDigital2020  (Score: 1.31)
    Method: Structure | Reason: Year: 2020; Key vs title: 85%; Title weak (68%); Author: royalgazette
    reports/th/d4dasia_country-report_th.qmd:
@@ -576,6 +492,12 @@ High Match:  @royalgazetteAnnouncementDigitalCommittee2020  ->  @royalgazetteAnn
 
    reports/th/d4dasia_country-report_th.qmd:
      "...a and the United Kingdom as good models of data governance [@royalgazetteAnnouncementDigitalCommittee2020]. In 2020, DGDC also issued the Announcement on Disclosure..."
+
+------------------------------------------------------------
+High Match:  @agarwalIndiaMustMore2015  ->  @agarwalIndiaMust2015  (Score: 1.30)
+   Method: Structure | Reason: Year: 2015; Key vs title: 83%; Title weak (69%); Author: agarwal (CSL)
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...ality, outdated information, and gaps in critical datasets [@agarwalIndiaMustMore2015]. The government has continued to refine its approach, intr..."
 
 ------------------------------------------------------------
 High Match:  @bankofthailandCriteria2021  ->  @bankofthailandBankThailands2021a  (Score: 1.30)
@@ -743,6 +665,15 @@ High Match:  @sooriyagodaSpeakersActCertifying2024  ->  @sooriyagodaSpeakersAct2
      "...the amendments suggested by the Supreme Court of Sri Lanka [@sooriyagodaSpeakersActCertifying2024].  [^9]: “BASL CALLS UPON THE GOVERNMENT TO IMMEDIATELY WIT..."
 
 ------------------------------------------------------------
+High Match:  @yasudaLawDevelopmentSoutheast2002  ->  @yasudaLawDevelopment2002  (Score: 1.27)
+   Method: Structure | Reason: Year: 2002; Key vs title: 74%; Title weak (61%); Author: yasuda (CSL)
+   reports/th/d4dasia_country-report_th.qmd:
+     "...orial jurisdiction" granted to citizens of Western nations [@yasudaLawDevelopmentSoutheast2002]. Consequently, in the 19th century, Thailand underwent a m..."
+
+   reports/th/d4dasia_country-report_th.qmd:
+     "..., and Japan, to align them with those of the Western world [@yasudaLawDevelopmentSoutheast2002]. The 2017 Thai Constitution is the supreme law of the land..."
+
+------------------------------------------------------------
 High Match:  @RightInformationAct2016  ->  @parliamentofthedemocraticsocialistrepublicofsrilankaRightInformation2016  (Score: 1.27)
    Method: Structure | Reason: Year: 2016; Key vs title: 91%; Title strong (84%); Author enrich
    reports/synthesis/d4dasia_synthesis-report.qmd:
@@ -866,6 +797,27 @@ High Match:  @srilankaIntellectualPropertyAct2003  ->  @IntellectualProperty2003
      "...of 2003 governs copyrights and related rights in Sri Lanka [@srilankaIntellectualPropertyAct2003]. The Act does not recognize any exemptions for training AI..."
 
 ------------------------------------------------------------
+High Match:  @AntiMoneyLaunderingAct2001  ->  @AntiMoneyLaundering2001  (Score: 1.25)
+   Method: Structure | Reason: Year: 2001; Fail key in valid title; Title strong (86%)
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...the Philippines enacted the 2001 Anti-Money Laundering Act [@AntiMoneyLaunderingAct2001]. Under this Act, as amended, covered persons[^46] are requ..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...maintain such records of transactions for at least 5 years [@AntiMoneyLaunderingAct2001].[^65] While the law itself was silent as to the standards..."
+
+------------------------------------------------------------
+High Match:  @AntiMoneyLaunderingAct2003  ->  @AntiMoneyLaundering2003  (Score: 1.25)
+   Method: Structure | Reason: Year: 2003; Fail key in valid title; Title strong (86%)
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...were conducted or happened under suspicious circumstances [@AntiMoneyLaunderingAct2003][^48] are also reported to AMLC [@AntiMoneyLaunderingAct200..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...AntiMoneyLaunderingAct2003][^48] are also reported to AMLC [@AntiMoneyLaunderingAct2003].[^49] Suspicious transactions that are related to terroris..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...in the creation and maintenance of an information database [@AntiMoneyLaunderingAct2003].[^64] Philippine money-laundering laws also impose require..."
+
+------------------------------------------------------------
 High Match:  @OfficialInformationAct1997  ->  @OfficialInformation1997  (Score: 1.25)
    Method: Structure | Reason: Year: 1997; Fail key in valid title; Title strong (86%)
    reports/synthesis/d4dasia_synthesis-report.qmd:
@@ -930,15 +882,6 @@ High Match:  @IntellectualPropertyCode1997  ->  @IntellectualProperty1997  (Scor
 
    reports/ph/d4dasia_country-report_ph.qmd:
      "...e prevention of any alteration or modification of the work [@IntellectualPropertyCode1997].[^84]  The Philippines protects undisclosed information or..."
-
-------------------------------------------------------------
-High Match:  @AntiViolenceWomenTheir2004  ->  @congressofthephilippinesAntiViolenceWomen2004  (Score: 1.23)
-   Method: Structure | Reason: Year: 2004; Key vs title: 86%; Title strong (77%); Author enrich
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...tions of confidentiality punishable with contempt of court [@AntiViolenceWomenTheir2004].[^72] The 2022 Anti-Online Sexual Abuse and Exploitation o..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...of child sexual abuse or exploitation be kept confidential [@AntiViolenceWomenTheir2004].[^73] The names of children alleged, accused of, or adjudg..."
 
 ------------------------------------------------------------
 High Match:  @RevisedCorporationCode2019  ->  @RevisedCorporation2019  (Score: 1.23)
@@ -1061,6 +1004,24 @@ High Match:  @PropertyRegistrationDecree1978  ->  @PropertyRegistration1978  (Sc
      "...e function of Registers of Deed in every province and city [@PropertyRegistrationDecree1978]. The office of the Register of Deeds is a public repositor..."
 
 ------------------------------------------------------------
+High Match:  @AntiOnlineSexualAbuse2022  ->  @AntiOnlineSexual2022  (Score: 1.20)
+   Method: Structure | Reason: Year: 2022; Fail key in valid title; Title strong (76%)
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...ults convicted of sexual abuse or exploitation of children [@AntiOnlineSexualAbuse2022].[^60] The Land Transportation Office is required under the..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...i-Child Sexual Abuse or Exploitation Materials (CSAEM) Act [@AntiOnlineSexualAbuse2022], law enforcement officers may be authorized by a regional..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...y believed to have committed violations under the said law [@AntiOnlineSexualAbuse2022].[^103] In addition, the law specifically states that when..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "..., or about to commit any of the violations in the said law [@AntiOnlineSexualAbuse2022].[^104] In instances when an order is required, the applica..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...other means readily available for obtaining such evidence [@AntiOnlineSexualAbuse2022].[^105]  # Recommendations Towards Increasing Data Flows  T..."
+
+------------------------------------------------------------
 High Match:  @AsiaInternet  ->  @AsiaInternet2025  (Score: 1.20)
    Method: Structure | Reason: Year enrich: +2025; Fail key in valid title; Title exact
    reports/pk/d4dasia_country-report_pk.qmd:
@@ -1106,10 +1067,22 @@ High Match:  @IndigenousPeoplesRights1997  ->  @IndigenousPeoples1997  (Score: 1
      "...sent as required under the Indigenous People\'s Rights Act [@IndigenousPeoplesRights1997]. Despite the pronouncement, the advisory opinion did not i..."
 
 ------------------------------------------------------------
+High Match:  @AICWarnsSri2023  ->  @AICWarns2023  (Score: 1.19)
+   Method: Structure | Reason: Year: 2023; Fail key in valid title; Title strong (73%)
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...ally hampering the growth of the country’s digital economy [@AICWarnsSri2023]. The International Commission of Jurists issued a statemen..."
+
+------------------------------------------------------------
 High Match:  @LeadingJudgementsFederal2017  ->  @LeadingJudgements2017  (Score: 1.18)
    Method: Structure | Reason: Year: 2017; Fail key in valid title; Title strong (71%)
    reports/pk/d4dasia_country-report_pk.qmd:
      "...es and directed the government to suitably amend those laws[@LeadingJudgementsFederal2017]. There are also other specialised courts and tribunals cre..."
+
+------------------------------------------------------------
+High Match:  @2018ImplementingRules2018  ->  @2018Implementing2018  (Score: 1.18)
+   Method: Structure | Reason: Year: 2018; Fail key in valid title; Title strong (71%)
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...0 pesos (PHP5,000,000) or its equivalent in other currency [@2018ImplementingRules2018].[^47] In addition, transactions that are considered suspic..."
 
 ------------------------------------------------------------
 High Match:  @DraftRevisedCloud2025  ->  @DraftRevised2025  (Score: 1.18)
@@ -1337,6 +1310,15 @@ High Match:  @OperationalizingExecutiveBranch2016a  ->  @OperationalizingExecuti
      "...n his capacity as the administrative head of the executive [@OperationalizingExecutiveBranch2016a]. In the absence of an FOI statute, Executive Order No. 02..."
 
 ------------------------------------------------------------
+High Match:  @AntiViolenceWomenTheir2004  ->  @AntiViolenceWomen2004  (Score: 1.08)
+   Method: Structure | Reason: Year: 2004; Key vs title: 85%; Title strong (77%)
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...tions of confidentiality punishable with contempt of court [@AntiViolenceWomenTheir2004].[^72] The 2022 Anti-Online Sexual Abuse and Exploitation o..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...of child sexual abuse or exploitation be kept confidential [@AntiViolenceWomenTheir2004].[^73] The names of children alleged, accused of, or adjudg..."
+
+------------------------------------------------------------
 High Match:  @LandTransportationTraffic1964  ->  @LandTransportation1964  (Score: 1.08)
    Method: Structure | Reason: Year: 1964; Key vs title: 94%; Title strong (72%)
    reports/ph/d4dasia_country-report_ph.qmd:
@@ -1398,6 +1380,39 @@ High Match:  @SenatePhilippinesEduardo2006  ->  @SenatePhilippines2006  (Score: 
    Method: Structure | Reason: Year: 2006; Key vs title: 85%; Title strong (71%)
    reports/ph/d4dasia_country-report_ph.qmd:
      "...icials from giving testimony before legislative committees [@SenatePhilippinesEduardo2006].  The Philippine legislature has yet to enact a statute th..."
+
+------------------------------------------------------------
+High Match:  @AmendmentsDepartmentCircular2020  ->  @AmendmentsDepartment2020  (Score: 1.05)
+   Method: Structure | Reason: Year: 2020; Key vs title: 83%; Title strong (71%)
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...ernment data may be subject to some residency restrictions [@AmendmentsDepartmentCircular2020].[^24]  ##### Sri Lanka  Section 9 of the Personal Data Pro..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...ce standards.  In 2020, through DICT Circular No. 10 (2020)[@AmendmentsDepartmentCircular2020], the Philippine Cloud First Policy was expanded to cover n..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...ippine government\" [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^99] However, unlike government agencies, such private en..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...deployment strategy [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020][^100] or to utilize the data classification models prescri..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...government agencies [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^101] Such covered private sector entities are, by virtue..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...yption keys thereto [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^102]  ###### Exceptions to Data Security for Law Enforce..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...99]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020], Section 3.1.  [^100]: [@PrescribingPhilippineGovernments2..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...00]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020],      Section 5.2.  [^101]: [@PrescribingPhilippineGovernm..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...01]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020], Section 9.2.  [^102]: [@PrescribingPhilippineGovernments2..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...02]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020], Section 14.1.  [^103]: See Section 23 of the Act.  [^104]..."
 
 ------------------------------------------------------------
 High Match:  @OpenDataPK  ->  @informationandcommunicationtechnologyagencyofsrilankaictaOpenData2024  (Score: 1.04)
@@ -1682,10 +1697,10 @@ High Match:  @SriLankaProposed2023  ->  @SriLanka2023  (Score: 1.00)
      "...s and unnecessary and disproportionate punitive sanctions” [@SriLankaProposed2023]. The OSA came to be passed notwithstanding all these objec..."
 
 ------------------------------------------------------------
-High Match:  @centralstatisticsofficeHandbookCollection2011  ->  @centralstatisticsofficeHandbookCollection2008  (Score: 0.98)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 98%
-   reports/in/d4dasia_country-report_in.qmd:
-     "...in 2001, a dent was created in India's statistical system [@centralstatisticsofficeHandbookCollection2011].  They recommended a new law with an expanded focus. \ Thi..."
+High Match:  @srilankaBankingActDirections2021  ->  @BankingAct2021  (Score: 1.00)
+   Method: Structure | Reason: Year: 2021; Fail key in valid title; Title weak (50%)
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...C), disaster recovery arrangements must be located locally [@srilankaBankingActDirections2021]. Additionally, third-party service providers such as cloud..."
 
 ------------------------------------------------------------
 High Match:  @samarajivaDigitalisationWillFail24  ->  @samarajivaDigitalisationWill24  (Score: 0.98)
@@ -1725,15 +1740,6 @@ High Match:  @siamcommercialbankPolicySupervisionManagement  ->  @siamcommercial
    Method: Structure | Reason: Year enrich: +2023; Key vs title: 79%; Title weak (63%); Author prefix: siamcommercialbank
    reports/th/d4dasia_country-report_th.qmd:
      "...ransparency and data openness for shareholders and clients [@siamcommercialbankPolicySupervisionManagement] [@kasikornbankTransparencyDataDisclosure].  #### Policy ga..."
-
-------------------------------------------------------------
-High Match:  @yasudaLawDevelopmentSoutheast2002  ->  @yasudaLawDevelopment2003  (Score: 0.93)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 93%
-   reports/th/d4dasia_country-report_th.qmd:
-     "...orial jurisdiction" granted to citizens of Western nations [@yasudaLawDevelopmentSoutheast2002]. Consequently, in the 19th century, Thailand underwent a m..."
-
-   reports/th/d4dasia_country-report_th.qmd:
-     "..., and Japan, to align them with those of the Western world [@yasudaLawDevelopmentSoutheast2002]. The 2017 Thai Constitution is the supreme law of the land..."
 
 ------------------------------------------------------------
 High Match:  @ElectronicTransactionsOrdinancePK2002  ->  @ElectronicTransactions2002  (Score: 0.93)
@@ -1910,13 +1916,7 @@ High Match:  @ConstitutionSL2023  ->  @ConstitutionIslamic  (Score: 0.90)
      "...aintaining the authority and impartiality of the judiciary [@ConstitutionSL2023].[^33] Sri Lanka Telecommunications Act No. 25 of 1991 (as..."
 
 ------------------------------------------------------------
-High Match:  @2018ImplementingRules2018  ->  @anti-moneylaunderingcouncil2018Implementing2018  (Score: 0.90)
-   Method: Structure | Reason: Year: 2018; Fail key in valid title
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...0 pesos (PHP5,000,000) or its equivalent in other currency [@2018ImplementingRules2018].[^47] In addition, transactions that are considered suspic..."
-
-------------------------------------------------------------
-High Match:  @AMLCRegistration2021  ->  @anti-moneylaunderingcouncilAMLCRegistration2021  (Score: 0.90)
+High Match:  @AMLCRegistration2021  ->  @2021AMLC2021  (Score: 0.90)
    Method: Structure | Reason: Year: 2021; Fail key in valid title
    reports/ph/d4dasia_country-report_ph.qmd:
      "...filed through AMLC\'s File Transfer and Reporting Facility [@AMLCRegistration2021]. The guidelines also list the specific information require..."
@@ -2171,12 +2171,6 @@ High Match:  @ImplementingRulesRegulationCISA2009  ->  @ImplementingRules2009  (
      "...sted in the Implementing Rules and Regulations of the CISA [@ImplementingRulesRegulationCISA2009] [@CreditInformationSystem2008].[^19]  CISA established a s..."
 
 ------------------------------------------------------------
-High Match:  @12PrinciplesGood  ->  @12Principles2008  (Score: 0.88)
-   Method: Structure | Reason: Year enrich: +2008; Key vs title: 90%; Title strong (75%)
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...Good Governance Principles Council of Europe ELoGE model” [@12PrinciplesGood].  The detailed policy objectives and various other draft p..."
-
-------------------------------------------------------------
 High Match:  @RaisaWickrematungaTelecommunications2018  ->  @RaisaWickrematunga2018  (Score: 0.88)
    Method: Structure | Reason: Year: 2018; Key vs title: 90%; Title weak (50%)
    reports/lk/d4dasia_country-report_lk.qmd:
@@ -2294,15 +2288,6 @@ High Match:  @nationalcreditbureauNCB  ->  @NationalClimate  (Score: 0.86)
      "...certain organizations, such as the National Credit Bureau, [@nationalcreditbureauNCB] are not allowed to disclose or share financial information..."
 
 ------------------------------------------------------------
-High Match:  @OpenGovPartnershipPK  ->  @opengovernmentpartnershipPolicyProgress  (Score: 0.86)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 86%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...en government data**  The Open Government Partnership (OGP)[@OpenGovPartnershipPK] was launched in 2011 to provide an international platform..."
-
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...e RTI. Pakistan was part of the Open Government Partnership[@OpenGovPartnershipPK] (OGP) and established an open data portal[@OpenDataPK], bu..."
-
-------------------------------------------------------------
 High Match:  @ConstitutionPK1973  ->  @ConstitutionIslamic  (Score: 0.86)
    Method: Fuzzy (Jaro) | Reason: String similarity: 86%
    reports/pk/d4dasia_country-report_pk.qmd:
@@ -2319,12 +2304,6 @@ High Match:  @ConstitutionPK1973  ->  @ConstitutionIslamic  (Score: 0.86)
 
    reports/pk/d4dasia_country-report_pk.qmd:
      "...e Islamic Republic of Pakistan 1973 *(Articles 213 to 226)*[@ConstitutionPK1973]  -   The Elections Act, 2017[@ElectionsAct2017]  **Electio..."
-
-------------------------------------------------------------
-High Match:  @srilankaBankingActDirections2021  ->  @SriLankaa  (Score: 0.86)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 86%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...C), disaster recovery arrangements must be located locally [@srilankaBankingActDirections2021]. Additionally, third-party service providers such as cloud..."
 
 ------------------------------------------------------------
 High Match:  @personaldataprotectioncommitteeGuidelinesObtainingConsent  ->  @personaldataprotectioncommitteeGuidelinesObtaining  (Score: 0.85)
@@ -2567,12 +2546,6 @@ Med  Match:  @royalthaigovernmentNationalStrategy20182037  ->  @royDigitalPerson
      "...rnments to adhere to the agendas therein from 2018 to 2037 [@royalthaigovernmentNationalStrategy20182037]. The National Strategy's Agenda 6 on Public Sector Rebalan..."
 
 ------------------------------------------------------------
-Med  Match:  @Openbudgetsindiaorg  ->  @opengovernmentpartnershipPolicyProgress  (Score: 0.77)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 77%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...l in the gaps by launching portals like Open Budgets India [@Openbudgetsindiaorg].  ##### Indonesia  [According to the Cabinet resolution on..."
-
-------------------------------------------------------------
 Med  Match:  @GuidanceNotesPSX2023  ->  @pakistanstockexchangeGuidanceNotesforListedCompaniesPSXRegulations06July2023  (Score: 0.77)
    Method: Structure | Reason: Year: 2023; Key vs title: 85%
    reports/pk/d4dasia_country-report_pk.qmd:
@@ -2658,39 +2631,6 @@ Med  Match:  @IndonesiaArchivesUS  ->  @InsightsLearners  (Score: 0.74)
    Method: Fuzzy (Jaro) | Reason: String similarity: 74%
    reports/synthesis/d4dasia_synthesis-report.qmd:
      "...onesian Independence can be found at the National Archives [@IndonesiaArchivesUS].  ##### Nepal  The Archives Preservation Act, 2046 (1986)..."
-
-------------------------------------------------------------
-Med  Match:  @AmendmentsDepartmentCircular2020  ->  @nationalassemblysecretariatActsOrdinances2020  (Score: 0.74)
-   Method: Structure | Reason: Year: 2020; Key vs title: 71%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...ernment data may be subject to some residency restrictions [@AmendmentsDepartmentCircular2020].[^24]  ##### Sri Lanka  Section 9 of the Personal Data Pro..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...ce standards.  In 2020, through DICT Circular No. 10 (2020)[@AmendmentsDepartmentCircular2020], the Philippine Cloud First Policy was expanded to cover n..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...ippine government\" [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^99] However, unlike government agencies, such private en..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...deployment strategy [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020][^100] or to utilize the data classification models prescri..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...government agencies [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^101] Such covered private sector entities are, by virtue..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...yption keys thereto [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^102]  ###### Exceptions to Data Security for Law Enforce..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...99]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020], Section 3.1.  [^100]: [@PrescribingPhilippineGovernments2..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...00]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020],      Section 5.2.  [^101]: [@PrescribingPhilippineGovernm..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...01]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020], Section 9.2.  [^102]: [@PrescribingPhilippineGovernments2..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...02]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020], Section 14.1.  [^103]: See Section 23 of the Act.  [^104]..."
 
 ------------------------------------------------------------
 Med  Match:  @TRIPS1995  ->  @TradeRelatedAspects1995  (Score: 0.74)
@@ -2792,6 +2732,21 @@ Med  Match:  @PMDCProfessionalEthics  ->  @ProposedOnline  (Score: 0.71)
      "...rivacy and confidentiality. The code of practice and ethics[@PMDCProfessionalEthics] prepared by PMDC has provisions regarding protecting the p..."
 
 ------------------------------------------------------------
+Med  Match:  @OpenGovPartnershipPK  ->  @ojhaGovernmentsCybersecurity  (Score: 0.71)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 71%
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...en government data**  The Open Government Partnership (OGP)[@OpenGovPartnershipPK] was launched in 2011 to provide an international platform..."
+
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...e RTI. Pakistan was part of the Open Government Partnership[@OpenGovPartnershipPK] (OGP) and established an open data portal[@OpenDataPK], bu..."
+
+------------------------------------------------------------
+Med  Match:  @kasikornbankTransparencyDataDisclosure  ->  @kasikornbankTransparencyData  (Score: 0.71)
+   Method: Structure | Reason: Key vs title: 91%; Title weak (62%); Author: kasikornbank
+   reports/th/d4dasia_country-report_th.qmd:
+     "...d clients [@siamcommercialbankPolicySupervisionManagement] [@kasikornbankTransparencyDataDisclosure].  #### Policy gaps and frictions  The main policy gap aris..."
+
+------------------------------------------------------------
 Med  Match:  @mouSLPak2016  ->  @GoogleMaps2014  (Score: 0.71)
    Method: Fuzzy (Jaro) | Reason: String similarity: 71%
    reports/pk/d4dasia_country-report_pk.qmd:
@@ -2811,6 +2766,12 @@ Med  Match:  @IDRCHarnessingDataDemocratic  ->  @SASData  (Score: 0.70)
    Method: Fuzzy (Jaro) | Reason: String similarity: 70%
    reports/synthesis/d4dasia_synthesis-report.qmd:
      "...g and discouraging dissent against the ruling dispensation [@IDRCHarnessingDataDemocratic]. Moreover, institutions involved in the data governance ec..."
+
+------------------------------------------------------------
+Med  Match:  @Openbudgetsindiaorg  ->  @OnlineRegistered  (Score: 0.70)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...l in the gaps by launching portals like Open Budgets India [@Openbudgetsindiaorg].  ##### Indonesia  [According to the Cabinet resolution on..."
 
 ------------------------------------------------------------
 Med  Match:  @LankaSignCertificationService  ->  @LegalPractitioners  (Score: 0.70)
@@ -2844,12 +2805,6 @@ Med  Match:  @nepalCopyrightAct2002  ->  @CopyrightAct  (Score: 0.70)
 
    reports/synthesis/d4dasia_synthesis-report.qmd:
      "...\(vi\) importation of one copy of a work for personal use [@nepalCopyrightAct2002].[^42]  Therefore, from the given provisions of the Copyrig..."
-
-------------------------------------------------------------
-Med  Match:  @kasikornbankTransparencyDataDisclosure  ->  @khanTranslationTransition  (Score: 0.70)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
-   reports/th/d4dasia_country-report_th.qmd:
-     "...d clients [@siamcommercialbankPolicySupervisionManagement] [@kasikornbankTransparencyDataDisclosure].  #### Policy gaps and frictions  The main policy gap aris..."
 
 ------------------------------------------------------------
 Med  Match:  @GenderSummary2023  ->  @salkeverCommentaryWhy2022  (Score: 0.70)
@@ -2951,16 +2906,10 @@ Med  Match:  @26ConstAmdPK  ->  @ConstitutionIslamic  (Score: 0.65)
      "...tution. Following the twenty-sixth constitutional amendment[@26ConstAmdPK], the Supreme Court will include constitutional benches, wh..."
 
 ------------------------------------------------------------
-Med  Match:  @AntiMoneyLaunderingAct2003  ->  @FranciscoChavez2003  (Score: 0.60)
-   Method: Structure | Reason: Year: 2003
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...were conducted or happened under suspicious circumstances [@AntiMoneyLaunderingAct2003][^48] are also reported to AMLC [@AntiMoneyLaunderingAct200..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...AntiMoneyLaunderingAct2003][^48] are also reported to AMLC [@AntiMoneyLaunderingAct2003].[^49] Suspicious transactions that are related to terroris..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...in the creation and maintenance of an information database [@AntiMoneyLaunderingAct2003].[^64] Philippine money-laundering laws also impose require..."
+Med  Match:  @12PrinciplesGood  ->  @riIctNpel  (Score: 0.65)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 65%
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...Good Governance Principles Council of Europe ELoGE model” [@12PrinciplesGood].  The detailed policy objectives and various other draft p..."
 
 ------------------------------------------------------------
 Med  Match:  @AssamITPolicy2009  ->  @FoodDrug2009  (Score: 0.60)

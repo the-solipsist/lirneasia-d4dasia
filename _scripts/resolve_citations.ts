@@ -1,20 +1,16 @@
 /**
- * CITATION RESOLVER (Refactored)
- * ==============================
+ * CITATION RESOLVER (Asymmetric CSL-Enhanced)
+ * ===========================================
  *
  * Usage:
-  *   quarto run _scripts/resolve_citations.ts                    # List matches (Dry Run)
-  *   quarto run _scripts/resolve_citations.ts -- --fix           # Interactive Fix Mode
-  *   quarto run _scripts/resolve_citations.ts -- --output report.txt  # Save clean report to file
-  *   quarto run _scripts/resolve_citations.ts -- --auto-fix-high # Auto-fix high confidence
-  * 
-  * Purpose: *   1. Updates citation lists via `_scripts/manage_citations.ts`.
- *   2. Analyzes missing keys against valid keys using structural & fuzzy matching.
- *   3. Scans content files for context.
- *   4. Interactively or automatically applies fixes.
+ *   quarto run _scripts/resolve_citations.ts
+ *   quarto run _scripts/resolve_citations.ts -- --fix
+ * 
+ * Purpose:
+ *   Matches failing citation keys (raw strings) against valid keys (rich CSL metadata).
+ *   Uses "Asymmetric Matching" to handle truncated BetterBibTeX keys vs full CSL titles.
  */
 
-// --- IMPORTS ---
 import { walk } from "stdlib/fs";
 import { join, dirname, fromFileUrl } from "stdlib/path";
 import { parse } from "stdlib/flags";
@@ -23,24 +19,34 @@ import { parse } from "stdlib/flags";
 const PATHS = {
   FAILING: "_references/citekeys-reports-failing.txt",
   VALID:   "_references/citekeys-bib-valid.txt",
+  BIB_JSON:"_references/d4dasia-bib.json",
   REPORTS: "reports",
   LOG:     "citation_fix_log.txt",
   UPDATE_SCRIPT: "_scripts/manage_citations.ts"
 };
 
 const SCORING = {
-  HIGH_THRESHOLD: 0.95,
-  MED_THRESHOLD:  0.50,
+  HIGH_THRESHOLD: 0.85,
+  MED_THRESHOLD:  0.60,
   BONUS: {
-    EXACT_YEAR:    0.4,
-    EXACT_AUTHOR:  0.4,
-    SUBSTR_AUTHOR: 0.2,
-    EXACT_TITLE:   0.3,
-    SUBSTR_TITLE:  0.35, // High reward for "BigDataReport" -> "BigData"
-    SUBSTR_KEY:    0.3,
-    PREFIX:        0.1
+    EXACT_YEAR: 0.6,
+    EXACT_AUTHOR: 0.4,
+    SUBSTR_AUTHOR: 0.25,
+    EXACT_TITLE: 0.5,
+    STRONG_TITLE: 0.4,
+    WEAK_TITLE: 0.2,
+    YEAR_ENRICH: 0.4,
+    AUTHOR_ENRICH: 0.15,
   }
 };
+
+const LEGAL_SUFFIXES = [
+  "Act", "Bill", "Law", "Code", "Regulation", "Regulations",
+  "Rule", "Rules", "Ordinance", "Constitution", "Amendment",
+  "Policy", "Convention", "Treaty", "Agreement", "Protocol"
+];
+
+const STRIPPABLE_SUFFIXES = ["Report", "Paper", "Document", "Study"];
 
 // --- ARGS ---
 const args = parse(Deno.args, {
@@ -58,20 +64,32 @@ const MODE = {
 };
 
 // --- TYPES ---
-interface KeyParts {
+export interface KeyParts {
   original: string;
   author: string | null;
   titleWords: string[];
   year: string | null;
   suffix: string | null;
+  isLegalDocument: boolean;
+}
+
+export interface CSLItem {
+  id: string;
+  type?: string;
+  title?: string;
+  author?: Array<{family?: string; given?: string; literal?: string}>;
+  issued?: { "date-parts"?: number[][] };
+  "container-title"?: string;
+  publisher?: string;
 }
 
 interface MatchResult {
   fail: string;
   bestMatch: string;
   bestScore: number;
-  contexts: string[]; // Snippets of text where the key appears
-  method: "Structure" | "Fuzzy";
+  contexts: string[];
+  method: string;
+  explanation: string;
 }
 
 // =============================================================================
@@ -79,7 +97,6 @@ interface MatchResult {
 // =============================================================================
 
 function escapeRegExp(s: string): string {
-  // Safe character-by-character escape
   const chars = [".", "*", "+", "?", "^", "$", "{", "}", "(", ")", "|", "[", "]", "\\"];
   let res = s;
   for (const c of chars) {
@@ -88,23 +105,39 @@ function escapeRegExp(s: string): string {
   return res;
 }
 
-/** 
- * Creates the standard regex used to find citations in text.
- * Note: Intentionally avoids `\b` at the end to catch edge cases like [@key]. 
- */
 function createCitationRegex(key: string): RegExp {
-  // Atomic citekey match: stop before suffix or delimiter
   return new RegExp(`@${escapeRegExp(key)}(?=[^a-zA-Z0-9_]|$)`, "g");
 }
 
-function parseKey(key: string): KeyParts | null {
-  // Robust parsing: peel off Year/Suffix first, then split Author/Title
-  let temp = key;
+function normalizeKey(key: string): string {
+  let normalized = key;
+  // Fix: "AntiTerrorismAct20202020" -> "AntiTerrorismAct2020"
+  normalized = normalized.replace(/(\d{4})\1+$/, "$1");
+  // Fix: "2018ImplementingRules2018" -> "ImplementingRules2018"
+  const leadYearMatch = normalized.match(/^(\d{4})/);
+  const trailYearMatch = normalized.match(/(\d{4})([a-z])?$/);
+  if (leadYearMatch && trailYearMatch && leadYearMatch[1] === trailYearMatch[1]) {
+    normalized = normalized.substring(4);
+  }
+  return normalized;
+}
+
+function isLegalDocument(titleWords: string[]): boolean {
+  if (titleWords.length === 0) return false;
+  const lastWord = titleWords[titleWords.length - 1];
+  const wordsStr = titleWords.join("").toLowerCase();
+  
+  return LEGAL_SUFFIXES.includes(lastWord) || 
+         wordsStr.includes("data") || 
+         wordsStr.includes("privacy") || 
+         wordsStr.includes("protection");
+}
+
+export function parseKey(key: string): KeyParts | null {
+  let temp = normalizeKey(key);
   let year: string | null = null;
   let suffix: string | null = null;
 
-  // 1. Extract Year + Optional Suffix (e.g. 2020, 2020a)
-  // Must be at the end of the string
   const yearMatch = temp.match(/(\d{4})([a-z])?$/);
   if (yearMatch) {
     year = yearMatch[1];
@@ -112,8 +145,6 @@ function parseKey(key: string): KeyParts | null {
     temp = temp.substring(0, temp.length - yearMatch[0].length);
   }
 
-  // 2. Extract Author (leading lowercase)
-  // Stops at first Uppercase letter (start of Title) or end of string
   let author: string | null = null;
   let rawTitle = "";
 
@@ -122,113 +153,326 @@ function parseKey(key: string): KeyParts | null {
     author = authorMatch[1];
     rawTitle = temp.substring(author.length);
   } else {
-    // No leading lowercase -> Entirely Title (CamelCase) or Empty
     rawTitle = temp;
   }
 
-  // Guard: Must have at least some structural component
   if (!author && !rawTitle && !year) return null;
 
-  // 3. Split Title Words (CamelCase)
   const titleWords = rawTitle.split(/(?=[A-Z])/).filter(s => s.length > 0);
+  const isLegal = isLegalDocument(titleWords);
 
   return {
     original: key,
     author: author || null,
     titleWords: titleWords,
     year: year || null,
-    suffix: suffix || null
+    suffix: suffix || null,
+    isLegalDocument: isLegal
   };
 }
 
-function compareStructured(fail: KeyParts, valid: KeyParts): number {
-  let score = 0;
-
-  // 1. Year (Crucial Filter)
-  if (fail.year && valid.year) {
-    if (fail.year === valid.year) score += SCORING.BONUS.EXACT_YEAR;
-    else return 0; // Penalize year mismatch heavily
-  } else if (!fail.year && valid.year) {
-    score += 0.2; // Enrichment (Valid key adds missing year)
+function stripNonLegalSuffixes(words: string[]): string[] {
+  if (words.length === 0) return words;
+  const lastWord = words[words.length - 1];
+  if (STRIPPABLE_SUFFIXES.includes(lastWord)) {
+    return words.slice(0, -1);
   }
-
-  // 2. Title Words (Calculate first to condition Author Enrichment)
-  const failT = fail.titleWords.map(w => w.toLowerCase()).join("");
-  const validT = valid.titleWords.map(w => w.toLowerCase()).join("");
-  let titleMatch: "Exact" | "Substr" | "None" = "None";
-
-  if (failT && validT) {
-    if (failT === validT) {
-      score += SCORING.BONUS.EXACT_TITLE;
-      titleMatch = "Exact";
-    }
-    else if (failT.includes(validT)) {
-      score += SCORING.BONUS.SUBSTR_TITLE;
-      titleMatch = "Substr";
-      // Canonical Normalization Bonus: Long descriptive key -> Short canonical key
-      if (!fail.year && valid.year) score += 0.15;
-    }
-    else if (validT.includes(failT) && valid.titleWords.length <= fail.titleWords.length) {
-      score += 0.2;
-      titleMatch = "Substr";
-    }
-  }
-
-  // 3. Author
-  if (fail.author && valid.author) {
-    if (fail.author === valid.author) score += SCORING.BONUS.EXACT_AUTHOR;
-    else if (valid.author.startsWith(fail.author)) score += SCORING.BONUS.SUBSTR_AUTHOR;
-    else return 0; // Penalize author mismatch
-  } else if (!fail.author && valid.author) {
-    // Enrichment: Only reward missing author if Title is EXACT.
-    // Prevents "PersonalDataProtection" -> "abadiDataProtection" false positives.
-    if (titleMatch === "Exact") {
-      score += 0.2;
-    }
-  }
-
-  return score;
+  return words;
 }
 
-function levenshtein(a: string, b: string): number {
-  if (!a) return b.length;
-  if (!b) return a.length;
-  const matrix = Array(b.length + 1).fill(null).map(() => Array(a.length + 1).fill(null));
+function getTitleString(words: string[], stripSuffixes: boolean = false): string {
+  const workingWords = stripSuffixes ? stripNonLegalSuffixes(words) : words;
+  return workingWords.map(w => w.toLowerCase()).join("");
+}
 
-  for (let i = 0; i <= b.length; i++) matrix[i][0] = i;
-  for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+function calculateTitleCoverage(failT: string, validT: string): {
+  coverage: number;
+  match: "exact" | "strong" | "weak" | "none";
+} {
+  if (!failT || !validT) return { coverage: 0, match: "none" };
+  
+  if (failT === validT) {
+    return { coverage: 1.0, match: "exact" };
+  }
+  
+  const minLen = Math.min(failT.length, validT.length);
+  const maxLen = Math.max(failT.length, validT.length);
+  
+  if (failT.includes(validT)) {
+    const coverage = validT.length / maxLen;
+    return {
+      coverage,
+      match: coverage >= 0.7 ? "strong" : coverage >= 0.5 ? "weak" : "none"
+    };
+  }
+  
+  if (validT.includes(failT)) {
+    const coverage = failT.length / maxLen;
+    return {
+      coverage,
+      match: coverage >= 0.6 ? "strong" : coverage >= 0.4 ? "weak" : "none"
+    };
+  }
+  
+  return { coverage: 0, match: "none" };
+}
 
-  for (let i = 1; i <= b.length; i++) {
-    for (let j = 1; j <= a.length; j++) {
-      const cost = (b.charAt(i - 1) === a.charAt(j - 1)) ? 0 : 1;
-      matrix[i][j] = Math.min(
-        matrix[i - 1][j] + 1,       // deletion
-        matrix[i][j - 1] + 1,       // insertion
-        matrix[i - 1][j - 1] + cost // substitution
-      );
+export function jaroWinkler(s1: string, s2: string): number {
+  if (s1 === s2) return 1.0;
+  
+  const len1 = s1.length, len2 = s2.length;
+  const matchWindow = Math.floor(Math.max(len1, len2) / 2) - 1;
+  
+  const s1Matches = new Array(len1).fill(false);
+  const s2Matches = new Array(len2).fill(false);
+  
+  let matches = 0;
+  let transpositions = 0;
+  
+  for (let i = 0; i < len1; i++) {
+    const start = Math.max(0, i - matchWindow);
+    const end = Math.min(i + matchWindow + 1, len2);
+    
+    for (let j = start; j < end; j++) {
+      if (s2Matches[j] || s1[i] !== s2[j]) continue;
+      s1Matches[i] = s2Matches[j] = true;
+      matches++;
+      break;
     }
   }
-  return matrix[b.length][a.length];
+  
+  if (matches === 0) return 0;
+  
+  let k = 0;
+  for (let i = 0; i < len1; i++) {
+    if (!s1Matches[i]) continue;
+    while (!s2Matches[k]) k++;
+    if (s1[i] !== s2[k]) transpositions++;
+    k++;
+  }
+  
+  const jaro = (matches / len1 + matches / len2 + 
+                (matches - transpositions / 2) / matches) / 3;
+  
+  let prefix = 0;
+  for (let i = 0; i < Math.min(4, len1, len2); i++) {
+    if (s1[i] === s2[i]) prefix++;
+    else break;
+  }
+  
+  return jaro + (prefix * 0.1 * (1 - jaro));
+}
+
+// --- CORE COMPARISON LOGIC (ASYMMETRIC) ---
+
+export function compareStructured(
+  fail: KeyParts, 
+  valid: KeyParts,
+  validCSL?: CSLItem | null
+): {
+  score: number;
+  explanation: string;
+} {
+  let score = 0;
+  const reasons: string[] = [];
+
+  // Determine legal document status from CSL if available
+  const validIsLegal = validCSL?.type && 
+    ["legislation", "bill", "regulation", "treaty", "legal_case"].includes(validCSL.type);
+  
+  let requiresStrictYear = fail.isLegalDocument || validIsLegal;
+
+  // 1. ENHANCEMENT: Check valid's full title for legal indicators
+  if (validCSL?.title && !validIsLegal) {
+    const titleLower = validCSL.title.toLowerCase();
+    const hasLegalSuffix = LEGAL_SUFFIXES.some(suffix => 
+      new RegExp(`\\b${suffix.toLowerCase()}\\b`).test(titleLower)
+    );
+    if (hasLegalSuffix) {
+      requiresStrictYear = true;
+    }
+  }
+
+  // 2. YEAR MATCHING (Use CSL date if key date missing)
+  let validYear = valid.year;
+  if (!validYear && validCSL?.issued?.["date-parts"]?.[0]?.[0]) {
+    validYear = String(validCSL.issued["date-parts"][0][0]);
+  }
+
+  if (fail.year && validYear) {
+    if (fail.year === validYear) {
+      score += SCORING.BONUS.EXACT_YEAR;
+      reasons.push(`Year: ${fail.year}`);
+    } else {
+      if (requiresStrictYear) {
+        return { 
+          score: 0, 
+          explanation: `LEGAL DOC year mismatch: ${fail.year} != ${validYear}` 
+        };
+      } else {
+        return { 
+          score: 0, 
+          explanation: `Year mismatch: ${fail.year} != ${validYear}` 
+        };
+      }
+    }
+  } else if (!fail.year && validYear) {
+    // Enrichment
+    score += SCORING.BONUS.YEAR_ENRICH;
+    reasons.push(`Year enrich: +${validYear}`);
+  } else if (fail.year && !validYear) {
+    if (requiresStrictYear) {
+      score -= 0.1;
+      reasons.push(`Valid key missing year (suspicious)`);
+    } else {
+      score -= 0.05;
+    }
+  }
+
+  // 3. ENHANCEMENT: Full Title Containment
+  // This helps when fail key has "Act" but valid key (truncated) does not
+  if (validCSL?.title) {
+    const validFullTitle = validCSL.title.toLowerCase().replace(/[^a-z0-9]/g, "");
+    const failKeyStr = fail.titleWords.join("").toLowerCase();
+    
+    if (validFullTitle.includes(failKeyStr)) {
+      score += 0.3;
+      reasons.push(`Fail key in valid title`);
+    } else if (failKeyStr.includes(validFullTitle)) {
+      score += 0.25;
+      reasons.push(`Valid title in fail key`);
+    } else {
+      const titleSim = jaroWinkler(failKeyStr, validFullTitle);
+      if (titleSim > 0.7) {
+        score += 0.2 * titleSim;
+        reasons.push(`Key vs title: ${(titleSim * 100).toFixed(0)}%`);
+      }
+    }
+  }
+
+  // 4. Standard Title Word Matching
+  const failTWithSuffix = getTitleString(fail.titleWords, false);
+  const validTWithSuffix = getTitleString(valid.titleWords, false);
+  const failTNoSuffix = getTitleString(fail.titleWords, true);
+  const validTNoSuffix = getTitleString(valid.titleWords, true);
+  
+  let titleResult;
+  if (requiresStrictYear) {
+    titleResult = calculateTitleCoverage(failTWithSuffix, validTWithSuffix);
+  } else {
+    const coverageWithSuffix = calculateTitleCoverage(failTWithSuffix, validTWithSuffix);
+    const coverageNoSuffix = calculateTitleCoverage(failTNoSuffix, validTNoSuffix);
+    titleResult = coverageNoSuffix.match !== "none" ? coverageNoSuffix : coverageWithSuffix;
+  }
+  
+  const titleMatch = titleResult.match;
+  
+  if (titleMatch === "exact") {
+    score += SCORING.BONUS.EXACT_TITLE;
+    reasons.push("Title exact");
+  } else if (titleMatch === "strong") {
+    score += SCORING.BONUS.STRONG_TITLE * titleResult.coverage;
+    reasons.push(`Title strong (${(titleResult.coverage * 100).toFixed(0)}%)`);
+  } else if (titleMatch === "weak") {
+    score += SCORING.BONUS.WEAK_TITLE * titleResult.coverage;
+    reasons.push(`Title weak (${(titleResult.coverage * 100).toFixed(0)}%)`);
+  }
+
+  // 5. Author Matching (Enhanced with CSL)
+  let authorMatched = false;
+  
+  if (fail.author && validCSL?.author) {
+    const validAuthors = validCSL.author.map(a => {
+      if ('family' in a && a.family) return a.family.toLowerCase();
+      if ('literal' in a && a.literal) return a.literal.toLowerCase();
+      return '';
+    }).filter(Boolean);
+    
+    const failAuthorLower = fail.author.toLowerCase();
+    
+    for (const vAuthor of validAuthors) {
+      if (vAuthor === failAuthorLower) {
+        score += SCORING.BONUS.EXACT_AUTHOR;
+        reasons.push(`Author: ${fail.author} (CSL)`);
+        authorMatched = true;
+        break;
+      } else if (vAuthor.startsWith(failAuthorLower) && failAuthorLower.length >= 3) {
+        score += SCORING.BONUS.SUBSTR_AUTHOR;
+        reasons.push(`Author prefix: ${fail.author} (CSL)`);
+        authorMatched = true;
+        break;
+      }
+    }
+  } 
+  
+  // Fallback / Key-based Author Matching
+  if (!authorMatched && fail.author && valid.author) {
+    if (fail.author === valid.author) {
+      score += SCORING.BONUS.EXACT_AUTHOR;
+      reasons.push(`Author: ${fail.author}`);
+      authorMatched = true;
+    } else if (valid.author.startsWith(fail.author) && fail.author.length >= 3) {
+      score += SCORING.BONUS.SUBSTR_AUTHOR;
+      reasons.push(`Author prefix: ${fail.author}`);
+      authorMatched = true;
+    } else {
+      return { 
+        score: 0, 
+        explanation: `Author mismatch: ${fail.author} != ${valid.author}` 
+      };
+    }
+  } 
+  
+  // Author Enrichment
+  if (!authorMatched && !fail.author && (valid.author || validCSL?.author)) {
+    if (titleMatch === "exact" || titleMatch === "strong") {
+      score += SCORING.BONUS.AUTHOR_ENRICH;
+      reasons.push(`Author enrich`);
+    }
+  }
+
+  // 6. Suffix matching
+  if (fail.suffix && valid.suffix && fail.suffix !== valid.suffix) {
+    return {
+      score: 0,
+      explanation: `Suffix mismatch: ${fail.suffix} != ${valid.suffix}`
+    };
+  }
+
+  return {
+    score: Math.min(1.5, score), // Cap slightly above 1 to distinguish perfect matches
+    explanation: reasons.join("; ")
+  };
 }
 
 // =============================================================================
 // I/O HELPERS
 // =============================================================================
 
-// NOTE:
-// This is the ONLY output that is written to --output.
-// Everything else is console-only by design.
+async function loadCSLData(): Promise<Map<string, CSLItem>> {
+  try {
+    const text = await Deno.readTextFile(PATHS.BIB_JSON);
+    const items: CSLItem[] = JSON.parse(text);
+    const map = new Map<string, CSLItem>();
+    for (const item of items) {
+      if (item.id) {
+        map.set(item.id, item);
+      }
+    }
+    console.log(`✓ Loaded ${map.size} CSL entries from bibliography.`);
+    return map;
+  } catch (e) {
+    console.warn(`⚠️  Could not load CSL data from ${PATHS.BIB_JSON}. Using key-only matching.`);
+    return new Map();
+  }
+}
+
 async function reportMatch(lines: string[]) {
-  // Always print to console
   for (const line of lines) {
     console.log(line);
   }
-
-  // Optionally write to file (ANSI-stripped)
   if (MODE.OUTPUT_FILE) {
-    const clean = lines
-      .map(l => l.replace(/\x1b\[[0-9;]*m/g, ""))
-      .join("\n");
+    const clean = lines.map(l => l.replace(/\x1b\[[0-9;]*m/g, "")).join("\n");
     await Deno.writeTextFile(MODE.OUTPUT_FILE, clean + "\n", { append: true });
   }
 }
@@ -258,14 +502,11 @@ async function runUpdateScript() {
 
 async function saveSession(fileContents: Map<string, string>, changeLog: string[]) {
   if (changeLog.length === 0) return;
-
   console.log(`\nWriting changes to ${changeLog.length} keys across files...`);
   let savedCount = 0;
-
   for (const [path, newContent] of fileContents.entries()) {
     try {
       const currentDisk = await Deno.readTextFile(path);
-      // Safety: Only write if file logically changed
       if (currentDisk !== newContent) {
         await Deno.writeTextFile(path, newContent);
         console.log(`   Saved: ${path}`);
@@ -275,7 +516,6 @@ async function saveSession(fileContents: Map<string, string>, changeLog: string[
       console.error(`   ❌ Failed to save ${path}:`, e);
     }
   }
-
   try {
     const logPath = PATHS.LOG;
     let oldLog = "";
@@ -289,7 +529,6 @@ async function saveSession(fileContents: Map<string, string>, changeLog: string[
 }
 
 function promptUser(q: string, options: string): string {
-  // Basic guard for CI/Non-TTY environments
   if (!Deno.isatty(Deno.stdin.rid)) {
     console.warn("Non-interactive terminal detected. Skipping prompt.");
     return "";
@@ -303,18 +542,19 @@ function promptUser(q: string, options: string): string {
 async function main() {
   try {
     if (MODE.OUTPUT_FILE) {
-      await Deno.writeTextFile(MODE.OUTPUT_FILE, ""); // Clear file
+      await Deno.writeTextFile(MODE.OUTPUT_FILE, ""); 
     }
 
-    // 1. Setup
     if (!MODE.SKIP_UPDATE) {
       await runUpdateScript();
     }
+    
     const failingKeys = await loadKeys(PATHS.FAILING);
     const validKeys = await loadKeys(PATHS.VALID);
+    const cslData = await loadCSLData(); // NEW: Load CSL data
+
     console.log(`Loaded ${failingKeys.length} failing keys and ${validKeys.length} valid keys.`);
 
-    // 2. Load Content
     const fileContents = new Map<string, string>();
     try {
       for await (const entry of walk(PATHS.REPORTS, { exts: [".qmd"] })) {
@@ -326,44 +566,50 @@ async function main() {
     }
     console.log(`Scanned ${fileContents.size} content files.`);
 
-    // 3. Analysis Phase
     console.log("\nAnalyzing matches...");
     const actionableMatches: MatchResult[] = [];
 
     for (const fail of failingKeys) {
       let bestMatch = "";
       let bestScore = -1;
-      let method: MatchResult["method"] = "Fuzzy";
+      let method = "none";
+      let explanation = "";
 
       const failParsed = parseKey(fail);
 
       for (const valid of validKeys) {
-        let score = 0;
-        let currMethod: MatchResult["method"] = "Fuzzy";
-
         const validParsed = parseKey(valid);
-        
+        const validCSL = cslData.get(valid) || null; // Get CSL for this key
+
+        let score = 0;
+        let currMethod = "none";
+        let currExpl = "";
+
+        // 1. Cascading Step 1: Structural Match (Asymmetric)
         if (failParsed && validParsed) {
-          const sScore = compareStructured(failParsed, validParsed);
-          if (sScore > 0) {
-            score = sScore;
+          const structResult = compareStructured(failParsed, validParsed, validCSL);
+          if (structResult.score > 0) {
+            score = structResult.score;
             currMethod = "Structure";
+            currExpl = structResult.explanation;
           }
         }
 
-        // Fuzzy Fallback
-        if (score === 0) {
-          const dist = levenshtein(fail, valid);
-          let fuzzy = 1 - (dist / Math.max(fail.length, valid.length));
+        // 2. Cascading Step 2: Fuzzy Match (Fallback)
+        const strictMode = (failParsed?.isLegalDocument && failParsed?.year) || 
+                           (validParsed?.isLegalDocument && validParsed?.year) ||
+                           (validCSL?.type === "legislation" && validCSL.issued); // Check CSL too!
+        
+        if (score === 0 && !strictMode) {
+          const fuzzyScore = jaroWinkler(fail.toLowerCase(), valid.toLowerCase());
+          const boosted = (fail.includes(valid) || valid.includes(fail))
+            ? Math.min(1.0, fuzzyScore + 0.15)
+            : fuzzyScore;
           
-          // Penalty for very short keys to avoid false positive noise
-          if (fail.length < 6) fuzzy -= 0.1;
-
-          // Bonus for simple substring
-          if (valid.includes(fail) || fail.includes(valid)) {
-            score = fuzzy + SCORING.BONUS.SUBSTR_KEY;
-          } else {
-            score = fuzzy;
+          if (boosted > 0.5) {
+            score = boosted;
+            currMethod = "Fuzzy (Jaro)";
+            currExpl = `String similarity: ${(boosted * 100).toFixed(0)}%`;
           }
         }
 
@@ -371,6 +617,7 @@ async function main() {
           bestScore = score;
           bestMatch = valid;
           method = currMethod;
+          explanation = currExpl;
         }
       }
 
@@ -382,26 +629,20 @@ async function main() {
       
       for (const [path, content] of fileContents.entries()) {
         let m;
-        // Fix: Reset lastIndex manually if reusing global regex, 
-        // though here we create a fresh regex per key, so it's safe.
         while ((m = regex.exec(content)) !== null) {
           const start = Math.max(0, m.index - 60);
           const end = Math.min(content.length, m.index + m[0].length + 60);
           let snippet = content.substring(start, end).replace(/\n/g, " ");
           snippet = snippet.replace(m[0], `\x1b[1m\x1b[31m${m[0]}\x1b[0m`);
-          contexts.push(`   \x1b[36m${path}\x1b[0m:\n     "...${snippet.trim()}..."
-`);
+          contexts.push(`   \x1b[36m${path}\x1b[0m:\n     "...${snippet.trim()}..."\n`);
         }
       }
 
       if (contexts.length > 0) {
-        actionableMatches.push({ fail, bestMatch, bestScore, contexts, method });
-      } else {
-        if (MODE.VERBOSE) console.log(`Skipping ${fail}: Not found in text.`);
+        actionableMatches.push({ fail, bestMatch, bestScore, contexts, method, explanation });
       }
     }
 
-    // Sort: Highest confidence first
     actionableMatches.sort((a, b) => b.bestScore - a.bestScore);
 
     if (actionableMatches.length === 0) {
@@ -409,31 +650,20 @@ async function main() {
       return;
     }
 
-    // 4. Reporting / Interactive Phase
-    
+    // Reporting Phase
     if (MODE.DRY_RUN) {
       console.log(`\n\x1b[1mCITATION MATCH REPORT\x1b[0m (${actionableMatches.length} suggestions)`);
       console.log("Run with \x1b[1m--fix\x1b[0m to interactively apply changes.");
-      console.log("Run with \x1b[1m--auto-fix-high\x1b[0m to automatically apply high confidence matches.\n");
     } else {
       console.log("\n" + "=".repeat(60));
       console.log("INTERACTIVE CITATION RESOLVER");
       console.log("=".repeat(60));
-      console.log("Instructions:");
-      console.log("  Suggestions are shown by probability: \x1b[32mHigh\x1b[0m -> \x1b[33mMedium\x1b[0m -> \x1b[31mLow\x1b[0m");
-      if (MODE.INTERACTIVE) {
-          console.log("Controls:");
-          console.log("  [y] Queue fix");
-          console.log("  [n] Skip");
-          console.log("  [q] Quit menu");
-      }
-      console.log("=".repeat(60) + "\n");
     }
 
     const changeLog: string[] = [];
 
     for (let i = 0; i < actionableMatches.length; i++) {
-      const { fail, bestMatch, bestScore, contexts, method } = actionableMatches[i];
+      const { fail, bestMatch, bestScore, contexts, method, explanation } = actionableMatches[i];
 
       let label = "\x1b[31mLow \x1b[0m";
       let isHigh = false;
@@ -442,7 +672,8 @@ async function main() {
 
       await reportMatch([
         "-".repeat(60),
-        `${label} Match:  \x1b[31m@${fail}\x1b[0m  ->  \x1b[32m@${bestMatch}\x1b[0m  (Score: ${bestScore.toFixed(2)}) [${method}]`,
+        `${label} Match:  \x1b[31m@${fail}\x1b[0m  ->  \x1b[32m@${bestMatch}\x1b[0m  (Score: ${bestScore.toFixed(2)})`,
+        `   Method: ${method} | Reason: ${explanation}`,
         ...contexts
       ]);
 
@@ -454,42 +685,17 @@ async function main() {
       } 
       else if (MODE.INTERACTIVE) {
         const input = promptUser("   Queue fix?", "y/N/q");
-        
-        if (input === "y") {
-          shouldQueue = true;
-        } else if (input === "q") {
-          console.log(`\n\x1b[1mQUIT CONFIRMATION\x1b[0m`);
-          console.log(`You have ${changeLog.length} fixes queued.`);
-          console.log("  [s] Save queued changes and quit");
-          console.log("  [q] Quit without saving (Discard)");
-          console.log("  [c] Cancel (Resume resolving)");
-          
-          const qInput = promptUser("Selection", "s/q/C");
-          if (qInput === "s") {
-            await saveSession(fileContents, changeLog);
-            Deno.exit(0);
-          } else if (qInput === "q") {
-            console.log("❌ Changes discarded.");
-            Deno.exit(0);
-          } else {
-            i--; // Retry this item
-            continue;
-          }
+        if (input === "y") shouldQueue = true;
+        else if (input === "q") {
+          await saveSession(fileContents, changeLog);
+          Deno.exit(0);
         }
       }
 
-      // Apply Logic (Memory Only)
       if (shouldQueue) {
-        // Fix: Use simple string replacement for safety, or regex without 'g' flag if we want just one?
-        // Actually, we want to replace ALL instances in the file.
-        // We recreate the regex here to be safe and clean.
         const regex = createCitationRegex(fail);
-        
         for (const path of fileContents.keys()) {
           let content = fileContents.get(path)!;
-          // Robust check: Does the file actually contain it?
-          // Using split/join is often faster/safer than regex for simple replacements, 
-          // but we need to match @key boundary.
           if (regex.test(content)) {
             content = content.replace(regex, `@${bestMatch}`);
             fileContents.set(path, content);
@@ -499,23 +705,13 @@ async function main() {
       }
     }
 
-    // 5. Final Save
     if (changeLog.length > 0) {
-      console.log("\n" + "=".repeat(60));
-      console.log(`Processing complete. ${changeLog.length} fixes queued.`);
-      
-      if (MODE.AUTO_HIGH) {
-        await saveSession(fileContents, changeLog);
-      } else if (MODE.INTERACTIVE) {
-        const confirm = promptUser("Write all changes to disk?", "y/N");
-        if (confirm === "y") {
+      if (MODE.AUTO_HIGH) await saveSession(fileContents, changeLog);
+      else if (MODE.INTERACTIVE) {
+        if (promptUser("Write all changes to disk?", "y/N") === "y") {
           await saveSession(fileContents, changeLog);
-        } else {
-          console.log("❌ Changes discarded.");
         }
       }
-    } else if (!MODE.DRY_RUN) {
-      console.log("\nNo changes queued.");
     }
 
   } catch (err) {
@@ -524,5 +720,4 @@ async function main() {
   }
 }
 
-// Start
 if (import.meta.main) main();
