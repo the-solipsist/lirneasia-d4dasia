@@ -104,7 +104,7 @@
   XML      Extensible Markup Language
   -----------------------------------------------------------------------------------------
 
-{{< include ../common/about-this-report.qmd >}}
+{{< include ../_common/about-this-report.qmd >}}
 
 # Executive summary
 
@@ -126,7 +126,7 @@ Ultimately, Thailand's data governance system reflects a broader tension between
 
 To move forward, Thailand must prioritize legal harmonization, institutional coordination, and capacity building. Clearer guidance on the relationship between openness and privacy, better training for both public officials and private actors, and more inclusive mechanisms for stakeholder engagement will be essential. Comparative lessons from countries like South Korea, Australia, and the UK offer valuable models, but successful reform will ultimately require local adaptation and political will. Data governance in Thailand is at a crossroads: whether it becomes a tool for democratization or control depends on the choices made in the coming years.
 
-{{< include ../common/introduction.qmd >}}
+{{< include ../_common/introduction.qmd >}}
 
 # Country overview
 

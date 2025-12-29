@@ -46,12 +46,12 @@ This project uses [Quarto](https://quarto.org), with [Pandoc](https://pandoc.org
 
 - **`_quarto.yml`**: Project-level configuration.
 
-- **`bibliography/`**:
+- **`_references/`**:
 
   - `d4dasia-bib.json`: Master bibliography (CSL JSON format, generated using BetterBibTex and Zotero).
   - `*.csl`: Citation Style Language files, used to format citations in the appropriate style (such as the CMoS 18th edition).
 
-- **`report_pdfs/`**: The local output directory.  
+- **`pdfs/`**: The local output directory.  
   **Note:** This folder is ignored by git (`.gitignore`). It is populated only when you run `quarto render` locally.
 
 - **`_scripts/`**: Helper scripts for the build process and maintenance.
@@ -204,9 +204,9 @@ Quarto is the tool that ties everything in this repository together. When you ru
 - the lirneasia extension (`_extensions/lirneasia/_extension.yml`), which includes all branding and typesetting rules.
 - the `.qmd` source files
 - report-level metadata (`_metadata.yml`) within each report's folder
-- the master bibliography (`bibliography/d4dasia-bib.json`)
+- the master bibliography (`_references/d4dasia-bib.json`)
 - any country-specific bibliography (`reports/xx/d4dasia-bib-xx.json`)
-- the citation style file (`bibliography/*.csl`) specified in the project configuration
+- the citation style file (`_references/*.csl`) specified in the project configuration
 - downloads the fonts required for the document (as provided in `_extensions/lirneasia/_brand.yml`)
 
 ### Pandoc processing
@@ -240,7 +240,7 @@ Typst then produces the final professional-quality PDF.
 
 ### Post-render scripts
 
-After each PDF is produced, `_scripts/link-pdfs.ts` hard-links the PDF into `report_pdfs/`
+After each PDF is produced, `_scripts/link-pdfs.ts` hard-links the PDF into `pdfs/`
 
 This pipeline ensures that local builds and GitHub builds always produce identical output.
 
@@ -272,6 +272,6 @@ This way the PDFs are always kept up-to-date.
 
 ## Licence
 
-All report contents in this repository are licensed under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the material, provided you give appropriate credit to LIRNEasia and the respective authors.
+All report contents in this repository are licensed under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](COPYING.md). You are free to share and adapt the material, provided you give appropriate credit to LIRNEasia and the respective authors.
 
-All code contained in this repository is licensed under the [Zero Clause BSD licence (0BSD)](https://opensource.org/license/0bsd).
+All code contained in this repository is licensed under the [Zero Clause BSD licence (0BSD)](COPYING-0BSD.md).

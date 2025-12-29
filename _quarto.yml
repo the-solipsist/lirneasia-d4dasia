@@ -3,10 +3,10 @@ project:
   type: lirneasia
   render:
     - "reports/*/d4dasia*.qmd"
-    - "!reports/common/*.qmd" # Do not render included files
+    - "!reports/_common/*.qmd" # Do not render included files
   post-render: 
     - quarto run _scripts/collect_report_pdfs.ts
-    - quarto run _scripts/update_citation_lists.ts
+    - quarto run _scripts/manage_citations.ts
   
 # 1. Global metadata
 lang: en-US
@@ -31,8 +31,8 @@ tbl-cap-location: top
 # 5. Bibliography and citations
 # This loads the MASTER bibliography. 
 # Country-specific bibs are merged in the country folder.
-bibliography: bibliography/d4dasia-bib.json
-csl: bibliography/chicago-shortened-notes-bibliography-subsequent-author.csl
+bibliography: _references/d4dasia-bib.json
+csl: _references/chicago-shortened-notes-bibliography-subsequent-author.csl
 reference-section-title: References
 citeproc: true
 

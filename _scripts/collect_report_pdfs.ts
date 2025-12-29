@@ -8,7 +8,7 @@
  * 
  * Description:
  *   This script scans the project's 'reports/' directory for generated PDF files 
- *   and creates hard-links to them in a central 'report_pdfs/' folder.
+ *   and creates hard-links to them in a central 'pdfs/' folder.
  * 
  *   This is a post-render utility that organizes the output, making it easy 
  *   to find, review, and commit the final reports.
@@ -25,7 +25,7 @@ if (dryRun) {
 // --- PATH DEFINITIONS ---
 // We use hardcoded paths relative to the project root for simplicity.
 const PROJECT_ROOT = Deno.cwd();
-const PDFS_DIR = `${PROJECT_ROOT}/report_pdfs`;
+const PDFS_DIR = `${PROJECT_ROOT}/pdfs`;
 const REPORTS_DIR = `${PROJECT_ROOT}/reports`;
 
 // Ensure the destination directory exists before attempting to link files.
@@ -66,7 +66,7 @@ for (const filePath of allFiles) {
   if (!filePath.toLowerCase().endsWith(".pdf")) continue;
   
   // Safety: Avoid harvesting files already inside the output directory.
-  if (filePath.includes("/report_pdfs/")) continue;
+  if (filePath.includes("/pdfs/")) continue;
 
   // Extract the filename (e.g., "report-lk.pdf") from the full path.
   const filename = filePath.substring(filePath.lastIndexOf("/") + 1);
@@ -93,7 +93,7 @@ for (const filePath of allFiles) {
   }
 }
 
-console.log("\n✨ Done. PDFs in report_pdfs/ are ready for Git.");
+console.log("\n✨ Done. PDFs in pdfs/ are ready for Git.");
 if (dryRun) {
   console.log("✨ (Dry-run completed; nothing was changed.)");
 }

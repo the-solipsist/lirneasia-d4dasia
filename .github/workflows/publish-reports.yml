@@ -72,7 +72,7 @@ jobs:
         run: quarto render
 
       - name: Zip PDFs
-        working-directory: main-repo/report_pdfs
+        working-directory: main-repo/pdfs
         run: zip -r ../d4dasia_report-pdfs.zip .
 
       # --- CASE 1: PR PREVIEW ---
@@ -89,7 +89,7 @@ jobs:
             
             *(Updated at: ${{ steps.metadata.outputs.date }})*
           files: |
-            main-repo/report_pdfs/*.pdf
+            main-repo/pdfs/*.pdf
             main-repo/d4dasia_report-pdfs.zip
           draft: false
           prerelease: true
@@ -124,7 +124,7 @@ jobs:
           tag_name: ${{ steps.metadata.outputs.short_date }}-${{ steps.metadata.outputs.commit }}
           name: "Current Draft: ${{ steps.metadata.outputs.short_date }}"
           files: |
-            main-repo/report_pdfs/*.pdf
+            main-repo/pdfs/*.pdf
             main-repo/d4dasia_report-pdfs.zip
           draft: false
           prerelease: true
@@ -139,7 +139,7 @@ jobs:
         with:
           # Note: We don't specify tag_name because the trigger IS the tag
           files: |
-            main-repo/report_pdfs/*.pdf
+            main-repo/pdfs/*.pdf
             main-repo/d4dasia_report-pdfs.zip
           draft: false
           prerelease: false # This is the "Stable" release

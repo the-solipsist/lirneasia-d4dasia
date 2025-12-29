@@ -1,6 +1,6 @@
-{{< include ../common/about-this-report.qmd >}}
+{{< include ../_common/about-this-report.qmd >}}
 
-{{< include ../common/introduction.qmd >}}
+{{< include ../_common/introduction.qmd >}}
 
 # Overview
 
