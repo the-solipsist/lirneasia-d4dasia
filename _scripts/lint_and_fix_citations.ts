@@ -29,7 +29,7 @@ import { parse } from "stdlib/flags";
 // --- CONFIGURATION ---
 const scriptDir = dirname(fromFileUrl(import.meta.url));
 const reportsDir = join(scriptDir, "../reports");
-const validKeysPath = join(scriptDir, "../bibliography/citekeys-valid.txt");
+const validKeysPath = join(scriptDir, "../_references/citekeys-bib-valid.txt");
 
 // --- ARGUMENT PARSING ---
 const args = parse(Deno.args, {

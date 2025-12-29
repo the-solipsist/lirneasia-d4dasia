@@ -8,7 +8,7 @@
   *   quarto run _scripts/resolve_citations.ts -- --output report.txt  # Save clean report to file
   *   quarto run _scripts/resolve_citations.ts -- --auto-fix-high # Auto-fix high confidence
   * 
-  * Purpose: *   1. Updates citation lists via `_scripts/update_citation_lists.ts`.
+  * Purpose: *   1. Updates citation lists via `_scripts/manage_citations.ts`.
  *   2. Analyzes missing keys against valid keys using structural & fuzzy matching.
  *   3. Scans content files for context.
  *   4. Interactively or automatically applies fixes.
@@ -21,11 +21,11 @@ import { parse } from "stdlib/flags";
 
 // --- CONFIGURATION ---
 const PATHS = {
-  FAILING: "bibliography/citekeys-failing.txt",
-  VALID:   "bibliography/citekeys-valid.txt",
+  FAILING: "_references/citekeys-reports-failing.txt",
+  VALID:   "_references/citekeys-bib-valid.txt",
   REPORTS: "reports",
   LOG:     "citation_fix_log.txt",
-  UPDATE_SCRIPT: "_scripts/update_citation_lists.ts"
+  UPDATE_SCRIPT: "_scripts/manage_citations.ts"
 };
 
 const SCORING = {
@@ -246,7 +246,7 @@ async function loadKeys(path: string): Promise<string[]> {
 async function runUpdateScript() {
   console.log("Updating citation lists...");
   const cmd = new Deno.Command("quarto", {
-    args: ["run", PATHS.UPDATE_SCRIPT],
+    args: ["run", PATHS.UPDATE_SCRIPT, "--list-available", "--list-used", "--list-failing"],
     stdout: "inherit", stderr: "inherit"
   });
   const status = await cmd.output();

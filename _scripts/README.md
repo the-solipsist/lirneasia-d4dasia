@@ -18,53 +18,55 @@ quarto run _scripts/<script_name>.ts --fix
 
 ### 📚 Citation & Bibliography Management
 
-#### 1. Fix Citations & Footnotes (`lint_and_fix_citations.ts`)
-**Purpose:** Cleans up citation grammar to follow the correct [Pandoc Citation Syntax](https://pandoc.org/MANUAL.html#citation-syntax).
-*   **Merges Citations:** Converts adjacent brackets like `[@Author1][@Author2]` into a single citation group `[@Author1; @Author2]`. This is required for Pandoc to render them as a single note.
-*   **Restores Links:** Automatically finds "naked" keys like `[Smith2020]` and adds the required `@` symbol (`[@Smith2020]`) so they become active links.
-*   **Syntax Cleanup:** Removes backslashes (like `\[@cite\]`) that often appear after importing text from other formats and break the reference system.
-*   **Usage:** Run with `--fix` to automatically repair these issues.
+#### 1. Manage Citations (`manage_citations.ts`)
+**Purpose:** The central tool for auditing citation usage, checking the bibliography, and finding errors. It replaces several older scripts.
+*   **List Available:** Lists all valid keys in your Zotero export (`d4dasia-bib.json`).
+*   **List Used:** Lists every citation key actually used in your reports.
+*   **List Failing:** Compares the above two lists to find keys you used that don't exist in the bibliography (broken links).
+*   **List Collisions:** Checks for potential duplicates like `Author2023` vs `Author2023a`.
+*   **Footnote Audit:** Checks for citations buried inside footnotes (which breaks formatting).
+*   **Usage:**
+    *   `quarto run _scripts/manage_citations.ts` (Runs all standard audits)
+    *   `quarto run _scripts/manage_citations.ts --list-failing` (Find broken keys)
+    *   `quarto run _scripts/manage_citations.ts --list-citations-in-footnotes` (Find hidden citations)
 
-#### 2. Check Citation & Footnote Usage (`audit_citation_usage.ts`)
-**Purpose:** A diagnostic tool to find "hidden" errors and review content without opening every file.
-*   **Check for Hidden Citations (`--footnotes`):** Lists citations buried *inside* footnotes. Since our style renders citations as footnotes, putting a citation inside a footnote creates a "footnote inside a footnote," which breaks formatting. These must be moved to the main text.
-*   **Review All Footnote Text (`--all-footnotes`):** Extracts the text of every footnote in the project. Use this to check for consistent punctuation and length across all reports without switching between files.
+#### 2. Fix Citations & Footnotes (`lint_and_fix_citations.ts`)
+**Purpose:** Cleans up citation grammar to follow the correct [Pandoc Citation Syntax](https://pandoc.org/MANUAL.html#citation-syntax).
+*   **Merges Citations:** Converts adjacent brackets like `[@Author1][@Author2]` into a single citation group `[@Author1; @Author2]`.
+*   **Restores Links:** Automatically finds "naked" keys like `[Smith2020]` and adds the required `@` symbol (`[@Smith2020]`).
+*   **Syntax Cleanup:** Removes backslashes (like `\[@cite\]`) that often appear after importing text.
+*   **Usage:** Run with `--fix` to automatically repair these issues.
 
 #### 3. Resolve Typos & Structural Errors (`resolve_citations.ts`)
 **Purpose:** Fixes broken links caused by typos or changes in the Zotero database using both fuzzy logic and structural matching.
-*   **Structural Matching:** The script understands the structure of our citation keys and can resolve complex mismatches, such as:
-    *   **Enrichment:** `[DigitalGovernmentStrategy]` → `[@smithDigitalGovernment2021]` (identifies the correct key by matching title words and adding missing author/year).
-    *   **Normalization:** `[InformationTechnologyPolicy]` → `[@InformationTechnology2000]` (maps verbose names to canonical keys).
-    *   **Draft to Final:** `[OnlineSafetyBillDraft]` → `[@OnlineSafetyAct2024]` (updates working titles to the final enacted law).
-*   **Interactive Fix:** It shows you the specific sentence where the error occurs and asks you to confirm the suggestion.
+*   **Structural Matching:** Resolves complex mismatches like:
+    *   **Enrichment:** `[DigitalGovernmentStrategy]` → `[@smithDigitalGovernment2021]`
+    *   **Normalization:** `[InformationTechnologyPolicy]` → `[@InformationTechnology2000]`
+    *   **Draft to Final:** `[OnlineSafetyBillDraft]` → `[@OnlineSafetyAct2024]`
+*   **Interactive Fix:** Shows you the error in context and asks to confirm the fix.
 *   **Usage:** Run with `--fix` for an interactive step-by-step walkthrough.
-
-#### 4. Bibliography Maintenance
-*   **`warn_citekey_collisions.ts`**: Identifies references that look like duplicates (e.g., `Author2023` vs `Author2023a`). This helps you find Zotero entries that need to be merged.
-*   **`update_citation_lists.ts`**: Run this whenever you update the master Zotero file (`d4dasia-bib.json`). It refreshes the internal "dictionary" of valid keys used by the other scripts.
 
 ---
 
 ### 🧹 Formatting & Cleanup
 
-#### 5. Standardize Headings (`lint_and_fix_headings.ts`)
+#### 4. Standardize Headings (`lint_and_fix_headings.ts`)
 **Purpose:** Clean up artifacts left over from the conversion from Microsoft Word to Markdown.
-*   **Strips Bold:** Removes `**` markers from headings. In our typesetting system (Typst), heading styles (weight, size) are controlled globally by the template. Manual bolding overrides this and breaks internal document linking.
-*   **Removes Manual Numbers:** Deletes hardcoded numbers like `1.1 Introduction`. These are artifacts from Word conversion. Our system numbers headings automatically, so keeping them leads to double-numbering (e.g., "1. 1.1 Introduction").
+*   **Strips Bold:** Removes `**` markers from headings (handled by Typst template).
+*   **Removes Manual Numbers:** Deletes hardcoded numbers like `1.1 Introduction` (handled by Quarto).
 *   **Usage:** Run with `--fix` to standardize formatting.
 
-#### 6. Check & Clean Attributes (`manage_element_attributes.ts`)
+#### 5. Check & Clean Attributes (`manage_element_attributes.ts`)
 **Purpose:** Ensures accessibility and removes technical clutter.
-*   **Check Mode (Default):** Scans the reports for problems, specifically:
-    *   **Missing Alt Text:** Warns you if an image is missing a description for screen readers (critical for accessibility).
-    *   **Broken Attributes:** Flags text that looks like broken code (e.g., `{.mark}`) that failed to render correctly.
-*   **Fix Mode (`--fix`):** Actively deletes unwanted technical codes (like `{.underline}`, `{.mark}`, or `width="100%"`) that don't belong in the final report.
+*   **Check Mode (Default):** Scans for problems like missing **Alt Text** on images or broken code markers (`{.mark}`).
+*   **Fix Mode (`--fix`):** Deletes unwanted technical codes (like `{.underline}`, `width="100%"`) that don't belong in the final report.
 *   **Usage:** Run with `--fix` to strip away the technical clutter.
 
 ---
 
 ### 📂 Utilities
 
-#### 7. Organize Report PDFs (`collect_report_pdfs.ts`)
+#### 6. Organize Report PDFs (`collect_report_pdfs.ts`)
 **Purpose:** A utility to organize the output.
-*   **Harvesting:** Scans all the country folders and creates a hard-link to every generated PDF in a single central folder: `report_pdfs/`. This makes it easy to review and distribute the full set of reports in one place.
+*   **Harvesting:** Scans all the country folders and creates a hard-link to every generated PDF in a single central folder: `pdfs/`.
+*   **Usage:** `quarto run _scripts/collect_report_pdfs.ts`
