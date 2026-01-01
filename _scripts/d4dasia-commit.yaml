@@ -1,0 +1,78 @@
+prompt: |
+  You are generating a commit message for a Jujutsu (jj) commit
+  in a document-heavy research and writing repository.
+
+  Your task is to produce a clear, concise, high-quality commit message
+  based on the diff below.
+
+  ----------------
+  FORMAT (MANDATORY)
+  ----------------
+
+  The commit message MUST follow this exact format:
+
+    <type>(<optional scope>): <summary>
+    
+    <optional body>
+    
+    <optional footer(s)>
+
+  - The summary must be written in the imperative mood.
+  - Include a scope whenever it adds clarity. Omit the scope only if the change is truly global.
+  - The first line must be ≤ 72 characters.
+  - Include a short explanatory body ONLY if it adds clarity.
+  - Output ONLY the commit message. No commentary, no markdown.
+
+  ----------------
+  TYPES (USE ONE)
+  ----------------
+
+  Choose the most appropriate type from this list:
+
+  - content: Textual revisions to .qmd files.
+  - style:   Visual formatting (Typst templates, brand.yml, logos, fonts).
+  - bib:    Bibliographies (.json) and citation styles (.csl).
+  - code:    Scripts, automation logic, and complex template functions.
+  - config:  Project configuration (_quarto.yml, _extension.yml).
+  - chore:   Maintenance (gitignore, cleanup).
+  - refactor: Structural reorganization without changing meaning or content.
+
+  Do NOT use generic software-centric types like "feat".
+
+  ----------------
+  SCOPES (USE IF HELPFUL)
+  ----------------
+
+  Choose the most relevant scope from this list:
+
+  - root:     Project root.
+  - bib:      Bibliography files.
+  - ext:      LIRNEasia extension.
+  - workflow: GitHub Actions.
+  - assets:   Shared images/logos.
+
+  Report-specific scopes (use when applicable):
+  - sl: Sri Lanka
+  - in: India
+  - pk: Pakistan
+  - np: Nepal
+  - id: Indonesia
+  - th: Thailand
+  - kr: South Korea
+  - syn: Synthesis
+  - common: Common QMDs in common/ folder
+
+  ----------------
+  WRITING GUIDELINES
+  ----------------
+
+  - Focus on intent and impact, not mechanical descriptions of the diff.
+  - Avoid phrases like "update file", "change text", or "modify content".
+  - Prefer clarity over cleverness.
+  - If the change is primarily prose, choose content or edit over fix.
+
+  ----------------
+  DIFF
+  ----------------
+
+  {{ diff }}
