@@ -1,29 +1,173 @@
 ------------------------------------------------------------
-High Match:  @APISetu2020  ->  @ministryofelectronicsandinformationtechnologyAPISetu2020  (Score: 1.50)
-   Method: Structure | Reason: Year: 2020; Fail key in valid title; Title exact; Author enrich
-   reports/in/d4dasia_country-report_in.qmd:
-     "...overnment created an open API platform known as "API Setu" [@APISetu2020].  This website provides a directory of central and state g..."
-
-------------------------------------------------------------
-High Match:  @AntiTerrorismAct1997  ->  @nationalassemblyofpakistanAntiTerrorismAct1997  (Score: 1.50)
-   Method: Structure | Reason: Year: 1997; Fail key in valid title; Title exact; Author enrich
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...1948[@UnitedNations1948]  -   The Anti-Terrorism Act, 1997[@AntiTerrorismAct1997]  -   The National Counter Terrorism Authority Act, 2013[@N..."
-
-------------------------------------------------------------
-High Match:  @AntiTerrorismAct2020  ->  @congressofthephilippinesAntiTerrorismAct2020  (Score: 1.50)
-   Method: Structure | Reason: Year: 2020; Fail key in valid title; Title exact; Author enrich
+High Match:  @AmendmentsDepartmentCircular2020  ->  @AmendmentsCloud2020  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
    reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...intercept any private communications between such suspects [@AntiTerrorismAct2020]. The order may be issued by the Court of Appeals upon dete..."
+     "...ernment data may be subject to some residency restrictions [@AmendmentsDepartmentCircular2020].[^24]  ##### Sri Lanka  Section 9 of the Personal Data Pro..."
 
    reports/ph/d4dasia_country-report_ph.qmd:
-     "...intercept any private communications between such suspects [@AntiTerrorismAct2020]. The order may be issued by the Court of Appeals upon dete..."
+     "...ce standards.  In 2020, through DICT Circular No. 10 (2020)[@AmendmentsDepartmentCircular2020], the Philippine Cloud First Policy was expanded to cover n..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...ippine government\" [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^99] However, unlike government agencies, such private en..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...deployment strategy [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020][^100] or to utilize the data classification models prescri..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...government agencies [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^101] Such covered private sector entities are, by virtue..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...yption keys thereto [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^102]  ###### Exceptions to Data Security for Law Enforce..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...99]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020], Section 3.1.  [^100]: [@PrescribingPhilippineGovernments2..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...00]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020],      Section 5.2.  [^101]: [@PrescribingPhilippineGovernm..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...01]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020], Section 9.2.  [^102]: [@PrescribingPhilippineGovernments2..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...02]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020], Section 14.1.  [^103]: See Section 23 of the Act.  [^104]..."
 
 ------------------------------------------------------------
-High Match:  @AntiTerrorismAct20202020  ->  @congressofthephilippinesAntiTerrorismAct2020  (Score: 1.50)
-   Method: Structure | Reason: Year: 2020; Fail key in valid title; Title exact; Author enrich
+High Match:  @AntiMoneyLaunderingAct2003  ->  @AMLAAmendment2003  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
    reports/ph/d4dasia_country-report_ph.qmd:
-     "..., terrorist activities, and counter-terrorism operations\" [@AntiTerrorismAct20202020].[^59] A government coordinating body tasked with enforcing..."
+     "...were conducted or happened under suspicious circumstances [@AntiMoneyLaunderingAct2003][^48] are also reported to AMLC [@AntiMoneyLaunderingAct200..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...AntiMoneyLaunderingAct2003][^48] are also reported to AMLC [@AntiMoneyLaunderingAct2003].[^49] Suspicious transactions that are related to terroris..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...in the creation and maintenance of an information database [@AntiMoneyLaunderingAct2003].[^64] Philippine money-laundering laws also impose require..."
+
+------------------------------------------------------------
+High Match:  @CivilCodePhilippines1949  ->  @CivilCode1949  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...ategorizes personal property as generally tangible objects [@CivilCodePhilippines1949]. The absence of unequivocal proprietary rights over data h..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...reiterated in Articles 407 and 408 of the 1949 Civil Code [@CivilCodePhilippines1949]. Every city and municipality has their own local civil reg..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...tion forming a part of the legal system of the Philippines [@CivilCodePhilippines1949]. Thus, the government stands at risk of violating laws and..."
+
+------------------------------------------------------------
+High Match:  @DigitalDocumentManagement  ->  @informationandcommunicationtechnologyagencyofsrilankaictaDigitalDocument2023  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...rs of a breach. | | **Digital Document Management Policy** [@DigitalDocumentManagement] | \- **Goal:** Shift from paper to digital document manage..."
+
+------------------------------------------------------------
+High Match:  @DraftNationalPolicyArchives2023  ->  @DraftNational2023  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...ddressing it, including revising the existing Archives Act [@DraftNationalPolicyArchives2023].[^12] The policy also notes that in June 2023, the Sri Lan..."
+
+------------------------------------------------------------
+High Match:  @DraftOpenDataPolicyPK2019  ->  @opendataboardgovernmentofpakistanDraftPolicy2019  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "..."Draft Policy on Open Data for the Government of Pakistan",[@DraftOpenDataPolicyPK2019] but the policy was never approved. The draft policy contai..."
+
+------------------------------------------------------------
+High Match:  @FederalPublicProc  ->  @governmentofpakistanFederalPublic  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...data:** The Public Procurement Regulatory Authority (PPRA)[@FederalPublicProc] was created to streamline public procurement and bring tra..."
+
+------------------------------------------------------------
+High Match:  @FrameworkNationalArchives2024  ->  @committeetorevisenationalarchiveslawno.48of1973FrameworkNational2024  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...Legislation was released in January 2024, by the Committee [@FrameworkNationalArchives2024]. Part III contains suggested regulations regarding increas..."
+
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...and a public call for comments on the framework was issued [@FrameworkNationalArchives2024]. The framework suggests provisions that attempt to resolve..."
+
+------------------------------------------------------------
+High Match:  @GuidanceNotesPSX2023  ->  @pakistanstockexchangeGuidanceNotesforListedCompaniesPSXRegulations06July2023  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...ompanies.  Published information regarding listed companies[@GuidanceNotesPSX2023] includes:  -   Basic information, like company name, secto..."
+
+------------------------------------------------------------
+High Match:  @Ibbsround52016  ->  @Ibbspakistanround5201620172016  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...ogical and Behavioral Surveillance (IBBS) survey in 2016-17[@Ibbsround52016] and counted 31,790 transgender persons in only 23 cities [..."
+
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...] and counted 31,790 transgender persons in only 23 cities [@Ibbsround52016, p. 75]. According to a statement issued by NADRA, the tota..."
+
+------------------------------------------------------------
+High Match:  @InformationCommunicationTechnology  ->  @parliamentofthedemocraticsocialistrepublicofsrilankaInformationCommunication2003  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...hich replaced CINTEC as the country's apex ICT institution [@InformationCommunicationTechnology] [@parliamentofthedemocraticsocialistrepublicofsrilankaInfo..."
+
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...mpetency framework, and use cases for connected government [@InformationCommunicationTechnology].  #### National Digital Economy Strategy 2023-2030  The 20..."
+
+------------------------------------------------------------
+High Match:  @KhakivRawalpindiSC2009  ->  @KhakivRawalpindiSupremeCourtofPakistan2009  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...Supreme Court of Pakistan and in Khaki v. Rawalpindi (2009)[@KhakivRawalpindiSC2009]. The court declared that transgender people are entitled t..."
+
+------------------------------------------------------------
+High Match:  @OpenDataPortal  ->  @informationandcommunicationtechnologyagencyofsrilankaictaOpenData2024  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...larly: as of December 2024 the latest dataset is from 2022 [@OpenDataPortal]. It was noted that in March 2025, one dataset from 2024-20..."
+
+------------------------------------------------------------
+High Match:  @PMDPressReleases  ->  @pakistanmeteorologicaldepartmentPressReleases  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...e[@rasulClimateChange2012] and issuing occasional warnings.[@PMDPressReleases] Islamic Relief Canada also conducted a ground survey and p..."
+
+------------------------------------------------------------
+High Match:  @SCAmendedResolutionPakistanInactivity2020  ->  @SC_ResolutionPakistanInactivity_Amended_20200723  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...ion plan, resulting in it first being made inactive in 2020[@SCAmendedResolutionPakistanInactivity2020] and ultimately kicked out of the OGP on March 7, 2022[@OGP..."
+
+------------------------------------------------------------
+High Match:  @TRIPS1995  ->  @TradeRelatedAspects1995  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...pects of Intellectual Property Rights (\"TRIPS Agreement\")[@TRIPS1995]. Under the TRIPS Agreement, undisclosed information is pro..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...tronically, graphically, photographically, or in writing\" [@TRIPS1995].[^85] This protection includes being immune from modes of..."
+
+------------------------------------------------------------
+High Match:  @ecpvoterinstructions  ->  @ecppakistanInstructionsVoter  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...ns voting stats with following breakups[@ecpgovdatabase]^&^[@ecpvoterinstructions]:  -   Province-wise male and female voters;  -   Age-wise..."
+
+------------------------------------------------------------
+High Match:  @govpayPayTrafficFines  ->  @govpayPayTraffic  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...Importantly, traffic fines can also be paid using the app [@govpayPayTrafficFines]. However, user experiences have indicated shortcomings in..."
+
+------------------------------------------------------------
+High Match:  @govpaySecureConvenientPayments  ->  @govpaySecureConvenient  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...to facilitate digital transactions for government services [@govpaySecureConvenientPayments]. It enables citizens and businesses to make payments for v..."
+
+------------------------------------------------------------
+High Match:  @nectecThailand  ->  @nectecNECTECThailand  (Score: 2.00)
+   Method: Manual Override | Reason: Explicitly allowed in manual-true-positives.txt
+   reports/th/d4dasia_country-report_th.qmd:
+     "...ing open-source software, such as Linux and OpenOffice.org [@nectecThailand]. In the private sector, Thailand has the Open-Source Educa..."
 
 ------------------------------------------------------------
 High Match:  @BankingAct2021  ->  @centralbankofsrilankaBankingAct2021  (Score: 1.50)
@@ -470,6 +614,18 @@ High Match:  @loneyIndiaSharesOpensource2004  ->  @loneyIndiaShares2004  (Score:
      "...ormatics Centre sharing the government\'s FOSS experiences [@loneyIndiaSharesOpensource2004]. The establishment of the National Resource Centre for Fre..."
 
 ------------------------------------------------------------
+High Match:  @2018ImplementingRules2018  ->  @ImplementingRules2018  (Score: 1.40)
+   Method: Structure | Reason: Year: 2018; Fail key in valid title; Title exact
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...0 pesos (PHP5,000,000) or its equivalent in other currency [@2018ImplementingRules2018].[^47] In addition, transactions that are considered suspic..."
+
+------------------------------------------------------------
+High Match:  @AntiTerrorismAct20202020  ->  @AntiTerrorismAct2020  (Score: 1.40)
+   Method: Structure | Reason: Year: 2020; Fail key in valid title; Title exact
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "..., terrorist activities, and counter-terrorism operations\" [@AntiTerrorismAct20202020].[^59] A government coordinating body tasked with enforcing..."
+
+------------------------------------------------------------
 High Match:  @informationandcommunicationtechnologyofsrilankaictaSriLanka2022  ->  @SriLanka2022  (Score: 1.40)
    Method: Structure | Reason: Year: 2022; Fail key in valid title; Title exact
    reports/lk/d4dasia_country-report_lk.qmd:
@@ -486,21 +642,6 @@ High Match:  @nepalTelecommunicationsAct1993  ->  @TelecommunicationsAct1993  (S
    Method: Structure | Reason: Year: 1993; Fail key in valid title; Title exact
    reports/synthesis/d4dasia_synthesis-report.qmd:
      "...the state of emergency or national security in the country [@nepalTelecommunicationsAct1993].[^28] The Press and Publications Act, 2048 (1991) provides..."
-
-------------------------------------------------------------
-High Match:  @ActCarrying2022  ->  @nationalassemblyofthailandActCarrying2022  (Score: 1.40)
-   Method: Structure | Reason: Year: 2022; Key vs title: 75%; Title exact; Author enrich
-   reports/th/d4dasia_country-report_th.qmd:
-     "...c Service via Electronic Means B.E. 2565 (APSEM) was passed[@ActCarrying2022]. In essence, the law grants citizens the right to access a..."
-
-------------------------------------------------------------
-High Match:  @AntiMoneyLaunderingAct2001  ->  @congressofthephilippinesAntiMoneyLaundering2001  (Score: 1.40)
-   Method: Structure | Reason: Year: 2001; Fail key in valid title; Title strong (86%); Author enrich
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...the Philippines enacted the 2001 Anti-Money Laundering Act [@AntiMoneyLaunderingAct2001]. Under this Act, as amended, covered persons[^46] are requ..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...maintain such records of transactions for at least 5 years [@AntiMoneyLaunderingAct2001].[^65] While the law itself was silent as to the standards..."
 
 ------------------------------------------------------------
 High Match:  @NationalArchivesLaw1973  ->  @parliamentofthedemocraticsocialistrepublicofsrilankaNationalArchives1973  (Score: 1.39)
@@ -534,24 +675,6 @@ High Match:  @OnlineSafetyAct2024a  ->  @lboOnlineSafety2024  (Score: 1.37)
 
    reports/lk/d4dasia_country-report_lk.qmd:
      "...or other representation, or a combination of any of these’ [@OnlineSafetyAct2024a].  In November 2024, it was reported that a six-month suspe..."
-
-------------------------------------------------------------
-High Match:  @AntiOnlineSexualAbuse2022  ->  @congressofthephilippinesAntiOnlineSexual2022  (Score: 1.35)
-   Method: Structure | Reason: Year: 2022; Fail key in valid title; Title strong (76%); Author enrich
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...ults convicted of sexual abuse or exploitation of children [@AntiOnlineSexualAbuse2022].[^60] The Land Transportation Office is required under the..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...i-Child Sexual Abuse or Exploitation Materials (CSAEM) Act [@AntiOnlineSexualAbuse2022], law enforcement officers may be authorized by a regional..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...y believed to have committed violations under the said law [@AntiOnlineSexualAbuse2022].[^103] In addition, the law specifically states that when..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "..., or about to commit any of the violations in the said law [@AntiOnlineSexualAbuse2022].[^104] In instances when an order is required, the applica..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...other means readily available for obtaining such evidence [@AntiOnlineSexualAbuse2022].[^105]  # Recommendations Towards Increasing Data Flows  T..."
 
 ------------------------------------------------------------
 High Match:  @AICWarnsSri2023  ->  @digitalwatchobservatoryAICWarns2023  (Score: 1.34)
@@ -866,6 +989,15 @@ High Match:  @srilankaIntellectualPropertyAct2003  ->  @IntellectualProperty2003
      "...of 2003 governs copyrights and related rights in Sri Lanka [@srilankaIntellectualPropertyAct2003]. The Act does not recognize any exemptions for training AI..."
 
 ------------------------------------------------------------
+High Match:  @AntiMoneyLaunderingAct2001  ->  @AntiMoneyLaundering2001  (Score: 1.25)
+   Method: Structure | Reason: Year: 2001; Fail key in valid title; Title strong (86%)
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...the Philippines enacted the 2001 Anti-Money Laundering Act [@AntiMoneyLaunderingAct2001]. Under this Act, as amended, covered persons[^46] are requ..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...maintain such records of transactions for at least 5 years [@AntiMoneyLaunderingAct2001].[^65] While the law itself was silent as to the standards..."
+
+------------------------------------------------------------
 High Match:  @OfficialInformationAct1997  ->  @OfficialInformation1997  (Score: 1.25)
    Method: Structure | Reason: Year: 1997; Fail key in valid title; Title strong (86%)
    reports/synthesis/d4dasia_synthesis-report.qmd:
@@ -930,15 +1062,6 @@ High Match:  @IntellectualPropertyCode1997  ->  @IntellectualProperty1997  (Scor
 
    reports/ph/d4dasia_country-report_ph.qmd:
      "...e prevention of any alteration or modification of the work [@IntellectualPropertyCode1997].[^84]  The Philippines protects undisclosed information or..."
-
-------------------------------------------------------------
-High Match:  @AntiViolenceWomenTheir2004  ->  @congressofthephilippinesAntiViolenceWomen2004  (Score: 1.23)
-   Method: Structure | Reason: Year: 2004; Key vs title: 86%; Title strong (77%); Author enrich
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...tions of confidentiality punishable with contempt of court [@AntiViolenceWomenTheir2004].[^72] The 2022 Anti-Online Sexual Abuse and Exploitation o..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...of child sexual abuse or exploitation be kept confidential [@AntiViolenceWomenTheir2004].[^73] The names of children alleged, accused of, or adjudg..."
 
 ------------------------------------------------------------
 High Match:  @RevisedCorporationCode2019  ->  @RevisedCorporation2019  (Score: 1.23)
@@ -1059,6 +1182,24 @@ High Match:  @PropertyRegistrationDecree1978  ->  @PropertyRegistration1978  (Sc
 
    reports/ph/d4dasia_country-report_ph.qmd:
      "...e function of Registers of Deed in every province and city [@PropertyRegistrationDecree1978]. The office of the Register of Deeds is a public repositor..."
+
+------------------------------------------------------------
+High Match:  @AntiOnlineSexualAbuse2022  ->  @AntiOnlineSexual2022  (Score: 1.20)
+   Method: Structure | Reason: Year: 2022; Fail key in valid title; Title strong (76%)
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...ults convicted of sexual abuse or exploitation of children [@AntiOnlineSexualAbuse2022].[^60] The Land Transportation Office is required under the..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...i-Child Sexual Abuse or Exploitation Materials (CSAEM) Act [@AntiOnlineSexualAbuse2022], law enforcement officers may be authorized by a regional..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...y believed to have committed violations under the said law [@AntiOnlineSexualAbuse2022].[^103] In addition, the law specifically states that when..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "..., or about to commit any of the violations in the said law [@AntiOnlineSexualAbuse2022].[^104] In instances when an order is required, the applica..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...other means readily available for obtaining such evidence [@AntiOnlineSexualAbuse2022].[^105]  # Recommendations Towards Increasing Data Flows  T..."
 
 ------------------------------------------------------------
 High Match:  @AsiaInternet  ->  @AsiaInternet2025  (Score: 1.20)
@@ -1277,12 +1418,6 @@ High Match:  @PressPublicationAct1991  ->  @PressPublication1991  (Score: 1.10)
      "...on on imports of foreign publications along the same lines [@PressPublicationAct1991].[^32]  ##### Pakistan  The Right of Access to Information..."
 
 ------------------------------------------------------------
-High Match:  @Department  ->  @surveydepartmentofsrilankaDepartmentSurvey2020  (Score: 1.10)
-   Method: Structure | Reason: Year enrich: +2020; Fail key in valid title; Title strong (63%); Author enrich
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...artment (SLSD) oversees surveying and mapping in Sri Lanka [@Department; @SurveyActEnglish2002]. The Surveyor General is the head o..."
-
-------------------------------------------------------------
 High Match:  @ImprovingManagementLand2010  ->  @ImprovingManagement2010  (Score: 1.10)
    Method: Structure | Reason: Year: 2010; Key vs title: 85%; Title strong (83%)
    reports/ph/d4dasia_country-report_ph.qmd:
@@ -1317,6 +1452,15 @@ High Match:  @PhilippineHIVAIDS2018  ->  @PhilippineHIV2018  (Score: 1.09)
    Method: Structure | Reason: Year: 2018; Key vs title: 91%; Title strong (76%)
    reports/ph/d4dasia_country-report_ph.qmd:
      "...required under the 2018 Philippine HIV and AIDS Policy Act [@PhilippineHIVAIDS2018][^75], and for all relevant information related to persons..."
+
+------------------------------------------------------------
+High Match:  @AntiViolenceWomenTheir2004  ->  @AntiViolenceWomen2004  (Score: 1.08)
+   Method: Structure | Reason: Year: 2004; Key vs title: 86%; Title strong (77%)
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...tions of confidentiality punishable with contempt of court [@AntiViolenceWomenTheir2004].[^72] The 2022 Anti-Online Sexual Abuse and Exploitation o..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...of child sexual abuse or exploitation be kept confidential [@AntiViolenceWomenTheir2004].[^73] The names of children alleged, accused of, or adjudg..."
 
 ------------------------------------------------------------
 High Match:  @FederalInvestigationa  ->  @FederalInvestigation1974  (Score: 1.08)
@@ -1574,15 +1718,6 @@ High Match:  @VintageVehicleRegulation2022  ->  @VintageVehicle2022  (Score: 1.0
      "...\"vintage vehicles\" manufacture 40 or more years ago. See [@VintageVehicleRegulation2022], Section 19 (RA 11698).  [^64]: See Rule 7.2(7) of the Act..."
 
 ------------------------------------------------------------
-High Match:  @InformationCommunicationTechnology  ->  @parliamentofthedemocraticsocialistrepublicofsrilankaInformationCommunication2003  (Score: 1.02)
-   Method: Structure | Reason: Year enrich: +2003; Key vs title: 92%; Title strong (71%); Author enrich
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...hich replaced CINTEC as the country's apex ICT institution [@InformationCommunicationTechnology] [@parliamentofthedemocraticsocialistrepublicofsrilankaInfo..."
-
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...mpetency framework, and use cases for connected government [@InformationCommunicationTechnology].  #### National Digital Economy Strategy 2023-2030  The 20..."
-
-------------------------------------------------------------
 High Match:  @SurveyActEnglish2002  ->  @parliamentofthedemocraticsocialistrepublicofsrilankaSurveyAct2002  (Score: 1.01)
    Method: Structure | Reason: Year: 2002; Fail key in valid title; Title weak (56%)
    reports/lk/d4dasia_country-report_lk.qmd:
@@ -1775,7 +1910,7 @@ High Match:  @JuvenileJusticeWelfare2006  ->  @JuvenileJustice2006  (Score: 0.92
      "...nfidential under the 2006 Juvenile Justice and Welfare Act [@JuvenileJusticeWelfare2006].[^74] Confidentiality of persons with HIV or AIDS is requi..."
 
 ------------------------------------------------------------
-High Match:  @PakistanMedicalDentalCouncil  ->  @PakistanMedicalc  (Score: 0.91)
+High Match:  @PakistanMedicalDentalCouncil  ->  @PakistanMedicala  (Score: 0.91)
    Method: Fuzzy (Jaro) | Reason: String similarity: 91%
    reports/pk/d4dasia_country-report_pk.qmd:
      "...regulated by the Pakistan Medical and Dental Council (PMDC)[@PakistanMedicalDentalCouncil], created under the Pakistan Medical and Dental Council Act..."
@@ -1788,12 +1923,6 @@ High Match:  @nationalstatisticalofficeNSO  ->  @nationalstatisticsofficeCensusN
 
    reports/th/d4dasia_country-report_th.qmd:
      "...a crucial role in the country's data governance framework [@nationalstatisticalofficeNSO]. Under Section 6 of the Statistics Act B.E. 2550 (2007), t..."
-
-------------------------------------------------------------
-High Match:  @FreedomInformationPhilippines  ->  @FreedomInformationa  (Score: 0.91)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 91%
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...k.  # References  [^1]: The FOI website may be found here: [@FreedomInformationPhilippines].  [^2]: Other founding members are Brazil, Indonesia, Mexi..."
 
 ------------------------------------------------------------
 High Match:  @MutualAssistanceCriminal2002  ->  @parliamentofthedemocraticsocialistrepublicofsrilankaMutualAssistance2002  (Score: 0.91)
@@ -1899,30 +2028,6 @@ High Match:  @parliamentofthedemocraticsocialistrepublicofsrilankaComputerInform
    Method: Structure | Reason: Year: 1984; Key vs title: 86%; Title weak (66%)
    reports/lk/d4dasia_country-report_lk.qmd:
      "...mputer and Information Technology Council of Sri Lanka Act [@parliamentofthedemocraticsocialistrepublicofsrilankaComputerInformationTechnology1984] No. 10 of 1984.  The Information and Communication Technol..."
-
-------------------------------------------------------------
-High Match:  @ConstitutionSL2023  ->  @ConstitutionIslamic  (Score: 0.90)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 90%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...ntal right by Article 14A of the Constitution of Sri Lanka [@ConstitutionSL2023]. Statutorily manifesting this right, the Right to Informat..."
-
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...aintaining the authority and impartiality of the judiciary [@ConstitutionSL2023].[^33] Sri Lanka Telecommunications Act No. 25 of 1991 (as..."
-
-------------------------------------------------------------
-High Match:  @2018ImplementingRules2018  ->  @anti-moneylaunderingcouncil2018Implementing2018  (Score: 0.90)
-   Method: Structure | Reason: Year: 2018; Fail key in valid title
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...0 pesos (PHP5,000,000) or its equivalent in other currency [@2018ImplementingRules2018].[^47] In addition, transactions that are considered suspic..."
-
-------------------------------------------------------------
-High Match:  @AMLCRegistration2021  ->  @anti-moneylaunderingcouncilAMLCRegistration2021  (Score: 0.90)
-   Method: Structure | Reason: Year: 2021; Fail key in valid title
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...filed through AMLC\'s File Transfer and Reporting Facility [@AMLCRegistration2021]. The guidelines also list the specific information require..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...transactor, etc.,) and details of suspicion, if applicable [@AMLCRegistration2021].[^51]  ##### Establishing and maintaining government digit..."
 
 ------------------------------------------------------------
 High Match:  @ITPolicy2000  ->  @it&telecommunicationsdivisionministryofscience&technologygovernmentofpakistanITPolicy2000  (Score: 0.90)
@@ -2255,6 +2360,15 @@ High Match:  @NationalBureauInvestigation2016  ->  @NationalBureau2016  (Score: 
      "...ases for ballistic records of firearms, and a DNA databank [@NationalBureauInvestigation2016].[^58] The Anti-Terrorism Council is required under the 202..."
 
 ------------------------------------------------------------
+High Match:  @ConstitutionSL2023  ->  @ConstitutionPakistan1973  (Score: 0.87)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 87%
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...ntal right by Article 14A of the Constitution of Sri Lanka [@ConstitutionSL2023]. Statutorily manifesting this right, the Right to Informat..."
+
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...aintaining the authority and impartiality of the judiciary [@ConstitutionSL2023].[^33] Sri Lanka Telecommunications Act No. 25 of 1991 (as..."
+
+------------------------------------------------------------
 High Match:  @departmentofcommerceusaSriLankaCountry  ->  @DepartmentCensusa  (Score: 0.87)
    Method: Fuzzy (Jaro) | Reason: String similarity: 87%
    reports/lk/d4dasia_country-report_lk.qmd:
@@ -2286,6 +2400,12 @@ High Match:  @RulesRegulationsIntellectual2016  ->  @RulesRegulations2016  (Scor
 
    reports/ph/d4dasia_country-report_ph.qmd:
      "..., control, develop and protect [@RevisedGuidelinesFree2012][@RulesRegulationsIntellectual2016].[^42] Although the guidelines were issued in relation to l..."
+
+------------------------------------------------------------
+High Match:  @Department  ->  @departmentofcommerceusaSriLanka  (Score: 0.86)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 86%
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...artment (SLSD) oversees surveying and mapping in Sri Lanka [@Department; @SurveyActEnglish2002]. The Surveyor General is the head o..."
 
 ------------------------------------------------------------
 High Match:  @nationalcreditbureauNCB  ->  @NationalClimate  (Score: 0.86)
@@ -2321,7 +2441,7 @@ High Match:  @ConstitutionPK1973  ->  @ConstitutionIslamic  (Score: 0.86)
      "...e Islamic Republic of Pakistan 1973 *(Articles 213 to 226)*[@ConstitutionPK1973]  -   The Elections Act, 2017[@ElectionsAct2017]  **Electio..."
 
 ------------------------------------------------------------
-High Match:  @srilankaBankingActDirections2021  ->  @SriLankaa  (Score: 0.86)
+High Match:  @srilankaBankingActDirections2021  ->  @SriLankac  (Score: 0.86)
    Method: Fuzzy (Jaro) | Reason: String similarity: 86%
    reports/synthesis/d4dasia_synthesis-report.qmd:
      "...C), disaster recovery arrangements must be located locally [@srilankaBankingActDirections2021]. Additionally, third-party service providers such as cloud..."
@@ -2345,49 +2465,28 @@ High Match:  @NADRAReg2021  ->  @chnaathrthrrmMaatrthaankaarkhumkhr`ngkh`muulswn
      "...er of transgender people registered with it stood at 5,626.[@NADRAReg2021] Finally, in the 2023 general census, the transgender popul..."
 
 ------------------------------------------------------------
-Med  Match:  @nationalintelligenceagencyNIA  ->  @nationalinformaticscentreGuidelinesIndian2023  (Score: 0.85)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 85%
-   reports/th/d4dasia_country-report_th.qmd:
-     "...security and preservation of civil-related official secrets[@nationalintelligenceagencyNIA], the Armed Forces Security Center is responsible for milit..."
-
-------------------------------------------------------------
-Med  Match:  @SupremeCourtNepal  ->  @SupremeCourt1997  (Score: 0.85)
-   Method: Structure | Reason: Year enrich: +1997; Key vs title: 83%; Title strong (71%)
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...eme Court of Nepal also publishes case laws on its website [@SupremeCourtNepal], and the Ministry of Finance publishes the budget for ever..."
-
-------------------------------------------------------------
-Med  Match:  @DepartmentCensusStatisticsa  ->  @departmentofcommerceusaSriLanka  (Score: 0.85)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 85%
+Med  Match:  @DepartmentCensusStatisticsa  ->  @DepartmentLand  (Score: 0.84)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 84%
    reports/lk/d4dasia_country-report_lk.qmd:
      "...urveys or Census to users through various forms and media’ [@DepartmentCensusStatisticsa]. DCS provides services to the Government, its agencies, th..."
 
 ------------------------------------------------------------
-Med  Match:  @PakistanInformationCommission  ->  @PakistanTelecommunication  (Score: 0.84)
+Med  Match:  @nationalintelligenceagencyNIA  ->  @NationalClimate  (Score: 0.84)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 84%
+   reports/th/d4dasia_country-report_th.qmd:
+     "...security and preservation of civil-related official secrets[@nationalintelligenceagencyNIA], the Armed Forces Security Center is responsible for milit..."
+
+------------------------------------------------------------
+Med  Match:  @PakistanInformationCommission  ->  @pakistanbureauofstatisticsDataDissemination  (Score: 0.84)
    Method: Fuzzy (Jaro) | Reason: String similarity: 84%
    reports/pk/d4dasia_country-report_pk.qmd:
      "...as also appointed the Pakistan Information Commission (PIC)[@PakistanInformationCommission] to address complaints about denial, refusal/non-provision..."
 
 ------------------------------------------------------------
-Med  Match:  @DepartmentCensusStatistics  ->  @departmentofcommerceusaSriLanka  (Score: 0.84)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 84%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...ced statistical requirements can make a request to the DCS [@DepartmentCensusStatistics].  ##### Thailand  Section 6 of the Statistics Act B.E. 255..."
-
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...who will have access to the data. (Reactive dissemination) [@DepartmentCensusStatistics]  The Dissemination Policy on Microdata, Department of Cens..."
-
-------------------------------------------------------------
-Med  Match:  @nationalhealthsecurityofficeNHSO  ->  @nationalstatisticsofficeCensusNepal  (Score: 0.84)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 84%
+Med  Match:  @nationalhealthsecurityofficeNHSO  ->  @NationalArchives  (Score: 0.83)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 83%
    reports/th/d4dasia_country-report_th.qmd:
      "...of the public and private healthcare sectors respectively [@nationalhealthsecurityofficeNHSO].  The NHSO is a public organization that is responsible fo..."
-
-------------------------------------------------------------
-Med  Match:  @undpReviewLegislationConistency2022  ->  @undpPromotingInclusion2023  (Score: 0.83)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 83%
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...isting legislations that were in conflict with the RTI Act [@undpReviewLegislationConistency2022]. In anticipation of this conflict, the drafters of the RTI..."
 
 ------------------------------------------------------------
 Med  Match:  @internationaltradeadministrationThailandTrade  ->  @InternationalCouncil  (Score: 0.83)
@@ -2396,73 +2495,22 @@ Med  Match:  @internationaltradeadministrationThailandTrade  ->  @InternationalC
      "...mely Australia, Chile, India, Japan, New Zealand, and Peru [@internationaltradeadministrationThailandTrade]. With regard to open access to law and open data relating..."
 
 ------------------------------------------------------------
-Med  Match:  @govpayPayTrafficFines  ->  @govpayPayTraffic  (Score: 0.83)
-   Method: Structure | Reason: Fail key in valid title; Title weak (67%); Author: govpay (CSL)
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...Importantly, traffic fines can also be paid using the app [@govpayPayTrafficFines]. However, user experiences have indicated shortcomings in..."
-
-------------------------------------------------------------
-Med  Match:  @govpaySecureConvenientPayments  ->  @govpaySecureConvenient  (Score: 0.83)
-   Method: Structure | Reason: Fail key in valid title; Title weak (67%); Author: govpay (CSL)
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...to facilitate digital transactions for government services [@govpaySecureConvenientPayments]. It enables citizens and businesses to make payments for v..."
-
-------------------------------------------------------------
-Med  Match:  @DepartmentCensusStatisticsb  ->  @departmentofcommerceusaSriLanka  (Score: 0.83)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 83%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...om the Departmental sales counter for printed publications [@DepartmentCensusStatisticsb] [@LankaDatta]. Further, data users with advanced statistic..."
-
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...g the new bill, which will then be submitted to Parliament [@DepartmentCensusStatisticsb].  #### Department of Census and Statistics  The data disse..."
-
-------------------------------------------------------------
-Med  Match:  @FinDivBudget2023  ->  @FindingsPWYP2022  (Score: 0.83)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 83%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...ent of Pakistan, in addition to preparing the annual budget[@FinDivBudget2023], also publishes monthly[@MonthlyEconomicUpdates] and annua..."
-
-------------------------------------------------------------
-Med  Match:  @DigitalDocumentManagement  ->  @informationandcommunicationtechnologyagencyofsrilankaictaDigitalDocument2023  (Score: 0.82)
-   Method: Structure | Reason: Year enrich: +2023; Fail key in valid title; Title weak (60%)
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...rs of a breach. | | **Digital Document Management Policy** [@DigitalDocumentManagement] | \- **Goal:** Shift from paper to digital document manage..."
-
-------------------------------------------------------------
 Med  Match:  @NationalDigitalGovernment  ->  @informationandcommunicationtechnologyagencyofsrilankaictaNationalDigital2023  (Score: 0.82)
    Method: Structure | Reason: Year enrich: +2023; Fail key in valid title; Title weak (60%)
    reports/lk/d4dasia_country-report_lk.qmd:
      "...nd transformation.  The policy is still in its draft stage [@NationalDigitalGovernment]. The draft that is made available says explicitly, “Please..."
 
 ------------------------------------------------------------
-Med  Match:  @digitalgovernmentdevelopmentagencyHomepage  ->  @DigitalEconomy  (Score: 0.82)
+Med  Match:  @digitalgovernmentdevelopmentagencyHomepage  ->  @DigitalID  (Score: 0.82)
    Method: Fuzzy (Jaro) | Reason: String similarity: 82%
    reports/th/d4dasia_country-report_th.qmd:
      "...ncement on Data Governance for Government on 12 March 2020 [@digitalgovernmentdevelopmentagencyHomepage][@royalgazetteAnnouncementDigitalCommittee2020]. It serves..."
 
 ------------------------------------------------------------
-Med  Match:  @CensusKeyFindingsPK2023  ->  @CensusOrdinance  (Score: 0.82)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 82%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...e [@GenderSummary2023]. The census report is in PDF format [@CensusKeyFindingsPK2023]. However, it is possible to apply and get census data in o..."
-
-------------------------------------------------------------
-Med  Match:  @OpenDataPortal  ->  @informationandcommunicationtechnologyagencyofsrilankaictaOpenData2024  (Score: 0.81)
-   Method: Structure | Reason: Year enrich: +2024; Fail key in valid title; Title weak (57%)
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...larly: as of December 2024 the latest dataset is from 2022 [@OpenDataPortal]. It was noted that in March 2025, one dataset from 2024-20..."
-
-------------------------------------------------------------
-Med  Match:  @nectecThailand  ->  @nectecNECTECThailand  (Score: 0.81)
-   Method: Structure | Reason: Fail key in valid title; Title weak (57%); Author: nectec (CSL)
-   reports/th/d4dasia_country-report_th.qmd:
-     "...ing open-source software, such as Linux and OpenOffice.org [@nectecThailand]. In the private sector, Thailand has the Open-Source Educa..."
-
-------------------------------------------------------------
-Med  Match:  @sectSCO  ->  @SecuritiesExchange  (Score: 0.81)
+Med  Match:  @IndonesiaArchivesUS  ->  @indonesiabudgetpartnershipOpenBudget  (Score: 0.81)
    Method: Fuzzy (Jaro) | Reason: String similarity: 81%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...ooperation] (ECO) and the Shanghai Cooperation Organisation[@sectSCO] (SCO). However, these are more geared towards trade than d..."
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...onesian Independence can be found at the National Archives [@IndonesiaArchivesUS].  ##### Nepal  The Archives Preservation Act, 2046 (1986)..."
 
 ------------------------------------------------------------
 Med  Match:  @LegalCommentariesSelected2022  ->  @LegalPractitioners  (Score: 0.80)
@@ -2471,26 +2519,125 @@ Med  Match:  @LegalCommentariesSelected2022  ->  @LegalPractitioners  (Score: 0.
      "...as the *two-fold test* in the application of the exemption [@LegalCommentariesSelected2022].  Even without a PDPA, the PAs can rely on the above exemp..."
 
 ------------------------------------------------------------
-Med  Match:  @TransStratFrameworkPK2023  ->  @TransparencyInternational2017  (Score: 0.80)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 80%
+Med  Match:  @sectSCO  ->  @securitiesandexchangecommissionofpakistanFrequentlyAsked2020  (Score: 0.79)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 79%
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...ooperation] (ECO) and the Shanghai Cooperation Organisation[@sectSCO] (SCO). However, these are more geared towards trade than d..."
+
+------------------------------------------------------------
+Med  Match:  @DepartmentCensusStatistics  ->  @departmentforpromotionofindustryandinternaltradeConsolidatedFDI  (Score: 0.79)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 79%
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...ced statistical requirements can make a request to the DCS [@DepartmentCensusStatistics].  ##### Thailand  Section 6 of the Statistics Act B.E. 255..."
+
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...who will have access to the data. (Reactive dissemination) [@DepartmentCensusStatistics]  The Dissemination Policy on Microdata, Department of Cens..."
+
+------------------------------------------------------------
+Med  Match:  @DatasetsOpenData  ->  @DevelopmentData  (Score: 0.79)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 79%
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...ithin every sector. The portal contains over 1,000 datasets[@DatasetsOpenData] across categories such as health, public safety, economy,..."
+
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...there are no available cellular mobile datasets after 2019[@DatasetsOpenData]. The datasets also do not disaggregate voice and data subs..."
+
+------------------------------------------------------------
+Med  Match:  @DepartmentCensusStatisticsb  ->  @departmentforpromotionofindustryandinternaltradeConsolidatedFDI  (Score: 0.78)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 78%
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...om the Departmental sales counter for printed publications [@DepartmentCensusStatisticsb] [@LankaDatta]. Further, data users with advanced statistic..."
+
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...g the new bill, which will then be submitted to Parliament [@DepartmentCensusStatisticsb].  #### Department of Census and Statistics  The data disse..."
+
+------------------------------------------------------------
+Med  Match:  @undpReviewLegislationConistency2022  ->  @unhumanrightscouncilResolution202012  (Score: 0.77)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 77%
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...isting legislations that were in conflict with the RTI Act [@undpReviewLegislationConistency2022]. In anticipation of this conflict, the drafters of the RTI..."
+
+------------------------------------------------------------
+Med  Match:  @undpCountryProgrammeDocument2017  ->  @unitednationsdevelopmentprogramCountryProgramme2017  (Score: 0.76)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 76%
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...d demonstrating the value of evidence-based policymaking*” [@undpCountryProgrammeDocument2017] (Emphasis added).  This remains relevant even today; the N..."
+
+------------------------------------------------------------
+Med  Match:  @TransStratFrameworkPK2023  ->  @TradeMarks  (Score: 0.76)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 76%
    reports/pk/d4dasia_country-report_pk.qmd:
      "...ses of violence against the trans community were reported".[@TransStratFrameworkPK2023]  **National budget and fiscal data:** Articles 78 to 88 of..."
 
 ------------------------------------------------------------
-Med  Match:  @SCAmendedResolutionPakistanInactivity2020  ->  @SC_ResolutionPakistanInactivity_Amended_20200723  (Score: 0.80)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 80%
+Med  Match:  @CommentsESafetyBill2023  ->  @CommitteestageAmendments2023  (Score: 0.76)
+   Method: Structure | Reason: Year: 2023; Key vs title: 79%
    reports/pk/d4dasia_country-report_pk.qmd:
-     "...ion plan, resulting in it first being made inactive in 2020[@SCAmendedResolutionPakistanInactivity2020] and ultimately kicked out of the OGP on March 7, 2022[@OGP..."
+     "...] along with this law and, "because of the strong criticism[@CommentsESafetyBill2023] on the E-Safety Bill, both laws stalled".  Both Babur and..."
 
 ------------------------------------------------------------
-Med  Match:  @fig-digital-economy-strategy  ->  @DigitalEconomy  (Score: 0.80)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 80%
+Med  Match:  @FinDivBudget2023  ->  @ministryoffinanceFiscalBudget2023  (Score: 0.75)
+   Method: Structure | Reason: Year: 2023; Key vs title: 77%
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...ent of Pakistan, in addition to preparing the annual budget[@FinDivBudget2023], also publishes monthly[@MonthlyEconomicUpdates] and annua..."
+
+------------------------------------------------------------
+Med  Match:  @PostgraduateMedical2023  ->  @jamesDigitalTrade2020  (Score: 0.75)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 75%
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...d Dental Council (Postgraduate Education) Regulations, 2023[@PostgraduateMedical2023]  -   The Medical and Dental Undergraduate Education (Admis..."
+
+------------------------------------------------------------
+Med  Match:  @PressLawNo401999  ->  @PresidentJokowi2023  (Score: 0.75)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 75%
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...nt to seek, acquire, and disseminate ideas and information [@PressLawNo401999]. Additionally, the Environmental Protection and Management..."
+
+------------------------------------------------------------
+Med  Match:  @ActDefiningCrime2012  ->  @narasimhanAccessibilityGovernment2012  (Score: 0.75)
+   Method: Structure | Reason: Year: 2012; Key vs title: 73%
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...vention and Suppression Act, are also reported to the AMLC [@ActDefiningCrime2012].[^50]  Under the 2021 AMLC Registration and Reporting Guid..."
+
+------------------------------------------------------------
+Med  Match:  @CensusKeyFindingsPK2023  ->  @nappinaiCentresFake2023  (Score: 0.74)
+   Method: Structure | Reason: Year: 2023; Key vs title: 71%
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...e [@GenderSummary2023]. The census report is in PDF format [@CensusKeyFindingsPK2023]. However, it is possible to apply and get census data in o..."
+
+------------------------------------------------------------
+Med  Match:  @OGPPakistanLetter2022  ->  @PakistanMedical2023  (Score: 0.74)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 74%
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...2020] and ultimately kicked out of the OGP on March 7, 2022[@OGPPakistanLetter2022].  **Open Data Pakistan:** Pakistan's government proactivel..."
+
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...OpenDataPK], but on March 7, 2022, was removed from the OGP[@OGPPakistanLetter2022].  Both privacy and freedom of information are fundamental..."
+
+------------------------------------------------------------
+Med  Match:  @StakeholderConsultationSri  ->  @suhartonoConfidentialityPublic  (Score: 0.73)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 73%
    reports/lk/d4dasia_country-report_lk.qmd:
-     "...” and “data governance” have been included as key enablers. @fig-digital-economy-strategy below illustrates the strategy.  ![National Digital Economy..."
+     "...d comments from the general public through a questionnaire [@StakeholderConsultationSri].  The figure below has been included in the questionnaire..."
+
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...give the public an understanding of the proposed strategy [@StakeholderConsultationSri]. It is encouraging to note that “legal and regulatory fram..."
 
 ------------------------------------------------------------
-Med  Match:  @OnlineRegisteredVehicle  ->  @OnlineSafetya  (Score: 0.79)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 79%
+Med  Match:  @royalthaigovernmentNationalStrategy20182037  ->  @dattaniGoverntrepreneurismGood2020  (Score: 0.73)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 73%
+   reports/th/d4dasia_country-report_th.qmd:
+     "...rnments to adhere to the agendas therein from 2018 to 2037 [@royalthaigovernmentNationalStrategy20182037]. The National Strategy's Agenda 6 on Public Sector Rebalan..."
+
+------------------------------------------------------------
+Med  Match:  @SupremeCourtNepal  ->  @serviceOpenData  (Score: 0.72)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 72%
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...eme Court of Nepal also publishes case laws on its website [@SupremeCourtNepal], and the Ministry of Finance publishes the budget for ever..."
+
+------------------------------------------------------------
+Med  Match:  @OnlineRegisteredVehicle  ->  @rouseDigitalServices  (Score: 0.72)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 72%
    reports/lk/d4dasia_country-report_lk.qmd:
      "...respective of the vehicle's original registration province [@OnlineRegisteredVehicle].  #### Mandatory Integration Standard for National Quick R..."
 
@@ -2501,242 +2648,32 @@ Med  Match:  @OnlineRegisteredVehicle  ->  @OnlineSafetya  (Score: 0.79)
      "...for a fee, limited information is available free of charge [@OnlineRegisteredVehicle]. The success of this should also be attributed to the proj..."
 
 ------------------------------------------------------------
-Med  Match:  @DatasetsOpenData  ->  @datacheckMyCredit  (Score: 0.79)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 79%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...ithin every sector. The portal contains over 1,000 datasets[@DatasetsOpenData] across categories such as health, public safety, economy,..."
-
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...there are no available cellular mobile datasets after 2019[@DatasetsOpenData]. The datasets also do not disaggregate voice and data subs..."
-
-------------------------------------------------------------
-Med  Match:  @OGPPakistanLetter2022  ->  @PakistanBilateral2021  (Score: 0.79)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 79%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...2020] and ultimately kicked out of the OGP on March 7, 2022[@OGPPakistanLetter2022].  **Open Data Pakistan:** Pakistan's government proactivel..."
-
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...OpenDataPK], but on March 7, 2022, was removed from the OGP[@OGPPakistanLetter2022].  Both privacy and freedom of information are fundamental..."
-
-------------------------------------------------------------
-Med  Match:  @undpCountryProgrammeDocument2017  ->  @undpPromotingInclusion2023  (Score: 0.78)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 78%
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...d demonstrating the value of evidence-based policymaking*” [@undpCountryProgrammeDocument2017] (Emphasis added).  This remains relevant even today; the N..."
-
-------------------------------------------------------------
-Med  Match:  @CivilCodePhilippines1949  ->  @CivilCode1949  (Score: 0.78)
-   Method: Structure | Reason: Year: 1949; Key vs title: 92%
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...ategorizes personal property as generally tangible objects [@CivilCodePhilippines1949]. The absence of unequivocal proprietary rights over data h..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...reiterated in Articles 407 and 408 of the 1949 Civil Code [@CivilCodePhilippines1949]. Every city and municipality has their own local civil reg..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...tion forming a part of the legal system of the Philippines [@CivilCodePhilippines1949]. Thus, the government stands at risk of violating laws and..."
-
-------------------------------------------------------------
-Med  Match:  @ActDefiningCrime2012  ->  @ActivistsInformation2022  (Score: 0.78)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 78%
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...vention and Suppression Act, are also reported to the AMLC [@ActDefiningCrime2012].[^50]  Under the 2021 AMLC Registration and Reporting Guid..."
-
-------------------------------------------------------------
-Med  Match:  @moittPK  ->  @moiitPakistanNational2022  (Score: 0.78)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 78%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...try of Information Technology and Telecommunication (MoITT)[@moittPK] of the Government of Pakistan (GoP) prepared its first dra..."
-
-------------------------------------------------------------
-Med  Match:  @DraftNationalPolicyArchives2023  ->  @DraftNational2023  (Score: 0.78)
-   Method: Structure | Reason: Year: 2023; Key vs title: 90%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...ddressing it, including revising the existing Archives Act [@DraftNationalPolicyArchives2023].[^12] The policy also notes that in June 2023, the Sri Lan..."
-
-------------------------------------------------------------
-Med  Match:  @KhakivRawalpindiSC2009  ->  @KhakivRawalpindiSupremeCourtofPakistan2009  (Score: 0.78)
-   Method: Structure | Reason: Year: 2009; Key vs title: 89%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...Supreme Court of Pakistan and in Khaki v. Rawalpindi (2009)[@KhakivRawalpindiSC2009]. The court declared that transgender people are entitled t..."
-
-------------------------------------------------------------
-Med  Match:  @royalthaigovernmentNationalStrategy20182037  ->  @royDigitalPersonal2023  (Score: 0.78)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 78%
-   reports/th/d4dasia_country-report_th.qmd:
-     "...rnments to adhere to the agendas therein from 2018 to 2037 [@royalthaigovernmentNationalStrategy20182037]. The National Strategy's Agenda 6 on Public Sector Rebalan..."
-
-------------------------------------------------------------
-Med  Match:  @Openbudgetsindiaorg  ->  @opengovernmentpartnershipPolicyProgress  (Score: 0.77)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 77%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...l in the gaps by launching portals like Open Budgets India [@Openbudgetsindiaorg].  ##### Indonesia  [According to the Cabinet resolution on..."
-
-------------------------------------------------------------
-Med  Match:  @GuidanceNotesPSX2023  ->  @pakistanstockexchangeGuidanceNotesforListedCompaniesPSXRegulations06July2023  (Score: 0.77)
-   Method: Structure | Reason: Year: 2023; Key vs title: 85%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...ompanies.  Published information regarding listed companies[@GuidanceNotesPSX2023] includes:  -   Basic information, like company name, secto..."
-
-------------------------------------------------------------
-Med  Match:  @FrameworkNationalArchives2024  ->  @committeetorevisenationalarchiveslawno.48of1973FrameworkNational2024  (Score: 0.77)
-   Method: Structure | Reason: Year: 2024; Key vs title: 84%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...Legislation was released in January 2024, by the Committee [@FrameworkNationalArchives2024]. Part III contains suggested regulations regarding increas..."
-
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...and a public call for comments on the framework was issued [@FrameworkNationalArchives2024]. The framework suggests provisions that attempt to resolve..."
-
-------------------------------------------------------------
-Med  Match:  @Ibbsround52016  ->  @Ibbspakistanround5201620172016  (Score: 0.77)
-   Method: Structure | Reason: Year: 2016; Key vs title: 84%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...ogical and Behavioral Surveillance (IBBS) survey in 2016-17[@Ibbsround52016] and counted 31,790 transgender persons in only 23 cities [..."
-
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...] and counted 31,790 transgender persons in only 23 cities [@Ibbsround52016, p. 75]. According to a statement issued by NADRA, the tota..."
-
-------------------------------------------------------------
-Med  Match:  @ecpvoterinstructions  ->  @ecppakistanInstructionsVoter  (Score: 0.77)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 77%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...ns voting stats with following breakups[@ecpgovdatabase]^&^[@ecpvoterinstructions]:  -   Province-wise male and female voters;  -   Age-wise..."
-
-------------------------------------------------------------
-Med  Match:  @DraftOpenDataPolicyPK2019  ->  @opendataboardgovernmentofpakistanDraftPolicy2019  (Score: 0.77)
-   Method: Structure | Reason: Year: 2019; Key vs title: 83%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "..."Draft Policy on Open Data for the Government of Pakistan",[@DraftOpenDataPolicyPK2019] but the policy was never approved. The draft policy contai..."
-
-------------------------------------------------------------
-Med  Match:  @CommentsESafetyBill2023  ->  @rajapakseCommentsCyber2023  (Score: 0.76)
-   Method: Structure | Reason: Year: 2023; Key vs title: 82%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...] along with this law and, "because of the strong criticism[@CommentsESafetyBill2023] on the E-Safety Bill, both laws stalled".  Both Babur and..."
-
-------------------------------------------------------------
-Med  Match:  @DialogAxiataMIT  ->  @DigitalID  (Score: 0.76)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 76%
+Med  Match:  @DialogAxiataMIT  ->  @DataAct  (Score: 0.71)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 71%
    reports/lk/d4dasia_country-report_lk.qmd:
      "...ICTA and two private entities, was implemented nationwide [@DialogAxiataMIT].  The existing digital infrastructure maintained by the De..."
 
 ------------------------------------------------------------
-Med  Match:  @PostgraduateMedical2023  ->  @popielUnderstandingChallenges2022  (Score: 0.76)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 76%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...d Dental Council (Postgraduate Education) Regulations, 2023[@PostgraduateMedical2023]  -   The Medical and Dental Undergraduate Education (Admis..."
+Med  Match:  @OGPAbout2023  ->  @oecdPathOpen2020  (Score: 0.71)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 71%
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...usive and accountable governance,\" as a member of the OGP [@OGPAbout2023][@OpenGovernmentDeclaration2011]. Other developments includ..."
 
 ------------------------------------------------------------
-Med  Match:  @FederalPublicProc  ->  @governmentofpakistanFederalPublic  (Score: 0.76)
-   Method: Structure | Reason: Fail key in valid title; Title strong (76%); Author enrich
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...data:** The Public Procurement Regulatory Authority (PPRA)[@FederalPublicProc] was created to streamline public procurement and bring tra..."
-
-------------------------------------------------------------
-Med  Match:  @ictasrilankaNationalDataSharing2013  ->  @NationalPolicy2013  (Score: 0.75)
-   Method: Structure | Reason: Year: 2013; Key vs title: 77%
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...--------| | **National Data Sharing Policy (Draft, 2013)** [@ictasrilankaNationalDataSharing2013] | \- **Objective:** for “open government” and to “create a..."
-
-------------------------------------------------------------
-Med  Match:  @specialbranchbureauRoyalThaiPolice  ->  @SpeakersAct  (Score: 0.75)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 75%
-   reports/th/d4dasia_country-report_th.qmd:
-     "...oyal Thai Police is responsible for police-related secrets [@specialbranchbureauRoyalThaiPolice] [Section 11 of the Rule on Maintenance of Official Secrets..."
-
-------------------------------------------------------------
-Med  Match:  @StakeholderConsultationSri  ->  @srilankacertProposedInformation  (Score: 0.75)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 75%
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...d comments from the general public through a questionnaire [@StakeholderConsultationSri].  The figure below has been included in the questionnaire..."
-
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...give the public an understanding of the proposed strategy [@StakeholderConsultationSri]. It is encouraging to note that “legal and regulatory fram..."
-
-------------------------------------------------------------
-Med  Match:  @IndonesiaArchivesUS  ->  @InsightsLearners  (Score: 0.74)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 74%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...onesian Independence can be found at the National Archives [@IndonesiaArchivesUS].  ##### Nepal  The Archives Preservation Act, 2046 (1986)..."
-
-------------------------------------------------------------
-Med  Match:  @AmendmentsDepartmentCircular2020  ->  @nationalassemblysecretariatActsOrdinances2020  (Score: 0.74)
-   Method: Structure | Reason: Year: 2020; Key vs title: 71%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...ernment data may be subject to some residency restrictions [@AmendmentsDepartmentCircular2020].[^24]  ##### Sri Lanka  Section 9 of the Personal Data Pro..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...ce standards.  In 2020, through DICT Circular No. 10 (2020)[@AmendmentsDepartmentCircular2020], the Philippine Cloud First Policy was expanded to cover n..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...ippine government\" [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^99] However, unlike government agencies, such private en..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...deployment strategy [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020][^100] or to utilize the data classification models prescri..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...government agencies [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^101] Such covered private sector entities are, by virtue..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...yption keys thereto [@PrescribingPhilippineGovernments2017][@AmendmentsDepartmentCircular2020].[^102]  ###### Exceptions to Data Security for Law Enforce..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...99]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020], Section 3.1.  [^100]: [@PrescribingPhilippineGovernments2..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...00]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020],      Section 5.2.  [^101]: [@PrescribingPhilippineGovernm..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...01]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020], Section 9.2.  [^102]: [@PrescribingPhilippineGovernments2..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...02]: [@PrescribingPhilippineGovernments2017] as amended by [@AmendmentsDepartmentCircular2020], Section 14.1.  [^103]: See Section 23 of the Act.  [^104]..."
-
-------------------------------------------------------------
-Med  Match:  @TRIPS1995  ->  @TradeRelatedAspects1995  (Score: 0.74)
-   Method: Structure | Reason: Year: 1995; Key vs title: 70%
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...pects of Intellectual Property Rights (\"TRIPS Agreement\")[@TRIPS1995]. Under the TRIPS Agreement, undisclosed information is pro..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...tronically, graphically, photographically, or in writing\" [@TRIPS1995].[^85] This protection includes being immune from modes of..."
-
-------------------------------------------------------------
-Med  Match:  @DataDisseminationPakistan  ->  @datacheckMyCredit  (Score: 0.74)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 74%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...le to apply and get census data in other formats for a fee [@DataDisseminationPakistan]. > > The 2023 census report has basic data like area, popu..."
-
-------------------------------------------------------------
-Med  Match:  @ISOIEC27002  ->  @SocialMedia2023  (Score: 0.73)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 73%
+Med  Match:  @ISOIEC27002  ->  @APISetu2020  (Score: 0.71)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 71%
    reports/ph/d4dasia_country-report_ph.qmd:
      "...Management System. For additional information, please see [@ISOIEC27002].  [^12]: ISO/IEC 27018 establishes control objectives, con..."
 
 ------------------------------------------------------------
-Med  Match:  @ThaiLISDigitalCollection  ->  @tharoorProtectionTraditional  (Score: 0.73)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 73%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...reports from several colleges and universities nationwide [@ThaiLISDigitalCollection]. Thailand also has an academic journal database, Thai Jour..."
-
-   reports/th/d4dasia_country-report_th.qmd:
-     "...try of Higher Education, Science, Research, and Innovation [@ThaiLISDigitalCollection]. Thailand also has an academic journal database, Thai Jour..."
+Med  Match:  @CRIBScoreReports  ->  @RTIOrder  (Score: 0.71)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 71%
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...request their report by following the procedure mentioned [@CRIBScoreReports].  ### Declaration of Assets and Liabilities  The Anti-Corr..."
 
 ------------------------------------------------------------
-Med  Match:  @PMDPressReleases  ->  @pakistanmeteorologicaldepartmentPressReleases  (Score: 0.72)
-   Method: Structure | Reason: Valid title in fail key; Title strong (81%); Author enrich
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...e[@rasulClimateChange2012] and issuing occasional warnings.[@PMDPressReleases] Islamic Relief Canada also conducted a ground survey and p..."
-
-------------------------------------------------------------
-Med  Match:  @PressLawNo401999  ->  @presscouncilofindonesiIndonesianPress  (Score: 0.72)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 72%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...nt to seek, acquire, and disseminate ideas and information [@PressLawNo401999]. Additionally, the Environmental Protection and Management..."
-
-------------------------------------------------------------
-Med  Match:  @ActCreatingDepartment2016  ->  @ActivistsInformation2022  (Score: 0.72)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 72%
+Med  Match:  @ActCreatingDepartment2016  ->  @pangeniCartelContractors2018  (Score: 0.70)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
    reports/ph/d4dasia_country-report_ph.qmd:
      "...ons and powers transferred to the new executive department [@ActCreatingDepartment2016]. DICT then became the executive department tasked as the p..."
 
@@ -2744,8 +2681,38 @@ Med  Match:  @ActCreatingDepartment2016  ->  @ActivistsInformation2022  (Score: 
      "...implementing entity in developing the national ICT agenda [@ActCreatingDepartment2016].[^8]  Although the ICTO-DOST was abolished, the PeGIF circ..."
 
 ------------------------------------------------------------
-Med  Match:  @ecpgovdatabase  ->  @ecppakistanCheckYour  (Score: 0.72)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 72%
+Med  Match:  @FreedomInformationPhilippines  ->  @fbrOnlineVerification  (Score: 0.70)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...k.  # References  [^1]: The FOI website may be found here: [@FreedomInformationPhilippines].  [^2]: Other founding members are Brazil, Indonesia, Mexi..."
+
+------------------------------------------------------------
+Med  Match:  @PMDCProfessionalEthics  ->  @ProposedAmendment  (Score: 0.70)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...dical2022]  -   The Professional Ethics and Code of Conduct[@PMDCProfessionalEthics]  -   The Pakistan Medical and Dental Council (Postgraduate..."
+
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...rivacy and confidentiality. The code of practice and ethics[@PMDCProfessionalEthics] prepared by PMDC has provisions regarding protecting the p..."
+
+------------------------------------------------------------
+Med  Match:  @Openbudgetsindiaorg  ->  @OnlineRegistered  (Score: 0.70)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...l in the gaps by launching portals like Open Budgets India [@Openbudgetsindiaorg].  ##### Indonesia  [According to the Cabinet resolution on..."
+
+------------------------------------------------------------
+Med  Match:  @ActPunishEspionage1941  ->  @ActPunish1941  (Score: 0.70)
+   Method: Structure | Reason: Year: 1941; Title weak (50%)
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...tion V (30) of the Rules.  [^35]: See Rule 13.  [^36]: See [@ActPunishEspionage1941] Article 117, 120; [@ActPunishEspionage1941] Sections 1\--3..."
+
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...3.  [^36]: See [@ActPunishEspionage1941] Article 117, 120; [@ActPunishEspionage1941] Sections 1\--3, 10.  [^37]: See Article XIV, Section 17 of..."
+
+------------------------------------------------------------
+Med  Match:  @ecpgovdatabase  ->  @12Principles2008  (Score: 0.70)
+   Method: Structure | Reason: Year enrich: +2008; Fail key in valid title
    reports/pk/d4dasia_country-report_pk.qmd:
      "...untry with adequate details to uniquely identify each Voter[@ecpgovdatabase], which increases the visibility of the government into the..."
 
@@ -2756,106 +2723,49 @@ Med  Match:  @ecpgovdatabase  ->  @ecppakistanCheckYour  (Score: 0.72)
      "...The current voters' database is updated as of 30 June 2023[@ecpgovdatabase]. Anyone can verify voting details held by ECP by sending t..."
 
 ------------------------------------------------------------
-Med  Match:  @OGPAbout2023  ->  @ONDCProject2022  (Score: 0.71)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 71%
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...usive and accountable governance,\" as a member of the OGP [@OGPAbout2023][@OpenGovernmentDeclaration2011]. Other developments includ..."
-
-------------------------------------------------------------
-Med  Match:  @CRIBScoreReports  ->  @ResourcesOpen  (Score: 0.71)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 71%
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...request their report by following the procedure mentioned [@CRIBScoreReports].  ### Declaration of Assets and Liabilities  The Anti-Corr..."
-
-------------------------------------------------------------
-Med  Match:  @ActPunishEspionage1941  ->  @ActivistsInformation2022  (Score: 0.71)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 71%
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...tion V (30) of the Rules.  [^35]: See Rule 13.  [^36]: See [@ActPunishEspionage1941] Article 117, 120; [@ActPunishEspionage1941] Sections 1\--3..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...3.  [^36]: See [@ActPunishEspionage1941] Article 117, 120; [@ActPunishEspionage1941] Sections 1\--3, 10.  [^37]: See Article XIV, Section 17 of..."
-
-------------------------------------------------------------
-Med  Match:  @ISOIEC27018  ->  @icfossICFOSS2016  (Score: 0.71)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 71%
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...formation processor acting under the control of the agency [@ISOIEC27018].[^12]  ##### Use of Free and Open-Source Software  There i..."
-
-------------------------------------------------------------
-Med  Match:  @PMDCProfessionalEthics  ->  @ProposedOnline  (Score: 0.71)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 71%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...dical2022]  -   The Professional Ethics and Code of Conduct[@PMDCProfessionalEthics]  -   The Pakistan Medical and Dental Council (Postgraduate..."
-
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...rivacy and confidentiality. The code of practice and ethics[@PMDCProfessionalEthics] prepared by PMDC has provisions regarding protecting the p..."
-
-------------------------------------------------------------
-Med  Match:  @mouSLPak2016  ->  @GoogleMaps2014  (Score: 0.71)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 71%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...(MOU) on sharing statistical and census data with Sri Lanka[@mouSLPak2016] and Iran[@mouIran2014]. These MOUs pertain to the exchange..."
-
-------------------------------------------------------------
-Med  Match:  @DigitalIDLaunch  ->  @DialogAxiata  (Score: 0.70)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...ment has decided to use open-source MOSIP for this project [@DigitalIDLaunch]. There have been concerns surrounding the capture of data..."
-
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...on, maintenance, and the future development of the system” [@DigitalIDLaunch].  #### Cloud Strategy and Cloud Policy (Draft)  In June 20..."
-
-------------------------------------------------------------
-Med  Match:  @IDRCHarnessingDataDemocratic  ->  @SASData  (Score: 0.70)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...g and discouraging dissent against the ruling dispensation [@IDRCHarnessingDataDemocratic]. Moreover, institutions involved in the data governance ec..."
-
-------------------------------------------------------------
-Med  Match:  @LankaSignCertificationService  ->  @LegalPractitioners  (Score: 0.70)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
-   reports/lk/d4dasia_country-report_lk.qmd:
-     "...stablished by the CBSL and other licensed commercial banks [@LankaSignCertificationService]. LankaSign uses X.509 digital certificates and associated..."
-
-------------------------------------------------------------
-Med  Match:  @mofagaLocalBudget  ->  @AmendingDILG2019  (Score: 0.70)
-   Method: Structure | Reason: Year enrich: +2019; Fail key in valid title
+Med  Match:  @mofagaLocalBudget  ->  @FullDisclosure2010  (Score: 0.70)
+   Method: Structure | Reason: Year enrich: +2010; Fail key in valid title
    reports/synthesis/d4dasia_synthesis-report.qmd:
      "...the Ministry of Federal Affairs and General Administration [@mofagaLocalBudget].  ##### Pakistan  Under Section 5 of the RTI Act, every pu..."
 
 ------------------------------------------------------------
-Med  Match:  @nepalCopyrightAct2002  ->  @CopyrightAct  (Score: 0.70)
-   Method: Structure | Reason: Valid key missing year (suspicious); Fail key in valid title; Title exact
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...ceptions include;  \(i\) reproduction for personal purpose [@nepalCopyrightAct2002];[^37]  \(ii\) citation [@nepalCopyrightAct2002];[^38]  \(i..."
-
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...al purpose [@nepalCopyrightAct2002];[^37]  \(ii\) citation [@nepalCopyrightAct2002];[^38]  \(iii\) teaching and learning, which includes repro..."
-
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...and for educational activities performed in the classroom [@nepalCopyrightAct2002];[^39]  \(iv\) library and archives, where one copy can be..."
-
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...e reproduced in case copyright work is destroyed or is old [@nepalCopyrightAct2002];[^40]  \(v\) dissemination of information to the general p..."
-
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...to the general public via broadcasting or print newspaper [@nepalCopyrightAct2002];[^41] and  \(vi\) importation of one copy of a work for pe..."
-
-   reports/synthesis/d4dasia_synthesis-report.qmd:
-     "...\(vi\) importation of one copy of a work for personal use [@nepalCopyrightAct2002].[^42]  Therefore, from the given provisions of the Copyrig..."
+Med  Match:  @moittPK  ->  @IjazatAap2023  (Score: 0.70)
+   Method: Structure | Reason: Year enrich: +2023; Fail key in valid title
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...try of Information Technology and Telecommunication (MoITT)[@moittPK] of the Government of Pakistan (GoP) prepared its first dra..."
 
 ------------------------------------------------------------
-Med  Match:  @kasikornbankTransparencyDataDisclosure  ->  @khanTranslationTransition  (Score: 0.70)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
-   reports/th/d4dasia_country-report_th.qmd:
-     "...d clients [@siamcommercialbankPolicySupervisionManagement] [@kasikornbankTransparencyDataDisclosure].  #### Policy gaps and frictions  The main policy gap aris..."
-
-------------------------------------------------------------
-Med  Match:  @GenderSummary2023  ->  @salkeverCommentaryWhy2022  (Score: 0.70)
+Med  Match:  @mouSLPak2016  ->  @MohamedRazik2023  (Score: 0.70)
    Method: Fuzzy (Jaro) | Reason: String similarity: 70%
    reports/pk/d4dasia_country-report_pk.qmd:
-     "...o civic services, a national ID card, or the right to vote [@GenderSummary2023]. The census report is in PDF format [@CensusKeyFindingsPK2..."
+     "...(MOU) on sharing statistical and census data with Sri Lanka[@mouSLPak2016] and Iran[@mouIran2014]. These MOUs pertain to the exchange..."
+
+------------------------------------------------------------
+Med  Match:  @ISOIEC27018  ->  @SocialSecurity2011  (Score: 0.70)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...formation processor acting under the control of the agency [@ISOIEC27018].[^12]  ##### Use of Free and Open-Source Software  There i..."
+
+------------------------------------------------------------
+Med  Match:  @ThaiLISDigitalCollection  ->  @ExplorationDigitisation  (Score: 0.70)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...reports from several colleges and universities nationwide [@ThaiLISDigitalCollection]. Thailand also has an academic journal database, Thai Jour..."
+
+   reports/th/d4dasia_country-report_th.qmd:
+     "...try of Higher Education, Science, Research, and Innovation [@ThaiLISDigitalCollection]. Thailand also has an academic journal database, Thai Jour..."
+
+------------------------------------------------------------
+Med  Match:  @DataDisseminationPakistan  ->  @DAMADMBOKFunctional  (Score: 0.70)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...le to apply and get census data in other formats for a fee [@DataDisseminationPakistan]. > > The 2023 census report has basic data like area, popu..."
+
+------------------------------------------------------------
+Med  Match:  @IDRCHarnessingDataDemocratic  ->  @indonesiaBadanPusat  (Score: 0.70)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 70%
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...g and discouraging dissent against the ruling dispensation [@IDRCHarnessingDataDemocratic]. Moreover, institutions involved in the data governance ec..."
 
 ------------------------------------------------------------
 Med  Match:  @NPCAdvisoryOpinionb  ->  @NPCAdvisory2022  (Score: 0.69)
@@ -2873,6 +2783,18 @@ Med  Match:  @FinDivPK  ->  @FinancialInstitutions  (Score: 0.69)
      "...National budget and economic survey:** The Finance Division[@FinDivPK] of the Government of Pakistan, in addition to preparing th..."
 
 ------------------------------------------------------------
+Med  Match:  @LankaSignCertificationService  ->  @srilankacertProposedInformation  (Score: 0.69)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 69%
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...stablished by the CBSL and other licensed commercial banks [@LankaSignCertificationService]. LankaSign uses X.509 digital certificates and associated..."
+
+------------------------------------------------------------
+Med  Match:  @specialbranchbureauRoyalThaiPolice  ->  @globalinfrastructurehubLeadingPractices2019  (Score: 0.69)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 69%
+   reports/th/d4dasia_country-report_th.qmd:
+     "...oyal Thai Police is responsible for police-related secrets [@specialbranchbureauRoyalThaiPolice] [Section 11 of the Rule on Maintenance of Official Secrets..."
+
+------------------------------------------------------------
 Med  Match:  @EconomicSurvey2022  ->  @OpenForge2023  (Score: 0.69)
    Method: Fuzzy (Jaro) | Reason: String similarity: 69%
    reports/pk/d4dasia_country-report_pk.qmd:
@@ -2885,16 +2807,10 @@ Med  Match:  @MetDept  ->  @DepartmentCensus  (Score: 0.69)
      "...data exists despite the Pakistan Meteorological Department[@MetDept] collecting and maintaining data about climate change[@rasu..."
 
 ------------------------------------------------------------
-Med  Match:  @MoCCVisionClimate  ->  @MinistryIT  (Score: 0.69)
+Med  Match:  @GenderSummary2023  ->  @GeneralStatistics  (Score: 0.69)
    Method: Fuzzy (Jaro) | Reason: String similarity: 69%
    reports/pk/d4dasia_country-report_pk.qmd:
-     "...nd steering Pakistan towards climate-resilient development.[@MoCCVisionClimate] The ministry has developed multiple policies in the last 1..."
-
-------------------------------------------------------------
-Med  Match:  @armedforcessecuritycenterAFSC  ->  @EmergencyRegulations  (Score: 0.69)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 69%
-   reports/th/d4dasia_country-report_th.qmd:
-     "...ecurity Center is responsible for military-related secrets [@armedforcessecuritycenterAFSC], and the Special Branch Bureau of Royal Thai Police is res..."
+     "...o civic services, a national ID card, or the right to vote [@GenderSummary2023]. The census report is in PDF format [@CensusKeyFindingsPK2..."
 
 ------------------------------------------------------------
 Med  Match:  @fig-digital-government-architecture  ->  @DataGovernance  (Score: 0.69)
@@ -2903,8 +2819,56 @@ Med  Match:  @fig-digital-government-architecture  ->  @DataGovernance  (Score: 
      "...chitecture, as given in the Strategy, has been extracted in @fig-digital-government-architecture below.  ![Digital Government Architecture](./images/digital..."
 
 ------------------------------------------------------------
-Med  Match:  @AMLA2001Amended2018  ->  @ASEANTrade2020  (Score: 0.69)
+Med  Match:  @MoCCVisionClimate  ->  @CollectionStatistics  (Score: 0.69)
    Method: Fuzzy (Jaro) | Reason: String similarity: 69%
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...nd steering Pakistan towards climate-resilient development.[@MoCCVisionClimate] The ministry has developed multiple policies in the last 1..."
+
+------------------------------------------------------------
+Med  Match:  @kasikornbankTransparencyDataDisclosure  ->  @nationalcreditbureauNationalCredit  (Score: 0.68)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 68%
+   reports/th/d4dasia_country-report_th.qmd:
+     "...d clients [@siamcommercialbankPolicySupervisionManagement] [@kasikornbankTransparencyDataDisclosure].  #### Policy gaps and frictions  The main policy gap aris..."
+
+------------------------------------------------------------
+Med  Match:  @MonthlyEconomicUpdates  ->  @ministryoftechnologyNationalDigital  (Score: 0.68)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 68%
+   reports/pk/d4dasia_country-report_pk.qmd:
+     "...he annual budget[@FinDivBudget2023], also publishes monthly[@MonthlyEconomicUpdates] and annual[@EconomicSurvey2022] economic surveys. The annu..."
+
+------------------------------------------------------------
+Med  Match:  @PCCNotificationForm  ->  @RightInformation  (Score: 0.68)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 68%
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...of the Policy.  [^15]: See Section 17 of the Act. See also [@PCCNotificationForm]  [^16]: See Section 16 of the Act.  [^17]: See Section 2 o..."
+
+------------------------------------------------------------
+Med  Match:  @fig-digital-economy-strategy  ->  @IndiaEyes  (Score: 0.68)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 68%
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...” and “data governance” have been included as key enablers. @fig-digital-economy-strategy below illustrates the strategy.  ![National Digital Economy..."
+
+------------------------------------------------------------
+Med  Match:  @fig-national-policy-framework  ->  @DigitalFramework  (Score: 0.67)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 67%
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...tal Transformation’ [@InformationCommunicationTechnologya]. @fig-national-policy-framework below depicts this.  ![National Policy Framework for Digita..."
+
+------------------------------------------------------------
+Med  Match:  @SECPrivacyPolicy  ->  @serviceOpenData  (Score: 0.67)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 67%
+   reports/ph/d4dasia_country-report_ph.qmd:
+     "...ments as public records, which are available to the public [@SECPrivacyPolicy]. The SEC has an online viewing system, the SEC i-View, whi..."
+
+------------------------------------------------------------
+Med  Match:  @armedforcessecuritycenterAFSC  ->  @hauersteinRegulatoryReform  (Score: 0.67)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 67%
+   reports/th/d4dasia_country-report_th.qmd:
+     "...ecurity Center is responsible for military-related secrets [@armedforcessecuritycenterAFSC], and the Special Branch Bureau of Royal Thai Police is res..."
+
+------------------------------------------------------------
+Med  Match:  @AMLA2001Amended2018  ->  @mandalAadharScheme2019  (Score: 0.67)
+   Method: Fuzzy (Jaro) | Reason: String similarity: 67%
    reports/ph/d4dasia_country-report_ph.qmd:
      "..., detection and investigation of money laundering offenses [@AMLA2001Amended2018]. The Council was thus mandated to install a computerized s..."
 
@@ -2915,28 +2879,13 @@ Med  Match:  @AMLA2001Amended2018  ->  @ASEANTrade2020  (Score: 0.69)
      "...he Policy.  [^45]: See Section 12.2 of the Policy.  [^46]: [@AMLA2001Amended2018] lists the following covered persons:      The following ar..."
 
 ------------------------------------------------------------
-Med  Match:  @PCCNotificationForm  ->  @ictaPublicConsultation  (Score: 0.68)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 68%
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...of the Policy.  [^15]: See Section 17 of the Act. See also [@PCCNotificationForm]  [^16]: See Section 16 of the Act.  [^17]: See Section 2 o..."
-
-------------------------------------------------------------
-Med  Match:  @MonthlyEconomicUpdates  ->  @ministryoftechnologyNationalDigital  (Score: 0.68)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 68%
-   reports/pk/d4dasia_country-report_pk.qmd:
-     "...he annual budget[@FinDivBudget2023], also publishes monthly[@MonthlyEconomicUpdates] and annual[@EconomicSurvey2022] economic surveys. The annu..."
-
-------------------------------------------------------------
-Med  Match:  @SECPrivacyPolicy  ->  @SCSays  (Score: 0.67)
-   Method: Fuzzy (Jaro) | Reason: String similarity: 68%
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...ments as public records, which are available to the public [@SECPrivacyPolicy]. The SEC has an online viewing system, the SEC i-View, whi..."
-
-------------------------------------------------------------
-Med  Match:  @fig-national-policy-framework  ->  @DigitalPublic  (Score: 0.67)
+Med  Match:  @DigitalIDLaunch  ->  @DirectiveManaging  (Score: 0.67)
    Method: Fuzzy (Jaro) | Reason: String similarity: 67%
    reports/lk/d4dasia_country-report_lk.qmd:
-     "...tal Transformation’ [@InformationCommunicationTechnologya]. @fig-national-policy-framework below depicts this.  ![National Policy Framework for Digita..."
+     "...ment has decided to use open-source MOSIP for this project [@DigitalIDLaunch]. There have been concerns surrounding the capture of data..."
+
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...on, maintenance, and the future development of the system” [@DigitalIDLaunch].  #### Cloud Strategy and Cloud Policy (Draft)  In June 20..."
 
 ------------------------------------------------------------
 Med  Match:  @ecpCheck  ->  @ecppakistanCheckYour  (Score: 0.66)
@@ -2951,20 +2900,35 @@ Med  Match:  @26ConstAmdPK  ->  @ConstitutionIslamic  (Score: 0.65)
      "...tution. Following the twenty-sixth constitutional amendment[@26ConstAmdPK], the Supreme Court will include constitutional benches, wh..."
 
 ------------------------------------------------------------
-Med  Match:  @AntiMoneyLaunderingAct2003  ->  @FranciscoChavez2003  (Score: 0.60)
-   Method: Structure | Reason: Year: 2003
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...were conducted or happened under suspicious circumstances [@AntiMoneyLaunderingAct2003][^48] are also reported to AMLC [@AntiMoneyLaunderingAct200..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...AntiMoneyLaunderingAct2003][^48] are also reported to AMLC [@AntiMoneyLaunderingAct2003].[^49] Suspicious transactions that are related to terroris..."
-
-   reports/ph/d4dasia_country-report_ph.qmd:
-     "...in the creation and maintenance of an information database [@AntiMoneyLaunderingAct2003].[^64] Philippine money-laundering laws also impose require..."
-
-------------------------------------------------------------
-Med  Match:  @AssamITPolicy2009  ->  @FoodDrug2009  (Score: 0.60)
+Med  Match:  @AssamITPolicy2009  ->  @ImplementingRules2009  (Score: 0.60)
    Method: Structure | Reason: Year: 2009
    reports/synthesis/d4dasia_synthesis-report.qmd:
      "...use in government departments and educational institutions [@AssamITPolicy2009]. While these policies aim to encourage FOSS adoption in th..."
+
+------------------------------------------------------------
+Med  Match:  @ictasrilankaNationalDataSharing2013  ->  @AntiMoneyLaundering2013  (Score: 0.60)
+   Method: Structure | Reason: Year: 2013
+   reports/lk/d4dasia_country-report_lk.qmd:
+     "...--------| | **National Data Sharing Policy (Draft, 2013)** [@ictasrilankaNationalDataSharing2013] | \- **Objective:** for “open government” and to “create a..."
+
+------------------------------------------------------------
+Med  Match:  @nepalCopyrightAct2002  ->  @CreditInformation2002  (Score: 0.60)
+   Method: Structure | Reason: Year: 2002
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...ceptions include;  \(i\) reproduction for personal purpose [@nepalCopyrightAct2002];[^37]  \(ii\) citation [@nepalCopyrightAct2002];[^38]  \(i..."
+
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...al purpose [@nepalCopyrightAct2002];[^37]  \(ii\) citation [@nepalCopyrightAct2002];[^38]  \(iii\) teaching and learning, which includes repro..."
+
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...and for educational activities performed in the classroom [@nepalCopyrightAct2002];[^39]  \(iv\) library and archives, where one copy can be..."
+
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...e reproduced in case copyright work is destroyed or is old [@nepalCopyrightAct2002];[^40]  \(v\) dissemination of information to the general p..."
+
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...to the general public via broadcasting or print newspaper [@nepalCopyrightAct2002];[^41] and  \(vi\) importation of one copy of a work for pe..."
+
+   reports/synthesis/d4dasia_synthesis-report.qmd:
+     "...\(vi\) importation of one copy of a work for personal use [@nepalCopyrightAct2002].[^42]  Therefore, from the given provisions of the Copyrig..."
 

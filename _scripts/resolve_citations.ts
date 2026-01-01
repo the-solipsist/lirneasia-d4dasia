@@ -22,7 +22,9 @@ const PATHS = {
   BIB_JSON:"_references/d4dasia-bib.json",
   REPORTS: "reports",
   LOG:     "citation_fix_log.txt",
-  UPDATE_SCRIPT: "_scripts/manage_citations.ts"
+  UPDATE_SCRIPT: "_scripts/manage_citations.ts",
+  MANUAL_FALSE_POSITIVES: "_references/citekeys-manual-false-positives.txt",
+  MANUAL_TRUE_POSITIVES: "_references/citekeys-manual-true-positives.txt"
 };
 
 const SCORING = {
@@ -537,6 +539,28 @@ function promptUser(q: string, options: string): string {
   return res ? res.trim().toLowerCase() : "";
 }
 
+async function loadManualOverrides(path: string): Promise<Set<string>> {
+  try {
+    const text = await Deno.readTextFile(path);
+    const set = new Set<string>();
+    for (const line of text.split("\n")) {
+      const clean = line.trim();
+      if (clean && !clean.startsWith("#")) {
+        // Split by |, trim parts, and re-join without spaces for canonical lookup
+        const parts = clean.split("|").map(p => p.trim());
+        if (parts.length === 2) {
+          set.add(`${parts[0]}|${parts[1]}`);
+        }
+      }
+    }
+    console.log(`✓ Loaded ${set.size} manual overrides from ${path}`);
+    return set;
+  } catch (e) {
+    console.warn(`⚠️  Could not load manual overrides from ${path} (file may not exist).`);
+    return new Set();
+  }
+}
+
 // --- MAIN EXECUTION ---
 
 async function main() {
@@ -552,6 +576,9 @@ async function main() {
     const failingKeys = await loadKeys(PATHS.FAILING);
     const validKeys = await loadKeys(PATHS.VALID);
     const cslData = await loadCSLData(); // NEW: Load CSL data
+    
+    const manualFalsePositives = await loadManualOverrides(PATHS.MANUAL_FALSE_POSITIVES);
+    const manualTruePositives = await loadManualOverrides(PATHS.MANUAL_TRUE_POSITIVES);
 
     console.log(`Loaded ${failingKeys.length} failing keys and ${validKeys.length} valid keys.`);
 
@@ -578,40 +605,51 @@ async function main() {
       const failParsed = parseKey(fail);
 
       for (const valid of validKeys) {
-        const validParsed = parseKey(valid);
-        const validCSL = cslData.get(valid) || null; // Get CSL for this key
+        // --- MANUAL OVERRIDES ---
+        const pairKey = `${fail}|${valid}`;
+        if (manualFalsePositives.has(pairKey)) continue;
 
         let score = 0;
         let currMethod = "none";
         let currExpl = "";
 
-        // 1. Cascading Step 1: Structural Match (Asymmetric)
-        if (failParsed && validParsed) {
-          const structResult = compareStructured(failParsed, validParsed, validCSL);
-          if (structResult.score > 0) {
-            score = structResult.score;
-            currMethod = "Structure";
-            currExpl = structResult.explanation;
-          }
-        }
+        if (manualTruePositives.has(pairKey)) {
+          score = 2.0;
+          currMethod = "Manual Override";
+          currExpl = "Explicitly allowed in manual-true-positives.txt";
+        } else {
+          // --- STANDARD SCORING ---
+          const validParsed = parseKey(valid);
+          const validCSL = cslData.get(valid) || null; // Get CSL for this key
 
-        // 2. Cascading Step 2: Fuzzy Match (Fallback)
-        const strictMode = (failParsed?.isLegalDocument && failParsed?.year) || 
-                           (validParsed?.isLegalDocument && validParsed?.year) ||
-                           (validCSL?.type === "legislation" && validCSL.issued); // Check CSL too!
-        
-        if (score === 0 && !strictMode) {
-          const fuzzyScore = jaroWinkler(fail.toLowerCase(), valid.toLowerCase());
-          const boosted = (fail.includes(valid) || valid.includes(fail))
-            ? Math.min(1.0, fuzzyScore + 0.15)
-            : fuzzyScore;
-          
-          if (boosted > 0.5) {
-            score = boosted;
-            currMethod = "Fuzzy (Jaro)";
-            currExpl = `String similarity: ${(boosted * 100).toFixed(0)}%`;
+          // 1. Cascading Step 1: Structural Match (Asymmetric)
+          if (failParsed && validParsed) {
+            const structResult = compareStructured(failParsed, validParsed, validCSL);
+            if (structResult.score > 0) {
+              score = structResult.score;
+              currMethod = "Structure";
+              currExpl = structResult.explanation;
+            }
           }
-        }
+
+          // 2. Cascading Step 2: Fuzzy Match (Fallback)
+          const strictMode = (failParsed?.isLegalDocument && failParsed?.year) || 
+                            (validParsed?.isLegalDocument && validParsed?.year) ||
+                            (validCSL?.type === "legislation" && validCSL.issued); // Check CSL too!
+          
+          if (score === 0 && !strictMode) {
+            const fuzzyScore = jaroWinkler(fail.toLowerCase(), valid.toLowerCase());
+            const boosted = (fail.includes(valid) || valid.includes(fail))
+              ? Math.min(1.0, fuzzyScore + 0.15)
+              : fuzzyScore;
+            
+            if (boosted > 0.5) {
+              score = boosted;
+              currMethod = "Fuzzy (Jaro)";
+              currExpl = `String similarity: ${(boosted * 100).toFixed(0)}%`;
+            }
+          }
+        } // End else (Standard Scoring)
 
         if (score > bestScore) {
           bestScore = score;

@@ -1,0 +1,38 @@
+# Citation Match Analysis
+
+## Likely Correct Matches
+These matches show strong alignment in title, year, and context.
+
+*   `@BankingAct2021` -> `@centralbankofsrilankaBankingAct2021`
+*   `@CorruptionAct2023` -> `@parliamentofthedemocraticsocialistrepublicofsrilankaCorruptionAct2023`
+*   `@ProactiveDisclosure2025` -> `@pereraProactiveDisclosure2025`
+*   `@NationalArchivesLaw1973` -> `@parliamentofthedemocraticsocialistrepublicofsrilankaNationalArchives1973`
+*   `@mouIran2014` -> `@MEMORANDUMUNDERSTANDING2014` (Target is "MEMORANDUM OF UNDERSTANDING ... PAKISTAN AND ... IRAN")
+*   `@NationalArchivesPhilippines2007` -> `@NationalArchives2007` (Target is "National Archives of the Philippines Act of 2007")
+*   `@siceTradeAgreementsPeru2022` -> `@siceTradeAgreements2022` (Target mentions "Peru - Thailand Free Trade Agreement")
+*   `@SriLankaProposed2023` -> `@SriLanka2023` (Target is "Sri Lanka: Proposed Online Safety Bill...")
+*   `@AntiTerrorismAct20202020` -> `@AntiTerrorismAct2020` (Likely typo in source key)
+*   `@InformationCommunicationTechnology` -> `@parliamentofthedemocraticsocialistrepublicofsrilankaInformationCommunication2003` (Context supports this act established the ICTA)
+*   `@ericlimBlackMay1992` -> `@limBlackMay`
+*   `@NepalEGovernmentInteroperability2011` -> `@pricewaterhousecoopersNepalEGovernment2011`
+
+## Incorrect / Suspicious Matches
+These matches are likely wrong due to context mismatches (Country/Jurisdiction) or excessive fuzziness.
+
+*   **INCORRECT:** `@ConstitutionSL2023` -> `@ConstitutionIslamic`
+    *   **Reason:** Source refers to "Constitution of Sri Lanka". Target is "The Constitution of the Islamic Republic of Pakistan 1973".
+    *   **Action:** Do not replace.
+
+*   **INCORRECT:** `@FreedomInformationPhilippines` -> `@FreedomInformationa`
+    *   **Reason:** Source refers to a Philippines FOI website/context. Target is "The Freedom of Information Ordinance 2002", which is a Pakistani law.
+    *   **Action:** Do not replace.
+
+*   **SUSPICIOUS:** `@Department` -> `@surveydepartmentofsrilankaDepartmentSurvey2020`
+    *   **Reason:** Source key `@Department` is very generic. While the context mentions the Survey Department, mapping a generic word to a specific 2020 Regulation is risky and likely over-aggressive.
+    *   **Action:** Review manually.
+
+*   **SUSPICIOUS:** `@SriLankaProposed2023` -> `@SriLanka2023`
+    *   **Reason:** While verified as likely correct content-wise, the source key `Proposed` implies a draft or specific bill version, while the target is a press release/blog post title. It is likely the intended reference, but worth noting the type difference (Legislation vs Webpage/Report). (Note: My previous verification accepted this, but I list it here for completeness). *Self-correction: I accepted this in the "Likely Correct" section as well, so I will stick with that judgment.*
+
+## General Observation
+The majority of "Structure" and "Year enrich" matches seem robust, especially those expanding generic names like `@BankingAct2021` to long-form institutional authors. However, cross-jurisdictional False Positives (Sri Lanka <-> Pakistan) are the main risk.

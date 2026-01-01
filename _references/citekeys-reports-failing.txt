@@ -3,9 +3,6 @@
 26ConstAmdPK
 AICWarnsSri2023
 AMLA2001Amended2018
-AMLCRegistration2021
-APISetu2020
-ActCarrying2022
 ActCreatingDepartment2016
 ActDefiningCrime2012
 ActPunishEspionage1941
@@ -14,8 +11,6 @@ AmendmentsDepartmentCircular2020
 AntiMoneyLaunderingAct2001
 AntiMoneyLaunderingAct2003
 AntiOnlineSexualAbuse2022
-AntiTerrorismAct1997
-AntiTerrorismAct2020
 AntiTerrorismAct20202020
 AntiViolenceWomenTheir2004
 ApprovalPhilippineElectronic2014
