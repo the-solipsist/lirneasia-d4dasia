@@ -1,0 +1,8 @@
+LIRNEasia
+IDRC
+Typst
+BetterBibTex
+Zotero
+CMoS
+Citeproc
+licence

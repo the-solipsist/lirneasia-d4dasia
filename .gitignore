@@ -7,32 +7,19 @@
 /_site/
 /_build/
 /.jj/
+**/*.quarto_ipynb
+/.luarc.json
 
 # Intermediate files
 /reports/*/assets/
 /reports/*/logos/
-*.typ
-*.md
+/reports/*/*.typ
+/reports/*/*.md
 *.log
 
 # Output files
 # 1. Ignore all PDFs by default (prevents tracking them in country/ folders)
 *.pdf
-# 2. Ignore all directories with PDF in their name (e.g., prevents tracking of reports_pdf/)
+# 2. Ignore all directories with PDF in their name
 /*pdf*/
-template.html
-template_files
 
-# BUT force-track:
-# PDFs in the reports folder
-# Typst files in the _extensions folder
-# README / COPYING files.
-#!reports/*.pdf
-!_extensions/**/*.typ
-
-!README.md
-!COPYING.md
-!COPYING-0BSD.md
-**/*.quarto_ipynb
-
-/.luarc.json
