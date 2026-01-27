@@ -1,5 +1,5 @@
 # Ignore the workspace/archive
-/_workspace/
+**/_workspace/
 
 # Quarto internals & build Directory
 /.quarto/
