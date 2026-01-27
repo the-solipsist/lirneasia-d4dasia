@@ -1,5 +1,5 @@
 # Ignore the workspace/archive
-/_workspace/
+**/_workspace/
 
 # Quarto internals & build Directory
 /.quarto/
@@ -15,6 +15,7 @@
 /reports/*/logos/
 /reports/*/*.typ
 /reports/*/*.md
+!/reports/*/*_markdown.md
 *.log
 
 # Output files
