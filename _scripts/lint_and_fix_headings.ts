@@ -4,7 +4,7 @@
  *
  * Usage:
  *   quarto run _scripts/lint_and_fix_headings.ts
- *   quarto run _scripts/lint_and_fix_headings.ts -- --fix
+ *   quarto run _scripts/lint_and_fix_headings.ts reports/id/file.qmd --fix
  *
  * Description:
  *   Standardizes Markdown headings by removing manual formatting that conflicts 
@@ -12,10 +12,9 @@
  *
  * Features:
  *   1. Remove Bold Markers: `## **Title**` -> `## Title`
- *      (Bold in headings is redundant and breaks TOC linking).
  *   2. Remove Hardcoded Numbers: `## 1.1. Title` -> `## Title`
- *      (Quarto handles numbering automatically).
- *      *Exception:* Years (e.g., 1999, 2024) are preserved.
+ *   3. Remove Malformed List-Headings: `1. #### Title` -> `#### Title`
+ *   4. Remove Empty Headings: `###   ` -> (Removed)
  *
  * Modes:
  *   - Dry Run (Default): Lists proposed changes.
@@ -37,24 +36,29 @@ const args = parse(Deno.args, {
   alias: { fix: ["execute", "e"] },
 });
 const isFixMode = args.fix;
+const specificFiles = args._.map(String);
 
 // --- REGEX PATTERNS ---
 
 /**
- * Pattern: Bold Headings
- * Matches: Lines starting with hashes (#) that contain double asterisks (**).
+ * Pattern: Heading Line (Generic)
+ * Matches: Lines starting with optional whitespace, optional list marker (1.), 
+ * then hashes (#) and space.
  */
-const REGEX_HEADING_LINE = /^(#+\s+)(.*)$/;
+const REGEX_HEADING_START = /^\s*(?:\d+\.?\s+)?(#+\s+)(.*)$/;
+
+/**
+ * Pattern: Empty Headings
+ * Matches: Lines with just hashes and optional whitespace, allowing for indentation.
+ */
+const REGEX_EMPTY_HEADING = /^\s*(#+)\s*$/;
 
 /**
  * Pattern: Hardcoded Numbers
- * Matches: Headings starting with numbers like "1.", "1.1.", "10.2", etc.
- * Captures:
- *  1. Hashes and space
- *  2. The number part
- *  3. The rest of the title
+ * Matches: Headings starting with numbers like "1.", "1.1.", "1\.1", "10.2", etc.
+ * Handles escaped dots (e.g. "1\") which are common in Markdown.
  */
-const REGEX_NUMBERED_HEADING = /^(#+\s+)(\d+(?:\.\d+)*\.?)\s+(.*)$/;
+const REGEX_INTERNAL_NUMBER = /^(\d+(?:\\?\\.\\d+)*(?:\\?\\.)?)\s+(.*)$/;
 
 /**
  * Pattern: Years
@@ -76,13 +80,24 @@ console.log("-".repeat(60));
 let stats = {
   boldRemoved: 0,
   numbersRemoved: 0,
+  emptyRemoved: 0,
+  malformedFixed: 0,
   filesChanged: 0
 };
 
-// Start the file walk
-for await (const entry of walk(reportsDir)) {
-  if (entry.isFile && entry.name.endsWith(".qmd")) {
-    await processFile(entry.path);
+if (specificFiles.length > 0) {
+  for (const filePath of specificFiles) {
+    try {
+        await processFile(filePath);
+    } catch (error) {
+        console.error(`❌ Error processing ${filePath}: ${error.message}`);
+    }
+  }
+} else {
+  for await (const entry of walk(reportsDir)) {
+    if (entry.isFile && entry.name.endsWith(".qmd")) {
+      await processFile(entry.path);
+    }
   }
 }
 
@@ -93,7 +108,6 @@ printSummary();
 
 /**
  * Scans a file line-by-line to correct heading formatting.
- * @param filePath Absolute path to the .qmd file
  */
 async function processFile(filePath: string) {
   const content = await Deno.readTextFile(filePath);
@@ -102,59 +116,86 @@ async function processFile(filePath: string) {
   
   let fileHasChanges = false;
   let fileLogPrinted = false;
-  const relPath = relative(join(scriptDir, ".."), filePath);
+  
+  let relPath = filePath;
+  try {
+      relPath = relative(Deno.cwd(), filePath);
+  } catch {}
 
-  // Helper to log only once per file
-  const logMatch = (type: string, oldLine: string, newLine: string, lineNum: number) => {
+  const logMatch = (type: string, oldLine: string, newLine: string | null, lineNum: number) => {
     if (!fileLogPrinted) {
       console.log(`\x1b[1m📄 ${relPath}\x1b[0m`);
       fileLogPrinted = true;
     }
     console.log(`   Line ${lineNum}: \x1b[36m[${type}]\x1b[0m`);
     console.log(`     Was: ${oldLine}`);
-    console.log(`     Now: ${newLine}`);
+    if (newLine !== null) {
+        console.log(`     Now: ${newLine}`);
+    } else {
+        console.log(`     Action: Removed line`);
+    }
   };
 
-  // Process line by line
   for (let i = 0; i < lines.length; i++) {
     let line = lines[i];
     let modified = false;
 
-    // 1. Remove Bold Markers
-    if (REGEX_HEADING_LINE.test(line) && line.includes("**")) {
-      const original = line;
-      line = line.replaceAll("**", "");
-      stats.boldRemoved++;
-      modified = true;
-      logMatch("Remove Bold", original, line, i + 1);
+    // 1. Check for Empty Headings
+    if (REGEX_EMPTY_HEADING.test(line)) {
+        stats.emptyRemoved++;
+        fileHasChanges = true;
+        logMatch("Remove Empty", line, null, i + 1);
+        continue;
     }
 
-    // 2. Remove Hardcoded Numbers
-    const matchNum = line.match(REGEX_NUMBERED_HEADING);
-    if (matchNum) {
-      const [_, prefix, numberPart, textPart] = matchNum;
+    // 2. Detect Heading Structure
+    const headingMatch = line.match(REGEX_HEADING_START);
+    if (headingMatch) {
+        const originalLine = line;
+        let [full, hashes, text] = headingMatch;
 
-      // Check exception: Is it a year?
-      if (!REGEX_YEAR.test(numberPart)) {
-        const original = line;
-        line = `${prefix}${textPart}`;
-        stats.numbersRemoved++;
-        modified = true;
-        logMatch("Remove Number", original, line, i + 1);
-      }
+        // Check if it was malformed (had a leading list marker like '1. ####')
+        if (line.trim().match(/^\d/)) {
+            stats.malformedFixed++;
+            modified = true;
+            // We already have 'hashes' and 'text' extracted correctly by the groups
+            line = `${hashes}${text}`;
+        }
+
+        // 3. Remove Bold Markers
+        if (text.includes("**")) {
+            text = text.replaceAll("**", "");
+            stats.boldRemoved++;
+            modified = true;
+            line = `${hashes}${text}`;
+        }
+
+        // 4. Remove Internal Numbers (e.g. '#### 1.1 Title')
+        const numMatch = text.match(REGEX_INTERNAL_NUMBER);
+        if (numMatch) {
+            const [_, numberPart, textPart] = numMatch;
+            if (!REGEX_YEAR.test(numberPart)) {
+                stats.numbersRemoved++;
+                modified = true;
+                line = `${hashes}${textPart}`;
+            }
+        }
+
+        if (modified) {
+            fileHasChanges = true;
+            logMatch("Fix Heading", originalLine, line, i + 1);
+        }
     }
 
-    if (modified) fileHasChanges = true;
     newLines.push(line);
   }
 
-  // Save if needed
   if (fileHasChanges) {
     if (isFixMode) {
       await Deno.writeTextFile(filePath, newLines.join("\n"));
       stats.filesChanged++;
     } else {
-      console.log(""); // Spacing for dry run output
+      console.log(""); 
     }
   }
 }
@@ -164,10 +205,12 @@ function printSummary() {
   console.log("Summary:");
   console.log(`   Bold Markers Removed:  ${stats.boldRemoved}`);
   console.log(`   Numbers Removed:       ${stats.numbersRemoved}`);
+  console.log(`   Malformed Fixed:       ${stats.malformedFixed}`);
+  console.log(`   Empty Headings Removed:${stats.emptyRemoved}`);
   
   if (isFixMode) {
     console.log(`   Files Modified:        ${stats.filesChanged}`);
-  } else if (stats.boldRemoved > 0 || stats.numbersRemoved > 0) {
+  } else if (stats.boldRemoved > 0 || stats.numbersRemoved > 0 || stats.emptyRemoved > 0 || stats.malformedFixed > 0) {
     console.log("\n   Run with \x1b[1m--fix\x1b[0m to apply changes.");
   }
 }
