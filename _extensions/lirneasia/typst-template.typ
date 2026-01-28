@@ -226,6 +226,10 @@
     stroke: none
   )
 
+  show table: set align(left)
+
+  show figure.where(kind: "quarto-float-tbl"): set block(breakable: true)
+
   // [STYLE] Footnotes
   // Footnotes must use a "hanging indent" format where the number is aligned left
   // and multi-line notes indent to align with the text start, not the number.

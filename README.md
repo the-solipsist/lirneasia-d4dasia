@@ -1,6 +1,6 @@
 # Harnessing Data for Democratic Development in South and Southeast Asia
 
-This project is undertaken by [LIRNEasia](https://lirneasia.net) and funded by [IDRC](https://idrc-cdri.ca).
+This project is undertaken by [LIRNEasia](https://lirneasia.net) and funded by [IDRC](https://idrc-crdi.ca).
 
 This repository contains the [reports in PDF format](https://github.com/the-solipsist/lirneasia-d4dasia/releases), along with all the files needed to produce the PDF reports.
 
@@ -272,6 +272,6 @@ This way the PDFs are always kept up-to-date.
 
 ## Licence
 
-All report contents in this repository are licensed under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](COPYING.md). You are free to share and adapt the material, provided you give appropriate credit to LIRNEasia and the respective authors.
+All report contents in this repository are licensed under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](LICENSE.md). You are free to share and adapt the material, provided you give appropriate credit to LIRNEasia and the respective authors.
 
-All code contained in this repository is licensed under the [Zero Clause BSD licence (0BSD)](COPYING-0BSD.md).
+All code contained in this repository is licensed under the [Zero Clause BSD licence (0BSD)](LICENSE-0BSD.md).
