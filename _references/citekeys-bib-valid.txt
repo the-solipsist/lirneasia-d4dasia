@@ -80,7 +80,6 @@ CivilCode1949
 CloudFirst2022
 CodeEthics2010
 CodeProfessional2023
-CollectionStatistics
 CommitteestageAmendments2023
 CommunityBasedMonitoring2019
 CompaniesAccounts
@@ -876,6 +875,7 @@ hutagalungHighlightsNew2019
 hwaangShutingMobile
 icfossICFOSS2016
 ictaPublicConsultation
+indiaCollectionStatistics2008
 indonesiaBadanPusat
 indonesiaBankIndonesia2023
 indonesiaCentralBank1999

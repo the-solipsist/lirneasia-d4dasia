@@ -15,7 +15,7 @@
 /reports/*/logos/
 /reports/*/*.typ
 /reports/*/*.md
-!/reports/*/*_markdown.md
+!/reports/*/*.github.md
 *.log
 
 # Output files

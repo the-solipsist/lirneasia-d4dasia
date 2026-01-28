@@ -43,6 +43,8 @@ format:
     # (They're ignored by git, thanks to .gitignore)
     keep-typ: true 
     keep-md: true
+  gfm:
+    output-ext: github.md
 
 # 7. Editor Preferences
 editor:

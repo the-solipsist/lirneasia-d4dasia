@@ -38,7 +38,6 @@ ChamaraSampathNeil2018
 ChamaraSampathParliament2018
 CivilCodePhilippines1949
 CloudFirst2022
-CollectionStatistics
 CommentsESafetyBill2023
 CommunityBasedMonitoringSystem2019
 CompaniesAct2017
@@ -384,7 +383,7 @@ budimanDevelopmentPersonal2023
 budiyantiIntegrationElectronic2023
 burckClimateChange2023
 burtPakistanTelecom2023
-centralstatisticsofficeHandbookCollection2011
+centralstatisticsofficeHandbookCollection2008
 centreforlawanddemocracyGlobalRight2023
 centreforlawanddemocracyGlobalRightInformation2023
 chanataradhammaPersonalData2021
@@ -473,6 +472,7 @@ hussainPakistanTests2024
 ictaPublicConsultationCall
 ictasrilankaNationalDataSharing2013
 imranBridgingGap2024
+indiaCollectionStatistics2008
 indonesiaBadanPusat
 indonesiaBankIndonesia2023
 indonesiaCircularFinancial2014
