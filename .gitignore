@@ -21,6 +21,7 @@
 # Output files
 # 1. Ignore all PDFs by default (prevents tracking them in country/ folders)
 *.pdf
-# 2. Ignore all directories with PDF in their name
-/*pdf*/
+# 2. Ignore contents of the output directory by default, but allow GitHub-format Markdown
+/outputs/*
+!/outputs/*.github.md
 

@@ -482,7 +482,17 @@ async function reportMatch(lines: string[]) {
 async function loadKeys(path: string): Promise<string[]> {
   try {
     const text = await Deno.readTextFile(path);
-    return [...new Set(text.split("\n").map(s => s.trim()).filter(s => s !== ""))];
+    // Preserves order while filtering out duplicates, empty lines, and report headers (#)
+    const keys: string[] = [];
+    const seen = new Set<string>();
+    
+    text.split("\n").map(s => s.trim()).forEach(s => {
+      if (s !== "" && !s.startsWith("#") && !seen.has(s)) {
+        keys.push(s);
+        seen.add(s);
+      }
+    });
+    return keys;
   } catch (e) {
     console.error(`Failed to load keys from ${path}`);
     return [];

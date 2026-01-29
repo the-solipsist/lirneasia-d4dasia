@@ -5,7 +5,7 @@ project:
     - "reports/*/d4dasia*.qmd"
     - "!reports/_common/*.qmd" # Do not render included files
   post-render: 
-    - quarto run _scripts/collect_report_pdfs.ts
+    - quarto run _scripts/collect_outputs.ts
     - quarto run _scripts/manage_citations.ts
   
 # 1. Global metadata

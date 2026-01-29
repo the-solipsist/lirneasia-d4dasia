@@ -1,14 +1,15 @@
 /**
- * COLLECT REPORT PDFS
- * ===================
+ * COLLECT REPORT OUTPUTS
+ * ======================
  * 
  * Usage:
- *   quarto run _scripts/collect_report_pdfs.ts
- *   quarto run _scripts/collect_report_pdfs.ts -- --dry-run
+ *   quarto run _scripts/collect_outputs.ts
+ *   quarto run _scripts/collect_outputs.ts -- --dry-run
  * 
  * Description:
- *   This script scans the project's 'reports/' directory for generated PDF files 
- *   and creates hard-links to them in a central 'pdfs/' folder.
+ *   This script scans the project's 'reports/' directory for generated files 
+ *   (PDFs and GitHub-format Markdown) and creates hard-links to them in a 
+ *   central 'outputs/' folder.
  * 
  *   This is a post-render utility that organizes the output, making it easy 
  *   to find, review, and commit the final reports.
@@ -25,12 +26,12 @@ if (dryRun) {
 // --- PATH DEFINITIONS ---
 // We use hardcoded paths relative to the project root for simplicity.
 const PROJECT_ROOT = Deno.cwd();
-const PDFS_DIR = `${PROJECT_ROOT}/pdfs`;
+const OUTPUTS_DIR = `${PROJECT_ROOT}/outputs`;
 const REPORTS_DIR = `${PROJECT_ROOT}/reports`;
 
 // Ensure the destination directory exists before attempting to link files.
 try {
-  Deno.mkdirSync(PDFS_DIR, { recursive: true });
+  Deno.mkdirSync(OUTPUTS_DIR, { recursive: true });
 } catch (_) {
   // Directory likely already exists, which is expected.
 }
@@ -57,20 +58,21 @@ function walkDirSync(dir: string): string[] {
 }
 
 // --- MAIN EXECUTION ---
-console.log("🔍 Harvesting PDFs from country folders...\n");
+console.log("🔍 Harvesting PDFs and GitHub-format Markdown from country folders...\n");
 
 const allFiles = walkDirSync(REPORTS_DIR);
 
 for (const filePath of allFiles) {
-  // We only care about PDF files.
-  if (!filePath.toLowerCase().endsWith(".pdf")) continue;
+  const lowerPath = filePath.toLowerCase();
+  // We care about PDF and GitHub-format Markdown files.
+  if (!lowerPath.endsWith(".pdf") && !lowerPath.endsWith(".github.md")) continue;
   
   // Safety: Avoid harvesting files already inside the output directory.
-  if (filePath.includes("/pdfs/")) continue;
+  if (filePath.includes("/outputs/")) continue;
 
   // Extract the filename (e.g., "report-lk.pdf") from the full path.
   const filename = filePath.substring(filePath.lastIndexOf("/") + 1);
-  const dest = `${PDFS_DIR}/${filename}`;
+  const dest = `${OUTPUTS_DIR}/${filename}`;
 
   if (dryRun) {
     console.log(`   ⚠️  Dry-run: Would hard-link "${filename}"`);
@@ -93,7 +95,7 @@ for (const filePath of allFiles) {
   }
 }
 
-console.log("\n✨ Done. PDFs in pdfs/ are ready for Git.");
+console.log("\n✨ Done. Files in outputs/ are ready for Git.");
 if (dryRun) {
   console.log("✨ (Dry-run completed; nothing was changed.)");
 }

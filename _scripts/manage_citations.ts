@@ -133,35 +133,58 @@ async function generateValidList() {
 
 /**
  * Scans .qmd files using Lua filter and writes citekeys-reports-used.txt
+ * Sorted by the report file in which each key is first found.
  */
 async function generateUsedList() {
   console.log("\n🔍 Listing Used Keys (Reports)...");
-  const usedKeys = new Set<string>();
+  const seenKeys = new Set<string>();
+  const outputLines: string[] = [];
   let fileCount = 0;
 
+  // Collect and sort files alphabetically to ensure stable report order
+  const files: string[] = [];
   for await (const entry of walk(reportsDir, { exts: [".qmd"] })) {
     if (entry.isFile && !entry.name.startsWith("_")) {
-      fileCount++;
-      const keys = await runLuaFilter(entry.path, PATHS.LUA.KEYS);
-      keys.forEach(k => {
-        // Filter output format "[CITE] filename: @key" -> "key"
-        if (k.startsWith("[CITE]")) {
-          const parts = k.split("@");
-          if (parts.length > 1) usedKeys.add(parts[1].trim());
+      files.push(entry.path);
+    }
+  }
+  files.sort();
+
+  for (const filePath of files) {
+    fileCount++;
+    const keys = await runLuaFilter(filePath, PATHS.LUA.KEYS);
+    const newKeysInFile: string[] = [];
+    
+    keys.forEach(k => {
+      // Filter output format "[CITE] filename: @key" -> "key"
+      if (k.startsWith("[CITE]")) {
+        const parts = k.split("@");
+        if (parts.length > 1) {
+          const key = parts[1].trim();
+          if (!seenKeys.has(key)) {
+            seenKeys.add(key);
+            newKeysInFile.push(key);
+          }
         }
-      });
+      }
+    });
+
+    if (newKeysInFile.length > 0) {
+      outputLines.push(`# ${relativePath(filePath)}`);
+      newKeysInFile.forEach(k => outputLines.push(k));
+      outputLines.push(""); // Add empty line between reports
     }
   }
 
-  const sorted = [...usedKeys].sort();
-  await Deno.writeTextFile(PATHS.OUT_USED, sorted.join("\n"));
+  await Deno.writeTextFile(PATHS.OUT_USED, outputLines.join("\n").trim() + "\n");
   console.log(`   ✅ Scanned ${fileCount} files.`);
-  console.log(`   ✅ Found ${sorted.length} unique used keys.`);
+  console.log(`   ✅ Found ${seenKeys.size} unique used keys.`);
   console.log(`   📝 Wrote to: ${relativePath(PATHS.OUT_USED)}`);
 }
 
 /**
  * Compares Used vs Valid lists and writes citekeys-reports-failing.txt
+ * Preserves the report-based grouping and order.
  */
 async function generateFailingList() {
   console.log("\n🔍 Listing Failing Keys...");
@@ -169,15 +192,35 @@ async function generateFailingList() {
     const validRaw = await Deno.readTextFile(PATHS.OUT_VALID);
     const usedRaw = await Deno.readTextFile(PATHS.OUT_USED);
 
-    const valid = new Set(validRaw.split("\n").map(k => k.trim()).filter(Boolean));
-    const used = usedRaw.split("\n").map(k => k.trim()).filter(Boolean);
+    const valid = new Set(validRaw.split("\n").map(k => k.trim()).filter(k => k !== "" && !k.startsWith("#")));
+    const usedLines = usedRaw.split("\n").map(k => k.trim()).filter(Boolean);
 
-    const failing = used.filter(k => !valid.has(k)).sort();
+    const failingLines: string[] = [];
+    let currentHeader: string | null = null;
+    let headerAdded = false;
+    let failingCount = 0;
 
-    await Deno.writeTextFile(PATHS.OUT_FAILING, failing.join("\n"));
+    for (const line of usedLines) {
+      if (line.startsWith("#")) {
+        currentHeader = line;
+        headerAdded = false;
+        continue;
+      }
+      if (!valid.has(line)) {
+        if (currentHeader && !headerAdded) {
+          if (failingLines.length > 0) failingLines.push(""); // Spacer between reports
+          failingLines.push(currentHeader);
+          headerAdded = true;
+        }
+        failingLines.push(line);
+        failingCount++;
+      }
+    }
+
+    await Deno.writeTextFile(PATHS.OUT_FAILING, failingLines.join("\n").trim() + "\n");
     
-    if (failing.length > 0) {
-      console.log(`   ⚠️  Found ${failing.length} failing keys.`);
+    if (failingCount > 0) {
+      console.log(`   ⚠️  Found ${failingCount} failing keys.`);
     } else {
       console.log(`   ✅ No failing keys found.`);
     }
@@ -196,7 +239,7 @@ async function checkCollisions() {
   console.log("\n🔍 Listing Potential Collisions (in Failing Keys)...");
   try {
     const content = await Deno.readTextFile(PATHS.OUT_FAILING);
-    const keys = content.split("\n").map(k => k.trim()).filter(Boolean);
+    const keys = content.split("\n").map(k => k.trim()).filter(k => k !== "" && !k.startsWith("#"));
     const keySet = new Set(keys);
     const groups = new Map<string, string[]>();
 
