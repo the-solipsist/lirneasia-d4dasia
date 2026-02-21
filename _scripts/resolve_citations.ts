@@ -52,17 +52,19 @@ const STRIPPABLE_SUFFIXES = ["Report", "Paper", "Document", "Study"];
 
 // --- ARGS ---
 const args = parse(Deno.args, {
-  boolean: ["fix", "auto-fix-high", "verbose", "no-update-citations"],
+  boolean: ["fix", "auto-fix-high", "verbose", "no-update-citations", "manual-only", "auto-manual"],
   string: ["output"],
   alias: { v: "verbose", o: "output" }
 });
 const MODE = {
   INTERACTIVE: args.fix,
   AUTO_HIGH:   args["auto-fix-high"],
+  AUTO_MANUAL: args["auto-manual"],
   VERBOSE:     args.verbose,
   OUTPUT_FILE: args.output,
-  DRY_RUN:     !args.fix && !args["auto-fix-high"],
-  SKIP_UPDATE: args["no-update-citations"]
+  DRY_RUN:     !args.fix && !args["auto-fix-high"] && !args["auto-manual"],
+  SKIP_UPDATE: args["no-update-citations"],
+  MANUAL_ONLY: args["manual-only"]
 };
 
 // --- TYPES ---
@@ -627,7 +629,7 @@ async function main() {
           score = 2.0;
           currMethod = "Manual Override";
           currExpl = "Explicitly allowed in manual-true-positives.txt";
-        } else {
+        } else if (!MODE.MANUAL_ONLY) {
           // --- STANDARD SCORING ---
           const validParsed = parseKey(valid);
           const validCSL = cslData.get(valid) || null; // Get CSL for this key
@@ -659,7 +661,7 @@ async function main() {
               currExpl = `String similarity: ${(boosted * 100).toFixed(0)}%`;
             }
           }
-        } // End else (Standard Scoring)
+        } // End else if (!MODE.MANUAL_ONLY)
 
         if (score > bestScore) {
           bestScore = score;
@@ -731,6 +733,10 @@ async function main() {
         console.log("   -> \x1b[32mAuto-queuing fix\x1b[0m (High Confidence)");
         shouldQueue = true;
       } 
+      else if (MODE.AUTO_MANUAL && method === "Manual Override") {
+        console.log("   -> \x1b[32mAuto-queuing fix\x1b[0m (Manual Override)");
+        shouldQueue = true;
+      }
       else if (MODE.INTERACTIVE) {
         const input = promptUser("   Queue fix?", "y/N/q");
         if (input === "y") shouldQueue = true;
