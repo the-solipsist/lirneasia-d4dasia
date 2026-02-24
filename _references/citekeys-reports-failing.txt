@@ -1,5 +1,10 @@
+# reports/id/_workspace/d4dasia_country-report_id.qmd
+lubisIndonesiaPublic2018
+
 # reports/in/d4dasia_country-report_in.qmd
+SummaryUnion2023
 NationalPolicy2012
+InformationTechnology2009
 ogddivisionnicImplementationGuidelines2015
 NationalPolicy2019
 
@@ -48,6 +53,7 @@ presidentialsecretariatStrategicApproachDigitize2024
 OnlineRegisteredVehicle
 PaymentSettlementSystems2020
 PaymentSettlementSystems2018
+DigitalIDLaunch
 ictaPublicConsultationCall
 DraftRevisedCloud2025
 govpayPayTrafficFines
@@ -170,9 +176,9 @@ electronicgovernmentagencyGovernmentWebsiteStandard2012
 RightInformationAct2007
 srilankaBankingActDirections2021
 ComputerRelatedCrimeAct2007
-nepalTelecommunicationsAct1993
 PressPublicationAct1991
 royalgazetteAnnouncementPersonalData2023
+srilankaIntellectualProperty2003
 IndiaCopyrightAmendmentAct2012
 
 # reports/th/d4dasia_country-report_th.qmd
@@ -184,3 +190,4 @@ ActCarrying2022
 digitalgovernmentdevelopmentagencyEbookInitial2023
 nectecThailand
 nationalintelligenceagencyNIA
+ComputerRelatedCrime2007

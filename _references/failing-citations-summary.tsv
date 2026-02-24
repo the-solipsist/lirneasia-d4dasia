@@ -1,5 +1,9 @@
 failing_citekey	replacement_key	comment
+lubisIndonesiaPublic2018		
+		
+SummaryUnion2023		
 NationalPolicy2012	indiaNationalPolicyIT2012	there  are 2 national policies(it and edu)
+InformationTechnology2009		
 ogddivisionnicImplementationGuidelines2015		
 NationalPolicy2019	indiaNationalPolicySoftware2019	only name of 1 author is mentioned
 		
@@ -46,6 +50,7 @@ presidentialsecretariatStrategicApproachDigitize2024
 OnlineRegisteredVehicle		
 PaymentSettlementSystems2020		
 PaymentSettlementSystems2018		
+DigitalIDLaunch		
 ictaPublicConsultationCall		
 DraftRevisedCloud2025		
 govpayPayTrafficFines		
@@ -165,9 +170,9 @@ electronicgovernmentagencyGovernmentWebsiteStandard2012
 RightInformationAct2007		
 srilankaBankingActDirections2021		
 ComputerRelatedCrimeAct2007		
-nepalTelecommunicationsAct1993		
 PressPublicationAct1991		
 royalgazetteAnnouncementPersonalData2023		
+srilankaIntellectualProperty2003		
 IndiaCopyrightAmendmentAct2012		where is this file?
 		
 yasudaLawDevelopmentSoutheast2002	yasudaLawDevelopment2003	why invalid key mentions wrong year?
@@ -178,3 +183,4 @@ ActCarrying2022	thailandEgovAct2022	the legislative language of TH is "An Act to
 digitalgovernmentdevelopmentagencyEbookInitial2023	digitalgovernmentdevelopmentagencyEbookGuidelines2023	Zotero added "for Standard" for 392, why ther's no addition of "for Initial" given the same format and nature of both files.
 nectecThailand	nectecNECTECThailand	why nectec is repeated twice? invalid key looks better than new entry
 nationalintelligenceagencyNIA	nationalintelligenceagencyNationalIntelligence	why repeated twice?
+ComputerRelatedCrime2007		

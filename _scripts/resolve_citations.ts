@@ -532,9 +532,8 @@ async function saveSession(fileContents: Map<string, string>, changeLog: string[
   }
   try {
     const logPath = PATHS.LOG;
-    let oldLog = "";
-    try { oldLog = await Deno.readTextFile(logPath) + "\n"; } catch { /* ignore new file */ }
-    await Deno.writeTextFile(logPath, oldLog + changeLog.join("\n"));
+    const logEntry = `\n--- Session: ${new Date().toISOString()} ---\n` + changeLog.join("\n") + "\n";
+    await Deno.writeTextFile(logPath, logEntry, { append: true });
     console.log(`\n✅ Saved ${savedCount} files.`);
     console.log(`📝 Log appended to: ${logPath}`);
   } catch (e) {

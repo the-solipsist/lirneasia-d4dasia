@@ -6,3 +6,6 @@
 
 • Base key: OnlineSafetyAct2024
   Variants: OnlineSafetyAct2024, OnlineSafetyAct2024a
+
+• Base key: ruangchaweeAnnouncementDigitalGovernment2023
+  Variants: ruangchaweeAnnouncementDigitalGovernment2023, ruangchaweeAnnouncementDigitalGovernment2023a
