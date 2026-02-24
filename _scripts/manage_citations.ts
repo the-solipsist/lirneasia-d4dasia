@@ -52,7 +52,8 @@ const args = parse(Deno.args, {
     "list-available", 
     "list-collisions",
     "list-citations-in-footnotes",
-    "list-all-footnotes"
+    "list-all-footnotes",
+    "sync-manual"
   ],
 });
 
@@ -62,7 +63,8 @@ const isDefaultMode = !args["list-failing"] &&
                       !args["list-available"] && 
                       !args["list-collisions"] && 
                       !args["list-citations-in-footnotes"] && 
-                      !args["list-all-footnotes"];
+                      !args["list-all-footnotes"] &&
+                      !args["sync-manual"];
 
 // --- MAIN ---
 
@@ -76,7 +78,12 @@ if (import.meta.main) {
     console.log("   To fix citation syntax errors, use: quarto run _scripts/lint_and_fix_citations.ts --fix");
   }
 
-  // 1. List Available (Bibliography)
+  // 1. Sync Manual Overrides from TSV
+  if (args["sync-manual"]) {
+    await syncManualOverrides();
+  }
+
+  // 2. List Available (Bibliography)
   if (isDefaultMode || args["list-available"]) {
     await generateValidList();
   }
@@ -107,6 +114,55 @@ if (import.meta.main) {
 }
 
 // --- CORE FUNCTIONS ---
+
+/**
+ * Synchronizes manual overrides from true-positives.tsv to citekeys-manual-true-positives.txt
+ * Automatically cleans illegal quoting.
+ */
+async function syncManualOverrides() {
+  console.log("\n🔄 Synchronizing Manual Overrides from TSV...");
+  const tsvPath = join(bibDir, "true-positives.tsv");
+  const outPath = join(bibDir, "citekeys-manual-true-positives.txt");
+
+  try {
+    let tsvContent = await Deno.readTextFile(tsvPath);
+    
+    // 1. Clean illegal quoting (replace " with ')
+    if (tsvContent.includes('"')) {
+      console.log("   🧹 Cleaning illegal quoting in TSV...");
+      tsvContent = tsvContent.replace(/"/g, "'");
+      await Deno.writeTextFile(tsvPath, tsvContent);
+    }
+
+    // 2. Extract verified pairs (no comment)
+    const lines = tsvContent.split("\n");
+    const verifiedPairs: string[] = [];
+    for (let i = 1; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (!line || line.startsWith("#")) continue;
+
+        const parts = line.split("\t");
+        if (parts.length >= 2 && parts[0] !== "" && parts[1] !== "") {
+            const comment = parts[2] ? parts[2].trim() : "";
+            if (comment === "") {
+                verifiedPairs.push(`${parts[0].trim()}|${parts[1].trim()}`);
+            }
+        }
+    }
+
+    const header = `# MANUAL TRUE POSITIVE CITATION MATCHES
+# Format: failing_key|correct_valid_key
+# These pairs will be explicitly ACCEPTED by the resolution script.
+# Use this to force a specific match even if the score is low or ambiguous.
+\n`;
+
+    await Deno.writeTextFile(outPath, header + verifiedPairs.sort().join("\n") + "\n");
+    console.log(`   ✅ Synced ${verifiedPairs.length} verified pairs to manual overrides.`);
+    console.log(`   📝 Wrote to: ${relativePath(outPath)}`);
+  } catch (e) {
+    console.error(`   ❌ Failed to sync: ${e.message}`);
+  }
+}
 
 /**
  * Reads d4dasia-bib.json and writes citekeys-bib-valid.txt
