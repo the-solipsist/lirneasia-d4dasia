@@ -178,7 +178,7 @@ policyreviewcommitteeEgovernmentPolicies2014
 presidentialsecretariatPSGPACircular2020
 ictaNatPolicyFramework
 fig-national-policy-framework
-PolicyInformationCommunication
+srilankaNationalDigitalPolicy2023
 fernandoNewDigital2024
 srilankaRightInformationAct2016
 SriLankaLoses2025
@@ -200,7 +200,6 @@ CRIBScore
 SriLanka2024a
 srilankaCorruptionAct2023
 fig-digital-government-architecture
-srilankaNationalDigitalPolicy2023
 12Principles2008
 TableRTIC2020
 ictaEnterpriseArchitecture2023

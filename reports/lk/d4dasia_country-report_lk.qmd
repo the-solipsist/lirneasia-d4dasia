@@ -47,7 +47,7 @@ Currently, the ‘National Policy Framework’ of Sri Lanka, under its three mai
 
 ![National Policy Framework for Digital Transformation](./images/policy-framework-digital-transformation.jpg){#fig-national-policy-framework fig-alt="Diagram titled \"Policy Framework - Digital Transformation.\" It is structured around three main pillars: Digital Government (listing Digital Foundation, National Data Exchange, Shared Solutions, Line of Business Digitalisation, Common Access); Digital Economy (listing Tech Industry Development, Startup Eco System Development, Technology Diffusion, Capacity Building, Regional Cluster Development); and Digital Services (listing Government Tech Infrastructure Services, Technology and Transformation Consultancy Services, Digital ID and Authentication Services, Digital Payment Services). Both the three pillars rest on foundational layers labeled Technology and Digital Laws and Policies."}
 
-Source: ICTA Policy Division[@PolicyInformationCommunication].
+Source: National Digital Government/Governance Policy for Sri Lanka [@srilankaNationalDigitalPolicy2023, p. 4].
 
 However, a policy directive of the Cabinet of Ministers in May 2024 states that ICTA will be absorbed by a ‘Digital Transformation Authority’ under a new law being drafted, thus vesting it only with the responsibilities of policy and strategy aspects. In contrast, ICTA has previously been engaged in activities ranging from policy development to project implementation [@fernandoNewDigital2024]. By a gazette notification in November 2024, the Ministry of Digital Economy was created, *inter alia,* the newly created Ministry will be responsible for
 
