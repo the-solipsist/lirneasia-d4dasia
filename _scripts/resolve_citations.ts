@@ -759,13 +759,13 @@ async function main() {
     }
 
     if (changeLog.length > 0) {
-      if (MODE.AUTO_HIGH) await saveSession(fileContents, changeLog);
-      else if (MODE.INTERACTIVE) {
-        if (promptUser("Write all changes to disk?", "y/N") === "y") {
-          await saveSession(fileContents, changeLog);
-        }
-      }
-    }
+          if (MODE.AUTO_HIGH) await saveSession(fileContents, changeLog);
+          else if (MODE.AUTO_MANUAL) await saveSession(fileContents, changeLog);
+          else if (MODE.INTERACTIVE) {
+            if (promptUser("Write all changes to disk?", "y/N") === "y") {
+              await saveSession(fileContents, changeLog);
+            }
+          }    }
 
   } catch (err) {
     console.error("Critical Error:", err);
