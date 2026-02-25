@@ -1,6 +1,7 @@
 name: Render and Publish Reports
 
 on:
+  workflow_dispatch:
   push:
     branches: [ 'main', 'test*' ]
     # NEW: Trigger on version tags (v1.0, v2.0, etc.)
