@@ -182,7 +182,7 @@ to refer to “diverse arrangements, including technical, policy,
 regulatory or institutional provisions, that affect data and their
 creation, collection, storage, use, protection, access, sharing and
 deletion across policy domains and organizational and national
-borders.”[^1]
+borders”.[^1]
 
 ### Overview of the Pakistan Data Governance Landscape
 
@@ -2190,6 +2190,20 @@ Acts, Ordinances, President’s Orders and Regulations (2020).
 
 </div>
 
+<div id="ref-PakistanTajikistanTransitAgreement2022" class="csl-entry">
+
+Agreement Between the Government of the Republic of Tajikistan and
+Government of the Islamic Republic of Pakistan on Transit Trade (2022).
+
+</div>
+
+<div id="ref-SAFTA2004" class="csl-entry">
+
+Agreement on South Asian Free Trade Area (SAFTA) (2006).
+<https://www.doc.gov.lk/index.php?option=com_content&view=article&id=32&Itemid=157&lang=en>.
+
+</div>
+
 <div id="ref-aljazeeraWhatCypher2024" class="csl-entry">
 
 Al Jazeera, and News Agencies. “What Is the Cypher Case That Led to Jail
@@ -2207,6 +2221,15 @@ Advocacy and Development, n.d.
 
 </div>
 
+<div id="ref-aliLawHow2023" class="csl-entry">
+
+Ali, Syed Raza. “Law: How Can the RTI Laws Be Fixed?” Newspaper.
+*DAWN.COM*, September 17, 2023.
+https://web.archive.org/web/20231018164645/https://www.dawn.com/news/1776292.
+<https://www.dawn.com/news/1776292>.
+
+</div>
+
 <div id="ref-aminRegistrationSSMCs2022" class="csl-entry">
 
 Amin, Tahir. “Registration of SSMCs Under Rules: Despite Reminders,
@@ -2215,9 +2238,22 @@ Major Social Media Platforms Not Responding Positively: PTA.” Brecorder,
 
 </div>
 
+<div id="ref-pakistanMoneyLaunderingAct2017" class="csl-entry">
+
+Anti Money Laundering and Combating the Financing of Terrorism (AML-CFT)
+Regulations for Banks & DFIs (2017).
+
+</div>
+
 <div id="ref-AntiTerrorismAct1997" class="csl-entry">
 
 Anti-Terrorism Act (1997).
+
+</div>
+
+<div id="ref-AsiaInternet2025" class="csl-entry">
+
+“Asia Internet Coalition.” 2025. <https://aicasia.org/>.
 
 </div>
 
@@ -2247,6 +2283,15 @@ DAWN.COM, 2022. <https://www.dawn.com/news/1726162>.
 
 Bolo Bhi. “Data Protection Law.” Press Releases. *Bolo Bhi*, January 8,
 2019. <https://bolobhi.org/data-protection-law/>.
+
+</div>
+
+<div id="ref-BridgingGap2024" class="csl-entry">
+
+*Bridging the Gap Between Paper and Reality: The Struggle for
+Transgender Rights in Pakistan – Global Fund Advocates Network*. July 8,
+2024.
+<https://globalfundadvocatesnetwork.org/bridging-the-gap-between-paper-and-reality-the-struggle-for-transgender-rights-in-pakistan/>.
 
 </div>
 
@@ -2287,16 +2332,23 @@ Cloud First Policy 2022 (2022).
 
 </div>
 
-<div id="ref-ConstitutionPakistan1973" class="csl-entry">
+<div id="ref-pakistanConstitution1973" class="csl-entry">
 
-“Constitution of Pakistan 1973.” 1973.
+Constitution of Pakistan (1973).
 <https://na.gov.pk/uploads/documents/1333523681_951.pdf>.
+
+</div>
+
+<div id="ref-pakistanConstitution26Amendment2024" class="csl-entry">
+
+Constitution (Twenty-Sixth Amendment) Act, 2024 (XXVI of 2024), 541
+(2024). <https://www.na.gov.pk/uploads/documents/6716278086bbd_802.pdf>.
 
 </div>
 
 <div id="ref-councilofeuropeConventionCybercrime2001" class="csl-entry">
 
-Convention on Cybercrime, Pub. L. European Treaty Series - no. 185
+Convention on Cybercrime, Pub. L. Nos. European Treaty Series - no. 185
 (2001). <https://rm.coe.int/1680081561>.
 
 </div>
@@ -2340,15 +2392,44 @@ DataCheck. “My Credit Report.” DataCheck Limited. Accessed November 25,
 
 </div>
 
+<div id="ref-DatasetsOpen" class="csl-entry">
+
+“Datasets - Open Data Pakistan.” Accessed July 26, 2024.
+<https://opendata.com.pk/dataset>.
+
+</div>
+
 <div id="ref-DigitalPakistan2019" class="csl-entry">
 
 Digital Pakistan Policy (2019).
 
 </div>
 
+<div id="ref-digitalrightsfoundationDRFLegal2023" class="csl-entry">
+
+Digital Rights Foundation. *DRF Legal analysis statement on PDPB July
+2023*. 2023.
+<https://digitalrightsfoundation.pk/wp-content/uploads/2023/07/Legal-Analysis-Statement-on-PDPB-July-2023.pdf>.
+
+</div>
+
+<div id="ref-pakistanOpenDataDraftPolicy2019" class="csl-entry">
+
+Draft Policy on Open Data for the Government of Pakistan (2019).
+<https://opendata.com.pk/uploads/page_images/2019-12-19-080331.220477Open-Data-Policy-Final-18Dec2019.pdf>.
+
+</div>
+
 <div id="ref-DraftESafety2023" class="csl-entry">
 
 Draft The e-Safety Act 2023 (2023).
+
+</div>
+
+<div id="ref-pakistanDraftPersonalDataProtectionBill2023"
+class="csl-entry">
+
+“Draft The Personal Data Protection Bill 2023.” 2023.
 
 </div>
 
@@ -2369,9 +2450,38 @@ Organization ECO. [www.eco.int](https://www.eco.int).
 
 </div>
 
+<div id="ref-ecppakistanCheckYour" class="csl-entry">
+
+ECP Pakistan. “Check Your Registration.” Election Commission of
+Pakistan.
+
+</div>
+
+<div id="ref-ecppakistanInstructionsVoter" class="csl-entry">
+
+ECP Pakistan. “Instructions for the Voter.” n.d.
+https://web.archive.org/web/20250420030624/https://ecp.gov.pk/storage/files/2/ERp/Instructions%20for%20Voters%20Updated.pdf.
+<https://ecp.gov.pk/storage/files/2/ERp/Instructions%20for%20Voters%20Updated.pdf>.
+
+</div>
+
+<div id="ref-HttpsEcpgovpka" class="csl-entry">
+
+Election Commission of Pakistan.
+“Https://Ecp.gov.pk/Comprehensive-Electoral-Database-in-Pakistan.”
+<Https://Ecp.Gov.Pk/Comprehensive-Electoral-Database-in-Pakistan>.
+
+</div>
+
 <div id="ref-ElectronicData2005" class="csl-entry">
 
 Electronic Data Protection and Safety Act 2005 (2005).
+
+</div>
+
+<div id="ref-pakistanElectronicTransactions2002" class="csl-entry">
+
+“Electronic Transactions Ordinance 2002.” 2002.
 
 </div>
 
@@ -2380,6 +2490,13 @@ Electronic Data Protection and Safety Act 2005 (2005).
 Embassy of Pakistan, Paris. “Pakistan Joins 70 Members Open Government
 Partnership.” December 12, 2016.
 <https://www.pakembparis.com/pakistan-joins-70-members-open-government-partnership/>.
+
+</div>
+
+<div id="ref-ESafetyBill2023" class="csl-entry">
+
+“E-Safety Bill 2023: Another Draconian Law of Censorship and Threat to
+Citizens Privacy.” Bytes for All, 2023.
 
 </div>
 
@@ -2406,9 +2523,23 @@ Federal Board of Revenue Taxpayers’ Directory.
 
 </div>
 
+<div id="ref-FederalInvestigation" class="csl-entry">
+
+“Federal Investigation Agency.” <https://fia.gov.pk/>.
+
+</div>
+
 <div id="ref-FinalDraft2023" class="csl-entry">
 
 “Final Draft Personal Data Protection Bill May 2023.” 2023.
+
+</div>
+
+<div id="ref-FORM45Declarationofcompliancewiththeprovisionsofsection123AoftheCompaniesAct2017"
+class="csl-entry">
+
+“FORM-45-Declaration-of-Compliance-with-the-Provisions-of-Section-123A-of-the-Companies-Act-2017.”
+n.d.
 
 </div>
 
@@ -2432,11 +2563,73 @@ Germanwatch. *Global Climate Risk Index 2021*. 2021.
 
 </div>
 
+<div id="ref-pakistanGlobalChangeImpactAct2013" class="csl-entry">
+
+Global Change Impact Studies Centre Act, 2013 (2013).
+<http://www.gcisc.org.pk/gcisc_act2013.pdf>.
+
+</div>
+
 <div id="ref-googleartsandcultureWondersPakistan" class="csl-entry">
 
 Google Arts and Culture. “Wonders of Pakistan — Google Arts & Culture.”
 Accessed July 26, 2024.
 <https://artsandculture.google.com/project/wonders-of-pakistan>.
+
+</div>
+
+<div id="ref-governmentofpakistanFederalPublic" class="csl-entry">
+
+Government of Pakistan. “Federal Public Procurement Regulatory
+Authority.” Federal Public Procurement Regulatory Authority.
+<https://www.ppra.org.pk/>.
+
+</div>
+
+<div id="ref-governmentofpakistanMinistryClimate" class="csl-entry">
+
+Government of Pakistan. “Ministry of Climate Change and Environmental
+Coordination.” Ministry of Climate Changeand Environmental Coordination.
+<https://mocc.gov.pk/>.
+
+</div>
+
+<div id="ref-governmentofpakistanPakistanInformation" class="csl-entry">
+
+Government of Pakistan. “Pakistan Information Commission.” Pakistan
+Information Commission. <Https://Rti.Gov.Pk>.
+
+</div>
+
+<div id="ref-governmentofpakistanPakistanMeteorological"
+class="csl-entry">
+
+Government of Pakistan. “Pakistan Meteorological Department.”
+<https://www.pmd.gov.pk/en/>.
+
+</div>
+
+<div id="ref-governmentofpakistanfinancedivisionFederalBudget2023"
+class="csl-entry">
+
+Government of Pakistan, Finance Division. *Federal Budget Documents
+2023-24*. 2023. <https://www.finance.gov.pk/fb_2023_24.html>.
+
+</div>
+
+<div id="ref-governmentofpakistanministryoffinanceMonthlyEconomic"
+class="csl-entry">
+
+Government of Pakistan Ministry of Finance. “Monthly Economic Updates,
+Government of Pakistan Ministry of Finance.”
+
+</div>
+
+<div id="ref-governmentofpakistanministryoffinancePakistanEconomic"
+class="csl-entry">
+
+Government of Pakistan Ministry of Finance. *Pakistan Economic Survey
+2022-23*. n.d. <https://www.finance.gov.pk/survey_2023.html>.
 
 </div>
 
@@ -2457,6 +2650,16 @@ Punjab Closes Parks, Schools \| Details.” *Hindustan Times*, November 9,
 
 </div>
 
+<div id="ref-humayunPatientsPerception2008" class="csl-entry">
+
+Humayun, Ayesha, Noor Fatima, Shahid Naqqash, et al. “Patients’
+Perception and Actual Practice of Informed Consent, Privacy and
+Confidentiality in General Medical Outpatient Departments of Two
+Tertiary Care Hospitals of Lahore.” *BMC Medical Ethics* 9, no. 1
+(2008): 14. <https://doi.org/10.1186/1472-6939-9-14>.
+
+</div>
+
 <div id="ref-hussainIslamabadCourt2024" class="csl-entry">
 
 Hussain, Abid. “Islamabad Court Nullifies Imran Khan Conviction in State
@@ -2470,6 +2673,22 @@ Secrets Leak.” Al Jazeera, June 3, 2024.
 Hussain, Abid. “Pakistan Tests Secret China-Like ‘Firewall’ to Tighten
 Online Surveillance.” Al Jazeera, November 26, 2024.
 <https://www.aljazeera.com/news/2024/11/26/pakistan-tests-china-like-digital-firewall-to-tighten-online-surveillance>.
+
+</div>
+
+<div id="ref-hussainNadrasBiometric2021" class="csl-entry">
+
+Hussain, Javed. “Nadra’s Biometric Data Has Been Compromised, FIA
+Official Tells NA Body.” *DAWN.COM*, November 25, 2021.
+https://web.archive.org/web/20250315214530/https://www.dawn.com/news/1660199.
+<https://www.dawn.com/news/1660199>.
+
+</div>
+
+<div id="ref-Ibbspakistanround520162017" class="csl-entry">
+
+“Ibbs-Pakistan-Round-5-2016-2017.” 2016.
+<https://www.aidsdatahub.org/sites/default/files/resource/ibbs-pakistan-round-5-2016-2017.pdf>.
 
 </div>
 
@@ -2492,6 +2711,15 @@ ICA. “International Council on Archives.” Accessed June 23, 2025.
 
 Iqbal, Afifa. “PEMRA Suspends ARY News’ License Again.” *Paradigm
 Shift*, March 16, 2023. <https://www.paradigmshift.com.pk/ary-license/>.
+
+</div>
+
+<div id="ref-iqbalPreventionElectronic2023" class="csl-entry">
+
+Iqbal, Muhammad, Samar Raza Talpur, Amir Manzoor, Malik Muneeb Abid,
+Nazir Ahmad Shaikh, and Sanaullah Abbasi. “The Prevention of Electronic
+Crimes Act (PECA) 2016.” *Siazga Research Journal* 2, no. 4 (2023): 4.
+<https://doi.org/10.58341/srj.v2i4.35>.
 
 </div>
 
@@ -2518,6 +2746,27 @@ Research Advocacy and Development.
 
 </div>
 
+<div id="ref-pakistanITPolicy2000" class="csl-entry">
+
+IT Policy and Action Plan (2000).
+<https://lgkp.gov.pk/wp-content/uploads/2014/03/National-IT-Policy.pdf>.
+
+</div>
+
+<div id="ref-Khaki2009" class="csl-entry">
+
+*Khaki-v.-Rawalpindi-Supreme-Court-of-Pakistan* (2009).
+<https://www.icj.org/wp-content/uploads/2012/07/Khaki-v.-Rawalpindi-Supreme-Court-of-Pakistan.pdf>.
+
+</div>
+
+<div id="ref-LeadingJudgementsFederal2017" class="csl-entry">
+
+*Leading Judgements - Federal Shariat Court of Pakistan* (2017).
+<https://www.federalshariatcourt.gov.pk/en/leading-judgements/>.
+
+</div>
+
 <div id="ref-maqboolNadrasRole2018" class="csl-entry">
 
 Maqbool, Sardar Muhammad. “Nadra’s Role in National Identity
@@ -2527,10 +2776,52 @@ Edition.
 
 </div>
 
+<div id="ref-mmdWhitePaper2020" class="csl-entry">
+
+Media Matters for Democracy. *White Paper on Reforms for the Prevention
+of Electronic Crimes Act (PECA) 2016*. 2020.
+<https://www.cpdi-pakistan.org/wp-content/uploads/2021/01/WPPecaReforms-refined.pdf>.
+
+</div>
+
+<div id="ref-MEMORANDUMUNDERSTANDING2016" class="csl-entry">
+
+“MEMORANDUM OF UNDERSTANDING (MOU) ON SHARING OF STATISTICAL AND CENSUS
+DATA BETWEEN THE GOVERNMENT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI
+LANKA AND PAKISTAN BUREAU OF STATISTICS (PBS), STATISTICS DIVISION,
+GOVERNMENT OF THE ISLAMIC REPUBLIC OF PAKISTAN.” January 5, 2016.
+<https://www.pbs.gov.pk/sites/default/files//other/mou/MOU%20Sri%20Lanka.pdf>.
+
+</div>
+
+<div id="ref-MEMORANDUMUNDERSTANDINGMoU2014" class="csl-entry">
+
+“MEMORANDUM OF UNDERSTANDING (MoU) ON STATISTICAL COOPERATION BETWEEN
+THE GOVERNMENT OF THE ISLAMIC REPUBLIC OF PAKISTAN AND THE GOVERNMENT OF
+THE ISLAMIC REPUBLIC OF IRAN.” May 11, 2014.
+<https://www.pbs.gov.pk/sites/default/files//other/mou/MOU%20Iran.pdf>.
+
+</div>
+
+<div id="ref-ministryofclimatechangeandenvironmentalcoordinationgovernmentofpakistanVisionClimate"
+class="csl-entry">
+
+Ministry of Climate Change and Environmental Coordination Government of
+Pakistan. “Vision: ‘Climate Resilient Pakistan’.” Vision: “Climate
+Resilient Pakistan.” <https://www.mocc.gov.pk/GoPInitiative>.
+
+</div>
+
 <div id="ref-UNSCSanctions" class="csl-entry">
 
 Ministry of Foreign Affairs Government of Pakistan. “UNSC Sanctions.”
 <https://mofa.gov.pk/unsc-sanctions/>.
+
+</div>
+
+<div id="ref-pakistanMinistryIT" class="csl-entry">
+
+*Ministry of IT and Telecom*. Portal. n.d. <https://moitt.gov.pk/>.
 
 </div>
 
@@ -2544,6 +2835,14 @@ Mobile Cellular Policy 2004 (2004).
 
 MoIIT, and CAICT. *Pakistan National ICT Industry Whitepaper*. 2022.
 <https://moitt.gov.pk/SiteImage/Misc/files/Pakistan%20National%20ICT%20Industry%20Whitepaper.pdf>.
+
+</div>
+
+<div id="ref-mustafaPakistanCounts2017" class="csl-entry">
+
+Mustafa, Waqar. “Pakistan Counts Transgender People in National Census
+for First Time \| Reuters.” *Reuters*, 2017.
+<https://www.reuters.com/article/world/pakistan-counts-transgender-people-in-national-census-for-first-time-idUSKBN14T1XK/>.
 
 </div>
 
@@ -2567,6 +2866,14 @@ Terrorism Authority.” <https://nacta.gov.pk/>.
 
 </div>
 
+<div id="ref-NADRALaunches2021" class="csl-entry">
+
+*NADRA Launches Registration Campaign for Transgender-Persons*. December
+10, 2021.
+<https://www.nadra.gov.pk/nadra-launches-registration-campaign-for-transgender-persons/>.
+
+</div>
+
 <div id="ref-SolutionsNADRA2024" class="csl-entry">
 
 NADRA Pakistan. “Solutions - NADRA.” 2024.
@@ -2587,6 +2894,18 @@ NADRA Pakistan. “Solutions - NADRA.” 2024.
 
 </div>
 
+<div id="ref-pakistanNationalCleanAirPolicy2023" class="csl-entry">
+
+National Clean Air Policy 2023 (2023).
+
+</div>
+
+<div id="ref-pakistanNationalClimateChangePolicy2021" class="csl-entry">
+
+National Climate Change Policy 2021 (2021).
+
+</div>
+
 <div id="ref-NationalCyber2021" class="csl-entry">
 
 National Cyber Security Policy 2021 (2021).
@@ -2601,9 +2920,28 @@ Card.” 2021.
 
 </div>
 
+<div id="ref-pakistanNationalElectricPolicy2019" class="csl-entry">
+
+National Electric Vehicle Policy 2019 (2019).
+
+</div>
+
 <div id="ref-NationalForest2015" class="csl-entry">
 
 “National Forest Policy 2015.” 2015.
+
+</div>
+
+<div id="ref-pakistanNationalHazardousWasteManagementPolicy2022"
+class="csl-entry">
+
+National Hazardous Waste Management Policy 2022 (2022).
+
+</div>
+
+<div id="ref-NationalRegistrationAct1973" class="csl-entry">
+
+National Registration Act 1973 (1973).
 
 </div>
 
@@ -2648,6 +2986,37 @@ Official Secrets Act, 1923 (1923).
 
 </div>
 
+<div id="ref-OGPPakistan" class="csl-entry">
+
+“OGP Pakistan Letter Regarding Withdrawal.” n.d.
+
+</div>
+
+<div id="ref-pakistanbureauofstatistics7thPopulation2023"
+class="csl-entry">
+
+Pakistan Bureau of Statistics. *7th Population and Housing Census: Key
+Findings Report*. 2023.
+<https://www.pbs.gov.pk/sites/default/files/population/2023/Key_Findings_Report.pdf>.
+
+</div>
+
+<div id="ref-pakistanbureauofstatisticsDataDissemination"
+class="csl-entry">
+
+Pakistan Bureau of Statistics. “Data Dissemination \| Pakistan Bureau of
+Statistics.” Accessed July 26, 2024.
+<https://www.pbs.gov.pk/content/data-dissemination>.
+
+</div>
+
+<div id="ref-pakistanClimateAct2017" class="csl-entry">
+
+Pakistan Climate Change Act 2017 (2017).
+<https://pakistancode.gov.pk/pdffiles/administrator35e25fe56389d477d508cdf8a693e868.pdf#viewer.action=download>.
+
+</div>
+
 <div id="ref-PEMRAPakistan" class="csl-entry">
 
 Pakistan Electronic Media Regulatory Authority (PEMRA). “PEMRA
@@ -2664,6 +3033,25 @@ National Firewall.” *P@SHA*, 2024.
 
 </div>
 
+<div id="ref-pakistanmeteorologicaldepartmentPressReleases"
+class="csl-entry">
+
+Pakistan Meteorological Department. “Press Releases.” National Weather
+Forecasting Centre, Islamabad.
+<https://nwfc.pmd.gov.pk/new/press-releases.php>.
+
+</div>
+
+<div id="ref-pakistanGuidanceNotesforListedCompaniesPSXRegulations2023"
+class="csl-entry">
+
+Pakistan Stock Exchange.
+“Guidance-Notes-for-Listed-Companies-PSX-Regulations-06-July-2023.” n.d.
+Accessed July 26, 2024.
+<https://www.psx.com.pk/psx/themes/psx/uploads/Guidance-Notes-for-Listed-Companies-PSX-Regulations-06-July-2023.pdf>.
+
+</div>
+
 <div id="ref-PakistanStock" class="csl-entry">
 
 “Pakistan Stock Exchange Limited -.” Accessed July 26, 2024.
@@ -2671,19 +3059,42 @@ National Firewall.” *P@SHA*, 2024.
 
 </div>
 
-<div id="ref-pakistantelecommunicationauthorityPakistanTelecommunication1996"
+<div id="ref-pakistanPakistanTelecommunicationAct1996"
 class="csl-entry">
 
-Pakistan Telecommunication (Re-Organization) Act, 1996, Pub. L. Act No.
-XVII of 1996 (1996).
+Pakistan Telecommunication (Re-Organization) Act, 1996, Pub. L. Nos. Act
+No. XVII of 1996 (1996).
 <https://www.pta.gov.pk/assets/media/pta_act_consolidated_footnotes_11012022.pdf>.
 
 </div>
 
-<div id="ref-PopulationTables2023" class="csl-entry">
+<div id="ref-PakistanVision20252014" class="csl-entry">
+
+Pakistan-Vision-2025 (2014).
+<https://www.pc.gov.pk/uploads/vision2025/Pakistan-Vision-2025.pdf>.
+
+</div>
+
+<div id="ref-PMDCProfessional" class="csl-entry">
+
+“PM&DC Professional Ethics and Code of Conduct.” Pakistan Medical and
+Dental Council, n.d.
+
+</div>
+
+<div id="ref-pakistanPopulationTables2023" class="csl-entry">
 
 “Population Tables 2023.” 2023.
 <https://www.pbs.gov.pk/sites/default/files/population/2023/tables/national/table_1.pdf>.
+
+</div>
+
+<div id="ref-NADRAOfficials2024" class="csl-entry">
+
+*Profit by Pakistan Today*. “NADRA Officials Dismissed over Major Data
+Breach Affecting 2.7 Million Citizens.” November 13, 2024.
+https://web.archive.org/web/20241113084219/https://profit.pakistantoday.com.pk/2024/11/13/nadra-officials-dismissed-over-major-data-breach-affecting-2-7-million-citizens/.
+<https://profit.pakistantoday.com.pk/2024/11/13/nadra-officials-dismissed-over-major-data-breach-affecting-2-7-million-citizens/>.
 
 </div>
 
@@ -2747,6 +3158,21 @@ Rules for the Publication, Classification, Issue and Custody of Maps -
 
 </div>
 
+<div id="ref-pakistanOGPResolution2020" class="csl-entry">
+
+“SC_Resolution-Pakistan-Inactivity_Amended_20200723.” 2020.
+<https://www.opengovpartnership.org/wp-content/uploads/2020/10/SC_Resolution-Pakistan-Inactivity_Amended_20200723.pdf>.
+
+</div>
+
+<div id="ref-securitiesandexchangecommissionofpakistanFrequentlyAsked2020"
+class="csl-entry">
+
+Securities and Exchange Commission of Pakistan. “Frequently Asked
+Questions on Ultimate Beneficial Ownership.” November 2020.
+
+</div>
+
 <div id="ref-SECPProvides2021" class="csl-entry">
 
 Securities and Exchange Commission of Pakistan. “SECP Provides Final
@@ -2769,6 +3195,23 @@ Senate of Pakistan. “Farhatullah Babar.”
 
 </div>
 
+<div id="ref-shanghaicooperationorganizationsecretariat"
+class="csl-entry">
+
+Shanghai Cooperation Organization Secretariat. “Shanghai Cooperation
+Organization.” The Shanghai Cooperation Organisation.
+<Https://Eng.Sectsco.Org/>.
+
+</div>
+
+<div id="ref-slemrodHowTaxpayers2022" class="csl-entry">
+
+Slemrod, Joel, Obeid Ur Rehman, and Mazhar WaseemEmail Addresses. *How
+Do Taxpayers Respond to Public Disclosure and Social Recognition
+Programs? Evidence from Pakistan*. 2022.
+
+</div>
+
 <div id="ref-statebankofpakistanCreditInformation2016"
 class="csl-entry">
 
@@ -2781,6 +3224,14 @@ State Bank of Pakistan. “Credit Information Bureau.” 2016.
 
 State Bank of Pakistan. “EasyData.” EasyData \| Making Data Access
 Easier. <https://www.sbp.org.pk/ecodata/index2.asp>.
+
+</div>
+
+<div id="ref-pakistanStockExchangesAct2012" class="csl-entry">
+
+Stock Exchanges (Corporatisation, Demutualization and Integration) Act,
+2012 (2012).
+<https://www.psx.com.pk/psx/themes/psx/documents/legal-framework/SECP/act/stock-exch-demut-&inte-act-2012/demutualize_act.pdf>.
 
 </div>
 
@@ -2810,7 +3261,7 @@ The Companies Act 2017 (2017).
 
 </div>
 
-<div id="ref-CopyrightOrdinance1962" class="csl-entry">
+<div id="ref-pakistanCopyrightOrdinanceAct1962" class="csl-entry">
 
 The Copyright Ordinance 1962 (1962).
 
@@ -2828,10 +3279,22 @@ The Copyright Ordinance 1962 (1962).
 
 </div>
 
+<div id="ref-GeneralStatisticsReorganization2011" class="csl-entry">
+
+The General Statistics (Reorganization) Act, 2011 (2011).
+
+</div>
+
 <div id="ref-GeographicalIndications2020" class="csl-entry">
 
 The Geographical Indications (Registration and Protection) Act 2020
 (2020).
+
+</div>
+
+<div id="ref-pakistanIndustrialStatisticsAct1942" class="csl-entry">
+
+The Industrial Statistics Act, 1942 (1942).
 
 </div>
 
@@ -2873,6 +3336,28 @@ The Modaraba Companies and Modaraba (Floatation and Control) Ordinance
 
 </div>
 
+<div id="ref-CabinetApproves2023" class="csl-entry">
+
+*The Nation*. “Cabinet Approves Personal Data Protection Bills 2023.”
+Top Stories. July 27, 2023.
+<https://www.nation.com.pk/27-Jul-2023/cabinet-approves-personal-data-protection-bills-2023>.
+
+</div>
+
+<div id="ref-pakistanNationalArchivesAct1993" class="csl-entry">
+
+The National Archives Act 1993, Pub. L. Nos. Act no. VI of 1993 (1993).
+<https://na.gov.pk/uploads/documents/1329724034_276.pdf>.
+
+</div>
+
+<div id="ref-pakistanNationalCounterTerrorismAct2013" class="csl-entry">
+
+The National Counter Terrorism Authority Act 2013, Pub. L. Nos. Act No.
+XIX of 2013 (2013).
+
+</div>
+
 <div id="ref-NationalDatabase2000" class="csl-entry">
 
 “The National Database and Registration Authority Ordinance 2000.” 2000.
@@ -2882,13 +3367,20 @@ The Modaraba Companies and Modaraba (Floatation and Control) Ordinance
 <div id="ref-PakistanElectronic2002" class="csl-entry">
 
 The Pakistan Electronic Media Regulatory Authority Ordinance 2002, Pub.
-L. ORDINANCE NO. XIII OF 2002 (2002).
+L. Nos. ORDINANCE NO. XIII OF 2002 (2002).
 
 </div>
 
-<div id="ref-PakistanMedical2022" class="csl-entry">
+<div id="ref-pakistanMedicalDentalAct2022" class="csl-entry">
 
 The Pakistan Medical and Dental Council Act 2022 (2022).
+
+</div>
+
+<div id="ref-pakistanMedicalRegulations2023" class="csl-entry">
+
+“The Pakistan Medical and Dental Council (Postgraduate Education)
+Regulations 2023.” Pakistan Medical and Dental Council, June 23, 2023.
 
 </div>
 
@@ -2937,7 +3429,14 @@ The Right of Access to Information Act 2017 (2017).
 
 </div>
 
-<div id="ref-SurveyingMapping2014" class="csl-entry">
+<div id="ref-pakistanSecuritiesAct2015" class="csl-entry">
+
+The Securities Act 2015, Pub. L. Nos. Act no. III of 2015 (2015).
+<https://www.na.gov.pk/uploads/documents/1432894244_956.pdf>.
+
+</div>
+
+<div id="ref-pakistanSurveyingMappingAct2014" class="csl-entry">
 
 The Surveying and Mapping Act 2014 (2014).
 
@@ -2949,10 +3448,10 @@ The Trade Marks Ordinance 2001 (2001).
 
 </div>
 
-<div id="ref-UnitedNations1948" class="csl-entry">
+<div id="ref-pakistanUnitedNationsSCAct1948" class="csl-entry">
 
-The United Nations (Security Council) Act 1948, Pub. L. (ACT XIV of
-1948) (1948).
+The United Nations (Security Council) Act, Pub. L. Nos. Act 14/1948
+(1948).
 
 </div>
 
@@ -3002,9 +3501,24 @@ Foundation for Justice Initiative. 2023.
 
 </div>
 
+<div id="ref-unwomenSummarynrswinlfinal2023" class="csl-entry">
+
+UN Women. *Summary\_-Nrsw-Inl_final*. 2023.
+<https://pakistan.unwomen.org/sites/default/files/2023-07/summary_-nrsw-inl_final.pdf>.
+
+</div>
+
 <div id="ref-UndertakingSoft" class="csl-entry">
 
 “Undertaking for Soft Data.” n.d.
+
+</div>
+
+<div id="ref-undpPromotingInclusion2023" class="csl-entry">
+
+UNDP. “Promoting Inclusion and Protection: Pakistan’s National Strategic
+Framework for Transgender Persons.” UNDP, 2023.
+<https://www.undp.org/pakistan/blog/promoting-inclusion-and-protection-pakistans-national-strategic-framework-transgender-persons>.
 
 </div>
 
@@ -3014,88 +3528,86 @@ UNESCAP. *Asia-Pacific Trade Agreement (APTA)*. n.d.
 
 </div>
 
-<div id="ref-WhitePaper2020" class="csl-entry">
-
-*White Paper on Reforms for the Prevention of Electronic Crimes Act
-(PECA) 2016*. Media Matters for Democracy, 2020.
-<https://www.cpdi-pakistan.org/wp-content/uploads/2021/01/WPPecaReforms-refined.pdf>.
-
-</div>
-
 </div>
 
 [^1]: OECD, *Going Digital Guide to Data Governance Policy Making*.
 
-[^2]: **ConstitutionPK1973?**
+[^2]: Constitution of Pakistan.
 
-[^3]: **moittPK?**
+[^3]: *MoITT*.
 
-[^4]: **DraftPersonalData2023?**
+[^4]: “Draft The Personal Data Protection Bill 2023.”
 
-[^5]: “Constitution,” “Constitution,” 185.
+[^5]: Constitution of Pakistan, 185.
 
-[^6]: **26ConstAmdPK?**
+[^6]: Constitution (26th Amendment) Act 2024.
 
-[^7]: **LeadingJudgementsFederal2017?**
+[^7]: *Leading Judgements - Federal Shariat Court of Pakistan*.
 
-[^8]: **OpenGovPartnershipPK?**
+[^8]: Draft Policy on Open Data for the Government of Pakistan.
 
 [^9]: Embassy of Pakistan, Paris, “Pakistan Joins 70 Members Open
     Government Partnership.”
 
-[^10]: **SCAmendedResolutionPakistanInactivity2020?**
+[^10]: “SC_Resolution-Pakistan-Inactivity_Amended_20200723.”
 
-[^11]: **OGPPakistanLetter2022?**
+[^11]: “OGP Pakistan Letter Regarding Withdrawal.”
 
-[^12]: **OpenDataPK?**
+[^12]: “Datasets - Open Data Pakistan.”
 
-[^13]: **DatasetsOpenData?**
+[^13]: “Datasets - Open Data Pakistan.”
 
-[^14]: **DatasetsOpenData?**
+[^14]: “Datasets - Open Data Pakistan.”
 
 [^15]: HT News Desk, “Pakistan Air Pollution.”
 
-[^16]: **ElectronicTransactionsOrdinancePK2002?**
+[^16]: “Electronic Transactions Ordinance 2002.”
 
-[^17]: **IndustrialStatisticsAct1942?**
+[^17]: The Industrial Statistics Act, 1942.
 
-[^18]: **GeneralStatisticsReorganization2011?**
+[^18]: The General Statistics (Reorganization) Act, 2011.
 
 [^19]: “Population Tables 2023.”
 
-[^20]: **GenderSummary2023?**
+[^20]: UN Women, *Summary\_-Nrsw-Inl_final*.
 
-[^21]: **CensusKeyFindingsPK2023?**
+[^21]: Pakistan Bureau of Statistics, *7th Population and Housing
+    Census: Key Findings Report*.
 
-[^22]: **DataDisseminationPakistan?**
+[^22]: Pakistan Bureau of Statistics, “Data Dissemination \| Pakistan
+    Bureau of Statistics.”
 
-[^23]: **KhakivRawalpindiSC2009?**
+[^23]: *Khaki-v.-Rawalpindi-Supreme-Court-of-Pakistan*.
 
-[^24]: **mustafaTransgenderCount2017?**
+[^24]: Mustafa, “Pakistan Counts Transgender People in National Census
+    for First Time \| Reuters.”
 
 [^25]: Transgender Act 2018.
 
-[^26]: **Ibbsround52016?**
+[^26]: “Ibbs-Pakistan-Round-5-2016-2017.”
 
-[^27]: **Ibbsround52016?**
+[^27]: “Ibbs-Pakistan-Round-5-2016-2017,” 75.
 
-[^28]: **NADRAReg2021?**
+[^28]: *NADRA Launches Registration Campaign for Transgender-Persons*.
 
 [^29]: “Population Tables 2023.”
 
-[^30]: **imranBridgingGap2024?**
+[^30]: *Bridging the Gap Between Paper and Reality*.
 
-[^31]: **TransStratFrameworkPK2023?**
+[^31]: UNDP, “Promoting Inclusion and Protection.”
 
-[^32]: **ConstitutionPK1973?**
+[^32]: Constitution of Pakistan, 56–60.
 
-[^33]: **FinDivPK?**
+[^33]: UNDP, “Promoting Inclusion and Protection.”
 
-[^34]: **FinDivBudget2023?**
+[^34]: Government of Pakistan, Finance Division, *Federal Budget
+    Documents 2023-24*.
 
-[^35]: **MonthlyEconomicUpdates?**
+[^35]: Government of Pakistan Ministry of Finance, “Monthly Economic
+    Updates, Government of Pakistan Ministry of Finance.”
 
-[^36]: **EconomicSurvey2022?**
+[^36]: Government of Pakistan Ministry of Finance, *Pakistan Economic
+    Survey 2022-23*.
 
 [^37]: State Bank of Pakistan, “EasyData.”
 
@@ -3103,79 +3615,84 @@ UNESCAP. *Asia-Pacific Trade Agreement (APTA)*. n.d.
 
 [^39]: FBR, “Online Verification System.”
 
-[^40]: **slemrodHowTaxpayersRespond?**
+[^40]: Slemrod et al., *How Do Taxpayers Respond to Public Disclosure
+    and Social Recognition Programs? Evidence from Pakistan*.
 
 [^41]: FBR, “Active Taxpayer List.”
 
-[^42]: **ConstitutionPK1973?**
+[^42]: Constitution of Pakistan.
 
-[^43]: **StockExchanges2012?**
+[^43]: Stock Exchanges (Corporatisation, Demutualization and
+    Integration) Act, 2012.
 
-[^44]: **SecuritiesAct2015?**
+[^44]: Securities Act, 2015.
 
 [^45]: Futures Market Act, 2016.
 
 [^46]: “Pakistan Stock Exchange Limited -.”
 
-[^47]: **GuidanceNotesPSX2023?**
+[^47]: Pakistan Stock Exchange,
+    “Guidance-Notes-for-Listed-Companies-PSX-Regulations-06-July-2023.”
 
 [^48]: The Archival Material (Preservation and Export Control) Act,
     1975.
 
-[^49]: **NationalArchivesAct1993?**
+[^49]: The National Archives Act 1993.
 
 [^50]: “National Archives of Pakistan.”
 
 [^51]: ICA, “International Council on Archives.”
 
-[^52]: **GlobalChangeAct2013?**
+[^52]: Global Change Impact Studies Centre Act, 2013.
 
-[^53]: **PakistanClimateAct2017?**
+[^53]: Pakistan Climate Change Act 2017.
 
 [^54]: Germanwatch, *Global Climate Risk Index 2021*.
 
 [^55]: Burck et al., *Climate Change Performance Index 2023*.
 
-[^56]: **MinistryClimate?**
+[^56]: Government of Pakistan, “Ministry of Climate Change and
+    Environmental Coordination.”
 
-[^57]: **MoCCVisionClimate?**
+[^57]: Ministry of Climate Change and Environmental Coordination
+    Government of Pakistan, “Vision: ‘Climate Resilient Pakistan’.”
 
 [^58]: Rasul et al., *Climate Change in Pakistan: Focused on Sindh
     Province*.
 
 [^59]: “National Forest Policy 2015.”
 
-[^60]: **NationalElectric2019?**
+[^60]: National Electric Vehicle Policy 2019.
 
-[^61]: **NationalHazardous2022?**
+[^61]: National Hazardous Waste Management Policy 2022.
 
-[^62]: **NationalClimate2021?**
+[^62]: National Climate Change Policy 2021.
 
-[^63]: **NationalClean2023?**
+[^63]: National Clean Air Policy 2023.
 
-[^64]: **MetDept?**
+[^64]: Government of Pakistan, “Pakistan Meteorological Department.”
 
 [^65]: Rasul et al., *Climate Change in Pakistan: Focused on Sindh
     Province*.
 
-[^66]: **PMDPressReleases?**
+[^66]: Pakistan Meteorological Department, “Press Releases.”
 
 [^67]: Gallo et al., *Climate Crisis in Pakistan: Voices from the Ground
     2023*.
 
-[^68]: **FederalPublicProc?**
+[^68]: Government of Pakistan, “Federal Public Procurement Regulatory
+    Authority.”
 
 [^69]: The Public Procurement Regulatory Authority Ordinance, 2002.
 
 [^70]: Public Procurement Regulatory Authority, “Redressal of
     Grievances.”
 
-[^71]: **NationalRegistrationAct1973?**
+[^71]: National Registration Act 1973.
 
 [^72]: Maqbool, “Nadra’s Role in National Identity Perspective.”
 
 [^73]: “The National Database and Registration Authority Ordinance,
-    2000,” “The National Database and Registration Authority Ordinance,
     2000.”
 
 [^74]: NADRA Pakistan, “Solutions - NADRA.”
@@ -3191,27 +3708,29 @@ UNESCAP. *Asia-Pacific Trade Agreement (APTA)*. n.d.
 
 [^78]: Correspondent, “NADRA Introduces ‘Ijazat Aap Ki’ Service.”
 
-[^79]: **deskNADRAOfficialsDismissed2024?**
+[^79]: *Profit by Pakistan Today*, “NADRA Officials Dismissed over Major
+    Data Breach Affecting 2.7 Million Citizens.”
 
-[^80]: **hussainNadraBiometricData2021?**
+[^80]: Hussain, “Nadra’s Biometric Data Has Been Compromised, FIA
+    Official Tells NA Body.”
 
 [^81]: Durrani, “DRF Condemns yet Another Breach of NADRA Database and
     Demands Strong Data Protection Legislation.”
 
-[^82]: **ITPolicy2000?**
+[^82]: IT Policy and Action Plan.
 
-[^83]: **DraftOpenDataPolicyPK2019?**
+[^83]: Draft Policy on Open Data for the Government of Pakistan.
 
 [^84]: Right of Access to Information Act 2017.
 
-[^85]: **PakistanInformationCommission?**
+[^85]: Government of Pakistan, “Pakistan Information Commission.”
 
-[^86]: **aliRTILawFixed2023?**
+[^86]: Ali, “LAW.”
 
 [^87]: The Modaraba Companies and Modaraba (Floatation and Control)
     Ordinance, 1980.
 
-[^88]: **ConstitutionPK1973?**
+[^88]: Constitution of Pakistan.
 
 [^89]: The Companies Act 2017.
 
@@ -3221,9 +3740,10 @@ UNESCAP. *Asia-Pacific Trade Agreement (APTA)*. n.d.
 
 [^92]: “Securities and Exchange Commission of Pakistan.”
 
-[^93]: **SECPFrequentlyAsked2020?**
+[^93]: Securities and Exchange Commission of Pakistan, “Frequently Asked
+    Questions on Ultimate Beneficial Ownership.”
 
-[^94]: **DeclarationCompliance2020?**
+[^94]: “FORM-45-Declaration-of-Compliance-with-the-Provisions-of-Section-123A-of-the-Companies-Act-2017.”
 
 [^95]: Securities and Exchange Commission of Pakistan, “SECP Provides
     Final Opportunity to Companies to File UBO Declaration.”
@@ -3232,18 +3752,21 @@ UNESCAP. *Asia-Pacific Trade Agreement (APTA)*. n.d.
 
 [^97]: The Pakistan Medical and Dental Council Act 2022.
 
-[^98]: **PMDCProfessionalEthics?**
+[^98]: “PM&DC Professional Ethics and Code of Conduct.”
 
-[^99]: **PostgraduateMedical2023?**
+[^99]: “The Pakistan Medical and Dental Council (Postgraduate Education)
+    Regulations 2023.”
 
 [^100]: “The Medical and Dental Undergraduate Education (Admissions,
     Curriculum and Conduct) Policy and Regulations 2023.”
 
-[^101]: **PakistanMedicalDentalCouncil?**
+[^101]: The Pakistan Medical and Dental Council Act 2022.
 
-[^102]: **PMDCProfessionalEthics?**
+[^102]: “PM&DC Professional Ethics and Code of Conduct.”
 
-[^103]: **humayunPatientsPerceptionActual2008?**
+[^103]: Humayun et al., “Patients’ Perception and Actual Practice of
+    Informed Consent, Privacy and Confidentiality in General Medical
+    Outpatient Departments of Two Tertiary Care Hospitals of Lahore.”
 
 [^104]: Raza, “Patients’ Privacy.”
 
@@ -3255,33 +3778,44 @@ UNESCAP. *Asia-Pacific Trade Agreement (APTA)*. n.d.
 [^107]: Trade Development Authority of Pakistan, “Pakistan Bilateral
     Trade Profiles.”
 
-[^108]: **PakistanTajikistan2022?**
+[^108]: Agreement Between the Government of the Republic of Tajikistan
+    and Government of the Islamic Republic of Pakistan on Transit Trade.
 
-[^109]: **SAFTA2004?**
+[^109]: SAFTA Agreement.
 
 [^110]: UNESCAP, *Asia-Pacific Trade Agreement (APTA)*.
 
 [^111]: ECO, “Economic Cooperation Organization ECO.”
 
-[^112]: **sectSCO?**
+[^112]: Shanghai Cooperation Organization Secretariat, “Shanghai
+    Cooperation Organization.”
 
-[^113]: **mouSLPak2016?**
+[^113]: “MEMORANDUM OF UNDERSTANDING (MOU) ON SHARING OF STATISTICAL AND
+    CENSUS DATA BETWEEN THE GOVERNMENT OF THE DEMOCRATIC SOCIALIST
+    REPUBLIC OF SRI LANKA AND PAKISTAN BUREAU OF STATISTICS (PBS),
+    STATISTICS DIVISION, GOVERNMENT OF THE ISLAMIC REPUBLIC OF
+    PAKISTAN.”
 
-[^114]: **mouIran2014?**
+[^114]: “MEMORANDUM OF UNDERSTANDING (MoU) ON STATISTICAL COOPERATION
+    BETWEEN THE GOVERNMENT OF THE ISLAMIC REPUBLIC OF PAKISTAN AND THE
+    GOVERNMENT OF THE ISLAMIC REPUBLIC OF IRAN.”
 
-[^115]: **ConstitutionPK1973?**
+[^115]: Constitution of Pakistan.
 
 [^116]: “The Elections Act 2017.”
 
-[^117]: **Ecpgovdatabase?**
+[^117]: Election Commission of Pakistan,
+    “Https://Ecp.gov.pk/Comprehensive-Electoral-Database-in-Pakistan.”
 
-[^118]: **Ecpgovdatabase?**
+[^118]: Election Commission of Pakistan,
+    “Https://Ecp.gov.pk/Comprehensive-Electoral-Database-in-Pakistan.”
 
-[^119]: **Ecpvoterinstructions?**
+[^119]: ECP Pakistan, “Instructions for the Voter.”
 
-[^120]: **Ecpgovdatabase?**
+[^120]: Election Commission of Pakistan,
+    “Https://Ecp.gov.pk/Comprehensive-Electoral-Database-in-Pakistan.”
 
-[^121]: **ecpCheck?**
+[^121]: ECP Pakistan, “Check Your Registration.”
 
 [^122]: Pakistan Telecommunication (Re-Organization) Act, 1996.
 
@@ -3315,7 +3849,7 @@ UNESCAP. *Asia-Pacific Trade Agreement (APTA)*. n.d.
 [^133]: Hussain, “Islamabad Court Nullifies Imran Khan Conviction in
     State Secrets Leak.”
 
-[^134]: **NationalArchivesAct1993?**
+[^134]: The National Archives Act 1993.
 
 [^135]: The Surveying and Mapping Act 2014.
 
@@ -3340,13 +3874,14 @@ UNESCAP. *Asia-Pacific Trade Agreement (APTA)*. n.d.
 
 [^144]: TPL Maps, “GIS As A Service.”
 
-[^145]: The United Nations (Security Council) Act 1948.
+[^145]: The United Nations (Security Council) Act.
 
 [^146]: Anti-Terrorism Act 1997.
 
-[^147]: **NationalCounter2013?**
+[^147]: The National Counter Terrorism Authority Act 2013.
 
-[^148]: **MoneyLaundering2017?**
+[^148]: Anti Money Laundering and Combating the Financing of Terrorism
+    (AML-CFT) Regulations for Banks & DFIs.
 
 [^149]: NACTA - National Counter Terrorism Authority, “NACTA - National
     Counter Terrorism Authority.”
@@ -3358,16 +3893,17 @@ UNESCAP. *Asia-Pacific Trade Agreement (APTA)*. n.d.
 [^152]: Ministry of Foreign Affairs Government of Pakistan, “UNSC
     Sanctions.”
 
-[^153]: **MoneyLaundering2017?**
+[^153]: Anti Money Laundering and Combating the Financing of Terrorism
+    (AML-CFT) Regulations for Banks & DFIs.
 
-[^154]: **FederalInvestigationa?**
+[^154]: “Federal Investigation Agency.”
 
 [^155]: “The Federal Investigation Agency Act 1974.”
 
 [^156]: Counter Terrorism Wing, FIA, “Most Wanted-High Profile
     Terrorists.”
 
-[^157]: **ITPolicy2000?**
+[^157]: IT Policy and Action Plan.
 
 [^158]: Telecom Deregulation Policy 2003.
 
@@ -3388,7 +3924,7 @@ UNESCAP. *Asia-Pacific Trade Agreement (APTA)*. n.d.
 
 [^166]: Digital Pakistan Policy.
 
-[^167]: **PakistanVision2025?**
+[^167]: Pakistan-Vision-2025.
 
 [^168]: National Cyber Security Policy 2021.
 
@@ -3404,10 +3940,11 @@ UNESCAP. *Asia-Pacific Trade Agreement (APTA)*. n.d.
 
 [^174]: The Prevention of Electronic Crimes Act 2016.
 
-[^175]: **iqbalPreventionElectronicCrimes2023a?**
+[^175]: Iqbal et al., “The Prevention of Electronic Crimes Act (PECA)
+    2016.”
 
-[^176]: *White Paper on Reforms for the Prevention of Electronic Crimes
-    Act (PECA) 2016*.
+[^176]: Media Matters for Democracy, *White Paper on Reforms for the
+    Prevention of Electronic Crimes Act (PECA) 2016*.
 
 [^177]: Rana, *Bottlenecks, Incompetence, and Abuse of Power: An
     Analysis of PECA’s Implementation*.
@@ -3441,21 +3978,25 @@ UNESCAP. *Asia-Pacific Trade Agreement (APTA)*. n.d.
 
 [^190]: “Final Draft Personal Data Protection Bill May 2023.”
 
-[^191]: **CabinetApprovesPersonal2023?**
+[^191]: *The Nation*, “Cabinet Approves Personal Data Protection Bills
+    2023.”
 
 [^192]: Draft The e-Safety Act 2023.
 
-[^193]: **CommentsESafetyBill2023?**
+[^193]: “E-Safety Bill 2023: Another Draconian Law of Censorship and
+    Threat to Citizens Privacy.”
 
-[^194]: **NationalArchivesAct1993?**
+[^194]: The National Archives Act 1993.
 
-[^195]: **AsiaInternet?**
+[^195]: “Asia Internet Coalition.”
 
-[^196]: **DRFLegal2023?**
+[^196]: Digital Rights Foundation, *DRF Legal analysis statement on PDPB
+    July 2023*.
 
 [^197]: Bolo Bhi, “Data Protection Law.”
 
-[^198]: **DRFLegal2023?**
+[^198]: Digital Rights Foundation, *DRF Legal analysis statement on PDPB
+    July 2023*.
 
 [^199]: Right of Access to Information Act 2017.
 
@@ -3484,8 +4025,8 @@ UNESCAP. *Asia-Pacific Trade Agreement (APTA)*. n.d.
 [^210]: The Punjab Undesirable Cooperative Societies (Dissolution) Act
     1993.
 
-[^211]: **OpenGovPartnershipPK?**
+[^211]: Draft Policy on Open Data for the Government of Pakistan.
 
-[^212]: **OpenDataPK?**
+[^212]: “Datasets - Open Data Pakistan.”
 
-[^213]: **OGPPakistanLetter2022?**
+[^213]: “OGP Pakistan Letter Regarding Withdrawal.”

@@ -342,3 +342,53 @@ NationalCyberSecurity2023a -> nepalNationalCyber2023
 royalgazetteAnnouncementPersonalData2023 -> thailandAnnouncementPDPC2023
 IndiaCopyrightAmendmentAct2012 -> indiaCopyrightAmendment2012
 nationalintelligenceagencyNIA -> NationalIntelligenceAgency
+
+--- Session: 2026-02-25T17:24:22.520Z ---
+SummaryUnion2023 -> indiaSummaryUnion2023
+departmentofelectronics&informationtechnologyPolicyCollaborative2015 -> deitPolicyCollaborative2015
+InformationTechnology2009 -> assamITPolicy2009
+GovernmentOpen -> indiaGODL2017
+DepartmentCensusStatisticsa -> srilankaDepartmentCensusDissemination2023
+CopyrightAmendment2012 -> indiaCopyrightAmendment2012
+srilanklaElectronicTransactionAct2019 -> srilankaElectronicTransaction2019
+philippinesIdentification -> philippinesIdentification SystemsAct2018
+AntiTerrorismAct2020 -> philippinesAntiTerrorismAct2020
+ConstitutionPakistan1973 -> pakistanConstitution1973
+srilankaDraftNationalPolicy2023 -> srilankaDraftNational2023
+ComputerRelatedCrime2007 -> thailandComputerRelatedCrimeAct2007
+
+--- Session: 2026-02-25T17:27:43.845Z ---
+ministryofelectronicsandinformationtechnologyOpenGovernment2022 -> meitOGDPlatform2022
+ogddivisionnicImplementationGuidelines2015 -> ogdNDSAPGuidelines2015
+ConstitutionDemocratic2023 -> srilankaConstitution2023
+philippinesOpen -> philippinesOGP2023
+philippinesIdentification -> philippinesIdentification SystemsAct2018
+UnitedNations1948 -> pakistanUnitedNationsSCAct1948
+indiaogddivisionnicImplementationGuidelines2015 -> ogdNDSAPGuidelines2015
+
+--- Session: 2026-02-25T18:07:06.119Z ---
+DigitalIDLaunch -> mdeDigitalID2025
+philippinesIdentification -> philippinesIdentification SystemsAct2018
+GovernmentProcurementReform2003 -> philippinesGovernmentProcurementReform2003
+
+--- Session: 2026-02-25T18:17:01.110Z ---
+NationalDigitalGovernment -> srilankaNationalDigitalPolicy2023
+srilankaIntellectualPropertyAct2003 -> srilankaIntellectualProperty2003
+PersonalDataProtection2022 -> srilankaPersonalData2022
+indonesiaPublicInformationDisclosureAct2018 -> indonesiaPublicInformation2008
+srilankaConstitutionDemocratic2023 -> srilankaConstitution2023
+meitOpenGovernment2022 -> meitOGDPlatform2022
+
+--- Session: 2026-02-25T18:20:38.633Z ---
+NationalPolicy2012 -> indiaNationalPolicyIT2012
+philippinesIdentification -> philippinesIDSystemsAct2018
+royalgazetteAnnouncementDisclosure2020 -> thailandAnnouncementDisclosure2020
+
+--- Session: 2026-02-25T18:28:49.757Z ---
+indiaNationalPolicy2012 -> indiaNationalPolicyIT2012
+
+--- Session: 2026-02-25T18:38:26.284Z ---
+royalgazetteAnnouncementDigital2020 -> thailandAnnouncementDGCDG2020
+royalgazetteRuleMaintenance2018 -> thailandOfficialSecrets2018
+royalgazetteAnnouncementElectronic2010 -> thailandAnnouncementETC2010
+royalgazetteAnnouncementEstablishment2023 -> thailandAnnouncementDPO2023

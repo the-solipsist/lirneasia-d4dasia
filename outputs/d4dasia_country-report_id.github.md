@@ -1803,7 +1803,7 @@ of the Right to Information Across Asia*. 2015.
 class="csl-entry">
 
 Badan Pusat Statistik. *Dokumentasi Komprehensif Sensus Penduduk 2020*.
-2. Badan Pusat Statistik, 2023.
+No. 2. Badan Pusat Statistik, 2023.
 <https://web-api.bps.go.id/download.php?f=HacSIcLQAS12EFyrzg3LrFY2TW9Xa25jQnF2L2VyVmpONk1YeVB3azY4ajF4a2IraktERFZqSlNucnNyQlo5RTkxWGVSbG1sS0xOc09nZ3U5QXVQampYWFhHRE5iZFBrN2dpdmtjRHZFbkcwaGpTbWhBdkhjalEwKzFUeVNqSDdMMHV4Tjl6MlgrT2pyc2pmTWlEUE5FSGxLRWdTTjdHaWRKQjltOTVNbm9iaHJ1a3RPaGhpaVVMVGNTb3N1YU1rb3E5Y3A3cWZUbU5rK24rNlRKS3I4dzVxL3RsWE9YcXdpeW9wemtKUVZGYTN5RGFRN2pYRjd4ZmEvR2R3a1p3dkJlbSt1U3hVbXFqL29iQ0VsTUhBUjJnRngwdVcrZEpROHR3dXF3PT0=>.
 
 </div>
@@ -1812,7 +1812,7 @@ Badan Pusat Statistik. *Dokumentasi Komprehensif Sensus Penduduk 2020*.
 
 Badan Pusat Statistik. *Statistik Potensi Desa Indonesia 2018*.
 04310.1802. Badan Pusat Statistik, 2018.
-<https://web-api.bps.go.id/download.php?f=S+McvOTwsYSakYulQKJX3kxRbW5wZ2JYQnRsd1pwYloxakhtSHlteHV1SGNhbmVaSW85Yy9VaWZDSmgzYlRCYlE1ZDVzWS9DM2lTbUJPdkI1d3VvcTRRRk9aVU1RU0h1SVRTSllSUHkxV1YvTzZ5WlM4ZjAwdVdFVFpZdE5uMUZiaWhDYXNoYkZQaGx0WEFIdm1Da3U0dGVpbmlKWU9PdWtUNm9LZkE1c2t5Yko0cTZ3MTVuSXJva0VRTmF0VWpKS1hZWjQ1Y3B5RmlYaFIvbTQyWG44NVpUamRTRjRaQkdnZXIwdHBHc0xkQlltZ0VnS2FsQmNLclZzWW89&_gl=1*1c0v8xx*_ga*MjAyMjA0NjUuMTc2ODM2NTc0OQ..*_ga_XXTTVXWHDB*czE3Njg2Mzk2MjAkbzQkZzAkdDE3Njg2Mzk2MjAkajYwJGwwJGgw>.
+<https://paudpedia.kemendikdasmen.go.id/uploads/anggun/images/peraturan_pp/Potensi%20Desa%202018.pdf>.
 
 </div>
 
@@ -2148,6 +2148,7 @@ Ministry of Health. “Pemberitahuan Privasi SATUSEHAT Mobile.” August 16,
 <div id="ref-indonesiaNationalDevelopment2004" class="csl-entry">
 
 National Development Planning System Act, UU 25/2004 (2004).
+<http://peraturan.bpk.go.id/details/40694>.
 
 </div>
 
@@ -2175,8 +2176,8 @@ Tren Dan Praktik Terbaru Dalam Administrasi Publik Dan Tata Kelola.”
 
 OECD. *An Updated OECD Framework on Drivers of Trust in Public
 Institutions to Meet Current and Future Challenges*. OECD Working Papers
-on Public Governance 48. Vol. 48. 2021.
-<https://doi.org/10.1787/b6c5478c-en>.
+on Public Governance No. 48. Vol. 48. OECD Working Papers on Public
+Governance. 2021. <https://doi.org/10.1787/b6c5478c-en>.
 
 </div>
 
@@ -2227,6 +2228,15 @@ One Data Indonesia Regulation, Perpres 39/2019 (2019).
 
 </div>
 
+<div id="ref-opengovernmentindonesiaIndonesiaOpen2022"
+class="csl-entry">
+
+Open Government Indonesia. *Indonesia Open Government Partnership
+National Action Plan*. Bappenas, 2022.
+<https://ogi.bappenas.go.id/assets/img/renaksi/Indonesia_Action-Plan_2023-2024_EN.pdf>.
+
+</div>
+
 <div id="ref-opengovernmentindonesiaOGINational2022" class="csl-entry">
 
 Open Government Indonesia. *OGI National Action Plan 2021–2023*. 2022.
@@ -2238,14 +2248,6 @@ Open Government Indonesia. *OGI National Action Plan 2021–2023*. 2022.
 Open Government Indonesia. *Peran Satu Data Indonesia Dalam Mewujudkan
 Pemerintahan Yang Terbuka*. 2020.
 <https://ogi.bappenas.go.id/storage/files/news/licnnCihtfGkp8SSOQTdRdlo8jZReMOg5bXuEo2o.pdf>.
-
-</div>
-
-<div id="ref-opengovernmentindonesiaRencanaAksi2023" class="csl-entry">
-
-Open Government Indonesia. *Rencana Aksi Nasional Keterbukaan Pemerintah
-2023-2024*. 2023.
-[https://ogi.bappenas.go.id/assets/img/renaksi/\[IND\]%20Rencana%20Aksi%20Nasional%20Open%20Government%20Indonesia%20VII%202023-2024%20(2).pdf](https://ogi.bappenas.go.id/assets/img/renaksi/[IND]%20Rencana%20Aksi%20Nasional%20Open%20Government%20Indonesia%20VII%202023-2024%20(2).pdf).
 
 </div>
 
@@ -2392,7 +2394,7 @@ Telkom Indonesia. *SCF Report Telkom Indonesia*. Telkom Indonesia, 2024.
 
 </div>
 
-<div id="ref-HomeEnvironmental" class="csl-entry">
+<div id="ref-theaccessinitiativeHomeEnvironmental" class="csl-entry">
 
 The Access Initiative, and World Resources Institute. “Home \|
 Environmental Democracy Index.” Accessed January 8, 2026.
@@ -2403,9 +2405,10 @@ Environmental Democracy Index.” Accessed January 8, 2026.
 <div id="ref-unitednationresidentcoordinationofficeSituationAnaylsis2021"
 class="csl-entry">
 
-United Nation Resident Coordination Office. “Situation Anaylsis on the
-State of Data in Indonesia.” United Nations Resident Coordinator Office
+United Nation Resident Coordination Office. *Situation Anaylsis on the
+State of Data in Indonesia.* United Nations Resident Coordinator Office
 (UNRCO) Jakarta, 2021.
+<https://disability.un.or.id/assets/files/FA-Situasional-Analysis-on-the-State-of-Data-in-Indonesia.pdf>.
 
 </div>
 
@@ -2504,8 +2507,8 @@ Interim guidance. World Health Organization, 2020.
 
 [^7]: Cabinet Secretariat of the Republic of Indonesia, “President
     Jokowi Issues Regulation on Satu Data Indonesia”; United Nation
-    Resident Coordination Office, “Situation Anaylsis on the State of
-    Data in Indonesia.”
+    Resident Coordination Office, *Situation Anaylsis on the State of
+    Data in Indonesia.*
 
 [^8]: Article 19 and Advocacy and Policy Institute, *Asia Disclosed: A
     Review of the Right to Information Across Asia*; World Economic
@@ -2540,8 +2543,8 @@ Interim guidance. World Health Organization, 2020.
 [^18]: Patra, *Independent Reporting Mechanism (IRM): Indonesia Design
     Report 2018–2020*.
 
-[^19]: Open Government Indonesia, *Rencana Aksi Nasional Keterbukaan
-    Pemerintah 2023-2024*.
+[^19]: Open Government Indonesia, *Indonesia Open Government Partnership
+    National Action Plan*.
 
 [^20]: Cabinet Secretariat of the Republic of Indonesia, “President
     Jokowi Issues Regulation on Satu Data Indonesia.”
@@ -2558,11 +2561,11 @@ Interim guidance. World Health Organization, 2020.
     Yang Terbuka*.
 
 [^24]: Swajati, *Kajian Kebijakan Dan Sistem Pengelolaan Data Penelitian
-    Indonesia*; United Nation Resident Coordination Office, “Situation
-    Anaylsis on the State of Data in Indonesia.”
+    Indonesia*; United Nation Resident Coordination Office, *Situation
+    Anaylsis on the State of Data in Indonesia.*
 
-[^25]: Open Government Indonesia, *Rencana Aksi Nasional Keterbukaan
-    Pemerintah 2023-2024*; Patra, *Independent Reporting Mechanism
+[^25]: Open Government Indonesia, *Indonesia Open Government Partnership
+    National Action Plan*; Patra, *Independent Reporting Mechanism
     (IRM): Indonesia Design Report 2018–2020*.
 
 [^26]: Statistics Act, UU 16/1997.
@@ -2581,8 +2584,8 @@ Interim guidance. World Health Organization, 2020.
 
 [^31]: World Bank, “Open Data Brings Change to Indonesia.”
 
-[^32]: United Nation Resident Coordination Office, “Situation Anaylsis
-    on the State of Data in Indonesia.”
+[^32]: United Nation Resident Coordination Office, *Situation Anaylsis
+    on the State of Data in Indonesia.*
 
 [^33]: National Development Planning System Act.
 
@@ -2642,8 +2645,8 @@ Interim guidance. World Health Organization, 2020.
 
 [^56]: OHCHR, “International Covenant on Civil and Political Rights.”
 
-[^57]: Open Government Indonesia, *Rencana Aksi Nasional Keterbukaan
-    Pemerintah 2023-2024*.
+[^57]: Open Government Indonesia, *Indonesia Open Government Partnership
+    National Action Plan*.
 
 [^58]: Cabinet Secretariat of the Republic of Indonesia, “President
     Jokowi Issues Regulation on Satu Data Indonesia.”
@@ -2697,8 +2700,8 @@ Interim guidance. World Health Organization, 2020.
 
 [^79]: Electronic-Based Government Systems Regulation, Perpres 95/2018.
 
-[^80]: United Nation Resident Coordination Office, “Situation Anaylsis
-    on the State of Data in Indonesia.”
+[^80]: United Nation Resident Coordination Office, *Situation Anaylsis
+    on the State of Data in Indonesia.*
 
 [^81]: State Intelligence Act, UU 17/2011.
 
@@ -2758,7 +2761,7 @@ Interim guidance. World Health Organization, 2020.
 [^103]: Vereinte Nationen, *Digital Government in the Decade of Action
     for Sustainable Development*; OECD, *An Updated OECD Framework on
     Drivers of Trust in Public Institutions to Meet Current and Future
-    Challenges*, 48.
+    Challenges*, vol. 48.
 
 [^104]: Open Government Indonesia, *OGI National Action Plan 2021–2023*.
 

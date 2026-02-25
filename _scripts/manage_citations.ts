@@ -200,7 +200,11 @@ async function generateUsedList() {
   // Collect and sort files alphabetically to ensure stable report order
   const files: string[] = [];
   for await (const entry of walk(reportsDir, { exts: [".qmd"] })) {
-    if (entry.isFile && !entry.name.startsWith("_")) {
+    // Skip files or directories starting with "_"
+    if (entry.path.includes("/_")) {
+      continue;
+    }
+    if (entry.isFile) {
       files.push(entry.path);
     }
   }
@@ -260,6 +264,10 @@ async function generateFailingList() {
       if (line.startsWith("#")) {
         currentHeader = line;
         headerAdded = false;
+        continue;
+      }
+      // Skip common Quarto cross-references (fig-, tbl-, eq-)
+      if (line.startsWith("fig-") || line.startsWith("tbl-") || line.startsWith("eq-")) {
         continue;
       }
       if (!valid.has(line)) {

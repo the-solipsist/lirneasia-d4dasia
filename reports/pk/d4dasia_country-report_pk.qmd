@@ -38,7 +38,7 @@ Before unpacking the data governance regime in Pakistan, it is important to ackn
 
 **The Constitution:** Pakistan is a federation and has a complex legal and governance structure because of the influence of its colonial past, Islamic principles, and modern legal developments. Pakistan is governed under the Constitution of Pakistan, 1973 (the Constitution). The Constitution, as the supreme law of Pakistan, establishes the country as an Islamic Republic. It provides the framework for the organization of the state, outlining the separation of powers among the executive, legislature, and judiciary.
 
-**Islamic influence:** The most interesting feature of the Constitution is the Objectives Resolution[@ConstitutionPakistan1973, p. 185]. Passed by the Constituent Assembly of Pakistan on March 12, 1949, it laid down the guiding principles for the future Constitution of Pakistan. The Objectives Resolution was later incorporated as a preamble to the 1956, 1962, and the current 1973 Constitutions. Through the Eighth Amendment in 1985, it was made a substantive part of the Constitution of Pakistan; it now serves as the preamble, outlining the Constitution's ideological foundation. Its main objectives are that sovereignty belongs to Allah and that the Islamic way of life shall be observed in Pakistan. The Resolution underscores the importance of Islamic principles in Pakistan's governance and legal framework and aims to blend Islamic values with modern democratic principles.
+**Islamic influence:** The most interesting feature of the Constitution is the Objectives Resolution[@pakistanConstitution1973, p. 185]. Passed by the Constituent Assembly of Pakistan on March 12, 1949, it laid down the guiding principles for the future Constitution of Pakistan. The Objectives Resolution was later incorporated as a preamble to the 1956, 1962, and the current 1973 Constitutions. Through the Eighth Amendment in 1985, it was made a substantive part of the Constitution of Pakistan; it now serves as the preamble, outlining the Constitution's ideological foundation. Its main objectives are that sovereignty belongs to Allah and that the Islamic way of life shall be observed in Pakistan. The Resolution underscores the importance of Islamic principles in Pakistan's governance and legal framework and aims to blend Islamic values with modern democratic principles.
 
 **Government structure:** The constitution outlines the respective structures and powers of the executive, legislature, and judiciary. The Executive Branch of the State consists of the President, Prime Minister, and the Cabinet. The President is the ceremonial head of state, elected by an electoral college for a term of five years. He has certain powers, including appointing the Prime Minister and other key officials, and can dissolve the National Assembly on the advice of the Prime Minister. The Prime Minister is the head of government, and along with his chosen Ministers in the Cabinet, is responsible for running the federal administration.
 
@@ -332,7 +332,7 @@ After the amendment in the Act in 2020[@nationalassemblysecretariatActsOrdinance
 
 **Terrorism & Anti Money Laundering:** Terrorism and anti-money laundering are regulated under the following laws:
 
--   The United Nations (Security Council) Act, 1948[@UnitedNations1948]
+-   The United Nations (Security Council) Act, 1948[@pakistanUnitedNationsSCAct1948]
 
 -   The Anti-Terrorism Act, 1997[@AntiTerrorismAct1997]
 

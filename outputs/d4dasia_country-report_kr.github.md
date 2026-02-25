@@ -23,6 +23,7 @@ October 1, 2025
   South Korean
   Experience](#lessons-learned-from-the-south-korean-experience)
 - [<span class="toc-section-number">5</span> References](#references)
+- [References](#bibliography)
 
 ## Abbreviations
 
@@ -713,12 +714,53 @@ Penalty Standards Should Be Eased*. iNews24.
 [<u>https://m.inews24.com/v/1280492</u>](https://m.inews24.com/v/1280492).
 Retrieved June 6, 2025.
 
-[^1]: **KDADataIndustry2022?**
+# References
 
-[^2]: **parkSouthKoreaData2021?**
+<div id="refs" class="references csl-bib-body hanging-indent">
 
-[^3]: **parkSouthKoreaData2021?**
+<div id="ref-kimDetailsOutlookThree2021" class="csl-entry">
 
-[^4]: **yoonPersonalInfo2020?**
+Kim, Eunchan, Kim， Eun-Young, Lee， Hyo-Chan, and Byungjoon Yoo. “The
+Details and Outlook of Three Data Acts Amendment in South Korea: With a
+Focus on the Changes of Domestic Financial and Data Industry.”
+*Informatization Policy* 28, no. 3 (2021): 49–71.
+<https://doi.org/10.22693/NIAIP.2021.28.3.049>.
 
-[^5]: **kimDetailsOutlookThree2021?**
+</div>
+
+<div id="ref-koreadataagencyDataIndustry2022" class="csl-entry">
+
+Korea Data Agency. *Data Industry White Paper*. 2022.
+<https://www.kdata.or.kr/>.
+
+</div>
+
+<div id="ref-parkSouthKorea2021" class="csl-entry">
+
+Park, Kwang Bae, and Minchae Kang. “South Korea - Data Protection
+Overview.” DataGuidance, September 7, 2021.
+<https://www.dataguidance.com/notes/south-korea-data-protection-overview>.
+
+</div>
+
+<div id="ref-yoonPersonalInformation2020" class="csl-entry">
+
+Yoon, Jihye. “Personal Information Violations, Criminal Penalty
+Standards Should Be Eased.” iNews24, July 9, 2020.
+<https://m.inews24.com/v/1280492>.
+
+</div>
+
+</div>
+
+[^1]: Korea Data Agency, *Data Industry White Paper*.
+
+[^2]: Park and Kang, “South Korea - Data Protection Overview.”
+
+[^3]: Park and Kang.
+
+[^4]: Yoon, “Personal Information Violations, Criminal Penalty Standards
+    Should Be Eased.”
+
+[^5]: Kim et al., “The Details and Outlook of Three Data Acts Amendment
+    in South Korea.”

@@ -231,7 +231,7 @@ to refer to “diverse arrangements, including technical, policy,
 regulatory or institutional provisions, that affect data and their
 creation, collection, storage, use, protection, access, sharing and
 deletion across policy domains and organizational and national
-borders.”[^1]
+borders”.[^1]
 
 # Overview
 
@@ -1306,7 +1306,7 @@ facilitate the transfer of personal data… India also agreed to the
 clause that state parties may transfer personal data to a third country
 or an international organisation only with the prior written
 authorisation of the original transferring state party, subject to
-effective and appropriate safeguards”.[^64]
+effective and appropriate safeguards.”[^64]
 
 This approach would bypass the need for MLATs or data localization
 measures, which India considers to be inefficient and ineffective
@@ -2025,9 +2025,9 @@ challenges, including:
 <div id="ref-abrahamFreeOpen2016" class="csl-entry">
 
 Abraham, Sunil, and Vidushi Marda. *Free and Open Source Software (FOSS)
-and Open Standards*. 2. Economic, Social and Cultural Rights in India:
-Opportunities for Advocacy in Intellectual Property Rights. Association
-for Progressive Communications, 2016.
+and Open Standards*. No. 2. Economic, Social and Cultural Rights in
+India: Opportunities for Advocacy in Intellectual Property Rights.
+Association for Progressive Communications, 2016.
 <https://cis-india.org/openness/files/economic-social-and-cultural-rights-in-india-foss/>.
 
 </div>
@@ -2062,7 +2062,7 @@ https://web.archive.org/web/20231116070519/https://cdac.in/?id=st_oss_free_open_
 <div id="ref-centreforlawanddemocracyGlobalRight2023" class="csl-entry">
 
 Centre for Law and Democracy, and Access Info Europe. *Global Right to
-Information Rating*. 2023.
+Information Rating*. Center for law and democracy, 2023.
 https://web.archive.org/web/20240812115711/https://www.rti-rating.org/rating/.
 <https://www.rti-rating.org/rating/>.
 
@@ -2128,9 +2128,9 @@ https://web.archive.org/web/20240309092929/https://www.g20.in/content/dam/gtwent
 
 </div>
 
-<div id="ref-GovernmentOpen" class="csl-entry">
+<div id="ref-indiaGODL2017" class="csl-entry">
 
-Government Open Data Licence - India. Accessed November 21, 2023.
+Government Open Data Licence (2017).
 <https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf>.
 
 </div>
@@ -2144,7 +2144,7 @@ https://web.archive.org/web/20230711170320/https://opensource.com/government/10/
 
 </div>
 
-<div id="ref-InformationTechnology2009" class="csl-entry">
+<div id="ref-assamITPolicy2009" class="csl-entry">
 
 Information Technology Policy of Assam (2009).
 <https://dispur.nic.in/itact/it-policy-assam-2009.pdf>.
@@ -2154,7 +2154,8 @@ Information Technology Policy of Assam (2009).
 <div id="ref-jhaStateTransparency2020" class="csl-entry">
 
 Jha, Rama Nath, Sarah Nazamuddin Harniswala, and Brij Bhushan Singh.
-*State Transparency Report*. 4. Transparency International India, 2020.
+*State Transparency Report*. No. 4. Transparency International India,
+2020.
 <https://transparencyindia.org/wp-content/uploads/2020/10/STR-Final-2020.pdf>.
 
 </div>
@@ -2230,8 +2231,7 @@ https://web.archive.org/web/20231116034239/https://www.meity.gov.in/content/majo
 
 </div>
 
-<div id="ref-ministryofelectronicsandinformationtechnologyOpenGovernment2022"
-class="csl-entry">
+<div id="ref-meitOGDPlatform2022" class="csl-entry">
 
 Ministry of Electronics and Information Technology. “Open Government
 Data (OGD) Platform India.” January 21, 2022.
@@ -2293,14 +2293,14 @@ National Informatics Centre. “SugamyaWeb.” 2024.
 
 </div>
 
-<div id="ref-NationalPolicy2012" class="csl-entry">
+<div id="ref-indiaNationalPolicyIT2012" class="csl-entry">
 
-National Policy on ICT in School Education (2012).
-<https://www.education.gov.in/sites/upload_files/mhrd/files/upload_document/revised_policy%20document%20ofICT.pdf>.
+National Policy on Information Technology (2012).
+<https://www.meity.gov.in/writereaddata/files/National_20IT_20Policyt%20_20.pdf>.
 
 </div>
 
-<div id="ref-NationalPolicy2019" class="csl-entry">
+<div id="ref-indiaNationalPolicySoftware2019" class="csl-entry">
 
 National Policy on Software Products (2019).
 <https://www.meity.gov.in/writereaddata/files/national_policy_on_software_products-2019.pdf>.
@@ -2316,8 +2316,7 @@ https://web.archive.org/web/20231116075558/https://www.oecd-ilibrary.org/science
 
 </div>
 
-<div id="ref-ogddivisionnicImplementationGuidelines2015"
-class="csl-entry">
+<div id="ref-ogdNDSAPGuidelines2015" class="csl-entry">
 
 OGD Division, NIC. *Implementation Guidelines for NDSAP*. 2015.
 
@@ -2392,8 +2391,7 @@ No. 1(3)/2014 – EG II (2014).
 
 </div>
 
-<div id="ref-departmentofelectronics&informationtechnologyPolicyCollaborative2015"
-class="csl-entry">
+<div id="ref-deitPolicyCollaborative2015" class="csl-entry">
 
 Policy on Collaborative Application Development by Opening the Source
 Code of Applications (2015).
@@ -2404,7 +2402,7 @@ Code of Applications (2015).
 <div id="ref-PolicyOpen2015" class="csl-entry">
 
 Policy on Open Application Programming Interfaces (APIs) for Government
-of India, Pub. L. F.No. 1(4)/2014-EG II (2015).
+of India, Pub. L. Nos. F.No. 1(4)/2014-EG II (2015).
 <https://www.meity.gov.in/writereaddata/files/Policy%20for%20API%20for%20GoI.pdf>.
 
 </div>
@@ -2427,7 +2425,7 @@ https://web.archive.org/web/20230829053902/https://www.news18.com/news/opinion/t
 
 </div>
 
-<div id="ref-SummaryUnion2023" class="csl-entry">
+<div id="ref-indiaSummaryUnion2023" class="csl-entry">
 
 Press Information Bureau. “Summary of the Union Budget 2023-24.”
 February 1, 2023.
@@ -2577,7 +2575,7 @@ Initiative, 2010.
 [^18]: Centre for Development of Advanced Computing, “C-DAC Free/Open
     Source Software.”
 
-[^19]: National Policy on ICT in School Education.
+[^19]: National Policy on Information Technology.
 
 [^20]: Policy on Adoption of Open Source Software for Government of
     India.
@@ -2632,7 +2630,7 @@ Initiative, 2010.
 
 [^42]: OGD Division, NIC, *Implementation Guidelines for NDSAP*.
 
-[^43]: Government Open Data Licence - India.
+[^43]: Government Open Data Licence.
 
 [^44]: Panjiar and Prateek Waghre, “A Comparison of State-Level Data
     Policies.”

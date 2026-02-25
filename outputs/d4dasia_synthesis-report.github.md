@@ -4054,10 +4054,60 @@ take on the burden of compliance.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-AntiTerrorismAct2020" class="csl-entry">
+<div id="ref-abrahamFreeOpen2016" class="csl-entry">
 
-Anti-Terrorism Act, Pub. L. Republic Act No. 11479 (2020).
+Abraham, Sunil, and Vidushi Marda. *Free and Open Source Software (FOSS)
+and Open Standards*. No. 2. Economic, Social and Cultural Rights in
+India: Opportunities for Advocacy in Intellectual Property Rights.
+Association for Progressive Communications, 2016.
+<https://cis-india.org/openness/files/economic-social-and-cultural-rights-in-india-foss/>.
+
+</div>
+
+<div id="ref-agarwalIndiaMust2015" class="csl-entry">
+
+Agarwal, Natasha. “India Must Do More to See Impact of Open Data.”
+General. *World Wide Web Foundation*, November 16, 2015.
+<https://webfoundation.org/2015/11/india-must-do-more-to-see-impact-of-open-data/>.
+
+</div>
+
+<div id="ref-philippinesAmendmentsCloud2020" class="csl-entry">
+
+Amendments to Cloud First policy, Pub. L. Nos. DICT Department Circular
+No. 10, series of 2020 (2020).
+<https://dict.gov.ph/wp-content/uploads/2020/06/Department_Circular_No_10_Amendments_to_DC_No_2017_002_re_Prescribing.pdf>.
+
+</div>
+
+<div id="ref-thailandAnnouncementPDPC2023" class="csl-entry">
+
+Announcement of the Personal Data Protection Committee on the criteria
+for the protection of personal data transmitted or transferred to
+foreign Countries under Section 28 of the Personal Data Protection Act
+B.E. 2562, § ประกาศและคำสั่งสำนักงาน (2023).
+<https://www.pdpc.or.th/2500/>.
+
+</div>
+
+<div id="ref-philippinesAntiTerrorismAct2020" class="csl-entry">
+
+Anti-Terrorism Act, Pub. L. Nos. Republic Act No. 11479 (2020).
 <https://www.officialgazette.gov.ph/2020/07/03/republic-act-no-11479/>.
+
+</div>
+
+<div id="ref-nepalArchivesPreservationAct1986" class="csl-entry">
+
+Archives Preservation Act, 2046 (1986), 17/2046 (1986).
+<https://lawcommission.gov.np/np/wp-content/uploads/2021/01/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B2%E0%A5%87%E0%A4%96-%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3-%E0%A4%90%E0%A4%A8-%E0%A5%A8%E0%A5%A6%E0%A5%AA%E0%A5%AC.pdf>.
+
+</div>
+
+<div id="ref-nepalArchivesPreservationRule2007" class="csl-entry">
+
+Archives Preservation Rule, 2063 (2007) (2007).
+<https://nepalindata.com/media/resources/bulk_file/zwk_2020-04-22_04_15_02.pdf>.
 
 </div>
 
@@ -4070,11 +4120,181 @@ https://web.archive.org/web/20240729065826/https://www.adb.org/sites/default/fil
 
 </div>
 
+<div id="ref-boydCriticalQuestions2012" class="csl-entry">
+
+<span class="nocase">boyd, danah, and Kate Crawford</span>. “Critical
+Questions for Big Data: Provocations for a Cultural, Technological, and
+Scholarly Phenomenon.” *Information, Communication & Society* 15, no. 5
+(2012): 662–79. <https://doi.org/10.1080/1369118X.2012.678878>.
+
+</div>
+
+<div id="ref-bradfordEuropeanUnion2021" class="csl-entry">
+
+Bradford, Anu. “The European Union in a Globalised World: The ‘Brussels
+Effect’.” *Governing Globalization*, no. 2 (August 2021).
+https://web.archive.org/web/20240729072459/https://geopolitique.eu/en/articles/the-european-union-in-a-globalised-world-the-brussels-effect/.
+<https://geopolitique.eu/en/articles/the-european-union-in-a-globalised-world-the-brussels-effect/>.
+
+</div>
+
+<div id="ref-srilankaBankingAct2021" class="csl-entry">
+
+Central Bank of Sri Lanka. *Banking Act Directions No. 16 of 2021:
+Regulatory framework on technology risk management and resilience for
+licensed banks*. Central Bank of Sri Lanka, 2021.
+<https://www.cbsl.gov.lk/sites/default/files/cbslweb_documents/laws/cdg/Banking_Act_Directions_No_16_of_2021.pdf>.
+
+</div>
+
+<div id="ref-CDACFree2018" class="csl-entry">
+
+Centre for Development of Advanced Computing. “C-DAC Free/Open Source
+Software.” 2018.
+https://web.archive.org/web/20231116070519/https://cdac.in/?id=st_oss_free_open_source_software.
+<https://cdac.in?id=st_oss_free_open_source_software>.
+
+</div>
+
+<div id="ref-centreforlawanddemocracyGlobalRight2023" class="csl-entry">
+
+Centre for Law and Democracy, and Access Info Europe. *Global Right to
+Information Rating*. Center for law and democracy, 2023.
+https://web.archive.org/web/20240812115711/https://www.rti-rating.org/rating/.
+<https://www.rti-rating.org/rating/>.
+
+</div>
+
+<div id="ref-thailandComputerRelatedCrimeAct2007" class="csl-entry">
+
+Computer-Related Crime Act B.E.2550 (2007) (2007).
+<https://www.mdes.go.th/law/detail/3618-COMPUTER-RELATED-CRIME-ACT-B-E--2550--2007->.
+
+</div>
+
+<div id="ref-srilankaConstitution2023" class="csl-entry">
+
+Constitution of the Democratic Socialist Republic of Sri Lanka (2023).
+<https://www.parliament.lk/files/pdf/constitution.pdf>.
+
+</div>
+
 <div id="ref-deptofcensusandstatisticssrilankaDataDissaPolicy2007"
 class="csl-entry">
 
-DataDissaPolicy2007. Accessed January 9, 2024.
+DataDissaPolicy2007, 11 (2007).
 <http://www.statistics.gov.lk/Datadessimination/DataDissaPolicy_2007Oct26>.
+
+</div>
+
+<div id="ref-srilankaDepartmentCensusDissemination2023"
+class="csl-entry">
+
+“Department of Census and Statistics.” 2023.
+<http://www.statistics.gov.lk/Datadessimination#gsc.tab=0>.
+
+</div>
+
+<div id="ref-srilankaDepartmentCensusOrdinance2024" class="csl-entry">
+
+“Department of Census and Statistics.” January 19, 2024.
+<http://www.statistics.gov.lk/about_us/censusordanance#gsc.tab=0>.
+
+</div>
+
+<div id="ref-deyIndiaOpen2013" class="csl-entry">
+
+Dey, Nikhil, and Aruna Roy. “India in Open Government and Open
+Government in India.” *Stanford Social Innovation Review* 11 (2013):
+A14. <https://doi.org/10.48558/MB23-6H82>.
+
+</div>
+
+<div id="ref-digitalgovernmentdevelopmentagencyGeographicInformation2015"
+class="csl-entry">
+
+Digital Government Development Agency. “Geographic Information
+Services - Open Government Data of Thailand.” 2015.
+<https://data.go.th/dataset/mnre_93_041>.
+
+</div>
+
+<div id="ref-srilankaDraftNational2023" class="csl-entry">
+
+Draft National Policy on Archives and Records Management v 1.2, 2023 17
+(2023).
+<https://www.archives.gov.lk/web/images/pdf/2023/draft_national%20policy%20on%20archives%20and%20records%20management_v1.2_english.pdf>.
+
+</div>
+
+<div id="ref-electronicgovernmentagencyGovernmentWebsite2012"
+class="csl-entry">
+
+Electronic Government Agency. *Government Website Standard*. 1st ed.
+2012.
+<https://moi.go.th/moi/wp-content/uploads/2019/11/20120823061245.pdf>.
+
+</div>
+
+<div id="ref-srilankaFrameworkNational2024" class="csl-entry">
+
+Framework for National Archives and Records Management Legislation, 2024
+43 (2024).
+
+</div>
+
+<div id="ref-indiaGODL2017" class="csl-entry">
+
+Government Open Data Licence (2017).
+<https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf>.
+
+</div>
+
+<div id="ref-hariharanOpenStandards2010" class="csl-entry">
+
+Hariharan, Venkatesh. “Open Standards Policy in India: A Long, but
+Successful Journey.” Opensource.com, November 19, 2010.
+https://web.archive.org/web/20230711170320/https://opensource.com/government/10/11/open-standards-policy-india-long-successful-journey.
+<https://opensource.com/government/10/11/open-standards-policy-india-long-successful-journey>.
+
+</div>
+
+<div id="ref-idrcHarnessingData" class="csl-entry">
+
+“Harnessing Data for Democratic Development in South and Southeast Asia
+\| IDRC - International Development Research Centre.” Accessed October
+12, 2025.
+<https://idrc-crdi.ca/en/what-we-do/projects-we-support/project/harnessing-data-democratic-development-south-and-southeast>.
+
+</div>
+
+<div id="ref-ictaFOSSAdoption2022" class="csl-entry">
+
+Information and Communication Technology Agency of Sri Lanka (ICTA).
+*Sri Lanka Government FOSS Adoption Draft*. 2022.
+<https://www.icta.lk/icta-assets/uploads/2022/05/Sri-Lanka-Government-FOSS-Adoption.pdf>.
+
+</div>
+
+<div id="ref-assamITPolicy2009" class="csl-entry">
+
+Information Technology Policy of Assam (2009).
+<https://dispur.nic.in/itact/it-policy-assam-2009.pdf>.
+
+</div>
+
+<div id="ref-philippinesOGP2023" class="csl-entry">
+
+Institutionalizing the Philippine Open Government Partnership and for
+Other Purposes, Pub. L. Nos. Executive Order No. 31, series of 2023
+(2023).
+<https://www.officialgazette.gov.ph/2023/06/20/executive-order-no-31-s-2023/>.
+
+</div>
+
+<div id="ref-srilankaIntellectualProperty2003" class="csl-entry">
+
+Intellectual Property Act, Pub. L. No. 36, 36/ 2003 (2003).
 
 </div>
 
@@ -4085,10 +4305,91 @@ Interoperability Standards - GOVPH (2021).
 
 </div>
 
+<div id="ref-philippinesInventoryExceptionsOrder2016" class="csl-entry">
+
+Inventory of Exceptions to Executive Order No. 2 (s. 2016), Pub. L. Nos.
+Memorandum from the Executive Secretary (2016).
+<https://www.foi.gov.ph/downloads/inventory-of-exceptions-to-eo-2.pdf>.
+
+</div>
+
+<div id="ref-kitchinCriticalDataStudies2014" class="csl-entry">
+
+Kitchin, Rob, and Tracey Lauriault. “Towards Critical Data Studies:
+Charting and Unpacking Data Assemblages and Their Work.” SSRN Scholarly
+Paper No. 2474112. Rochester, NY, July 30, 2014.
+<https://papers.ssrn.com/abstract=2474112>.
+
+</div>
+
+<div id="ref-krishnaswamyFreeOpen2012" class="csl-entry">
+
+Krishnaswamy, Girija, and Dora Marinova. “Free and Open Source Software
+(FOSS) in Education: IT@School Project, Kerala Region of India.”
+*Journal of Free Software & Free Knowledge* 1, no. 1 (2012).
+https://web.archive.org/web/20231117201741/https://espace.curtin.edu.au/handle/20.500.11937/14340.
+<https://espace.curtin.edu.au/handle/20.500.11937/14340>.
+
+</div>
+
 <div id="ref-LankaDatta" class="csl-entry">
 
 “Lanka Datta.” Accessed February 19, 2024.
 <https://nada.statistics.gov.lk/index.php/home>.
+
+</div>
+
+<div id="ref-LawRegistryCivil1930" class="csl-entry">
+
+Law on Registry of Civil Status, Pub. L. Nos. Act No. 3753 (1930).
+<https://psa.gov.ph/content/act-no-3753>.
+
+</div>
+
+<div id="ref-loneyIndiaShares2004" class="csl-entry">
+
+Loney, Matt. “India Shares Open-Source Experience.” *ZDNET*, September
+24, 2004.
+https://web.archive.org/web/20231117190044/https://www.zdnet.com/article/india-shares-open-source-experience/null/.
+<https://www.zdnet.com/article/india-shares-open-source-experience/>.
+
+</div>
+
+<div id="ref-matthanIndiasApproach2022" class="csl-entry">
+
+Matthan, Rahul, and Shreya Ramann. “India’s Approach to Data
+Governance.” In *Data Governance, Asian Alternatives: How India and
+Korea Are Creating New Models and Policies*, edited by Evan A.
+Feigenbaum and Michael R. Nelson. 2022.
+https://web.archive.org/web/https://carnegieendowment.org/2022/08/31/india-s-approach-to-data-governance-pub-87767.
+<https://carnegieendowment.org/2022/08/31/india-s-approach-to-data-governance-pub-87767>.
+
+</div>
+
+<div id="ref-MajorFOSS2021" class="csl-entry">
+
+Ministry of Electronics and Information Technology. “Major FOSS
+Initiatives.” September 27, 2021.
+https://web.archive.org/web/20231116034239/https://www.meity.gov.in/content/major-foss-initiatives.
+<https://www.meity.gov.in/content/major-foss-initiatives>.
+
+</div>
+
+<div id="ref-meitOGDPlatform2022" class="csl-entry">
+
+Ministry of Electronics and Information Technology. “Open Government
+Data (OGD) Platform India.” January 21, 2022.
+https://web.archive.org/web/20230711164605/https://data.gov.in/.
+<https://data.gov.in>.
+
+</div>
+
+<div id="ref-nepalministryoffederalaffairs&generaladministrationLocalBudget"
+class="csl-entry">
+
+Ministry of Federal Affairs & General Administration. “Local budget.”
+Ministry of Federal Affairs and General Administration. Accessed October
+20, 2025. <https://mofaga.gov.np/lgbudget>.
 
 </div>
 
@@ -4099,9 +4400,119 @@ Ministry of Finance. *Fiscal Budget*. 2023.
 
 </div>
 
+<div id="ref-ministryofhighereducationscienceresearchandinnovationThaiLISDigital"
+class="csl-entry">
+
+Ministry of Higher Education, Science, Research and Innovation. “ThaiLIS
+Digital Collection.” Accessed October 29, 2023.
+<https://tdc.thailis.or.th/tdc/basic.php>.
+
+</div>
+
+<div id="ref-narasimhanAccessibilityGovernment2012" class="csl-entry">
+
+Narasimhan, Nirmita, Mukesh Sharma, and Dinesh Kaushal. *Accessibility
+of Government Websites in India: A Report*. 2012.
+https://web.archive.org/web/20231111053416/https://cis-india.org/accessibility/accessibility-of-govt-websites.pdf.
+<https://cis-india.org/accessibility/accessibility-of-govt-websites.pdf>.
+
+</div>
+
+<div id="ref-srilankaNationalArchives1973" class="csl-entry">
+
+National Archives Law, Pub. L. No. 48 (1973).
+<https://www.lawnet.gov.lk/national-archives-law-2/>.
+
+</div>
+
+<div id="ref-philippinesNationalArchives2007" class="csl-entry">
+
+National Archives of the Philippines Act of 2007, Pub. L. Nos. Republic
+Act No. 9470 (2007).
+<https://www.officialgazette.gov.ph/2007/05/21/republic-act-no-9470/>.
+
+</div>
+
+<div id="ref-nepalNationalCyber2023" class="csl-entry">
+
+National Cyber Security Policy, 2080 (2023).
+
+</div>
+
+<div id="ref-departmentofscienceandtechnologyNationalData2012"
+class="csl-entry">
+
+National Data Sharing and Accessibility Policy (2012).
+<https://data.gov.in/sites/default/files/NDSAP.pdf>.
+
+</div>
+
+<div id="ref-nationalinformaticscentreGuidelinesIndian2023"
+class="csl-entry">
+
+National Informatics Centre. “Guidelines for Indian Government Websites
+and Apps 3.0.” May 17, 2023.
+https://web.archive.org/web/20231111071229/https://guidelines.india.gov.in/.
+<https://guidelines.india.gov.in/>.
+
+</div>
+
+<div id="ref-nationalstatisticalofficeIntroductionGovernmentData2020"
+class="csl-entry">
+
+National Statistical Office. “Introduction to Government Data Catalogs.”
+2020.
+<https://gdhelppage.nso.go.th/data/0_01/files/file_p00_01_007_02.pdf>.
+
+</div>
+
+<div id="ref-nationalstatisticalofficeNationalStatistical2023"
+class="csl-entry">
+
+National Statistical Office. “National Statistical Office Website.”
+2023. <https://www.nso.go.th/nsoweb/index>.
+
+</div>
+
+<div id="ref-nationalstatisticsofficeNepal2021" class="csl-entry">
+
+National Statistics Office. *National Census Nepal, 2078 (2021)*. 2021.
+<https://censusnepal.cbs.gov.np/Home/Index/EN>.
+
+</div>
+
+<div id="ref-oecdGoingDigital2022" class="csl-entry">
+
+OECD. *Going Digital Guide to Data Governance Policy Making*. OECD,
+2022.
+https://web.archive.org/web/20231116075558/https://www.oecd-ilibrary.org/science-and-technology/going-digital-guide-to-data-governance-policy-making_40d53904-en.
+<https://doi.org/10.1787/40d53904-en>.
+
+</div>
+
+<div id="ref-indonesiaArchivesIndex" class="csl-entry">
+
+Office of the Historian, United States Department of State. “World Wide
+Diplomatic Archives Index: Indonesia.” Accessed October 12, 2025.
+<https://history.state.gov/countries/archives/indonesia>.
+
+</div>
+
+<div id="ref-thailandOfficialInformationAct1997" class="csl-entry">
+
+Official Information Act (1997).
+
+</div>
+
+<div id="ref-ogdNDSAPGuidelines2015" class="csl-entry">
+
+OGD Division, NIC. *Implementation Guidelines for NDSAP*. 2015.
+
+</div>
+
 <div id="ref-Statistics1997" class="csl-entry">
 
-On Statistics, Pub. L. 16 (1997).
+On Statistics, Pub. L. No. 16 (1997).
 <https://www.aseanstats.org/wp-content/uploads/2016/11/ID-law16_97.pdf>.
 
 </div>
@@ -4114,6 +4525,202 @@ https://web.archive.org/web/20230829040854/https://pib.gov.in/Pressreleaseshare.
 
 </div>
 
+<div id="ref-srilankaOnlineSafetyAct2024" class="csl-entry">
+
+Online Safety Act, Pub. L. No. 9, 2024 (2024).
+<https://www.parliament.lk/uploads/acts/gbills/english/6311.pdf>.
+
+</div>
+
+<div id="ref-opendatawatchOpenData2023" class="csl-entry">
+
+Open Data Watch. *Open Data Inventory Rankings*. 2023.
+https://web.archive.org/web/20240727165004/https://odin.opendatawatch.com/Report/rankings.
+<https://odin.opendatawatch.com/Report/rankings>.
+
+</div>
+
+<div id="ref-SIPATechnology2016" class="csl-entry">
+
+Open Source Education and Development Association. “SIPA Technology
+Meetup 2016 \#6.” 2016.
+<https://www.oseda.or.th/th/8-news/news/96-sipa-technology-meetup-2016>.
+
+</div>
+
+<div id="ref-Openbudgetsindiaorg522" class="csl-entry">
+
+“Openbudgetsindia.org \| 522: Connection Timed Out.” Accessed October
+20, 2025. <https://www.openbudgetsindia.org/nl/>.
+
+</div>
+
+<div id="ref-panjiarComparisonStatelevel2022" class="csl-entry">
+
+Panjiar, Tejasi, and Prateek Waghre. “A Comparison of State-Level Data
+Policies.” Internet Freedom Foundation, June 4, 2022.
+https://web.archive.org/web/20231113162032/https://internetfreedom.in/a-comparison-of-state-level-data-policies/.
+<https://internetfreedom.in/a-comparison-of-state-level-data-policies/>.
+
+</div>
+
+<div id="ref-permanentsecretaryoftheministryofinteriorReportImplementation2012"
+class="csl-entry">
+
+Permanent Secretary of the Ministry of Interior. *Report on the
+Implementation in Accordance with the Official Information Act B.E. 2540
+in the Fiscal Year 2010*. 2012.
+<http://www.oic.go.th/FILEWEB/CABINFOCENTER15/DRAWER053/GENERAL/DATA0000/00000444.PDF>.
+
+</div>
+
+<div id="ref-philippinesPermanentValidityofCertificatesAct2022"
+class="csl-entry">
+
+Permanent Validity of the Certificates of Live Birth, Death and Marriage
+Act, Pub. L. Nos. Republic Act No. 11909 (2022).
+<https://legacy.senate.gov.ph/republic_acts/ra%2011909.pdf>.
+
+</div>
+
+<div id="ref-srilankaPersonalData2022" class="csl-entry">
+
+Personal Data Protection Act, Pub. L. No. 9 (2022).
+<https://www.parliament.lk/uploads/acts/gbills/english/6242.pdf>.
+
+</div>
+
+<div id="ref-PersonalDataProtection2019" class="csl-entry">
+
+Personal Data Protection Act, 2019 (2019).
+<https://library.parliament.go.th/th/radioscript/phrarachbayyatikhumkhrxngkhxmuulswnbukhkhl-phs-2562>.
+
+</div>
+
+<div id="ref-thailandPersonalDataAct2021" class="csl-entry">
+
+Personal Data Protection Act B.E. 2562 (2019) (English Version) (2021).
+<https://data.thailand.opendevelopmentmekong.net/en/laws_record/2562/resource/ec616be5-9fbf-4071-b4b5-cb1f3e46e826>.
+
+</div>
+
+<div id="ref-deitPolicyCollaborative2015" class="csl-entry">
+
+Policy on Collaborative Application Development by Opening the Source
+Code of Applications (2015).
+<https://www.meity.gov.in/writereaddata/files/policy_government_application.pdf>.
+
+</div>
+
+<div id="ref-departmentofinformationtechnologyPolicyOpen2010"
+class="csl-entry">
+
+Policy on Open Standards for e-Governance (2010).
+<https://egovstandards.gov.in/sites/default/files/2021-07/Policy%20on%20Open%20Standards%20for%20e-Governance.pdf>.
+
+</div>
+
+<div id="ref-indonesiaPressAct1999" class="csl-entry">
+
+Press Act, UU 40/1999 (1999).
+<https://natlex.ilo.org/dyn/natlex2/r/natlex/fe/details?p3_isn=77117&cs=1acxI5Flh-EkOBaTq4Z2hABYZ5nV5JmXFlR5ujX7glIgqDTxUUERrQg36bhpqdO--Q-1Xbty-lnj9kgJfNszNRg>.
+
+</div>
+
+<div id="ref-nepalPressPublicationAct1991" class="csl-entry">
+
+Press and Publication Act, 2048 (1991) – Nepal Law Commission (1991).
+<https://lawcommission.gov.np/en/?cat=599>.
+
+</div>
+
+<div id="ref-indiaSummaryUnion2023" class="csl-entry">
+
+Press Information Bureau. “Summary of the Union Budget 2023-24.”
+February 1, 2023.
+https://web.archive.org/web/20231115184526/https://pib.gov.in/Pressreleaseshare.aspx?PRID=1895320.
+<https://pib.gov.in/Pressreleaseshare.aspx?PRID=1895320>.
+
+</div>
+
+<div id="ref-pricewaterhousecoopersNepalEGovernment2011"
+class="csl-entry">
+
+Price waterhouse Coopers. *Nepal e-Government Interoperability Framework
+(NeGIF)*. 2011.
+
+</div>
+
+<div id="ref-philippinesPropertyRegistrationDecree1978"
+class="csl-entry">
+
+Property Registration Decree, Pub. L. Nos. Presidential Decree No. 1529,
+series of 1978 (1978).
+<https://www.officialgazette.gov.ph/1978/06/11/presidential-decree-no-1529-s-1978/>.
+
+</div>
+
+<div id="ref-srilankaPublicAccess1980" class="csl-entry">
+
+Public Access To Government Documents Gazette English, 1980 2 (1980).
+<https://archives.gov.lk/resources/215/Public%20Access%20To%20Government%20Documents%20Gazette%20English.pdf>.
+
+</div>
+
+<div id="ref-indonesiaPublicInformation2008" class="csl-entry">
+
+Public Information Disclosure Act, UU 14/2008 (2008).
+<https://www.rti-rating.org/wp-content/uploads/2020/05/Indonesia-RTI-Law.pdf>.
+
+</div>
+
+<div id="ref-ranadaDuterteGovt2016" class="csl-entry">
+
+Ranada, Pia. “Duterte Gov’t Launches FOI Online Portal, Manuals.”
+*RAPPLER*, November 25, 2016.
+<https://www.rappler.com/nation/153626-duterte-admin-freedom-information-portal-manuals/>.
+
+</div>
+
+<div id="ref-RegulationsPromulgatedRight2017" class="csl-entry">
+
+Regulations Promulgated Under the Right to Information Act, No. 12 of
+2016, 2017 (2017).
+
+</div>
+
+<div id="ref-srilankaRightInformationAct2016" class="csl-entry">
+
+Right To Information Act, Pub. L. No. 12 (2016).
+<https://web.archive.org/web/20211222074002/http://rti.gov.lk/images/resources/RTI_Act_Sri_Lanka_E.pdf>.
+
+</div>
+
+<div id="ref-nepalRightInformationAct2007" class="csl-entry">
+
+Right to Information Act 2064, 4/2007 17 (2007).
+<https://www.lawcommission.gov.np/en/wp-content/uploads/2018/10/right-to-information-act-2064-2007.pdf>.
+
+</div>
+
+<div id="ref-ruangchaweeCriteriaStandards2023" class="csl-entry">
+
+Ruangchawee, Tanatkris. “The Announcement of the Digital Government
+Development Committee regarding the Digital Government Standards on
+Criteria for Assessing the Quality of Data for Government Agencies (MD5:
+2022).” Digital Government Standard, March 27, 2023.
+<https://standard.dga.or.th/dg-std/5785/>.
+
+</div>
+
+<div id="ref-RuleCybercrimeWarrants2018" class="csl-entry">
+
+Rule on Cybercrime Warrants, Pub. L. Nos. Administrative Matter
+No.17-11-03-SC (2018).
+<https://oca.judiciary.gov.ph/wp-content/uploads/2022/09/A.M.-No.-17-11-03-SC-dtd-07.03.18.pdf>.
+
+</div>
+
 <div id="ref-StatisticsAct2022" class="csl-entry">
 
 Statistics Act, 2079 (2022).
@@ -4121,45 +4728,169 @@ Statistics Act, 2079 (2022).
 
 </div>
 
+<div id="ref-nepalStatisticsAct2007" class="csl-entry">
+
+Statistics Act B.E.2550 (2007) (2007).
+<https://www.mdes.go.th/law/detail/3614-%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%AA%E0%B8%96%E0%B8%B4%E0%B8%95%E0%B8%B4-%E0%B8%9E-%E0%B8%A8--%E0%B9%92%E0%B9%95%E0%B9%95%E0%B9%90>.
+
 </div>
 
-[^1]: **kitchinCriticalDataStudies2014?**
+<div id="ref-SupremeCourtNepal" class="csl-entry">
 
-[^2]: **viljoenRelationalTheoryData2021?**
+“Supreme Court Nepal.” Accessed October 9, 2023.
+<https://supremecourt.gov.np/web/>.
 
-[^3]: **boydCriticalQuestionsBig2012?**
+</div>
 
-[^4]: **oecdGoingDigitalGuide2022?**
+<div id="ref-swajatiKajianKebijakan2021" class="csl-entry">
+
+Swajati, Winastwan Gora. *Kajian Kebijakan Dan Sistem Pengelolaan Data
+Penelitian Indonesia*. 2021.
+<https://web.archive.org/web/20240513191823/https://www.ksi-indonesia.org/assets/uploads/original/2021/08/ksi-1629448643.pdf>.
+
+</div>
+
+<div id="ref-nepalTelecommunicationsAct1993" class="csl-entry">
+
+Telecommunications Act, 18/1997 (1997).
+<https://lawcommission.gov.np/en/?cat=544>.
+
+</div>
+
+<div id="ref-thaijournalonlineThaiJo21Thai" class="csl-entry">
+
+Thai Journal Online. “ThaiJo2.1: Thai Journal Online.” Accessed October
+29, 2023. <https://www.tci-thaijo.org>.
+
+</div>
+
+<div id="ref-thaipublicaPrayutOrdered2015" class="csl-entry">
+
+ThaiPublica. *Prayut Ordered the Electronic Government Agency (EGA) to
+Specify the Dataset That Every Government Agency Must Disclose to
+Reinforcing Anti-Corruption Measures. Preliminary Actions Include
+’Procurement and Budget Uses.* August 10, 2015.
+<https://thaipublica.org/2015/08/open-data-7/>.
+
+</div>
+
+<div id="ref-nepalCopyrightAct2002" class="csl-entry">
+
+The Copyright Act 2059, 8/2002 20 (2002).
+
+</div>
+
+<div id="ref-indiaCopyrightAmendment2012" class="csl-entry">
+
+The Copyright (Amendment) Act, Pub. L. Nos. Act No. 27 of 2012 (2012).
+<https://www.wipo.int/wipolex/en/text/304385>.
+
+</div>
+
+<div id="ref-unEgovernmentSurvey2018" class="csl-entry">
+
+The e-Government Survey 2018 : Gearing e-Government to Support
+Transformation Towards Sustainable and Resilient Societies.
+“E-Government Survey 2018.” 2018.
+<https://www.unescap.org/resources/e-government-survey-2018-gearing-e-government-support-transformation-towards-sustainable>.
+
+</div>
+
+<div id="ref-philippinesIndigenousPeoplesRightsAct1997"
+class="csl-entry">
+
+The Indigenous Peoples’ Rights Act of 1997, Pub. L. Nos. Republic Act
+No. 8371 (1997).
+<https://www.officialgazette.gov.ph/1997/10/29/republic-act-no-8371/>.
+
+</div>
+
+<div id="ref-philippinesStatisticalAct2013" class="csl-entry">
+
+The Philippine Statistical Act of 2013 \| Philippine Statistics
+Authority \| Republic of the Philippines (2013).
+<https://psa.gov.ph/content/philippine-statistical-act-2013>.
+
+</div>
+
+<div id="ref-veriteresearchProactiveDisclosure2023" class="csl-entry">
+
+Verite Research. *Proactive Disclosure under the RTI Act in Sri Lanka:
+Ranking Public Authorities 2023*. 2023.
+<https://www.veriteresearch.org/wp-content/uploads/2023/09/20230904_ProactiveDisclosureReport_F_AM-1.pdf>.
+
+</div>
+
+<div id="ref-viljoenRelationalTheory2021" class="csl-entry">
+
+Viljoen, Salomé. “A Relational Theory of Data Governance.” *The Yale Law
+Journal*, 2021.
+<https://www.yalelawjournal.org/feature/a-relational-theory-of-data-governance>.
+
+</div>
+
+<div id="ref-vinuesaRoleArtificial2020" class="csl-entry">
+
+Vinuesa, Ricardo, Hossein Azizpour, Iolanda Leite, et al. “The Role of
+Artificial Intelligence in Achieving the Sustainable Development Goals.”
+*Nature Communications* 11, no. 1 (2020): 233.
+<https://doi.org/10.1038/s41467-019-14108-y>.
+
+</div>
+
+<div id="ref-wrightOpenGovernment2010" class="csl-entry">
+
+Wright, Glover, Pranesh Prakash, Sunil Abraham, and Nishant Shah. *Open
+Government Data Study: India*. Transparency and Accountability
+Initiative, 2010.
+<https://cis-india.org/openness/publications/open-government.pdf>.
+
+</div>
+
+</div>
+
+[^1]: Kitchin and Lauriault, “Towards Critical Data Studies.”
+
+[^2]: Viljoen, “A Relational Theory of Data Governance.”
+
+[^3]: <span class="nocase">boyd and Crawford</span>, “Critical Questions
+    for Big Data.”
+
+[^4]: OECD, *Going Digital Guide to Data Governance Policy Making*.
 
 [^5]: Asian Development Bank, *Data for Development*.
 
-[^6]: **vinuesaRoleArtificialIntelligence2020?**
+[^6]: Vinuesa et al., “The Role of Artificial Intelligence in Achieving
+    the Sustainable Development Goals.”
 
-[^7]: **IDRCHarnessingDataDemocratic?**
+[^7]: “Harnessing Data for Democratic Development in South and Southeast
+    Asia \| IDRC - International Development Research Centre.”
 
-[^8]: **bradfordEuropeanUnionGlobalised2021?**
+[^8]: Bradford, “The European Union in a Globalised World.”
 
-[^9]: **bradfordEuropeanUnionGlobalised2021?**
+[^9]: Bradford.
 
-[^10]: **oecdGoingDigitalGuide2022?**
+[^10]: OECD, *Going Digital Guide to Data Governance Policy Making*.
 
-[^11]: **centreforlawanddemocracyGlobalRightInformation2023?**
+[^11]: Centre for Law and Democracy and Access Info Europe, *Global
+    Right to Information Rating*.
 
-[^12]: **PublicInformationDisclosure2008?**
+[^12]: Public Information Disclosure Act, UU 14/2008.
 
-[^13]: **InstitutionalizingPhilippineOpen2023?**
+[^13]: Institutionalizing the Philippine Open Government Partnership and
+    for Other Purposes.
 
-[^14]: **ranadaDuterteGovtLaunches2016?**
+[^14]: Ranada, “Duterte Gov’t Launches FOI Online Portal, Manuals.”
 
-[^15]: **ConstitutionSL2023?**
+[^15]: Constitution of the Democratic Socialist Republic of Sri Lanka.
 
-[^16]: **RightInformationAct2016?**
+[^16]: Right To Information Act.
 
-[^17]: **RightInformationAct2016?**
+[^17]: Right To Information Act.
 
 [^18]: See Section 8 of the Act.
 
-[^19]: **RightInformationAct2016?**
+[^19]: Right To Information Act.
 
 [^20]: See Section 9 of the Act.
 
@@ -4172,7 +4903,8 @@ Statistics Act, 2079 (2022).
     function or service”. Similarly, private educational institutions
     have also been included under the definition.
 
-[^22]: **RegulationsPromulgatedRight2017?**
+[^22]: Regulations Promulgated Under the Right to Information Act, No.
+    12 of 2016, vol. 2017.
 
 [^23]: On Statistics.
 
@@ -4192,46 +4924,51 @@ Statistics Act, 2079 (2022).
 
 [^31]: Statistics Act, 2079.
 
-[^32]: **PhilippineStatisticalAct2013?**
+[^32]: The Philippine Statistical Act of 2013 \| Philippine Statistics
+    Authority \| Republic of the Philippines.
 
-[^33]: **DepartmentCensusStatisticsb?**
+[^33]: “Department of Census and Statistics,” January 19, 2024.
 
 [^34]: “Lanka Datta.”
 
-[^35]: **DepartmentCensusStatistics?**
+[^35]: “Department of Census and Statistics,” 2023.
 
-[^36]: **nationalstatisticalofficeNSO?**
+[^36]: National Statistical Office, “National Statistical Office
+    Website.”
 
-[^37]: **StatisticsActBE25502007?**
+[^37]: Statistics Act B.E.2550 (2007).
 
-[^38]: **opendevelopmentthailandPersonalDataProtection2021?**
+[^38]: Personal Data Protection Act B.E. 2562 (2019) (English Version).
 
 [^39]: See Section 8(5) of the Act and the Cabinet resolution on 7th May
     2019.
 
-[^40]: **nationalstatisticalofficeIntroductionGovernmentData2020?**
+[^40]: National Statistical Office, “Introduction to Government Data
+    Catalogs.”
 
-[^41]: **PressLawNo401999?**
+[^41]: Press Act.
 
-[^42]: **IndonesiaArchivesUS?**
+[^42]: Office of the Historian, United States Department of State,
+    “World Wide Diplomatic Archives Index: Indonesia.”
 
-[^43]: **ArchivesPreservationAct1986?**
+[^43]: Archives Preservation Act, 2046 (1986), 17/2046.
 
 [^44]: See Section 3 of the Act.
 
-[^45]: **ArchivesPreservationRule2007?**
+[^45]: Archives Preservation Rule, 2063 (2007).
 
 [^46]: See Rule 5.
 
-[^47]: **LawRegistryCivil1930?**
+[^47]: Law on Registry of Civil Status.
 
-[^48]: **PermanentValidityCertificates2022?**
+[^48]: Permanent Validity of the Certificates of Live Birth, Death and
+    Marriage Act.
 
-[^49]: **PropertyRegistrationDecree1978?**
+[^49]: Property Registration Decree.
 
-[^50]: **NationalArchivesPhilippines2007?**
+[^50]: National Archives of the Philippines Act of 2007.
 
-[^51]: **NationalArchivesLaw1973?**
+[^51]: National Archives Law.
 
 [^52]: Section 16. The Minister may make regulations for any one or more
     of the purposes hereinafter prescribed: –  
@@ -4242,9 +4979,10 @@ Statistics Act, 2079 (2022).
     (e) prohibition or restriction of the disclosure of information
     obtained by the public from public archives;
 
-[^53]: **PublicAccessGovernment1980?**
+[^53]: Public Access To Government Documents Gazette English, vol. 1980.
 
-[^54]: **DraftNationalPolicyArchives2023?**
+[^54]: Draft National Policy on Archives and Records Management v 1.2,
+    vol. 2023.
 
 [^55]: Section 6 of the draft policy is on Digital Records and contains
     recommendations on digital record keeping, preservation, data
@@ -4252,49 +4990,62 @@ Statistics Act, 2079 (2022).
     open data, and providing digital records training and skills. (Pages
     6-7)
 
-[^56]: **FrameworkNationalArchives2024?**
+[^56]: Framework for National Archives and Records Management
+    Legislation, vol. 2024.
 
-[^57]: **opendatawatchOpenDataInventory2023?**
+[^57]: Open Data Watch, *Open Data Inventory Rankings*.
 
-[^58]: **wrightOpenGovernmentData2010?**
+[^58]: Wright et al., *Open Government Data Study: India*.
 
-[^59]: **deyIndiaOpenGovernment2013?**
+[^59]: Dey and Roy, “India in Open Government and Open Government in
+    India.”
 
-[^60]: **departmentofscienceandtechnologyNationalDataSharing2012?**
+[^60]: National Data Sharing and Accessibility Policy.
 
-[^61]: **ministryofelectronicsandinformationtechnologyOpenGovernmentData2022?**
+[^61]: Ministry of Electronics and Information Technology, “Open
+    Government Data (OGD) Platform India.”
 
-[^62]: **agarwalIndiaMustMore2015?**
+[^62]: Agarwal, “India Must Do More to See Impact of Open Data.”
 
-[^63]: **ogddivisionnicImplementationGuidelinesNDSAP2015?**
+[^63]: OGD Division, NIC, *Implementation Guidelines for NDSAP*.
 
-[^64]: **GovernmentOpenData?**
+[^64]: Government Open Data Licence.
 
-[^65]: **panjiarComparisonStatelevelData2022?**
+[^65]: Panjiar and Prateek Waghre, “A Comparison of State-Level Data
+    Policies.”
 
-[^66]: **unitednationsGearingEgovernmentSupport2018?**
+[^66]: The e-Government Survey 2018 : Gearing e-Government to Support
+    Transformation Towards Sustainable and Resilient Societies, “The
+    e-Government Survey 2018.”
 
-[^67]: **nationalstatisticsofficeCensusNepal2021?**
+[^67]: National Statistics Office, *National Census Nepal, 2078 (2021)*.
 
-[^68]: **SupremeCourtNepal?**
+[^68]: “Supreme Court Nepal.”
 
 [^69]: Ministry of Finance, *Fiscal Budget*.
 
-[^70]: **mofagaLocalBudget?**
+[^70]: Ministry of Federal Affairs & General Administration, “Local
+    budget.”
 
-[^71]: **PhilippineStatisticalAct2013?**
+[^71]: The Philippine Statistical Act of 2013 \| Philippine Statistics
+    Authority \| Republic of the Philippines.
 
 [^72]: Dissemination Policy on Microdata Department.
 
-[^73]: **thaipublicaPrayutOrderedElectronic2015?**
+[^73]: ThaiPublica, *Prayut Ordered the Electronic Government Agency
+    (EGA) to Specify the Dataset That Every Government Agency Must
+    Disclose to Reinforcing Anti-Corruption Measures. Preliminary
+    Actions Include ’Procurement and Budget Uses.*
 
-[^74]: **thaipublicaPrayutOrderedElectronic2015?**
+[^74]: ThaiPublica.
 
-[^75]: **ThaiLISDigitalCollection?**
+[^75]: Ministry of Higher Education, Science, Research and Innovation,
+    “ThaiLIS Digital Collection.”
 
-[^76]: **thaijournalonlineThaiJo21?**
+[^76]: Thai Journal Online, “ThaiJo2.1.”
 
-[^77]: **digitalgovernmentdevelopmentagencyGeographicInformationServices2015?**
+[^77]: Digital Government Development Agency, “Geographic Information
+    Services - Open Government Data of Thailand.”
 
 [^78]: Section 7 of the Act reads: “A State agency shall at least
     publish the following official information in the Government Gazette
@@ -4347,11 +5098,13 @@ Statistics Act, 2079 (2022).
     which an alien may enjoy the right under this section shall be
     provided by the Ministerial Regulation.”
 
-[^80]: **OfficialInformationAct1997?**
+[^80]: Official Information Act.
 
-[^81]: **ministryofinteriorReportImplementation2012?**
+[^81]: Permanent Secretary of the Ministry of Interior, *Report on the
+    Implementation in Accordance with the Official Information Act B.E.
+    2540 in the Fiscal Year 2010*.
 
-[^82]: **Openbudgetsindiaorg?**
+[^82]: “Openbudgetsindia.org \| 522: Connection Timed Out.”
 
 [^83]: The Official Information Act 2540 (1997), Section 7 reads “A
     State agency shall at least publish the following official
@@ -4412,67 +5165,83 @@ Statistics Act, 2079 (2022).
     accessed October 29, 2023,
     http://www.oic.go.th/FILEWEB/CABINFOCENTER15/DRAWER053/GENERAL/DATA0000/00000444.PDF
 
-[^86]: **veriteresearchProactiveDisclosureRTI2023?**
+[^86]: Verite Research, *Proactive Disclosure under the RTI Act in Sri
+    Lanka: Ranking Public Authorities 2023*.
 
-[^87]: **veriteresearchProactiveDisclosureRTI2023?**
+[^87]: Verite Research.
 
-[^88]: **veriteresearchProactiveDisclosureRTI2023?**
+[^88]: Verite Research.
 
-[^89]: **veriteresearchProactiveDisclosureRTI2023?**
+[^89]: Verite Research.
 
-[^90]: **ruangchaweeAnnouncementDigitalGovernment2023?**
+[^90]: Ruangchawee, “ประกาศคณะกรรมการพัฒนารัฐบาลดิจิทัล เรื่อง
+    มาตรฐานรัฐบาลดิจิทัลว่าด้วยหลักเกณฑ์การประเมินคุณภาพข้อมูลสำหรับหน่วยงานภาครัฐ
+    (มรด. 5.”
 
-[^91]: **loneyIndiaSharesOpensource2004?**
+[^91]: Loney, “India Shares Open-Source Experience.”
 
-[^92]: **MajorFOSSInitiatives2021?**
+[^92]: Ministry of Electronics and Information Technology, “Major FOSS
+    Initiatives.”
 
-[^93]: **CDACFreeOpen2018?**
+[^93]: Centre for Development of Advanced Computing, “C-DAC Free/Open
+    Source Software.”
 
-[^94]: **NationalPolicyInformation2012?**
+[^94]: **indiaNationalPolicy2012?**
 
-[^95]: **Departmentofelectronics&informationtechnologyPolicyCollaborativeApplication2015?**
+[^95]: Policy on Collaborative Application Development by Opening the
+    Source Code of Applications.
 
-[^96]: **krishnaswamyFreeOpenSource2012?**
+[^96]: Krishnaswamy and Marinova, “Free and Open Source Software (FOSS)
+    in Education.”
 
-[^97]: **AssamITPolicy2009?**
+[^97]: Information Technology Policy of Assam.
 
-[^98]: **NepalEGovernmentInteroperability2011?**
+[^98]: Price waterhouse Coopers, *Nepal e-Government Interoperability
+    Framework (NeGIF)*.
 
-[^99]: **SriLankaGovernmentFOSSAdoption?**
+[^99]: Information and Communication Technology Agency of Sri Lanka
+    (ICTA), *Sri Lanka Government FOSS Adoption Draft*.
 
-[^100]: **sipaTechnology2016?**
+[^100]: Open Source Education and Development Association, “SIPA
+    Technology Meetup 2016 \#6.”
 
-[^101]: **abrahamFreeOpenSource2016?**
+[^101]: Abraham and Marda, *Free and Open Source Software (FOSS) and
+    Open Standards*.
 
-[^102]: **abrahamFreeOpenSource2016?**
+[^102]: Abraham and Marda.
 
-[^103]: **hariharanOpenStandardsPolicy2010?**
+[^103]: Hariharan, “Open Standards Policy in India.”
 
-[^104]: **departmentofinformationtechnologyPolicyOpenStandards2010?**
+[^104]: Policy on Open Standards for e-Governance.
 
-[^105]: **nationalinformaticscentreGuidelinesIndianGovernment2023?**
+[^105]: National Informatics Centre, “Guidelines for Indian Government
+    Websites and Apps 3.0.”
 
-[^106]: **narasimhanAccessibilityGovernmentWebsites2012?**
+[^106]: Narasimhan et al., *Accessibility of Government Websites in
+    India: A Report*.
 
-[^107]: **SummaryUnionBudget2023?**
+[^107]: Press Information Bureau, “Summary of the Union Budget 2023-24.”
 
-[^108]: **matthanIndiasApproachData2022?**
+[^108]: Matthan and Ramann, “India’s Approach to Data Governance - Data
+    Governance, Asian Alternatives.”
 
 [^109]: “ONDC Project.”
 
-[^110]: **swajatiKajianKebijakanDan2021?**
+[^110]: Swajati, *Kajian Kebijakan Dan Sistem Pengelolaan Data
+    Penelitian Indonesia*.
 
 [^111]: See Page 19.
 
-[^112]: **NationalCyberSecurity2023a?**
+[^112]: National Cyber Security Policy, 2080.
 
 [^113]: See Rule 11.17 of the Policy.
 
-[^114]: **NepalEGovernmentInteroperability2011?**
+[^114]: Price waterhouse Coopers, *Nepal e-Government Interoperability
+    Framework (NeGIF)*.
 
 [^115]: Interoperability Standards - GOVPH.
 
-[^116]: **electronicgovernmentagencyGovernmentWebsiteStandard2012?**
+[^116]: Electronic Government Agency, *Government Website Standard*.
 
 [^117]: The Ministry of ICT (the former name of the Ministry of Digital
     Economy and Society) issued the Thai Web Content Accessibility
@@ -4489,72 +5258,74 @@ Statistics Act, 2079 (2022).
     technologies. Hypertext Markup Language (HTML) should be at least
     HTML 4.01 and XHTML 1.0 versions.
 
-[^118]: **RightInformationAct2007?**
+[^118]: Right to Information Act 2064, 4/2007.
 
 [^119]: See Section 27 of the Act.
 
-[^120]: **RightInformationAct2007?**
+[^120]: Right to Information Act 2064, 4/2007.
 
 [^121]: See Section 27(5) of the Act.
 
 [^122]: Table S.No.9, Decision of the Council of Ministers Meeting held
     on 2079/11/15 (27<sup>th</sup> February, 2023)
 
-[^123]: **AmendmentsDepartmentCircular2020?**
+[^123]: DC 010 (Cloud First).
 
 [^124]: See Section 12.2 of the Policy.
 
-[^125]: **srilankaBankingActDirections2021?**
+[^125]: Central Bank of Sri Lanka, *Banking Act Directions No. 16 of
+    2021: Regulatory framework on technology risk management and
+    resilience for licensed banks*.
 
-[^126]: **ComputerRelatedCrimeAct2007?**
+[^126]: Computer-Related Crime Act B.E.2550 (2007).
 
 [^127]: See Section 26 of the Act.
 
-[^128]: **PersonalDataProtection2019?**
+[^128]: Personal Data Protection Act, vol. 2019.
 
 [^129]: See Section 23(3) of the Act.
 
-[^130]: **PersonalDataProtection2019?**
+[^130]: Personal Data Protection Act, vol. 2019.
 
 [^131]: See Section 37(3) of the Act.
 
-[^132]: **nepalTelecommunicationsAct1993?**
+[^132]: Telecommunications Act, 18/1997.
 
 [^133]: See Section 19 of the Act.
 
-[^134]: **PressPublicationAct1991?**
+[^134]: Press and Publication Act, 2048 (1991) – Nepal Law Commission.
 
 [^135]: See Section 14 of the Act.
 
-[^136]: **PressPublicationAct1991?**
+[^136]: Press and Publication Act, 2048 (1991) – Nepal Law Commission.
 
 [^137]: See Section 15 of the Act.
 
 [^138]: See Section 14 of the Act.
 
-[^139]: **PressPublicationAct1991?**
+[^139]: Press and Publication Act, 2048 (1991) – Nepal Law Commission.
 
 [^140]: See Section 16 of the Act.
 
-[^141]: **InventoryExceptionsExecutive2016?**
+[^141]: Inventory of Exceptions to Executive Order No. 2 (s. 2016).
 
-[^142]: **IndigenousPeoplesRights1997?**
+[^142]: The Indigenous Peoples’ Rights Act of 1997.
 
-[^143]: **ConstitutionSL2023?**
+[^143]: Constitution of the Democratic Socialist Republic of Sri Lanka.
 
 [^144]: See Article 14(2) of the Constitution.
 
-[^145]: **OnlineSafetyAct2024a?**
+[^145]: Online Safety Act, vol. 2024.
 
-[^146]: **PublicInformationDisclosure2008?**
+[^146]: Public Information Disclosure Act, UU 14/2008.
 
 [^147]: See Article 6 of the Law.
 
-[^148]: **PublicInformationDisclosure2008?**
+[^148]: Public Information Disclosure Act, UU 14/2008.
 
 [^149]: See Articles 23-25 of the Law.
 
-[^150]: **RuleCybercrimeWarrants2018?**
+[^150]: Rule on Cybercrime Warrants.
 
 [^151]: Anti-Terrorism Act.
 
@@ -4569,36 +5340,39 @@ Statistics Act, 2079 (2022).
     description of messages submitted for transmission by, or
     transmitted or received by telecommunication.”
 
-[^153]: **srilankaPersonalDataProtection2022?**
+[^153]: Personal Data Protection Act.
 
-[^154]: **royalgazetteAnnouncementPersonalData2023?**
+[^154]: Announcement of the Personal Data Protection Committee on the
+    criteria for the protection of personal data transmitted or
+    transferred to foreign Countries under Section 28 of the Personal
+    Data Protection Act B.E. 2562.
 
-[^155]: **nepalCopyrightAct2002?**
+[^155]: The Copyright Act 2059, 8/2002.
 
 [^156]: See Section 16 of the Act.
 
-[^157]: **nepalCopyrightAct2002?**
+[^157]: The Copyright Act 2059, 8/2002.
 
 [^158]: See Section 17 of the Act.
 
-[^159]: **nepalCopyrightAct2002?**
+[^159]: The Copyright Act 2059, 8/2002.
 
 [^160]: See Section 17 of the Act.
 
-[^161]: **nepalCopyrightAct2002?**
+[^161]: The Copyright Act 2059, 8/2002.
 
 [^162]: See Section 19 of the Act.
 
-[^163]: **nepalCopyrightAct2002?**
+[^163]: The Copyright Act 2059, 8/2002.
 
 [^164]: See Section 20 of the Act.
 
-[^165]: **nepalCopyrightAct2002?**
+[^165]: The Copyright Act 2059, 8/2002.
 
 [^166]: See Section 22 of the Act.
 
-[^167]: **srilankaIntellectualPropertyAct2003?**
+[^167]: Intellectual Property Act, 36/ 2003.
 
-[^168]: **srilankaIntellectualPropertyAct2003?**
+[^168]: Intellectual Property Act, 36/ 2003.
 
-[^169]: **IndiaCopyrightAmendmentAct2012?**
+[^169]: The Copyright (Amendment) Act.

@@ -591,7 +591,18 @@ async function main() {
     const manualFalsePositives = await loadManualOverrides(PATHS.MANUAL_FALSE_POSITIVES);
     const manualTruePositives = await loadManualOverrides(PATHS.MANUAL_TRUE_POSITIVES);
 
-    console.log(`Loaded ${failingKeys.length} failing keys and ${validKeys.length} valid keys.`);
+    // ENHANCEMENT: If manual-only, also include all manual override 'failing' keys
+    // This allows renaming keys that already exist in the bibliography.
+    if (MODE.MANUAL_ONLY) {
+      for (const pair of manualTruePositives) {
+        const [fail] = pair.split("|");
+        if (!failingKeys.includes(fail)) {
+          failingKeys.push(fail);
+        }
+      }
+    }
+
+    console.log(`Loaded ${failingKeys.length} keys to check (${validKeys.length} valid keys available).`);
 
     const fileContents = new Map<string, string>();
     try {

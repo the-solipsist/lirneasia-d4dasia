@@ -385,7 +385,7 @@ to refer to “diverse arrangements, including technical, policy,
 regulatory or institutional provisions, that affect data and their
 creation, collection, storage, use, protection, access, sharing and
 deletion across policy domains and organizational and national
-borders.”[^1]
+borders”.[^1]
 
 # Country overview
 
@@ -789,39 +789,39 @@ In Thailand, a ministerial or departmental announcement is a type of
 secondary legislation that a department can issue within the scope
 allowed by an act. By virtue of the DPASDA, the DGDC issued the
 Announcement on Data Governance for Government on 12 March 2020
-\[[^51]\].[^52] It serves as the foundation for policies and legal
-measures that explicitly address data governance. The announcement
-states clearly that the Thai government’s data governance serves as a
-set of principles and guidelines for all government agencies to follow
-in order to develop systems that effectively manage and integrate
-discrete and disparate pieces public information, as well as safeguard
-them with reliable data security mechanisms.[^53] Besides the
-announcement, DGA also issued the Data Governance for Government
-Handbook version 1.0 in 2018. It provides essential information about
-data governance in the form of the core concepts, definitions, framework
-of data governance, data rules, metrics and success measures, data
-quality and security assessments as well as case studies of Australia,
-South Korea and the United Kingdom as good models of data
-governance.[^54] In 2020, DGDC also issued the Announcement on
-Disclosure of Public Sector Information in Digital Format to the Public
-and the 2020 Handbook.[^55] The aim of this announcement is to mandate
-all government agencies to make the information in their possession
-ready for public availability and free of charge. The handbook
-accompanying the announcement provides a set of guidelines to ensure
-standardization in how data is made accessible, usable, and shareable.
-It also specifies the file formats used to store and exchange data,
-ensuring the data can be accessed and used without proprietary
-constraints, with an expectation that the information will be circulated
-and utilized for wider benefits and interests. Furthermore, the
-announcement requires the establishment of a central information center,
-which will serve as a liaison and facilitator between various government
-agencies in order to make public information available to the
-public.[^56] The handbook contains details regarding the nature of
-information that is disclosed, the criteria that should be taken into
-account when evaluating whether public information is ready to be made
-available, the procedure for making information publicly available, the
-designated center for public information, and potential applications of
-public information.[^57]
+\[Digital Government Development Agency[^51]\].[^52] It serves as the
+foundation for policies and legal measures that explicitly address data
+governance. The announcement states clearly that the Thai government’s
+data governance serves as a set of principles and guidelines for all
+government agencies to follow in order to develop systems that
+effectively manage and integrate discrete and disparate pieces public
+information, as well as safeguard them with reliable data security
+mechanisms.[^53] Besides the announcement, DGA also issued the Data
+Governance for Government Handbook version 1.0 in 2018. It provides
+essential information about data governance in the form of the core
+concepts, definitions, framework of data governance, data rules, metrics
+and success measures, data quality and security assessments as well as
+case studies of Australia, South Korea and the United Kingdom as good
+models of data governance.[^54] In 2020, DGDC also issued the
+Announcement on Disclosure of Public Sector Information in Digital
+Format to the Public and the 2020 Handbook.[^55] The aim of this
+announcement is to mandate all government agencies to make the
+information in their possession ready for public availability and free
+of charge. The handbook accompanying the announcement provides a set of
+guidelines to ensure standardization in how data is made accessible,
+usable, and shareable. It also specifies the file formats used to store
+and exchange data, ensuring the data can be accessed and used without
+proprietary constraints, with an expectation that the information will
+be circulated and utilized for wider benefits and interests.
+Furthermore, the announcement requires the establishment of a central
+information center, which will serve as a liaison and facilitator
+between various government agencies in order to make public information
+available to the public.[^56] The handbook contains details regarding
+the nature of information that is disclosed, the criteria that should be
+taken into account when evaluating whether public information is ready
+to be made available, the procedure for making information publicly
+available, the designated center for public information, and potential
+applications of public information.[^57]
 
 In 2023, DGA issued the Data Governance for Government Handbook version
 2.0 The second version incorporates several modifications and
@@ -908,14 +908,15 @@ The OPDC, Office of the Council of State, Electronic Transactions
 Development Agency (ETDA), and DGA issued two Handbooks on Carrying Out
 of Public Service via Electronic Means. One edition is designed for
 novices, while the other is intended for more experienced government
-agencies \[[^68]\].[^69] These handbooks provide guidelines regarding
-submission/receipt of petitions or cases, contacting government
-agencies, sending/receiving electronic documents, presenting evidence,
-and the preparation and verification of licenses. Importantly, they also
-set standards for the format of electronic documents to be in PDF, JPEG
-and BMP. Furthermore, in the case that certification is necessary, the
-document in question needs to be certified by the National Root
-Certification Authority of Thailand.[^70]
+agencies \[Digital Government Development Agency[^68]\].[^69] These
+handbooks provide guidelines regarding submission/receipt of petitions
+or cases, contacting government agencies, sending/receiving electronic
+documents, presenting evidence, and the preparation and verification of
+licenses. Importantly, they also set standards for the format of
+electronic documents to be in PDF, JPEG and BMP. Furthermore, in the
+case that certification is necessary, the document in question needs to
+be certified by the National Root Certification Authority of
+Thailand.[^70]
 
 DGDC also issued another major standard called TGIX with the aim of
 standardizing data format and data exchange protocol between government
@@ -2033,9 +2034,10 @@ whole.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-ActCarrying2022" class="csl-entry">
+<div id="ref-thailandEgovAct2022" class="csl-entry">
 
-Act on Carrying Out of Public Service via Electronic Means (2022).
+Act on Carrying Out of Public Service via Electronic Means, B.E.
+2565/2022 (2022).
 <https://lawreform.go.th/uploads/files/1667961793-fzd72-1f3cw.pdf>.
 
 </div>
@@ -2047,7 +2049,17 @@ Announcement of Digital Government Committee on Data Governance (2020).
 
 </div>
 
-<div id="ref-royalgazetteAnnouncementDisclosure2020" class="csl-entry">
+<div id="ref-thailandAnnouncementPDPC2023" class="csl-entry">
+
+Announcement of the Personal Data Protection Committee on the criteria
+for the protection of personal data transmitted or transferred to
+foreign Countries under Section 28 of the Personal Data Protection Act
+B.E. 2562, § ประกาศและคำสั่งสำนักงาน (2023).
+<https://www.pdpc.or.th/2500/>.
+
+</div>
+
+<div id="ref-thailandAnnouncementDisclosure2020" class="csl-entry">
 
 Announcement on Disclosure of Public Sector Information in Digital
 Format to the Public (2020).
@@ -2071,12 +2083,44 @@ Rights in Thai Political History.” 2001, 1–10.
 
 </div>
 
+<div id="ref-armedforcessecuritycenterArmedForces" class="csl-entry">
+
+Armed Forces Security Center. “Armed Forces Security Center.” Accessed
+November 7, 2023. <https://afsc.rtarf.mi.th/>.
+
+</div>
+
 <div id="ref-banisarGlobalTrends1999" class="csl-entry">
 
 Banisar, David, and Simon Davies. “Global Trends in Privacy Protection:
 An International Survey of Privacy, Data Protection, and Surveillance
 Laws and Developments.” *Marshall J. Computer & Info. L.* 18 (1999):
 1–112.
+
+</div>
+
+<div id="ref-bankofthailandCriteria2021" class="csl-entry">
+
+Bank of Thailand. “Bank of Thailand’s Criteria for Supervising and
+Overseeing Information Technology Risks in Accordance with Laws Related
+to Payment Transactions.” February 8, 2021.
+<https://www.bot.or.th/content/dam/bot/fipcs/documents/FOG/2564/ThaiPDF/25640024.pdf>.
+
+</div>
+
+<div id="ref-bankofthailandPolicyGuidelines2021" class="csl-entry">
+
+Bank of Thailand. “Bank of Thailand’s Policy Guidelines on Data
+Governance.” September 23, 2021.
+<https://www.bot.or.th/content/dam/bot/fipcs/documents/FPG/2564/ThaiPDF/25640163.pdf>.
+
+</div>
+
+<div id="ref-bankofthailandDStatementService2022" class="csl-entry">
+
+Bank of Thailand. “dStatement Service (Digital Bank Statement).” January
+24, 2022.
+<https://www.bot.or.th/th/financial-innovation/digital-finance/digital-bank-statement.html>.
 
 </div>
 
@@ -2096,7 +2140,7 @@ Publicly Available Information of Tax.” Chulalongkorn University, 2021.
 
 </div>
 
-<div id="ref-ComputerRelatedCrime2007" class="csl-entry">
+<div id="ref-thailandComputerRelatedCrimeAct2007" class="csl-entry">
 
 Computer-Related Crime Act B.E.2550 (2007) (2007).
 <https://www.mdes.go.th/law/detail/3618-COMPUTER-RELATED-CRIME-ACT-B-E--2550--2007->.
@@ -2134,6 +2178,24 @@ class="csl-entry">
 
 </div>
 
+<div id="ref-digitalgovernmentdevelopmentagencyEbookGuidelines2023"
+class="csl-entry">
+
+Digital Government Development Agency. *E-Book Guidelines for Initial*.
+2023.
+<https://standard.dga.or.th/wp-content/uploads/2023/05/E-BOOK-Guidelines-for-Initial.pdf>.
+
+</div>
+
+<div id="ref-digitalgovernmentdevelopmentagencyEBOOKGuidelinesforStandardpdf2023"
+class="csl-entry">
+
+Digital Government Development Agency.
+*E-BOOK-Guidelines-for-Standard.pdf*. 2023.
+<https://standard.dga.or.th/wp-content/uploads/2023/05/E-BOOK-Guidelines-for-Standard.pdf>.
+
+</div>
+
 <div id="ref-digitalgovernmentdevelopmentagencyGeographicInformation2015"
 class="csl-entry">
 
@@ -2152,11 +2214,57 @@ Government Development Plan of Thailand for the years 2020-2022.” 2021.
 
 </div>
 
+<div id="ref-digitalgovernmentdevelopmentagencyHistoryDraft2021"
+class="csl-entry">
+
+Digital Government Development Agency. “History of (the Draft) of the
+Digital Government Development Plan of Thailand for the years
+2017-2021.” 2021.
+<https://www.dga.or.th/policy-standard/policy-regulation/dga-019/dga-025/dga-032/>.
+
+</div>
+
+<div id="ref-DGDAHomepage" class="csl-entry">
+
+Digital Government Development Agency. “Homepage.” Accessed November 7,
+2023. <https://www.dga.or.th/en/>.
+
+</div>
+
 <div id="ref-digitalgovernmentdevelopmentagencyQAOpen2015"
 class="csl-entry">
 
 Digital Government Development Agency. “Q&A - Open Government Data of
 Thailand.” 2015. <https://data.go.th/pages/about-open-data>.
+
+</div>
+
+<div id="ref-digitalgovernmentdevelopmentagencyDigitalGovernment2020"
+class="csl-entry">
+
+Digital Government Development Agency. *The Digital Government
+Development Plan 2020-2022 as Published in Royal Gazette*. 2020.
+<https://www.dga.or.th/wp-content/uploads/2021/03/%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%90%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5-2563-2565-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%A5%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%88%E0%B8%B2%E0%B8%99.pdf>.
+
+</div>
+
+<div id="ref-digitalgovernmentdevelopmentagencyDigitalGovernment2016"
+class="csl-entry">
+
+Digital Government Development Agency. “The Digital Government
+Development Plan of Thailand for the 3-year period 2016-2018.”
+สำนักงานพัฒนารัฐบาลดิจิทัล (องค์การมหาชน) สพร. หรือ DGA, 2016.
+<https://www.dga.or.th/policy-standard/policy-regulation/dga-019/dga-026/dga-038/>.
+
+</div>
+
+<div id="ref-digitalgovernmentdevelopmentagencyDigitalGovernment2022"
+class="csl-entry">
+
+Digital Government Development Agency. “The Digital Government
+Development Plan of Thailand for the years 2023-2027.”
+สำนักงานพัฒนารัฐบาลดิจิทัล (องค์การมหาชน) สพร. หรือ DGA, 2022.
+<https://www.dga.or.th/policy-standard/policy-regulation/dga-019/dga-027/dg-plan-2566-2570/>.
 
 </div>
 
@@ -2175,6 +2283,15 @@ class="csl-entry">
 
 <div id="ref-directoroftheofficeoftheofficialinformationcommissionthailand2023"
 class="csl-entry">
+
+</div>
+
+<div id="ref-elamchamroonlarpApproachDisclosure2023" class="csl-entry">
+
+Elamchamroonlarp, Piti. “An Approach for Disclosure of Official
+Information containing Personal Data.” *Nitipat NIDA Law Journal* 12,
+no. 1 (2023): 1.
+<https://so04.tci-thaijo.org/index.php/nitipat/article/view/263675>.
 
 </div>
 
@@ -2216,12 +2333,103 @@ class="csl-entry">
 
 </div>
 
+<div id="ref-limBlackMay" class="csl-entry">
+
+Lim, Eric. “Black May 1992 – the Last Shot Fired in Anger?” Tour Bangkok
+Legacies. Accessed October 29, 2023.
+<https://www.tour-bangkok-legacies.com/black-may-1992.html>.
+
+</div>
+
+<div id="ref-ministryofdigitaleconomyandsocietyMinistryDigital2019"
+class="csl-entry">
+
+Ministry of Digital Economy and Society. “Ministry of Digital Economy
+and Society Opens Anti-Fakenews Center.” November 1, 2019.
+<https://www.mdes.go.th/news/detail/1877-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%A3%E0%B8%A7%E0%B8%87%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B8%AF-%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%A1--Anti-Fake-News-Center->.
+
+</div>
+
+<div id="ref-ministryofhighereducationscienceresearchandinnovationThaiLISDigital"
+class="csl-entry">
+
+Ministry of Higher Education, Science, Research and Innovation. “ThaiLIS
+Digital Collection.” Accessed October 29, 2023.
+<https://tdc.thailis.or.th/tdc/basic.php>.
+
+</div>
+
+<div id="ref-ministryofinformationandcommunicationtechnologyDigitalThailand2016"
+class="csl-entry">
+
+Ministry of Information and Communication Technology. *Digital Thailand
+Pocket Book*. 2016.
+<https://onde.go.th/assets/portals//files/Digital%20Thailand%20pocket%20book%20EN-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%A2%E0%B9%88%E0%B8%AD.pdf>.
+
+</div>
+
+<div id="ref-ministryofpublichealthDraftThailands2022"
+class="csl-entry">
+
+Ministry of Public Health. “"(Draft) Thailand’s 5-Year Digital Health
+System Implementation Plan (B.E. 2566-2570).” October 2022.
+<https://ict.moph.go.th/upload_file/files/185a8b3c164b5f4cd428a2e78bd46a5d.pdf>.
+
+</div>
+
+<div id="ref-ministryofpublichealthMinistryPublic2023"
+class="csl-entry">
+
+Ministry of Public Health. “Ministry of Public Health’s Focal Policies
+2023.” 2023.
+<https://www.moph.go.th/document/ziZkcZVnmzB1i5NciAaW1jDqFHhEcfrm.pdf>.
+
+</div>
+
+<div id="ref-ministryofpublichealthMOPHData" class="csl-entry">
+
+Ministry of Public Health. “MOPH Data Center Service.” Ministry of
+Public Health Data Center Service. Accessed November 7, 2023.
+<https://ict.moph.go.th/>.
+
+</div>
+
+<div id="ref-nationalcreditbureauNationalCredit" class="csl-entry">
+
+National Credit Bureau. “National Credit Bureau.” Accessed November 10,
+2023. <https://www.ncb.co.th/>.
+
+</div>
+
+<div id="ref-nationalhealthsecurityofficeNationalHealth"
+class="csl-entry">
+
+National Health Security Office. “National Health Security Office.”
+Accessed November 8, 2023. <https://www.nhso.go.th/home>.
+
+</div>
+
 <div id="ref-nationalhealthsecurityofficePhilosophyBackground"
 class="csl-entry">
 
 National Health Security Office. “Philosophy Background.” Accessed
 November 8, 2023.
 <https://eng.nhso.go.th/view/1/Philosophy_Background/EN-US>.
+
+</div>
+
+<div id="ref-NationalIntelligenceAgency" class="csl-entry">
+
+National Intelligence Agency. “National Intelligence Agency.” Accessed
+November 7, 2023. <https://www.nia.go.th/main/th/1/>.
+
+</div>
+
+<div id="ref-nationalrootcertificateauthorityofthailandThailandNational2017"
+class="csl-entry">
+
+National Root Certificate Authority of Thailand. “Thailand National Root
+Certification.” 2017. <https://www.nrca.go.th/content/issue-cert.html>.
 
 </div>
 
@@ -2234,6 +2442,40 @@ from Software Industry Promotion Agency (SIPA).” NSTDA. Accessed July
 
 </div>
 
+<div id="ref-nationalstatisticalofficeIntroductionGovernmentData2020"
+class="csl-entry">
+
+National Statistical Office. “Introduction to Government Data Catalogs.”
+2020.
+<https://gdhelppage.nso.go.th/data/0_01/files/file_p00_01_007_02.pdf>.
+
+</div>
+
+<div id="ref-nationalstatisticalofficeNationalStatistical2023"
+class="csl-entry">
+
+National Statistical Office. “National Statistical Office Website.”
+2023. <https://www.nso.go.th/nsoweb/index>.
+
+</div>
+
+<div id="ref-nationalstrategysecretariatofficeNationalStrategy"
+class="csl-entry">
+
+National Strategy Secretariat Office. *National Strategy 2018-2037 : A
+Short Version*. n.d. Accessed October 23, 2023.
+<https://oia.coj.go.th/th/content/category/detail/id/8/cid/5885/iid/93993>.
+
+</div>
+
+<div id="ref-nectecThailand" class="csl-entry">
+
+NECTEC. “National Electronics and Computer Technology Center.” Accessed
+November 11, 2023.
+<https://www.nectec.or.th/pub/review-software/index.html#:~:text=%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%AD%E0%B8%B4%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C,%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%20%E0%B8%AD%E0%B8%B5%E0%B8%81%E0%B8%97%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%A1%E0%B8%B5%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3>.
+
+</div>
+
 <div id="ref-ministryofpublichealthNo3782565Ministry2022"
 class="csl-entry">
 
@@ -2241,6 +2483,14 @@ No.378-2565 Ministry of Public Health’s Order on Delegating
 Responsibilities to Agencies to Control and Supervise Critical
 Information Infrastructure in the Public Health Sector (2022).
 <https://cyber.moph.go.th/uploads/policy/%E0%B8%97%E0%B8%B5%E0%B9%88%20378-2565%20%E0%B8%A1%E0%B8%AD%E0%B8%9A%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%20Regulator.pdf>.
+
+</div>
+
+<div id="ref-oderingLibraryGuides2024" class="csl-entry">
+
+Odering, Jason. “Library Guides: Southeast Asian Region Countries Law:
+Thailand.” 2024.
+<https://unimelb.libguides.com/c.php?g=930183&p=6722017>.
 
 </div>
 
@@ -2257,6 +2507,16 @@ https://web.archive.org/web/20231116075558/https://www.oecd-ilibrary.org/science
 
 Office of the Council of State. “Law Portal.”
 <https://searchlaw.ocs.go.th/council-of-state/#/public/browse>.
+
+</div>
+
+<div id="ref-officeofthenationaleconomicandsocialdevelopmentboardofficeoftheprimeministerSummaryTwelfth"
+class="csl-entry">
+
+Office of the National Economic and Social Development Board Office of
+the Prime Minister. *Summary of The Twelfth National Economic and Social
+Development Plan 2017-2021*. n.d. Accessed October 23, 2023.
+<https://www.nesdc.go.th/ewt_dl_link.php?nid=9640>.
 
 </div>
 
@@ -2278,6 +2538,15 @@ Information Commission - Missions.” 2013.
 
 </div>
 
+<div id="ref-officeoftheofficialinformationcommissionNewsletter2013"
+class="csl-entry">
+
+Office of the Official Information Commission. “Office of the Official
+Information Commission Newsletter.” 2013.
+<http://www.oic.go.th/FILEROOM/CABOICFORM05/DRAWER02/GENERAL/DATA0002/00002808.PDF>.
+
+</div>
+
 <div id="ref-officeoftheofficialinformationcommissionSummaryKey1997"
 class="csl-entry">
 
@@ -2296,6 +2565,23 @@ Personal Data Protection Act B.E.2562.” n.d. Accessed October 29, 2023.
 
 </div>
 
+<div id="ref-officialwebsiteoftheinternationaltradeadministrationThailandCountry"
+class="csl-entry">
+
+Official Website of the International Trade Administration. “Thailand -
+Country Commercial Guide.” Accessed October 29, 2023.
+<https://www.trade.gov/country-commercial-guides/thailand-trade-agreements>.
+
+</div>
+
+<div id="ref-SIPATechnology2016" class="csl-entry">
+
+Open Source Education and Development Association. “SIPA Technology
+Meetup 2016 \#6.” 2016.
+<https://www.oseda.or.th/th/8-news/news/96-sipa-technology-meetup-2016>.
+
+</div>
+
 <div id="ref-permanentsecretaryoftheministryofinteriorReportImplementation2012"
 class="csl-entry">
 
@@ -2303,6 +2589,32 @@ Permanent Secretary of the Ministry of Interior. *Report on the
 Implementation in Accordance with the Official Information Act B.E. 2540
 in the Fiscal Year 2010*. 2012.
 <http://www.oic.go.th/FILEWEB/CABINFOCENTER15/DRAWER053/GENERAL/DATA0000/00000444.PDF>.
+
+</div>
+
+<div id="ref-thailandPersonalDataAct2021" class="csl-entry">
+
+Personal Data Protection Act B.E. 2562 (2019) (English Version) (2021).
+<https://data.thailand.opendevelopmentmekong.net/en/laws_record/2562/resource/ec616be5-9fbf-4071-b4b5-cb1f3e46e826>.
+
+</div>
+
+<div id="ref-personaldataprotectioncommitteeGuidelinesObtaining"
+class="csl-entry">
+
+Personal Data Protection Committee. “Guidelines for Obtaining Consent
+from the Owner of Personal Data in Accordance with the Personal Data
+Protection Act B.E. 2562.” n.d. Accessed November 9, 2023.
+<https://www.mdes.go.th/law/detail/6045-%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B3%E0%B9%80%E0%B8%99%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B8%AD%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%A2%E0%B8%AD%E0%B8%A1%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%84%E0%B8%A5-%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%84%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%84%E0%B8%A5-%E0%B8%9E-%E0%B8%A8--%E0%B9%92%E0%B9%95%E0%B9%96%E0%B9%92>.
+
+</div>
+
+<div id="ref-plumkosonProtectionRight2022" class="csl-entry">
+
+Plumkoson, Paradee, Auntika Na Pibul, and Varaporn Vanaphituk.
+“Protection of the Right to Be Forgotten on the Internet: The Study of
+Search Engine.” *Rajapark Journal* 16, no. 45 (2022): 45.
+<https://so05.tci-thaijo.org/index.php/RJPJ/article/view/255766>.
 
 </div>
 
@@ -2315,6 +2627,56 @@ Protection Act by Another 1 Year*. 2021.
 
 </div>
 
+<div id="ref-ruangchaweeCriteriaStandards2023" class="csl-entry">
+
+Ruangchawee, Tanatkris. “The Announcement of the Digital Government
+Development Committee regarding the Digital Government Standards on
+Criteria for Assessing the Quality of Data for Government Agencies (MD5:
+2022).” Digital Government Standard, March 27, 2023.
+<https://standard.dga.or.th/dg-std/5785/>.
+
+</div>
+
+<div id="ref-ruangchaweeFormulatingStandards2023" class="csl-entry">
+
+Ruangchawee, Tanatkris. “The Announcement of the Digital Government
+Development Committee regarding the Digital Government Standards on
+Recommendations for Formulating Policies and Practices in Data
+Governance (MD4-1: 2022 and MD4-2: 2022).” Digital Government Standard,
+March 27, 2023. <https://standard.dga.or.th/dg-std/5778/>.
+
+</div>
+
+<div id="ref-ruangchaweeGuidelinesStandards2023" class="csl-entry">
+
+Ruangchawee, Tanatkris. “The Announcement of the Digital Government
+Development Committee regarding the Digital Government Standards on
+Recommendations for Guidelines in Establishing Public Sector Data
+Inventory and Registration Procedures for Public Sector Data Inventory
+(MD3-1: 2022 and MD3-2: 2022).” Digital Government Standard, March 27,
+2023.
+<https://web.archive.org/web/20230331095734/https://standard.dga.or.th/dg-std/5725/>.
+
+</div>
+
+<div id="ref-siamcommercialbankpubliccompanylimitedscbPolicySupervision2023"
+class="csl-entry">
+
+Siam Commercial Bank Public Company Limited (SCB). “Policy on the
+Supervision and Management of Business Operations of Siam Commercial
+Bank Public Company Limited (SCB).” January 17, 2023.
+<https://www.scb.co.th/content/dam/scb/about-us/corporate-governance/documents/2023/cg-policy-2023-th.pdf>.
+
+</div>
+
+<div id="ref-siceTradeAgreementsPeru2022" class="csl-entry">
+
+SICE. “Trade Agreements: Peru - Thailand Free Trade Agreement.” Foreign
+Trade Information System, 2022.
+<http://www.sice.oas.org/Trade/PER_THA_FTA/framework_e.asp>.
+
+</div>
+
 <div id="ref-sombatpoonsiri2014Military2017" class="csl-entry">
 
 Sombatpoonsiri, Janjira. “The 2014 Military Coup in Thailand:
@@ -2324,10 +2686,94 @@ Peacebuilding* 5, no. 1 (2017): 131–54.
 
 </div>
 
-<div id="ref-StatisticsAct2007" class="csl-entry">
+<div id="ref-specialbranchbureau-royalthaipoliceSpecialBranch"
+class="csl-entry">
+
+Special Branch Bureau - Royal Thai Police. “Special Branch Bureau -
+Royal Thai Police.” Accessed November 7, 2023.
+<https://www.sbpolice.go.th/>.
+
+</div>
+
+<div id="ref-nepalStatisticsAct2007" class="csl-entry">
 
 Statistics Act B.E.2550 (2007) (2007).
 <https://www.mdes.go.th/law/detail/3614-%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%AA%E0%B8%96%E0%B8%B4%E0%B8%95%E0%B8%B4-%E0%B8%9E-%E0%B8%A8--%E0%B9%92%E0%B9%95%E0%B9%95%E0%B9%90>.
+
+</div>
+
+<div id="ref-thaijournalonlineThaiJo21Thai" class="csl-entry">
+
+Thai Journal Online. “ThaiJo2.1: Thai Journal Online.” Accessed October
+29, 2023. <https://www.tci-thaijo.org>.
+
+</div>
+
+<div id="ref-thailandlawonlineThailandCriminal" class="csl-entry">
+
+Thailand Criminal Law Text. Accessed October 29, 2023.
+<https://www.thailandlawonline.com/laws-in-thailand/thailand-criminal-law-text-translation#322>.
+
+</div>
+
+<div id="ref-thailanddevelopmentresearchinstitutetdriWhenUsing2023"
+class="csl-entry">
+
+Thailand Development Research Institute (TDRI). “When using AI to manage
+Big Data for surveying the Thai job market.” TDRI: Thailand Development
+Research Institute, August 2, 2023.
+<https://tdri.or.th/2023/08/interview-bigdata-team/>.
+
+</div>
+
+<div id="ref-thaipublicaPrayutOrdered2015" class="csl-entry">
+
+ThaiPublica. *Prayut Ordered the Electronic Government Agency (EGA) to
+Specify the Dataset That Every Government Agency Must Disclose to
+Reinforcing Anti-Corruption Measures. Preliminary Actions Include
+’Procurement and Budget Uses.* August 10, 2015.
+<https://thaipublica.org/2015/08/open-data-7/>.
+
+</div>
+
+<div id="ref-thansettakijDepartmentIntellectual2023" class="csl-entry">
+
+Thansettakij. “The Department of Intellectual Property emphasizes that
+works created by AI ’cannot be registered for copyright.” Thansettakij,
+May 30, 2023. <https://www.thansettakij.com/business/economy/566714>.
+
+</div>
+
+<div id="ref-royalgazetteAnnouncementElectronic2010" class="csl-entry">
+
+The Announcement of the Electronic Transactions Commission on the Policy
+and Practices Guidelines for the Protection of Personal Data of State
+Agencies (2010).
+<https://ictlawcenter.etda.or.th/files/law/file/33/5a42315f04a4f439866e879220ff7227.pdf>.
+
+</div>
+
+<div id="ref-royalgazetteRuleMaintenance2018" class="csl-entry">
+
+The Rule on Maintenance of Official Secrets (No.2) B.E. 2561 (2018).
+<http://www.oic.go.th/FILEWEB/CABINFOCENTER60/DRAWER079/GENERAL/DATA0000/00000035.PDF>.
+
+</div>
+
+<div id="ref-thuvasethakulNationalICT2002" class="csl-entry">
+
+Thuvasethakul, Chadamas, and Thaweesak Koanantakool. “National ICT
+Policy in Thailand.” Paper presented at Africa-Asia Workshop : Promoting
+Co-operation in Information and Communications Technologies Development.
+March 2002.
+
+</div>
+
+<div id="ref-yasudaLawDevelopment2003" class="csl-entry">
+
+Yasuda, Nobuyuki. “Law and Development from the Southeast Asian
+Perspective: Methodology, History, and Paradigm Change.” In *Law and
+Development in East and South-East Asia*, 1st Edition. Routledge, 2003.
 
 </div>
 
@@ -2335,13 +2781,14 @@ Statistics Act B.E.2550 (2007) (2007).
 
 [^1]: OECD, *Going Digital Guide to Data Governance Policy Making*.
 
-[^2]: **yasudaLawDevelopmentSoutheast2002?**
+[^2]: Yasuda, “Law and Development from the Southeast Asian
+    Perspective.”
 
-[^3]: **yasudaLawDevelopmentSoutheast2002?**
+[^3]: Yasuda.
 
-[^4]: **oderingLibraryGuidesSoutheast2024?**
+[^4]: Odering, “Library Guides.”
 
-[^5]: **thuvasethakulNationalICTPolicy2002?**
+[^5]: Thuvasethakul and Koanantakool, “National ICT Policy in Thailand.”
 
 [^6]: Banisar and Davies, “Global Trends in Privacy Protection: An
     International Survey of Privacy, Data Protection, and Surveillance
@@ -2350,16 +2797,17 @@ Statistics Act B.E.2550 (2007) (2007).
 [^7]: Office of the Official Information Commission, “History of Office
     of the Official Information Commission.”
 
-[^8]: **elamchamroonlarpApproachDisclosureOfficial2023?**
+[^8]: Elamchamroonlarp, “An Approach for Disclosure of Official
+    Information containing Personal Data.”
 
 [^9]: Announcement of Digital Government Committee on Data Governance.
 
-[^10]: **opendevelopmentthailandPersonalDataProtection2021?**
+[^10]: Personal Data Protection Act B.E. 2562 (2019) (English Version).
 
 [^11]: Aphornsuvan, “The Search for Order: Constitutions and Human
     Rights in Thai Political History.”
 
-[^12]: **ericlimBlackMay1992?**
+[^12]: Lim, “Black May 1992 – the Last Shot Fired in Anger?”
 
 [^13]: Deputy Director of Data Management and Analytics Department, Bank
     of Thailand, interview, October 20, 2023.
@@ -2383,32 +2831,42 @@ Statistics Act B.E.2550 (2007) (2007).
 
 [^18]: See The Thai Constitution 2017, Sections 65, 142, 162, 270, 275
 
-[^19]: **royalthaigovernmentNationalStrategy20182037?**
+[^19]: National Strategy Secretariat Office, *National Strategy
+    2018-2037 : A Short Version*.
 
 [^20]: *Id.* This agenda aims to “to reform and enhance the country’s
     governmental administrative services based on the principle
     of”government of the people for the people and the common good of
     the nation and the happiness of the public at large.
 
-[^21]: **officeoftheprimeministerSummaryTwelfth?**
+[^21]: Office of the National Economic and Social Development Board
+    Office of the Prime Minister, *Summary of The Twelfth National
+    Economic and Social Development Plan 2017-2021*.
 
-[^22]: **ministryofinformationandcommunicationtechnologyDigitalThailand?**
+[^22]: Ministry of Information and Communication Technology, *Digital
+    Thailand Pocket Book*.
 
-[^23]: **digitalgovernmentdevelopmentagencyPlan2016?**
+[^23]: Digital Government Development Agency, “The Digital Government
+    Development Plan of Thailand for the 3-year period 2016-2018.”
 
-[^24]: **digitalgovernmentdevelopmentagencyHistoryDraftDigital2021?**
+[^24]: Digital Government Development Agency, “History of (the Draft) of
+    the Digital Government Development Plan of Thailand for the years
+    2017-2021.”
 
 [^25]: Digital Government Development Agency, “History of of the Digital
     Government Development Plan of Thailand for the years 2020-2022.”
 
-[^26]: **digitalgovernmentdevelopmentagencyPlan2022?**
+[^26]: Digital Government Development Agency, “The Digital Government
+    Development Plan of Thailand for the years 2023-2027.”
 
-[^27]: **digitalgovernmentdevelopmentagencyPlan2020?**
+[^27]: Digital Government Development Agency, *The Digital Government
+    Development Plan 2020-2022 as Published in Royal Gazette*.
 
 [^28]: Office of the Official Information Commission, “Office of the
     Official Information Commission - Missions.”
 
-[^29]: **officeoftheofficialinformationcommissionNewsletter2013?**
+[^29]: Office of the Official Information Commission, “Office of the
+    Official Information Commission Newsletter.”
 
 [^30]: Office of the Official Information Commission, *Summary of Key
     Points of the Official Information Act B.E.2540*.
@@ -2475,7 +2933,10 @@ Statistics Act B.E.2550 (2007) (2007).
     Implementation in Accordance with the Official Information Act B.E.
     2540 in the Fiscal Year 2010*.
 
-[^36]: **thaipublicaPrayutOrderedElectronic2015?**
+[^36]: ThaiPublica, *Prayut Ordered the Electronic Government Agency
+    (EGA) to Specify the Dataset That Every Government Agency Must
+    Disclose to Reinforcing Anti-Corruption Measures. Preliminary
+    Actions Include ’Procurement and Budget Uses.*
 
 [^37]: Digital Government Development Agency, “Q&A - Open Government
     Data of Thailand.”
@@ -2485,20 +2946,23 @@ Statistics Act B.E.2550 (2007) (2007).
 
 [^39]: Digital Government Development Agency.
 
-[^40]: **nationalstatisticalofficeNSO?**
+[^40]: National Statistical Office, “National Statistical Office
+    Website.”
 
 [^41]: Statistics Act B.E.2550 (2007).
 
-[^42]: **nationalstatisticalofficeIntroductionGovernmentData2020?**
+[^42]: National Statistical Office, “Introduction to Government Data
+    Catalogs.”
 
 [^43]: Electronic Government Agency, *Government Website Standard :
     Version 2.0*.
 
 [^44]: Office of the Council of State, “Law Portal.”
 
-[^45]: **ThaiLISDigitalCollection?**
+[^45]: Ministry of Higher Education, Science, Research and Innovation,
+    “ThaiLIS Digital Collection.”
 
-[^46]: **thaijournalonlineThaiJo21?**
+[^46]: Thai Journal Online, “ThaiJo2.1.”
 
 [^47]: Digital Government Development Agency, “Geographic Information
     Services - Open Government Data of Thailand.”
@@ -2506,17 +2970,18 @@ Statistics Act B.E.2550 (2007) (2007).
 [^48]: Director of the Office of the Official Information Commission
     (Thailand), Jompon Pitaksantayothin, interview, October 27, 2023.
 
-[^49]: **internationaltradeadministrationThailandTrade?**
+[^49]: Official Website of the International Trade Administration,
+    “Thailand - Country Commercial Guide.”
 
-[^50]: **siceTradeAgreementsPeru2022?**
+[^50]: SICE, “Trade Agreements: Peru - Thailand Free Trade Agreement.”
 
-[^51]: **digitalgovernmentdevelopmentagencyHomepage?**
+[^51]: “Homepage.”
 
-[^52]: **royalgazetteAnnouncementDigitalCommittee2020?**
+[^52]: Announcement of Digital Government Committee on Data Governance.
 
-[^53]: **royalgazetteAnnouncementDigitalCommittee2020?**
+[^53]: Announcement of Digital Government Committee on Data Governance.
 
-[^54]: **royalgazetteAnnouncementDigitalCommittee2020?**
+[^54]: Announcement of Digital Government Committee on Data Governance.
 
 [^55]: Announcement on Disclosure of Public Sector Information in
     Digital Format to the Public.
@@ -2527,11 +2992,17 @@ Statistics Act B.E.2550 (2007) (2007).
 [^57]: Announcement on Disclosure of Public Sector Information in
     Digital Format to the Public.
 
-[^58]: **ruangchaweeAnnouncementDigitalGovernment2023?**
+[^58]: Ruangchawee, “ประกาศคณะกรรมการพัฒนารัฐบาลดิจิทัล เรื่อง
+    มาตรฐานรัฐบาลดิจิทัลว่าด้วยหลักเกณฑ์การประเมินคุณภาพข้อมูลสำหรับหน่วยงานภาครัฐ
+    (มรด. 5.”
 
-[^59]: **ruangchaweeAnnouncementDigitalGovernment2023a?**
+[^59]: Ruangchawee, “ประกาศคณะกรรมการพัฒนารัฐบาลดิจิทัล เรื่อง
+    มาตรฐานรัฐบาลดิจิทัลว่าด้วยข้อเสนอแนะสำหรับการจัดทำนโยบายและแนวปฏิบัติการบริหารจัดการข้อมูล
+    (มรด. 4-1.”
 
-[^60]: **ruangchaweeAnnouncementDigitalGovernment2023b?**
+[^60]: Ruangchawee, “ประกาศคณะกรรมการพัฒนารัฐบาลดิจิทัล เรื่อง
+    มาตรฐานรัฐบาลดิจิทัลว่าด้วยข้อเสนอแนะสำหรับแนวทางการจัดทำบัญชีข้อมูลภาครัฐและแนวทางการลงทะเบียนบัญชีข้อมูลภาครัฐ
+    (มรด. 3-1.”
 
 [^61]: Electronic Government Agency, *Government Website Standard*.
 
@@ -2563,39 +3034,46 @@ Statistics Act B.E.2550 (2007) (2007).
 [^66]: Electronic Government Agency, *Government Website Standard :
     Version 2.0*.
 
-[^67]: Public Service via Electronic Means Act 2022.
+[^67]: Public Service via Electronic Means Act 2022, B.E. 2565/2022.
 
-[^68]: **digitalgovernmentdevelopmentagencyEbookInitial2023?**
+[^68]: *E-Book Guidelines for Initial*.
 
-[^69]: **digitalgovernmentdevelopmentagencyEbookStandard2023?**
+[^69]: Digital Government Development Agency,
+    *E-BOOK-Guidelines-for-Standard.pdf*.
 
-[^70]: **nationalrootcertificateauthorityofthailandCertification2017?**
+[^70]: National Root Certificate Authority of Thailand, “Thailand
+    National Root Certification.”
 
-[^71]: **nectecThailand?**
+[^71]: NECTEC, “National Electronics and Computer Technology Center.”
 
-[^72]: **sipaTechnology2016?**
+[^72]: Open Source Education and Development Association, “SIPA
+    Technology Meetup 2016 \#6.”
 
-[^73]: **royalgazetteRuleMaintenanceOfficial2018?**
+[^73]: The Rule on Maintenance of Official Secrets (No.2) B.E. 2561.
 
-[^74]: **nationalintelligenceagencyNIA?**
+[^74]: National Intelligence Agency, “National Intelligence Agency.”
 
-[^75]: **armedforcessecuritycenterAFSC?**
+[^75]: Armed Forces Security Center, “Armed Forces Security Center.”
 
-[^76]: **specialbranchbureauRoyalThaiPolice?**
+[^76]: Special Branch Bureau - Royal Thai Police, “Special Branch
+    Bureau - Royal Thai Police.”
 
 [^77]: Computer-Related Crime Act B.E.2550 (2007).
 
 [^78]: Computer-Related Crime Act B.E.2550 (2007).
 
-[^79]: **ministryofdigitaleconomyandsociety2019?**
+[^79]: Ministry of Digital Economy and Society, “Ministry of Digital
+    Economy and Society Opens Anti-Fakenews Center.”
 
-[^80]: **thailandlawonlineThailandCriminalLaw?**
+[^80]: Thailand Criminal Law Text.
 
-[^81]: **thailandlawonlineThailandCriminalLaw?**
+[^81]: Thailand Criminal Law Text.
 
-[^82]: **thailandlawonlineThailandCriminalLaw?**
+[^82]: Thailand Criminal Law Text.
 
-[^83]: **royalgazetteAnnouncementElectronicTransactions2010?**
+[^83]: The Announcement of the Electronic Transactions Commission on the
+    Policy and Practices Guidelines for the Protection of Personal Data
+    of State Agencies.
 
 [^84]: Digital Government Development Agency, “History of of the Digital
     Government Development Plan of Thailand for the years 2020-2022.”
@@ -2651,16 +3129,21 @@ Statistics Act B.E.2550 (2007) (2007).
     place a security protection of Personal Data in accordance with the
     standard.
 
-[^89]: **personaldataprotectioncommitteeGuidelinesObtainingConsent?**
+[^89]: Personal Data Protection Committee, “Guidelines for Obtaining
+    Consent from the Owner of Personal Data in Accordance with the
+    Personal Data Protection Act B.E. 2562.”
 
 [^90]: Announcement: Establishment of a Data Protection Officer (DPO)
     Under Section 41(2) of the Personal Data Protection Act B.E.2562.
 
-[^91]: **royalgazetteAnnouncementPersonalData2023?**
+[^91]: Announcement of the Personal Data Protection Committee on the
+    criteria for the protection of personal data transmitted or
+    transferred to foreign Countries under Section 28 of the Personal
+    Data Protection Act B.E. 2562.
 
-[^92]: **plumkosonProtectionRightBe2022?**
+[^92]: Plumkoson et al., “การคุ้มครองสิทธิในการถูกลืมบนระบบอินเทอร์เน็ต.”
 
-[^93]: **plumkosonProtectionRightBe2022?**
+[^93]: Plumkoson et al., 374.
 
 [^94]: Google, *Thailand Personal Data Protection Act*.
 
@@ -2674,21 +3157,26 @@ Statistics Act B.E.2550 (2007) (2007).
 
 [^98]: Copyright Act (No.5) B.E.2565 (2022).
 
-[^99]: **thansettakijDepartmentIntellectualProperty2023?**
+[^99]: Thansettakij, “The Department of Intellectual Property emphasizes
+    that works created by AI ’cannot be registered for copyright.”
 
-[^100]: **thailanddevelopmentresearchinstituteWhenUsingAI2023?**
+[^100]: Thailand Development Research Institute (TDRI), “When using AI
+    to manage Big Data for surveying the Thai job market.”
 
 [^101]: No.378-2565 Ministry of Public Health’s Order on Delegating
     Responsibilities to Agencies to Control and Supervise Critical
     Information Infrastructure in the Public Health Sector.
 
-[^102]: **ministryofpublichealthDataCenterService?**
+[^102]: Ministry of Public Health, “MOPH Data Center Service.”
 
-[^103]: **ministryofpublichealthFocalPolicies2023?**
+[^103]: Ministry of Public Health, “Ministry of Public Health’s Focal
+    Policies 2023.”
 
-[^104]: **ministryofpublichealthDraftThailand5Year2022?**
+[^104]: Ministry of Public Health, “"(Draft) Thailand’s 5-Year Digital
+    Health System Implementation Plan (B.E. 2566-2570).”
 
-[^105]: **nationalhealthsecurityofficeNHSO?**
+[^105]: National Health Security Office, “National Health Security
+    Office.”
 
 [^106]: National Health Security Office, “Philosophy Background.”
 
@@ -2697,14 +3185,17 @@ Statistics Act B.E.2550 (2007) (2007).
 [^108]: Legal Consultant who is Specialized in Data Management and
     Protection, interview, October 30, 2023.
 
-[^109]: **bankofthailandPolicy2021?**
+[^109]: Bank of Thailand, “Bank of Thailand’s Policy Guidelines on Data
+    Governance.”
 
-[^110]: **bankofthailandCriteria2021?**
+[^110]: Bank of Thailand, “Bank of Thailand’s Criteria for Supervising
+    and Overseeing Information Technology Risks in Accordance with Laws
+    Related to Payment Transactions.”
 
 [^111]: Bank of Thailand, “Open Banking and Its Benefits for Thai
     People.”
 
-[^112]: **bankofthailandDStatementServiceDigital2022?**
+[^112]: Bank of Thailand, “dStatement Service (Digital Bank Statement).”
 
 [^113]: Deputy Director of Data Management and Analytics Department,
     Bank of Thailand, interview, October 20, 2023.
@@ -2713,14 +3204,17 @@ Statistics Act B.E.2550 (2007) (2007).
 
 [^115]: Credit Information Business Act B.E. 2545 (2002).
 
-[^116]: **nationalcreditbureauNCB?**
+[^116]: National Credit Bureau, “National Credit Bureau.”
 
 [^117]: It should be noted that the National Credit Bureau is a private
     company. However, it has both public and private financial
     institutions as its shareholders.
 
-[^118]: **siamcommercialbankPolicySupervisionManagement?**
+[^118]: Siam Commercial Bank Public Company Limited (SCB), “Policy on
+    the Supervision and Management of Business Operations of Siam
+    Commercial Bank Public Company Limited (SCB).”
 
-[^119]: **kasikornbankTransparencyDataDisclosure?**
+[^119]: Elamchamroonlarp, “An Approach for Disclosure of Official
+    Information containing Personal Data.”
 
-[^120]: **opendevelopmentthailandPersonalDataProtection2021?**
+[^120]: Personal Data Protection Act B.E. 2562 (2019) (English Version).
