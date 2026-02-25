@@ -9,7 +9,7 @@ on:
       - 'reports/**/*.qmd'
       - '_quarto.yml'
       - '_extensions/**'
-      - 'bibliography/**'
+      - '_references/**'
   
   pull_request:
     branches: [ 'main' ]
