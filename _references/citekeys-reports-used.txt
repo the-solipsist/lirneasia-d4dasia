@@ -281,6 +281,9 @@ ictaDigitalDocument2023
 ictaClassificationFramework2015
 ictaInformationClassification2023
 
+# reports/np/d4dasia_country-report_np.qmd
+Pranesh
+
 # reports/ph/d4dasia_country-report_ph.qmd
 oecdGoingDigital2022
 philippinesCivilCode1949
