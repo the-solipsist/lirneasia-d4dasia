@@ -11,7 +11,7 @@ const inputPath = "reports/np/d4dasia_country-report_np.to-clean.md";
 const outputPath = "reports/np/d4dasia_country-report_np.qmd";
 
 console.log("- ".repeat(40));
-console.log(`🧹 CLEANING NEPAL REPORT`);
+console.log(`🧹 CLEANING NEPAL REPORT (FIXING ORPHANED MARKERS)`);
 console.log(`   Input:  ${inputPath}`);
 console.log(`   Mode:   ${isFixMode ? "⚠️  FIX (Writing changes)" : "🔍 DRY RUN"}`);
 console.log("- ".repeat(40));
@@ -47,50 +47,55 @@ let result = [abbreviationsTable];
 
 for (let line of lines) {
     let trimmed = line.trim();
-    
-    // Skip empty lines at the start or metadata-like lines
     if (trimmed === "" && result.length === 1) continue;
     if (line.startsWith("# **Data Governance Framework: Nepal")) continue;
     if (line.includes("Data for Development Asia Project")) continue;
 
-    // 1. Convert List Headings to standard Markdown headings
-    // Level 1: "1. **Title:**"
-    let h1Match = line.match(/^[0-9]+\.\s+\*\*([^*]+)\*\*:?/);
-    if (h1Match) {
+    // Detect list-heading pattern
+    const listHeadingMatch = line.match(/^(\s*)[0-9]+\.\s+\*\*(.*)/);
+    if (listHeadingMatch) {
+        const indent = listHeadingMatch[1].length;
+        const fullContent = listHeadingMatch[0].replace(/^\s*[0-9]+\.\s+/, "");
+        
+        // Split at the first colon that appears after at least one bold marker set
+        // Usually titles are "**Title:** Body"
+        const firstColonIndex = fullContent.indexOf(":");
+        
+        let title = "";
+        let body = "";
+        
+        if (firstColonIndex !== -1) {
+            title = fullContent.substring(0, firstColonIndex).trim();
+            body = fullContent.substring(firstColonIndex + 1).trim();
+            
+            // Clean up title: remove all asterisks
+            title = title.replace(/\*/g, "");
+            
+            // Clean up body: remove any leading orphaned asterisks or formatting residue
+            body = body.replace(/^[*:\s]+/, "");
+        } else {
+            title = fullContent.replace(/\*/g, "").trim();
+        }
+        
+        let level = 1;
+        if (indent >= 6) level = 3;
+        else if (indent >= 3) level = 2;
+        
         result.push("");
-        result.push(`# ${h1Match[1].trim().replace(/:$/, "")}`);
+        result.push("#".repeat(level) + " " + title);
         result.push("");
+        if (body) result.push(body);
         continue;
     }
 
-    // Level 2: "   3. **Title:**"
-    let h2Match = line.match(/^   [0-9]+\.\s+\*\*([^*]+)\*\*:?/);
-    if (h2Match) {
-        result.push("");
-        result.push(`## ${h2Match[1].trim().replace(/:$/, "")}`);
-        result.push("");
-        continue;
-    }
-
-    // Level 3: "      1. **Title:**"
-    let h3Match = line.match(/^      [0-9]+\.\s+\*\*([^*]+)\*\*:?/);
-    if (h3Match) {
-        result.push("");
-        result.push(`### ${h3Match[1].trim().replace(/:$/, "")}`);
-        result.push("");
-        continue;
-    }
-
-    // 2. Strip manual paragraph numbering
-    // e.g. "   1. The significance..." -> "The significance..."
-    // e.g. "      1. The significance..." -> "The significance..."
+    // Strip remaining simple list markers
     let paraMatch = line.match(/^(\s*)([0-9]+\.)\s+(.*)/);
     if (paraMatch) {
         result.push(paraMatch[3].trim());
         continue;
     }
 
-    // 3. Cleanup indentation from other lines
+    // Standard line cleanup
     if (line.startsWith("   ") || line.startsWith("      ")) {
         result.push(line.trim());
     } else {
@@ -100,16 +105,20 @@ for (let line of lines) {
 
 let final = result.join("\n");
 
-// Final cleanup of redundant bolds in headings
-final = final.replace(/^(#+)\s+\*\*([^*]+)\*\*/gm, "$1 $2");
+// Final sweep for redundant newlines
+final = final.replace(/\n{3,}/g, "\n\n");
 
 if (isFixMode) {
     await Deno.writeTextFile(outputPath, final);
-    console.log(`\n✅ Success: Cleaned report written to ${outputPath}`);
+    console.log(`\n✅ Success: Refined report written to ${outputPath}`);
 } else {
-    console.log("\n🔍 PREVIEW (First 60 lines):\n");
+    console.log("\n🔍 PREVIEW (Checking Social Networks section):\n");
     console.log("-".repeat(40));
-    console.log(final.split("\n").slice(0, 60).join("\n"));
+    const finalLines = final.split("\n");
+    const idx = finalLines.findIndex(l => l.includes("Directives for Managing the Use of Social Networks"));
+    if (idx !== -1) {
+        console.log(finalLines.slice(idx - 1, idx + 5).join("\n"));
+    }
     console.log("-".repeat(40));
-    console.log("\nRun with --fix to apply these changes.");
+    console.log("\nRun with --fix to apply.");
 }
