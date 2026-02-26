@@ -106,7 +106,6 @@ DataProtection2023
 DataProtection2023a
 DataProtectionRegulators_July2022_ADAPTpdf
 DatasetsOpen
-DatasetsOpena
 DelhiDeclarationOpen2022
 DelimitationConstituenciesAct
 DepartmentCensus
@@ -243,8 +242,6 @@ IndividualPrivacy
 IndonesiaShiftingMore
 IndustrialStatistics
 InformationCommunication
-InformationCommunicationa
-InformationCommunicationb
 InformationCyber
 InformationTechnology2000
 InformationTechnologyGuidelines
@@ -455,7 +452,6 @@ SROPrivatisation
 Samnakngaankhnakrrmkaarkh`muulkhaawsaarkh`ngraachkaarSkhr
 Samnakngaankhnakrrmkaarphathnaarabbraachkaar
 SapanaPradhan2007
-SapanaPradhanMalla
 Satudata_jakarta
 ScrutinyAnnual2023
 SecretaryMinistry1995
@@ -558,7 +554,6 @@ aseanASEANData2021
 asherBigOpen2022
 asiandevelopmentbankDataDevelopment2022
 asiandevelopmentbankDataManagement2022
-asiandevelopmentbankDataManagementPolicies2022d
 asihPerkembanganRekam2023
 assamITPolicy2009
 attaaGoogleLaunches2015

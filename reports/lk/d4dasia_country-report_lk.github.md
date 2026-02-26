@@ -454,17 +454,17 @@ Council of Sri Lanka Act[^17] No. 10 of 1984.
 The Information and Communication Technology Act No. 27 of 2003 (“ICT
 Act”) provides for the establishment of the Information and
 Communication Technology Agency of Sri Lanka (ICTA), which replaced
-CINTEC as the country’s apex ICT institution[^18] .[^19] In terms of the
-ICT Act, ICTA has been mandated to take all necessary measures to
-implement the Government’s Policy and Action Plan concerning ICT.[^20]
+CINTEC as the country’s apex ICT institution.[^18] In terms of the ICT
+Act, ICTA has been mandated to take all necessary measures to implement
+the Government’s Policy and Action Plan concerning ICT.[^19]
 Specifically, in accordance with Section 6 of the ICT Act, ICTA is
 required to assist the Cabinet of Ministers in formulating the National
 Policy on ICT and provide all necessary information for its development.
 ICTA was established as a company wholly owned by the Government of Sri
-Lanka for five years with a specific ‘sunset clause’.[^21] However, the
+Lanka for five years with a specific ‘sunset clause’.[^20] However, the
 Act was amended in 2008, allowing it a permanent existence and mandating
 it to take all necessary measures to implement the Government’s Policy
-and Action Plan related to ICT.[^22]
+and Action Plan related to ICT.[^21]
 
 Sri Lanka passed the Electronic Transactions Act No. 19 of 2006 (ETA)
 based on the United Nations Commission on International Trade Law
@@ -473,10 +473,10 @@ Electronic Signatures (2001). It provides for functional equivalence to
 electronic contracts and signatures with those of
 paper-based/handwritten. It also enables the legal recognition of
 electronic record retention and the admissibility of electronic evidence
-in courts of law.[^23] The ETA was amended in 2017 to harmonize with the
+in courts of law.[^22] The ETA was amended in 2017 to harmonize with the
 UN Electronic Communication Convention (UN ECC), particularly to
 facilitate the signing of contracts virtually across national
-borders.[^24] Section 23 of the ETA provides restrictions on the
+borders.[^23] Section 23 of the ETA provides restrictions on the
 application of the legislation. Notably, this excludes financial
 transactions, including foreign exchange transactions and those relating
 to settlements and payments. It could be argued that this is to protect
@@ -495,18 +495,18 @@ gave ICTA the mandate to monitor the implementation, review the policy,
 and revise it as necessary. The said policy, among others, provided for
 easy access to government information electronically by citizens, as
 well as online access to government services. Despite its lofty ideals,
-a review by ICTA showed that the implementation was low.[^25]
+a review by ICTA showed that the implementation was low.[^24]
 
 According to a Circular issued by the Presidential Secretariat in 2020,
 the ICTA was tasked with driving the Government’s National digital
-initiatives.[^26]
+initiatives.[^25]
 
 Currently, the ‘National Policy Framework’ of Sri Lanka, under its three
 main pillars of Digital Government, Digital Economy, and Digital
 Services, is said to lay the foundation for transforming the country
 into a technology-based society. ICTA’s Policy Division provides the
 direction and guidance needed by the government in its ‘Digital
-Transformation’.[^27] <a href="#fig-national-policy-framework"
+Transformation’.[^26] <a href="#fig-national-policy-framework"
 class="quarto-xref">Figure 1</a> below depicts this.
 
 <div id="fig-national-policy-framework">
@@ -518,14 +518,15 @@ Figure 1: National Policy Framework for Digital Transformation
 
 </div>
 
-Source: ICTA Policy Division.[^28]
+Source: National Digital Government/Governance Policy for Sri
+Lanka.[^27]
 
 However, a policy directive of the Cabinet of Ministers in May 2024
 states that ICTA will be absorbed by a ‘Digital Transformation
 Authority’ under a new law being drafted, thus vesting it only with the
 responsibilities of policy and strategy aspects. In contrast, ICTA has
 previously been engaged in activities ranging from policy development to
-project implementation.[^29] By a gazette notification in November 2024,
+project implementation.[^28] By a gazette notification in November 2024,
 the Ministry of Digital Economy was created, *inter alia,* the newly
 created Ministry will be responsible for
 
@@ -544,20 +545,20 @@ created Ministry will be responsible for
 ### Right to Information Act No. 12 of 2016
 
 The right to information (RTI) is guaranteed as a fundamental right by
-Article 14A of the Constitution of Sri Lanka.[^30]
+Article 14A of the Constitution of Sri Lanka.[^29]
 
 The Right to Information Act No 12 of 2016 (“RTI Act”) was passed
-unanimously by the Parliament on 4th August 2016.[^31] It commenced
-operationalization on 3 February 2017.[^32] The enactment and
+unanimously by the Parliament on 4th August 2016.[^30] It commenced
+operationalization on 3 February 2017.[^31] The enactment and
 implementation of the RTI Act, together with the establishment of the
 RTI Commission soon after, fulfilled one of the first 13 Open Government
 Partnership (OGP) Commitments made in 2016, when Sri Lanka became the
 OGP’s 68th signatory. The passing of the RTI Act remains a landmark in
 the country’s public governance history. Regrettably, Sri Lanka lost its
 OGP membership in June 2025 due to failure to deliver the action plan
-from the 2019-2021 cycle.[^33] In a global ranking, the Sri Lankan RTI
+from the 2019-2021 cycle.[^32] In a global ranking, the Sri Lankan RTI
 Act has been ranked fourth in the world, based on the provisions and
-safeguards it provides under the Act.[^34]
+safeguards it provides under the Act.[^33]
 
 The RTI Act provides for disclosure of information that is in
 possession, custody or control of a “public authority”.
@@ -592,13 +593,13 @@ Act.
 The National Archives Law provides for the establishment of the
 Department of National Archives, for the transfer of public records to
 the archives and lays down provisions for the custody and preservation
-of public records.[^35][^36]
+of public records.[^34][^35]
 
 In terms of section 9(2) (b)(d) of the Archives Act, public records that
 are not less than twenty-five (25) years old, as required by the
 Director (Director General as designated presently), should be
 transferred to the National Archives Department for permanent
-preservation.[^37]
+preservation.[^36]
 
 #### Observations
 
@@ -649,12 +650,12 @@ paragraphs below discuss the identified gaps.
 #### Current attempts to address policy gaps related to archiving 
 
 A draft ‘National Policy on Archives and Records Management’ was
-recently formulated by the Department of National Archives.[^38] A
+recently formulated by the Department of National Archives.[^37] A
 consultative process was followed in drafting the Policy: a call for
 public written submissions on the policy was issued, and public hearings
 followed the submissions. However, the number of written submissions
 received from outside Colombo, the capital city was very low; as a
-result, hearings were limited to Colombo.[^39]
+result, hearings were limited to Colombo.[^38]
 
 The draft policy identifies many gaps and priority issues that need to
 be addressed and gives detailed recommendations.
@@ -662,10 +663,10 @@ be addressed and gives detailed recommendations.
 Section 16 of the existing Archives Act states that the Minister in
 charge of the subject has the power to make regulations allowing public
 access to public archives and terms and conditions. The Minister also
-has the power to prohibit or restrict disclosure of information.[^40]
+has the power to prohibit or restrict disclosure of information.[^39]
 However, it appears that regulations regarding public access have not
 been recently updated: Gazette Regulations were issued in 1979 and
-amended in 1980.[^41] According to information provided by the National
+amended in 1980.[^40] According to information provided by the National
 Archives, these are the most recently issued regulations.
 
 The lack of updated systems for providing digital access to information
@@ -674,7 +675,7 @@ in the existing archiving regulations. The ‘National Policy on Archives
 and Records Management’ describes this as one of the priority issues
 that needs to be addressed, and the Policy gives detailed
 recommendations on addressing it, including revising the existing
-Archives Act.[^42]
+Archives Act.[^41]
 
 Section 6 of the draft policy is on Digital Records and contains
 recommendations on digital record keeping, preservation, data security,
@@ -684,10 +685,10 @@ providing digital records training and skills.
 A Committee has also been appointed to revise the existing National
 Archives Law. In January 2024, this Committee released the Framework for
 National Archives and Records Management Legislation and a public call
-for comments on the framework was issued.[^43] The framework suggests
+for comments on the framework was issued.[^42] The framework suggests
 provisions that attempt to resolve potential inconsistencies with other
 enactments. For instance, the framework seeks to exempt archives from
-certain provisions of the Personal Data Protection Act.[^44] These
+certain provisions of the Personal Data Protection Act.[^43] These
 exemptions relate to the rights of data subjects and cross-border
 transfer of data.
 
@@ -752,7 +753,7 @@ in the past years.
 ### Survey Act No 17 of 2002 (Survey Act)
 
 The Sri Lanka Survey Department (SLSD) oversees surveying and mapping in
-Sri Lanka.[^45] The Surveyor General is the head of the Department, head
+Sri Lanka.[^44] The Surveyor General is the head of the Department, head
 of the Surveying and Mapping profession, and Chairman of the Land Survey
 Council.  
 
@@ -764,16 +765,16 @@ under Sections 6 and 7 of the said Act, and aerial photography or
 mapping can only be carried out under the “direction and supervision of
 the Surveyor General.” However, it appears that Google Maps or Google
 Street mapping in Sri Lanka was done independently by Google without
-government involvement.[^46] Volunteers also maintain Open Street Maps
+government involvement.[^45] Volunteers also maintain Open Street Maps
 (OSM- geographic databases updated and maintained via open
-collaboration) in Sri Lanka.[^47]
+collaboration) in Sri Lanka.[^46]
 
 The Departmental Survey Regulations (2020) apply to surveys carried out
-by the Survey Department and by registered licensed surveyors.[^48] The
+by the Survey Department and by registered licensed surveyors.[^47] The
 section on Digital Data Management in the regulations describes how a
 Land Information System (LIS) is maintained for the whole country and
 how digital data produced in field surveys has to be shared in this
-system.[^49] Information provided by the Survey Department website
+system.[^48] Information provided by the Survey Department website
 explains how data for the LIS is received through the ‘Bimsaviya’ Survey
 program implemented under the registration of the Land Title project.
 The data included in the LIS system includes details such as ownership
@@ -790,14 +791,14 @@ Department’s website reports that steps are being taken to amend the
 Census Ordinance and the Cabinet of Ministers has given approval to do
 the amendments as required. According to the website, amendments were
 sent to the Legal Draftsman’s Department for drafting the new bill,
-which will then be submitted to Parliament.[^50]
+which will then be submitted to Parliament.[^49]
 
 #### Department of Census and Statistics
 
 The data dissemination section of the Department of Census and
 Statistics (“DCS”) describes data dissemination as ‘releasing or making
 available data obtained from statistical activities such as Surveys or
-Census to users through various forms and media’.[^51] DCS provides
+Census to users through various forms and media’.[^50] DCS provides
 services to the Government, its agencies, the private sector, and the
 general public in their data and information needs under two
 approaches. 
@@ -806,7 +807,7 @@ approaches. 
 
 DCS provides access to the official statistical publications and
 datasets available on its main website electronically and from the
-Departmental sales counter for printed publications.[^52] The DCS
+Departmental sales counter for printed publications.[^51] The DCS
 website has a searchable portal where users can search and download
 publicly available data. Though the website states that datasets are
 publicly available (for example, Labor survey, household income and
@@ -816,12 +817,12 @@ application must be submitted, which must include the details of the
 research study for which data is being requested (including a research
 proposal), the requesting organization, and the details of the
 researchers who will have access to the data. (Reactive
-dissemination)[^53]
+dissemination)[^52]
 
 The Dissemination Policy on Microdata, Department of Census and
 Statistics of 2014 sets out the guidelines that the DCS should follow in
 publishing and disseminating statistical data to all users, in order to
-help in policy formulation and decisionmaking.[^54]  The policy states
+help in policy formulation and decisionmaking.[^53]  The policy states
 that all designated official statistics, either solely produced by DCS
 or in cooperation with other statistics units of the Government, shall
 be disseminated to the public on a regular basis. The policy also states
@@ -891,13 +892,13 @@ not straightforward and is restricted only to certain users.
 
 The policy also lists a website where metadata can be provided to the
 public; however, the website link could not be accessed at the time of
-research.[^55]
+research.[^54]
 
 ### Credit Information Bureau of Sri Lanka (CRIB)
 
 The Credit Information Bureau of Sri Lanka (CRIB) is the first credit
 bureau in the South Asian region, and was established by the Credit
-Information Bureau of Sri Lanka Act No. 18 of 1990 (as amended).[^56]
+Information Bureau of Sri Lanka Act No. 18 of 1990 (as amended).[^55]
 CRIB is an independent statutory body and a public-private partnership,
 with the Monetary Board of the Central Bank of Sri Lanka holding much of
 the equity. The shareholders include all licensed public and private
@@ -909,7 +910,7 @@ information for all borrowers and prospective borrowers. Credit
 information is made available to licensed financial institutions, the
 Central Bank of Sri Lanka, and other entities that have been approved by
 the Monetary Board (Section 7B). Additionally, a person can request
-their report by following the procedure mentioned.[^57]
+their report by following the procedure mentioned.[^56]
 
 ### Declaration of Assets and Liabilities
 
@@ -917,9 +918,9 @@ The Anti-Corruption Act, 2023, is significant not only for the powers
 vested in the Bribery Commission but also for establishing a process for
 citizens to access the assets and liability details of public officials.
 It was enacted to help Sri Lanka rank higher in global transparency and
-ease of doing business indices.[^58] Section 88 states that the public
+ease of doing business indices.[^57] Section 88 states that the public
 can access the electronic centralized system through the official
-website.[^59] Personal details such as residential address, bank account
+website.[^58] Personal details such as residential address, bank account
 details, date of birth/passport number of individuals, etc., are
 redacted. Previously, the Declaration of Assets and Liabilities Act Law
 No. 1 of 1975 provided for disclosure but mandated that such information
@@ -985,11 +986,11 @@ connected communities with the use of technology and introduces the six
 (6) principles of citizen convenience; citizen participation; citizens’
 rights; cost saving; transparency; innovation and transformation.
 
-The policy is still in its draft stage.[^60] The draft that is made
+The policy is still in its draft stage.[^59] The draft that is made
 available says explicitly, “Please do not quote.”
 
 The Digital Government Policy ambitions have been linked to “Associating
-Good Governance Principles Council of Europe ELoGE model”.[^61]
+Good Governance Principles Council of Europe ELoGE model”.[^60]
 
 The detailed policy objectives and various other draft policies under
 the “Digital Government” initiative are in the Annexure.
@@ -1012,7 +1013,7 @@ stability, national infrastructure, forces, commercial entities or
 members of the public*”. This is directly in conflict with the RTI Act
 and the Orders of the RTI Commission. The RTI Commission has, time and
 again, ordered disclosure of salary details and details of benefits /
-allowances paid to public officials.[^62]
+allowances paid to public officials.[^61]
 
 There are also privacy implications associated with these initiatives
 that warrant attention.
@@ -1025,7 +1026,7 @@ data governance structure.
 
 Sri Lanka Government Enterprise Architecture (SL-GEA) is the whole of
 government architectural approach for a digitally inclusive Sri
-Lanka.[^63] A first draft version (v 1.0) was released in April 2023.
+Lanka.[^62] A first draft version (v 1.0) was released in April 2023.
 
 1.  SL-UDI (Sri Lanka Unique Digital Identify) (Ongoing- Not yet
     completed)
@@ -1065,7 +1066,7 @@ Lanka.[^63] A first draft version (v 1.0) was released in April 2023.
     noted that there are only a few data sets. Agriculture has 45, the
     largest number of datasets. Travel and tourism each have one. The
     datasets are also not being updated regularly: as of December 2024
-    the latest dataset is from 2022.[^64] It was noted that in March
+    the latest dataset is from 2022.[^63] It was noted that in March
     2025, one dataset from 2024-2025 was made available.
 
 9.  Government Information Center (GIC) – gic.gov.lk – for citizen
@@ -1086,11 +1087,11 @@ Lanka.[^63] A first draft version (v 1.0) was released in April 2023.
     services from a ‘Certificate Service Provider (CeSP)’. Currently,
     the only CeSP authorized in Sri Lanka is LankaPay (Pvt) Ltd (under
     the brand name LankaSign) established by the CBSL and other licensed
-    commercial banks.[^65] LankaSign uses X.509 digital certificates and
+    commercial banks.[^64] LankaSign uses X.509 digital certificates and
     associated technologies.
 
 In addition to these standards in the Digital Government, there is a
-draft policy on Sri Lanka’s FOSS Adoption.[^66] It states that most of
+draft policy on Sri Lanka’s FOSS Adoption.[^65] It states that most of
 the government’s projects have been developed using FOSS. It mentions
 that using free and open source software has been the practice but makes
 no mention of preferring FOSS for projects. It can be gathered that FOSS
@@ -1101,12 +1102,12 @@ has been the preference.
 In November 2024, the government announced a new initiative to issue
 copies of birth, marriage, and death certificates to Sri Lankans living
 abroad through Sri Lankan embassies, to provide greater convenience for
-those living abroad.[^67]
+those living abroad.[^66]
 
 The program will be launched as a pilot project across seven selected
 foreign missions, including embassies in Kuwait, Japan, and Qatar, as
 well as consulates in Melbourne (Australia), Toronto (Canada), Milan
-(Italy), and Dubai (UAE).[^68]
+(Italy), and Dubai (UAE).[^67]
 
 The press release states that efforts are underway to enhance the e-BMD
 (electronic Birth, Marriage, and Death) database system in Sri Lanka,
@@ -1114,7 +1115,7 @@ which is jointly managed by the Registrar General’s Department and the
 Ministry of Foreign Affairs. This would allow birth, marriage, and death
 certificates to be issued through foreign embassies, following a model
 already in place for obtaining certificates at Divisional Secretariat
-offices across Sri Lanka.[^69]
+offices across Sri Lanka.[^68]
 
 #### Electronic Vehicle Revenue License Project
 
@@ -1123,16 +1124,16 @@ However, it has been plagued by several issues, including slow
 processing and limited capacity. An update is now being planned through
 which vehicle owners will have the convenience of obtaining their
 revenue licenses from any Province, irrespective of the vehicle’s
-original registration province.[^70]
+original registration province.[^69]
 
 #### Mandatory Integration Standard for National Quick Response (QR) Codes
 
 Through Payments and Settlements Systems Circular No. 13 of 2020 dated
 14 May 2020 (“QR Code Circular 2020”), all licensed Banks and licensed
 Operators of Mobile Phone-based e-money systems who offer QR Code-based
-payment solutions were mandated to join LANKAQR.[^71] It can be noted
+payment solutions were mandated to join LANKAQR.[^70] It can be noted
 from an earlier circular that the LANKAQR code standard is based on the
-EMV QR Code, a proprietary, widely-used specification.[^72] By mandating
+EMV QR Code, a proprietary, widely-used specification.[^71] By mandating
 a common standard, the system reduces fragmentation and vendor lock-in,
 thereby promoting openness in data governance through standardized data
 flows, enhanced transparency, and a more inclusive digital payment
@@ -1152,19 +1153,19 @@ DRP may authenticate the NIC details they have received.
 The e-NIC project has now paved the way for a unique digital ID, which
 would integrate the e-NIC within it. Instead of using proprietary
 platforms, the government has decided to use open-source MOSIP for this
-project.[^73] There have been concerns surrounding the capture of data
+project.[^72] There have been concerns surrounding the capture of data
 and the use of the platform in collaboration with an Indian
-counterpart.[^74] In response, it has been stated that “A certified
+counterpart.[^73] In response, it has been stated that “A certified
 Indian system integrator will customize MOSIP for Sri Lanka, while local
 IT professionals will be trained for full operation, maintenance, and
-the future development of the system”.[^75]
+the future development of the system”.[^74]
 
 #### Cloud Strategy and Cloud Policy (Draft)
 
 In June 2025, two drafts, titled “Towards a Sovereign Cloud Strategy for
 Sri Lanka” (Version 0.4) (“Cloud Strategy”) and “Draft Revised Cloud
 Policy and Procurement Guidelines for Interim Use” (Version 0.2) (“Cloud
-Policy”), were released for public consultation.[^76] The Cloud
+Policy”), were released for public consultation.[^75] The Cloud
 Strategy, *inter alia*, highlighted the need for a “hybrid and
 collaborative model” as opposed to an “exclusively government-owned and
 locally managed data centers.” Particularly, one of the objectives is to
@@ -1177,7 +1178,7 @@ environment. It highlights tensions and trade-offs: e.g., between
 openness to hyperscalers vs. sovereignty; innovation vs. strict
 localization; fragmented oversight vs. centralized regulation.
 International case studies from GAIA-X (France and Germany), India,
-Singapore, UAE are also discussed.[^77]
+Singapore, UAE are also discussed.[^76]
 
 The Cloud Policy mandates a classification system for government data
 (public, internal, confidential, restricted, top secret) and ties these
@@ -1187,7 +1188,7 @@ four-tier sensitivity model ensures that the most critical workloads
 Sovereignty Zones (“DSZ”) within Sri Lanka, under exclusive legal and
 operational control. DSZ are defined as “secure, government-certified
 hosting environments physically located within Sri Lanka that operate
-entirely under Sri Lankan jurisdiction”.[^78] They are designed to host
+entirely under Sri Lankan jurisdiction”.[^77] They are designed to host
 the country’s most sensitive digital assets, including top secret and
 national security-related data. Procurement is treated as a core
 governance instrument: all cloud procurements must align with the data
@@ -1203,7 +1204,7 @@ migration to national sovereign cloud through modular designs and
 flexible contract terms; and systems at sensitivity Levels 2 (federated
 or hybrid cloud) and 3 (high sovereignty + conditional localization)
 must support hybrid operation and interoperability while maintaining
-classification and sovereignty compliance.[^79]
+classification and sovereignty compliance.[^78]
 
 In summary, the procurement policy is being used proactively to enforce
 sovereignty, portability and auditability — making contract design and
@@ -1217,13 +1218,13 @@ monitoring, and DSZ certification remains critical.
 #### Unified digital payments – GovPay
 
 GovPay is an online payment platform designed to facilitate digital
-transactions for government services.[^80] It enables citizens and
+transactions for government services.[^79] It enables citizens and
 businesses to make payments for various government-related transactions,
 including taxes, fines, utility bills, and educational fees, through
 banks and digital wallets. The initiative is to streamline financial
 transactions within government institutions. Importantly, traffic fines
-can also be paid using the app.[^81] However, user experiences have
-indicated shortcomings in implementation.[^82]
+can also be paid using the app.[^80] However, user experiences have
+indicated shortcomings in implementation.[^81]
 
 ### Digital Economy
 
@@ -1240,13 +1241,13 @@ According to ICTA, “connected government” refers to a seamless
 integration of information, communication, and technology systems across
 various government entities, enabling efficient data sharing,
 collaboration, and service delivery.The National Digital Economy is one
-of the initiatives towards “connected government”.[^83] The other
+of the initiatives towards “connected government”.[^82] The other
 relevant policies/recommendations include the Sri Lanka Government
 Enterprise Architecture V1.0, an integrated CB approach for government
 digital transformation, a digital maturity model for GoSL, digital
 transformation units, a chief digital information officer, a digital
 government competency framework, and use cases for connected
-government.[^84]
+government.[^83]
 
 #### National Digital Economy Strategy 2023-2030
 
@@ -1254,11 +1255,11 @@ The 2023-2030 strategy was being developed when this research was
 carried out. The strategy is stated to, *inter alia,* focus on “reducing
 barriers to accessing digital technologies and utilizing digital tools
 to expand access to markets, employment, and educational opportunities
-for all”.[^85] Notably, the new strategy invited comments from the
-general public through a questionnaire.[^86]
+for all”.[^84] Notably, the new strategy invited comments from the
+general public through a questionnaire.[^85]
 
 The figure below has been included in the questionnaire to give the
-public an understanding of the proposed strategy.[^87] It is encouraging
+public an understanding of the proposed strategy.[^86] It is encouraging
 to note that “legal and regulatory framework” and “data governance” have
 been included as key enablers.
 <a href="#fig-digital-economy-strategy" class="quarto-xref">Figure 3</a>
@@ -1290,26 +1291,26 @@ fuel distribution method. It is a stellar example of utilizing data for
 the public good. The primary objective of the NFP was to ensure
 equitable access to fuel for all Sri Lankans. By requiring vehicle
 owners to register for a weekly fuel pass, i.e., a weekly allocation of
-fuel, there was also the possibility of monitoring hoarding.[^88] The
+fuel, there was also the possibility of monitoring hoarding.[^87] The
 NEP, an initiative by the ICTA and two private entities, was implemented
-nationwide.[^89]
+nationwide.[^88]
 
 The existing digital infrastructure maintained by the Department of
 Motor Traffic was critical for the implementation of the NFP, as it
 provided an online registered vehicle information service. This database
 included critical details such as the name, address, and vehicle
-information of owners.[^90] While comprehensive owner and vehicle
+information of owners.[^89] While comprehensive owner and vehicle
 details can be accessed for a fee, limited information is available free
-of charge.[^91] The success of this should also be attributed to the
+of charge.[^90] The success of this should also be attributed to the
 project’s fast and efficient implementation, which avoided the usual
-procurement procedure delays.[^92]
+procurement procedure delays.[^91]
 
 #### National AI Strategy
 
 The Strategy places emphasis on data governance, committing to the
 development of a comprehensive data strategy and governance framework to
 boost the availability, integrity, quality, and protection of AI-ready
-data assets.[^93] It proposes the creation of data-sharing mechanisms,
+data assets.[^92] It proposes the creation of data-sharing mechanisms,
 expansion and revitalization of open data platforms, and the
 establishment of clear guidelines for data management and protection —
 all designed to underpin evidence-based policymaking, support the
@@ -1319,7 +1320,7 @@ processes, policies, regulations, and standards to promote ethical data
 use and ensure its secure utilization across sectors. It is relevant to
 note that the AI white paper emphasized a federated data management
 model, enabling efficient use of high-quality datasets across
-initiatives, with dedicated subsets of data formatted for AI use.[^94]
+initiatives, with dedicated subsets of data formatted for AI use.[^93]
 
 ## Policies that Decrease Access to Data
 
@@ -1355,11 +1356,11 @@ incitement to discrimination, hostility or violence.’ However, this
 section has been used in a problematic manner; perpetrators of hate
 speech against minority communities are often not prosecuted, and the
 section has also been misapplied to arrest persons who should not have
-been prosecuted under the Act.[^95]
+been prosecuted under the Act.[^94]
 
 The Online Safety Act No. 9 of 2024 (“OSA”), with its broad provisions,
 seeks to regulate disinformation online, amongst other kinds of
-information.[^96] The Online Safety Act (OSA) has been criticized for
+information.[^95] The Online Safety Act (OSA) has been criticized for
 laying down broad and vague offences. There is also a lack of clarity in
 definitions used; the Act centers on the prohibition of ‘communication
 of false statements.’ It defines false statements (section 52)
@@ -1370,7 +1371,7 @@ in good faith.” The criterion of ‘known or believed by its maker to be
 incorrect’ is subjective, and it is unclear how this will be
 interpreted. A statement is defined as ‘any word including abbreviation
 and initial, number, image (moving or otherwise), sound, symbol, or
-other representation, or a combination of any of these’.[^97]
+other representation, or a combination of any of these’.[^96]
 
 In November 2024, it was reported that a six-month suspended prison
 sentence had been imposed on an individual for spreading misleading
@@ -1381,14 +1382,14 @@ recordings on social media platforms (Facebook and WhatsApp). The judge
 also ordered the immediate removal of the statements made by the
 individual on social media about the former State Minister. The judge
 also ordered the suspect to immediately remove all the statements that
-he had published on social media about the former State Minister.[^98]
+he had published on social media about the former State Minister.[^97]
 
 Prior to the enactment of the OSA, the SLTA was used to block social
 media apps and websites to ostensibly curb disinformation. The
 Telecommunications Regulatory Commission of Sri Lanka has the power to
 direct licensed telecommunication operators to block access to sites.
 The SLTA has also been used to restrict access to certain websites,
-including news websites \[[^99]\].[^100]
+including news websites.[^98]
 
 It should also be mentioned that not only its provisions but also the
 passage of the OSA has been shrouded in secrecy and riddled with
@@ -1396,12 +1397,12 @@ controversies. The introduction of the Online Safety Bill was widely
 criticized. No stakeholder consultation process was conducted in
 formulating the Bill, despite many stakeholders calling for widespread
 consultation. The Bar Association of Sri Lanka called for the Bill to be
-withdrawn[^101]. The procedure for formulating the Bill was not open or
+withdrawn[^99]. The procedure for formulating the Bill was not open or
 transparent; the Asia Internet Coalition (AIC), which represents major
 tech companies such as Meta, Amazon, raised concerns about the Bill’s
 lack of stakeholder consultation and criticized its potential to
 suppress dissent and hinder public discourse, potentially hampering the
-growth of the country’s digital economy.[^102] The International
+growth of the country’s digital economy.[^100] The International
 Commission of Jurists issued a statement noting that the bill would
 undermine the exercise of human rights and fundamental freedoms in the
 country, including the rights to freedom of information and
@@ -1409,18 +1410,18 @@ expression. The Commission noted that “…Of particular concern are
 provisions related to the setting up, appointment and functions of an
 Online Safety Commission and other experts, the vague and over-broad
 wording of conduct designated as punishable offences and unnecessary and
-disproportionate punitive sanctions”.[^103] The OSA came to be passed
+disproportionate punitive sanctions”.[^101] The OSA came to be passed
 notwithstanding all these objections, and notably, the final Act did not
 include the amendments suggested by the Supreme Court of Sri
-Lanka.[^104]
+Lanka.[^102]
 
 Proposed amendments to the OSA were published via the Government Gazette
-in July 2024 (Gazette notification dated 31st July 2024).[^105] However,
+in July 2024 (Gazette notification dated 31st July 2024).[^103] However,
 the amendments have not been passed yet at the time of writing. A public
 call for consultation for amending the OSA was published in August 2025.
 
 A draft cyber security Bill was released in 2023; it was also open for
-public consultation.[^106] The Bbll required accreditation of all
+public consultation.[^104] The Bbll required accreditation of all
 cybersecurity service providers. The definition of Critical National
 Infrastructure was broad, and referred to “the computer, computer
 program, computer system, or related device identified by the Authority
@@ -1438,7 +1439,7 @@ included a similar definition; but instead of the term “serious” it used
 
 Sri Lanka Computer Emergency Readiness Team (“CERT”) is the National
 Centre for Cyber Security, responsible for protecting the nation’s
-cyberspace from cyber threats.[^107] At present, there are no
+cyberspace from cyber threats.[^105] At present, there are no
 requirements to report cyber security incidents to the CERT.
 
 It was established in 2006 as a government-owned private company and
@@ -1449,19 +1450,19 @@ Pacific CERT, Cyber4Dev of the European Union, and the World Bank,
 aiming to build a better cyber security ecosystem for the nation. In
 September 2025, the National Cyber Security Operations Centre was
 established to protect the Critical National Infrastructure of Sri
-Lanka.[^108]
+Lanka.[^106]
 
 ##### National Information and Cyber Security Strategy (Cyber Security Strategy) of Sri Lanka 2019-2023
 
 The Strategy focuses on six strategic thrust areas, detailed in the
-Annexure.[^109]
+Annexure.[^107]
 
 Achievement of the thrust areas and their progress
 
 We have tracked the progress of the strategy (until Feb 2024).
 
 The Cyber security Strategy specifically provided for the
-following:[^110]
+following:[^108]
 
 1.  **Digital Infrastructure Protection Agency (DIPA) of Sri Lanka.**
     The DIPA was to be the apex body for all cyber security affairs in
@@ -1498,11 +1499,11 @@ Table 1: Progress of legislation, policies, and standards
     public/private partnerships) have seen some progress, but more
     action is required.
 
-##### Information Security Policy Framework[^111]
+##### Information Security Policy Framework[^109]
 
 ###### Information and Cyber Security Policy (“Information Policy”) for the use of government organizations
 
-This cabinet-approved policy[^112] took effect in August 2022. This
+This cabinet-approved policy[^110] took effect in August 2022. This
 Policy adopts a risk-based approach for implementing an information and
 cyber security program at the organizational level. It also provides a
 set of actions that organizations should implement to identify and
@@ -1550,7 +1551,7 @@ government organizations have implemented this.
 
 ###### Minimum Information Security Standards (Draft v.1)
 
-These standards[^113] are said to be based on global standards such as
+These standards[^111] are said to be based on global standards such as
 the National Institute of Science and Technology USA, and the
 International Standards Organization (27002), and global best practices
 in developing information security standards (e.g., the UK Government’s
@@ -1662,16 +1663,16 @@ licensed Banks) (“Banking Direction on Technology Risk”) and the
 corresponding Technology Risk Management and Resilience Finance Business
 Direction No 1 of 2022 (applicable to licensed financial companies)
 provide for compliance requirements concerning the data of financial
-institutions \[Central Bank of Sri Lanka[^114]\].[^115] We have limited
-our analysis below to the Banking Direction on Technology Risk, as the
-corresponding non-banking directions are similar or less stringent.
+institutions.[^112] We have limited our analysis below to the Banking
+Direction on Technology Risk, as the corresponding non-banking
+directions are similar or less stringent.
 
 The Licensed Banks should have in place ‘Critical Information’ (“CI”)
 systems. According to the Banking Direction on Technology Risk, amongst
 others, systems used for Know Your Customer (KYC) are a part of the CI
 system. For those designated as CI systems, and the relevant licensed
 bank has been identified as a Domestic Systemically Important Bank, a
-Disaster Recovery arrangement has to be located locally.[^116]
+Disaster Recovery arrangement has to be located locally.[^113]
 
 Where an information system infrastructure is managed or owned by
 third-party service providers, such as cloud servers located outside Sri
@@ -1681,7 +1682,7 @@ be in locations approved by the licensed Bank’s Board of Directors.
 The Board’s approval is necessary regarding the adequacy and
 effectiveness of the legal and regulatory environment in such locations
 to protect the interests of the Licensed Bank, its customers, the CBSL,
-and the Sri Lankan judiciary.[^117] It can be gathered that CBSL has
+and the Sri Lankan judiciary.[^114] It can be gathered that CBSL has
 included these provisions under the Direction as a means of protecting
 Sri Lankan residents’ data from being utilized/taken over by foreign
 jurisdictions on the basis of data sovereignty.
@@ -1719,7 +1720,7 @@ result in banks losing out on such services or being unable to comply
 with the Direction. Under Section 26 of the Personal Data Protection Act
 No. 9 of 2022, cross-border data transfers are permitted for entities
 that meet certain contractual obligations as stipulated by the Data
-Protection Authority.[^118] However, under the said Banking Direction on
+Protection Authority.[^115] However, under the said Banking Direction on
 Technology Risk, the CBSL should be given the right to examine/audit
 customer data. Similarly, the rights of the Sri Lankan judiciary to
 obtain information as needed should also be guaranteed through
@@ -1732,14 +1733,14 @@ cross-border processing of data.
 #### Personal Data Protection Act No 9 of 2022 (“PDPA”)
 
 The PDPA was passed in Parliament (and certified by the Speaker of the
-House on 19th March 2022).[^119] Part V of the PDPA, which deals with
+House on 19th March 2022).[^116] Part V of the PDPA, which deals with
 the establishment of a Data Protection Authority (“DPA”), came into
 operation in July 2023. The Board of Directors under the PDPA has been
 appointed by the President, subsequent to an Order issued by the
 Minister, as per Gazette Notification 2341/59 dated 21st July
-2024.[^120] Another gazette notification, No. 2366/08 dated 08th January
+2024.[^117] Another gazette notification, No. 2366/08 dated 08th January
 2024, containing a similar Order, states that the PDPA will come into
-operation on 18th March 2025.[^121] In March 2025, the PDPA Amendment
+operation on 18th March 2025.[^118] In March 2025, the PDPA Amendment
 Bill was gazetted. As of this date, the amendments have not yet been
 passed.
 
@@ -1763,7 +1764,7 @@ The Intellectual Property Rights Act, No. 36 of 2003 governs copyrights
 and related rights; industrial designs; patents, trademarks and service
 marks; trade names; layout designs of integrated circuits; geographical
 indications; unfair competition and undisclosed information (e.g., trade
-secrets).[^122]  All trademarks, designs, industrial designs, and
+secrets).[^119]  All trademarks, designs, industrial designs, and
 patents must be registered with the Director General of Intellectual
 Property.  However, no legal provisions currently exist for registration
 of trade secrets.
@@ -1783,14 +1784,14 @@ definition of ‘fair use,’ several factors are considered including
 whether the work is being used for commercial or non-profit educational
 purposes, the portion of the work used in relation to the whole
 copyrighted work, and the effect of the use on the potential market
-value of the work.[^123]
+value of the work.[^120]
 
 The National Intellectual Property Office (NIPO) of Sri Lanka,
 established under the Intellectual Property Act No. 36 of 2003, is
 mandated with the administration of the intellectual Property System in
 Sri Lanka.  Sri Lanka is a WTO member and a party to the Paris and Berne
 Conventions, the Patent Cooperation Treaty (PCT), and Trademark Law
-Treaty (TLT), as well as the Marrakesh VIP Treaty.[^124] 
+Treaty (TLT), as well as the Marrakesh VIP Treaty.[^121] 
 
 With regard to data governance, it should be noted that the Intellectual
 Property Rights Act of Sri Lanka does not contain provisions for
@@ -1802,10 +1803,9 @@ transient or incidental storage of a work or performance purely in the
 technical process of electronic transmission or communication to the
 public’ and ’…transient or incidental storage of a work or performance
 for the purpose of providing electronic links, access or
-integration[^125] .[^126] The lack of such amendments means that there
-are no provisions under Sri Lankan law to legalize the
-transient/incidental storage of works carried out by search engines such
-as Google.
+integration.[^122] The lack of such amendments means that there are no
+provisions under Sri Lankan law to legalize the transient/incidental
+storage of works carried out by search engines such as Google.
 
 #### AI authorship
 
@@ -1837,7 +1837,7 @@ It is interesting to note that the white paper on AI Strategy for Sri
 Lanka mentions that there are different approaches to the use of
 copyrighted works, including the approach in Japan, where copyrighted
 works can be used in foundational models, and they should be
-considered.[^127]
+considered.[^123]
 
 #### Observations
 
@@ -1876,15 +1876,15 @@ value of the work.
 
 Sri Lanka has signed free trade agreements (FTAs) with India, Pakistan,
 Singapore, Thailand and is currently negotiating an FTA with the PRC.
-The FTAs with India and Pakistan cover only trade in goods.[^128]
+The FTAs with India and Pakistan cover only trade in goods.[^124]
 
-#### FTA with Singapore[^129]
+#### FTA with Singapore[^125]
 
 This FTA came into force on May 1, 2018. It covers: investment, goods,
 services, trade facilitation, government procurement,
 telecommunications, e-commerce, and dispute settlement. Article 9.5
 requires that both Sri Lanka and Singapore maintain domestic legal
-frameworks consistent with UN ECC.[^130] The 2017 ETA amendment aimed to
+frameworks consistent with UN ECC.[^126] The 2017 ETA amendment aimed to
 strengthen existing provisions by transitioning government transactions
 to the digital era through the use of stronger and more secure
 electronic-based authentication methods for all categories of Government
@@ -1898,9 +1898,9 @@ and Appellate Procedure Rules do not govern.
 The Electronic Transaction (e-Registration of Persons) Regulations No. 1
 of 2019, authorizes and facilitates the use of electronic documents and
 electronic records by the Commissioner-General under the Registration of
-Persons Act, No. 32 of 1968.[^131] A circular in 2021 reiterated the
+Persons Act, No. 32 of 1968.[^127] A circular in 2021 reiterated the
 need for government institutions to use electronic records under the
-ETA.[^132]
+ETA.[^128]
 
 #### Cross-border data flows
 
@@ -1922,7 +1922,7 @@ Article 9.12 calls for mutual cooperation, *inter alia*, in exchange for
 information and sharing experiences on “regulations, policies,
 enforcement and compliance regarding electronic commerce, including: (i)
 personal information protection; (ii) security in electronic
-communications; (iii) authentication; and (iv) e-Government”.[^133]
+communications; (iii) authentication; and (iv) e-Government”.[^129]
 
 #### Observations
 
@@ -1935,7 +1935,7 @@ actions have been initiated since.
 Sri Lanka is a member of the South Asian Association for Regional
 Cooperation (SAARC), the South Asian Free Trade Area (SAFTA), and the
 Asia-Pacific Trade Agreement (APTA). However, these do not appear to
-relate to data governance.[^134]
+relate to data governance.[^130]
 
 #### Crimes and Reporting
 
@@ -1944,10 +1944,10 @@ No. 185, “Budapest Convention”) in 2015 and signed the second additional
 protocol on Enhanced Co-operation and Disclosure of Electronic Evidence
 in November 2022. The Mutual Assistance in Criminal Matters Act No. 25
 of 2002 was amended in 2018 to ensure compliance with the Budapest
-Convention.[^135] It provides for, among other provisions, expedited
+Convention.[^131] It provides for, among other provisions, expedited
 preservation of computer data: “the expedited preservation of stored
 computer data and expedited disclosure of preserved traffic data and
-data retention”.[^136]
+data retention”.[^132]
 
 Where there are financial transactions of a suspicious nature, reporting
 mandates are enshrined under the Financial Transactions Reporting Act,
@@ -1963,7 +1963,7 @@ ambit of any of these enactments.
 
 The RTI legislation in Sri Lanka has been widely considered as a
 pathbreaking one, owing to the disclosure of information by public
-authorities (PAs) that has been made possible through the Act.[^137]
+authorities (PAs) that has been made possible through the Act.[^133]
 Prior to the passage of the Act, there was no legislation mandating
 disclosure of information.
 
@@ -1995,7 +1995,7 @@ ambit of these exemptions, where there is a public interest override
 under Section 5 (4) of the RTI Act, such public interest will prevail.
 There are several RTI Commission (RTIC) decisions that have evidenced
 increased transparency in the disclosure of information across
-sectors.[^138]
+sectors.[^134]
 
 #### Proactive Disclosure under the RTI Act
 
@@ -2010,25 +2010,25 @@ reports with the RTIC. It should be noted that while Sections 8 and 9
 only deal with Ministries, Regulation 20 issued under the RTI Act for
 proactive disclosure requires all PAs, not just ministries, to submit,
 at the very minimum, information in relation to the institution,
-operation, budget, etc.[^139]
+operation, budget, etc.[^135]
 
 A study conducted by a think-tank revealed that over 70% of PAs (only
 Ministries) had disclosed online less than 40% of the information they
-were required to by the RTI Act.[^140] The Ministries of Agriculture and
+were required to by the RTI Act.[^136] The Ministries of Agriculture and
 Public Administration, which ranked highest in the assessment, disclosed
 just over half of the required information. This indicates a low level
 of compliance among other PAs/Ministries. Importantly, the offices of
 the President and Prime Minister disclosed less than 20% of the required
 information and ranked among the least compliant, with the Ministry of
-Technology scoring the lowest overall.[^141] The study also highlighted
+Technology scoring the lowest overall.[^137] The study also highlighted
 a significant language bias across most PAs. Only the Office of the
 President and the Ministry of Wildlife consistently published
 information online in all three languages. Overall, across all PAs,
 nearly half of all information online was disclosed in English, but only
-37% was disclosed in Sinhala and just 29% in Tamil.[^142] The 2024 study
+37% was disclosed in Sinhala and just 29% in Tamil.[^138] The 2024 study
 revealed that while only 6% of the PAs were found to be “moderately
 satisfactory” in 2017, the percentage had increased to 35% in
-2024.[^143] While compliance with proactive disclosure remains a
+2024.[^139] While compliance with proactive disclosure remains a
 significant concern, this improvement should not be overlooked. It
 should be noted that this study only examined proactive disclosure
 online, not whether information was maintained on physical premises. The
@@ -2044,7 +2044,7 @@ attitudinal change.”
 
 A study has revealed that, as of 2019, 74% of PAs, 82% in 2020, and 78%
 in 2021, have failed to submit their annual reports in compliance with
-Section 10.[^144] Another challenge in monitoring submission of PA
+Section 10.[^140] Another challenge in monitoring submission of PA
 (State sector) annual reports is that there is no directory containing
 the list of all State sector PAs in the country. When the RTI
 Commissioner, Ms. Kishali Pinto-Jayawardena, was questioned on these
@@ -2070,14 +2070,14 @@ proven to be difficult to assess the impact of RTI on gender/women’s
 empowerment. A research study has documented several examples of women
 using RTI at the provincial level and how they have effected
 institutional changes in their own communities through the use of the
-RTI Act.[^145] While these instances have not been recorded on a large
+RTI Act.[^141] While these instances have not been recorded on a large
 scale, they have proven useful in establishing linkages between the use
 of RTI and gender-related benefits.
 
 ### Friction points and how they are being dealt with
 
 Research conducted by UNDP (2022) in Sri Lanka identified at least 105
-existing legislations that were in conflict with the RTI Act.[^146] In
+existing legislations that were in conflict with the RTI Act.[^142] In
 anticipation of this conflict, the drafters of the RTI Act included a
 specific clause in the Act: Section 4 states that in the event of an
 inconsistency or conflict between the RTI Act and any other written law,
@@ -2089,7 +2089,7 @@ any statutory or other enactments.’ This provision has been the subject
 of several appeals before the Commission. In the highly contested 2017
 appeal of *Transparency International Sri Lanka v Presidential
 Secretariat*, the RTIC held that the RTI Act overrides the Declaration
-of Assets and Liabilities Law No. 1 of 1975.[^147] The Order of the RTIC
+of Assets and Liabilities Law No. 1 of 1975.[^143] The Order of the RTIC
 dealt with the declaration of assets by the then President and Prime
 Minister. The appeal is still pending in the Appellate Court.
 
@@ -2097,7 +2097,7 @@ In *Chamara Sampath v. Parliament of Sri Lanka,* the Appellant requested
 the list of names of Members of Parliament (MPs) who had submitted
 Declarations of Assets and Liabilities in 2018 and the list of names of
 MPs who had submitted such Declarations from 2010 until the date of the
-information request.[^148] The Declaration of Assets and Liabilities Law
+information request.[^144] The Declaration of Assets and Liabilities Law
 requires MPs to disclose their assets and liabilities, but such
 information is confidential in nature and cannot be published. The RTI
 Act, on the other hand, provides for information to be disclosed unless
@@ -2110,7 +2110,7 @@ Appeal against the RTIC’s order.
 
 On an appeal, the Court of Appeal held in *Chamara Sampath v. Neil
 Iddawala* that the RTI Act would override the provisions of the
-Declaration of Assets and Liabilities Law No. 1 of 1975.[^149]
+Declaration of Assets and Liabilities Law No. 1 of 1975.[^145]
 
 Section 7(3) of the RTI Act requires that all public records be
 maintained for a period of not less than 10 years, while new records
@@ -2152,14 +2152,14 @@ The exemption clause encompasses protection of –
     public interest
 
 This has been referred to as the *two-fold test* in the application of
-the exemption.[^150]
+the exemption.[^146]
 
 Even without a PDPA, the PAs can rely on the above exemption to reject
 an information request. While there are no specific statistics on the
 number of requests rejected on grounds of Section 5(1)(a) of the RTI Act
 by PAs, a scan of the orders passed by the RTIC shows that a large
 number of requests, on which an appeal has been preferred relate to
-rejections by the PA under Section 5(1)(a) of the RTI Act.[^151]
+rejections by the PA under Section 5(1)(a) of the RTI Act.[^147]
 
 The RTI Act in Sri Lanka has a public interest override under Section
 5(4), where even if personal information is involved, it can be
@@ -2188,12 +2188,12 @@ what is the situation when personal data is involved in an RTI request?
 
 RTI requests routinely include vast amounts of personal data,
 particularly salary details. Would the application of PDPA mean that all
-personal data will be protected from disclosure?[^152] How will these be
+personal data will be protected from disclosure?[^148] How will these be
 disclosed in the future?
 
 The Court of Appeal in a recent decision, *Litro Gas Lanka Limited
 vs. W.K.S. Karunarathne* considered the question of disclosure of
-salaries of officials in a PA under the Section 5(1)(a) exception.[^153]
+salaries of officials in a PA under the Section 5(1)(a) exception.[^149]
 Referring to “panopticon” / “anti-panopticon” it has been stated that
 the “Right to Information Act brings the state into the receiving end of
 asymmetrical surveillance and the citizens are placed in the central
@@ -2267,7 +2267,7 @@ conflicts does not stand resolved.
 ### RTI in Sri Lanka: Lessons for other jurisdictions
 
 The RTI Act has been ranked 4th globally and 2nd in Asia on the Center
-for Law and Democracy’s Global RTI index.[^154]
+for Law and Democracy’s Global RTI index.[^150]
 
 That rating is based on 61 discrete indicators drawn from seven main
 categories– Right of Access, Scope, Requesting Procedure, Exceptions and
@@ -2369,9 +2369,9 @@ alia*, for the following reasons:
 - Freedom of expression and right to information
 
 It is essential to emphasize that there is no exemption for journalistic
-processing of personal data.[^155] Although this has been subject to
+processing of personal data.[^151] Although this has been subject to
 criticism and early drafts highlighted this issue, it remains the
-case.[^156]
+case.[^152]
 
 ### Data Protection Authority
 
@@ -2380,7 +2380,7 @@ the PDPA. It is pertinent to highlight that an early draft of the Bill
 specifically called for the appointment of a “public corporation,
 statutory body or any other institution established by or under any
 written law and *controlled by the government* as the “Data Protection
-Authority of Sri Lanka”.[^157] Commendably, this “government-controlled”
+Authority of Sri Lanka”.[^153] Commendably, this “government-controlled”
 reference was removed. In terms of Section 29 of the PDPA, the
 “administration, management and control of the affairs of the Authority
 shall be vested in a Board of Directors”. The qualifications of the
@@ -2404,7 +2404,7 @@ mentioned that in an earlier draft of the Personal Data Protection Bill,
 the “public authorities” definition included a reference to “a company
 registered under the Companies Act, No. 7 of 2007 in which the
 government or a public corporation or a local authority directly holds
-fifty per centum or more of the shares of that company”.[^158] But this
+fifty per centum or more of the shares of that company”.[^154] But this
 has been removed in the subsequent draft. It is pointed out that the
 present definition makes a mention of “any institution established by
 any written law,” this may cause some confusion as to the nature of
@@ -2490,14 +2490,14 @@ pause on these initiatives.
 ### Lessons for other jurisdictions
 
 The PDPA text has been lauded by some experts, indicating that it falls
-in line with international standards.[^159] The PDPA follows the GDPR
+in line with international standards.[^155] The PDPA follows the GDPR
 blueprint; it has been repeatedly stated that following the GDPR model
 would increase Sri Lanka’s trade relations and also ensure “adequacy” of
 its laws. In a welcome move, the proposed amendments to the PDPA exclude
-the requirement of an “adequacy decision”.[^160]
+the requirement of an “adequacy decision”.[^156]
 
 There is some concern that the other appointments under the DPA could be
-subject to political interference and be tainted by bias.[^161] The
+subject to political interference and be tainted by bias.[^157] The
 process of passing the law and conducting public consultations is worthy
 of replication, and it can be deemed a good practice. Notwithstanding
 this, the outcomes of public consultations have not been published,
@@ -2510,10 +2510,10 @@ this.
 
 It is worth noting that consultations were held with stakeholders during
 the drafting of the legislation. It is also understood that
-meetings/discussions were conducted with relevant institutions.[^162]
+meetings/discussions were conducted with relevant institutions.[^158]
 The Drafting Committee of the Bill comprised persons from both the
 public and private sectors, including representatives from two
-telecommunication operators.[^163] There was criticism that the proposed
+telecommunication operators.[^159] There was criticism that the proposed
 amendments were not subject to public consultation before being
 published. While the drafting process was transparent, with members of
 the same being made public and consultations also taking place, there
@@ -2676,7 +2676,7 @@ more systematically utilize data *for planning and addressing
 multi-dimensional challenges.* This will require not only strengthened
 capacities in relevant institutions, but *also developing new,
 innovative methods for data collection and demonstrating the value of
-evidence-based policymaking*”[^164] (Emphasis added).
+evidence-based policymaking*”[^160] (Emphasis added).
 
 This remains relevant even today; the National Fuel Pass demonstrates
 how effectively utilizing data can bring about positive societal change
@@ -2817,14 +2817,14 @@ bureaucratic delays.
 
 | Policy | Details |
 |:---|:---|
-| **National Data Sharing Policy (Draft, 2013)**[^165] | \- **Objective:** for “open government” and to “create an integrated platform to enable seamless sharing of information to the right people at the right time in a secure, reliable manner to promote mutual benefits to individuals, civil society and the country” |
+| **National Data Sharing Policy (Draft, 2013)**[^161] | \- **Objective:** for “open government” and to “create an integrated platform to enable seamless sharing of information to the right people at the right time in a secure, reliable manner to promote mutual benefits to individuals, civil society and the country” |
 |  | \- **Applicability:** All data created, generated, collected, or archived by the government. |
 |  | \- **Key Components:** |
 |  | \- **Data Classification Framework:** Based on the impact of sharing information with different stakeholders. |
 |  | \- **Service Classification Framework:** Shares Information Assets as Data Services or Verification Services, classified as Open, Authorized, or Restricted. |
 |  | \- **Data Sharing Policy:** Specific policies for departments to implement effective information sharing. |
 |  | \- **Data Retention:** Data should be retained for a “minimum period”, then destroyed or downgraded. |
-| **Government Cloud Policy**[^166] | **Underlying requirement:** Government entities are recommended to use the Lanka Government Cloud; third-party cloud services can be used with ICTA approval, and where their requirements cannot be satisfied by the government Cloud. **Requirements to be fulfilled by the third-party Cloud Service Provider (CSP)** |
+| **Government Cloud Policy**[^162] | **Underlying requirement:** Government entities are recommended to use the Lanka Government Cloud; third-party cloud services can be used with ICTA approval, and where their requirements cannot be satisfied by the government Cloud. **Requirements to be fulfilled by the third-party Cloud Service Provider (CSP)** |
 |  | \- **Private Cloud:** Dedicated for government use. |
 |  | \- **Certifications Required for CSPs:** |
 |  | \- ISO/IEC 27017 |
@@ -2832,13 +2832,13 @@ bureaucratic delays.
 |  | \- Level 2 of CSA STAR |
 |  | \- **Data Centre Certification:** Tier 3. |
 |  | \- **Breach Notification:** CSP must notify the government within 24 hours of a breach. |
-| **Digital Document Management Policy**[^167] | \- **Goal:** Shift from paper to digital document management. To increase Efficiency, productivity, accountability, interoperability, and meeting citizen expectations. |
+| **Digital Document Management Policy**[^163] | \- **Goal:** Shift from paper to digital document management. To increase Efficiency, productivity, accountability, interoperability, and meeting citizen expectations. |
 |  | \- **Approach:** Create, maintain, disseminate, and destroy electronic records consistently. |
 |  | \- **Document Retention:** In line with RTI Act; system administrator decides on purging, archiving, or copying files. |
 |  | \- **Note:** No mention of national archives laws. |
-| **Information Classification Framework[^168]** | \- **Purpose:** Document and illustrate the Information Classification Framework for government organizations. Towards open data and information sharing. |
+| **Information Classification Framework[^164]** | \- **Purpose:** Document and illustrate the Information Classification Framework for government organizations. Towards open data and information sharing. |
 |  | \- What, why, and how of information classification; framework and implementation. |
-| **Information Classification Policy**[^169] | \- **Objective:** Recognize and classify information assets based on significance and sensitivity. |
+| **Information Classification Policy**[^165] | \- **Objective:** Recognize and classify information assets based on significance and sensitivity. |
 |  | \- **Impact Levels:** From low to very high, depending on consequences in the event of a breach. |
 
 <!-- : Draft policies for digital government {#tbl-draft-policies} -->
@@ -3221,6 +3221,15 @@ Information and Communication Technology Agency of Sri Lanka (ICTA).
 
 </div>
 
+<div id="ref-srilankaNationalDigitalPolicy2023" class="csl-entry">
+
+Information and Communication Technology Agency of Sri Lanka (ICTA), and
+Ministry of Technology. *National Digital Government/Governance Policy
+for Sri Lanka*. Version 1.5. 2022.
+<https://www.icta.lk/icta-assets/uploads/2023/10/national-digital-government-and-governance-policy-for-sri-lanka_v-4.5_english.pdf>.
+
+</div>
+
 <div id="ref-srilankaICTAmdtAct2008" class="csl-entry">
 
 Information and Communication Technology (Amendment) Act, Act 33/2008
@@ -3592,14 +3601,6 @@ challenged in SC by Sumanthiran.” *Daily Mirror*, 2024.
 
 </div>
 
-<div id="ref-srilankaNationalDigitalPolicy2023" class="csl-entry">
-
-Sri Lanka. *National Digital Government/Governance Policy for Sri
-Lanka*. 2023.
-<https://www.icta.lk/icta-assets/uploads/2023/10/national-digital-government-and-governance-policy-for-sri-lanka_v-4.5_english.pdf>.
-
-</div>
-
 <div id="ref-srilankacertInformationAndCyber2023" class="csl-entry">
 
 Sri Lanka CERT. “Information and-Cyber Security Policy for Government
@@ -3815,49 +3816,50 @@ blocking of websites in Sri Lanka.” *Groundviews*, 2017.
 
 [^17]: Computer and Information Technology Council of Sri Lanka Act.
 
-[^18]: “Information and Communication Technology Agency of Sri Lanka.”
+[^18]: “Information and Communication Technology Agency of Sri Lanka”;
+    Information and Communication Technology Act, vol. 2003.
 
 [^19]: Information and Communication Technology Act, vol. 2003.
 
 [^20]: Information and Communication Technology Act, vol. 2003.
 
-[^21]: Information and Communication Technology Act, vol. 2003.
-
-[^22]: Information and Communication Technology (Amendment) Act, Act
+[^21]: Information and Communication Technology (Amendment) Act, Act
     33/2008.
 
-[^23]: Electronic Transactions Act, 19/2006.
+[^22]: Electronic Transactions Act, 19/2006.
 
-[^24]: Electronic Transactions Act Amendment 2017, 25/2017.
+[^23]: Electronic Transactions Act Amendment 2017, 25/2017.
 
-[^25]: Policy Review Committee and Information and Communication
+[^24]: Policy Review Committee and Information and Communication
     Technology Agency of Sri Lanka (ICTA), “E-government Policies and
     Procedures Draft Version 4.”
 
-[^26]: Presidential Secretariat, “PSGPACircular.”
+[^25]: Presidential Secretariat, “PSGPACircular.”
 
-[^27]: Information Communication Technology Agency of Sri Lanka,
+[^26]: Information Communication Technology Agency of Sri Lanka,
     “National Policy Framework.”
 
-[^28]: **PolicyInformationCommunication?**
+[^27]: Information and Communication Technology Agency of Sri Lanka
+    (ICTA) and Ministry of Technology, *National Digital
+    Government/Governance Policy for Sri Lanka*, 4.
 
-[^29]: Fernando, “New Digital Transformation Agency to Absorb ICTA.”
+[^28]: Fernando, “New Digital Transformation Agency to Absorb ICTA.”
 
-[^30]: Constitution of the Democratic Socialist Republic of Sri Lanka.
+[^29]: Constitution of the Democratic Socialist Republic of Sri Lanka.
+
+[^30]: Right To Information Act.
 
 [^31]: Right To Information Act.
 
-[^32]: Right To Information Act.
-
-[^33]: *Times Online*, “Sri Lanka loses its membership of the Open
+[^32]: *Times Online*, “Sri Lanka loses its membership of the Open
     Government Partnership.”
 
-[^34]: Centre for Law and Democracy and Access Info Europe, *Global
+[^33]: Centre for Law and Democracy and Access Info Europe, *Global
     Right to Information Rating*.
 
-[^35]: National Archives Law.
+[^34]: National Archives Law.
 
-[^36]: Public record” or “record” means “any original or copy of any
+[^35]: Public record” or “record” means “any original or copy of any
     manuscript, paper, letter, register, report, book, magazine, map,
     chart, plan, drawing, picture, photograph or any other record or
     part thereof either handwritten, drawn, printed or produced in any
@@ -3869,16 +3871,16 @@ blocking of websites in Sri Lanka.” *Groundviews*, 2017.
     magazine, leaflet, newspaper, or any other paper containing
     information printed by any mechanical or by any other process.”
 
-[^37]: 9 (2): “It shall be the duty of the responsible officer of any
+[^36]: 9 (2): “It shall be the duty of the responsible officer of any
     public office or any other person for the time being having custody
     of any public records-
 
-[^38]: Draft National Policy on Archives and Records Management v 1.2,
+[^37]: Draft National Policy on Archives and Records Management v 1.2,
     vol. 2023.
 
-[^39]: Interview with Director General, Department of National Archives.
+[^38]: Interview with Director General, Department of National Archives.
 
-[^40]: Section 16. The Minister may make regulations for any one or more
+[^39]: Section 16. The Minister may make regulations for any one or more
     of the purposes hereinafter prescribed: (d) public access to the
     public archives and the terms and conditions subject to which public
     archives or any specified class or description of public archives
@@ -3886,18 +3888,18 @@ blocking of websites in Sri Lanka.” *Groundviews*, 2017.
     or restriction of the disclosure of information obtained by the
     public from public archives.
 
-[^41]: Public Access To Government Documents Gazette English, vol. 1980.
+[^40]: Public Access To Government Documents Gazette English, vol. 1980.
 
-[^42]: Section 6 of the draft Policy is on Digital Records and contains
+[^41]: Section 6 of the draft Policy is on Digital Records and contains
     recommendations on digital record keeping, preservation, data
     security, meta data and contextual information, Digital access and
     open data, and providing digital records training and skills. (Pages
     6-7)
 
-[^43]: Framework for National Archives and Records Management
+[^42]: Framework for National Archives and Records Management
     Legislation, vol. 2024.
 
-[^44]: 22 (2) Sections 14, 15, 16 and 26 of the Personal Data Protection
+[^43]: 22 (2) Sections 14, 15, 16 and 26 of the Personal Data Protection
     Act, No. 9 of 2022, shall not apply to personal data processed for
     archiving purposes in the public interest to the extent that the
     application of those provisions would prevent or seriously impair
@@ -3914,17 +3916,17 @@ blocking of websites in Sri Lanka.” *Groundviews*, 2017.
     referred to in section 10 of the Personal Data Protection Act No. 9
     of 2022;
 
-[^45]: Survey Department of Sri Lanka, “Sri Lanka Survey Department”;
+[^44]: Survey Department of Sri Lanka, “Sri Lanka Survey Department”;
     Survey Act No 17 of 2002, 17/2002.
 
-[^46]: *The Sunday Times Sri Lanka*, “Google ‘Maps’ Launches SL Project
+[^45]: *The Sunday Times Sri Lanka*, “Google ‘Maps’ Launches SL Project
     to Show People Shops, Where They Live.”
 
-[^47]: OpenStreetMap Wiki, “Sri Lanka.”
+[^46]: OpenStreetMap Wiki, “Sri Lanka.”
 
-[^48]: Departmental Survey Regulations, vol. 2020.
+[^47]: Departmental Survey Regulations, vol. 2020.
 
-[^49]: The regulations give guidance on how digital maps should be
+[^48]: The regulations give guidance on how digital maps should be
     prepared. For example there is detailed guidance on how digital data
     management systems should be followed with regard to each of the
     following: Equipment and Software, Field Investigation and Data
@@ -3936,233 +3938,230 @@ blocking of websites in Sri Lanka.” *Groundviews*, 2017.
     securely archived in the Divisional Survey Office for easy
     reference.
 
-[^50]: “Department of Census and Statistics,” January 19, 2024.
+[^49]: “Department of Census and Statistics,” January 19, 2024.
 
-[^51]: “Department of Census and Statistics,” 2023.
+[^50]: “Department of Census and Statistics,” 2023.
 
-[^52]: “Lanka Datta.”
+[^51]: “Lanka Datta.”
 
-[^53]: “Department of Census and Statistics,” 2023.
+[^52]: “Department of Census and Statistics,” 2023.
 
-[^54]: Dissemination Policy on Microdata Department.
+[^53]: Dissemination Policy on Microdata Department.
 
-[^55]: “Dissemination Channel Metadata for DCS studies are provided to
+[^54]: “Dissemination Channel Metadata for DCS studies are provided to
     public through the DCS NADA
     <http://statistics.sltidc.lk/index.php/home>.”
 
-[^56]: Credit Information Bureau of Sri Lanka Act No: 18 of 1990.
+[^55]: Credit Information Bureau of Sri Lanka Act No: 18 of 1990.
 
-[^57]: “CRIB Score Reports - Individual \| Credit Information Bureau of
+[^56]: “CRIB Score Reports - Individual \| Credit Information Bureau of
     Sri Lanka.”
 
-[^58]: “Sri Lanka leader to appoints panel to amend flaws
+[^57]: “Sri Lanka leader to appoints panel to amend flaws
     anti-corruption law.”
 
-[^59]: Anti Corruption Act 2023, 9/2023.
+[^58]: Anti Corruption Act 2023, 9/2023.
 
-[^60]: Sri Lanka, *National Digital Government/Governance Policy for Sri
-    Lanka*.
+[^59]: Information and Communication Technology Agency of Sri Lanka
+    (ICTA) and Ministry of Technology, *National Digital
+    Government/Governance Policy for Sri Lanka*.
 
-[^61]: Council of Europe, “12 Principles of Good Governance.”
+[^60]: Council of Europe, “12 Principles of Good Governance.”
 
-[^62]: “Table of RTIC Decisions.”
+[^61]: “Table of RTIC Decisions.”
 
-[^63]: *Sri Lanka Government Enterprise Architecture: The Whole of
+[^62]: *Sri Lanka Government Enterprise Architecture: The Whole of
     Government Approach*.
 
-[^64]: Open Data Initiative of Government of Sri Lanka, “Open Data
+[^63]: Open Data Initiative of Government of Sri Lanka, “Open Data
     Portal of Sri Lanka.”
 
-[^65]: “LankaSign Certification Service Provider (CSP) \| Knowledge
+[^64]: “LankaSign Certification Service Provider (CSP) \| Knowledge
     Center - Lanka Clear.”
 
-[^66]: Information and Communication Technology Agency of Sri Lanka
+[^65]: Information and Communication Technology Agency of Sri Lanka
     (ICTA), *Sri Lanka Government FOSS Adoption Draft*.
 
-[^67]: Presidential Secretariat, “A Strategic Approach to Digitize
+[^66]: Presidential Secretariat, “A Strategic Approach to Digitize
     Government Services.”
+
+[^67]: Presidential Secretariat.
 
 [^68]: Presidential Secretariat.
 
-[^69]: Presidential Secretariat.
-
-[^70]: “Online Registered Vehicle Information Service - Department of
+[^69]: “Online Registered Vehicle Information Service - Department of
     Motor Traffic - Sri Lanka.”
 
-[^71]: Payment and Settlement Systems, 13/2020.
+[^70]: Payment and Settlement Systems, 13/2020.
 
-[^72]: Payment and Settlement Systems Circular No 6, 6/2018.
+[^71]: Payment and Settlement Systems Circular No 6, 6/2018.
 
-[^73]: Ministry of Digital Economy, *Digital ID Launch by 2026: A Big
+[^72]: Ministry of Digital Economy, *Digital ID Launch by 2026: A Big
     Step Toward a Modern Sri Lanka*.
 
-[^74]: Weerasinghe, “The New Digital ID to Be an Integrated e-NIC/MOSIP
+[^73]: Weerasinghe, “The New Digital ID to Be an Integrated e-NIC/MOSIP
     Solution.”
 
-[^75]: Ministry of Digital Economy, *Digital ID Launch by 2026: A Big
+[^74]: Ministry of Digital Economy, *Digital ID Launch by 2026: A Big
     Step Toward a Modern Sri Lanka*.
 
-[^76]: Information and Communication Technology Agency of Sri Lanka,
+[^75]: Information and Communication Technology Agency of Sri Lanka,
     “Public Consultation: Call for views on Cloud Policy and Strategy
     for Sri Lanka.”
 
-[^77]: Karunasena et al., *Towards a Sovereign Cloud Strategy for Sri
+[^76]: Karunasena et al., *Towards a Sovereign Cloud Strategy for Sri
     Lanka: A Government-Regulated, Private-Sector-Driven Approach to
     Enable Local Innovation and Trusted International Collaboration*.
+
+[^77]: “Draft Revised Cloud Policy and Procurement Guidelines for
+    Interim Use.”
 
 [^78]: “Draft Revised Cloud Policy and Procurement Guidelines for
     Interim Use.”
 
-[^79]: “Draft Revised Cloud Policy and Procurement Guidelines for
-    Interim Use.”
+[^79]: GovPay, “Secure & Convenient Payments.”
 
-[^80]: GovPay, “Secure & Convenient Payments.”
+[^80]: GovPay, “Pay Traffic Fines Online with GovPay.”
 
-[^81]: GovPay, “Pay Traffic Fines Online with GovPay.”
+[^81]: Hassim, “My First Experience with GovPay.”
 
-[^82]: Hassim, “My First Experience with GovPay.”
-
-[^83]: Information Communication Technology Agency of Sri Lanka,
+[^82]: Information Communication Technology Agency of Sri Lanka,
     “Connected Government.”
 
-[^84]: “Information and Communication Technology Agency of Sri Lanka.”
+[^83]: “Information and Communication Technology Agency of Sri Lanka.”
 
-[^85]: “Invitation to Provide Input on National Digital Economy Strategy
+[^84]: “Invitation to Provide Input on National Digital Economy Strategy
     \| Ministry of Technology.”
+
+[^85]: Google Docs, “Stakeholder Consultation on Sri Lanka’s National
+    Digital Economy Strategy.”
 
 [^86]: Google Docs, “Stakeholder Consultation on Sri Lanka’s National
     Digital Economy Strategy.”
 
-[^87]: Google Docs, “Stakeholder Consultation on Sri Lanka’s National
-    Digital Economy Strategy.”
-
-[^88]: Information Communication Technology Agency of Sri Lanka,
+[^87]: Information Communication Technology Agency of Sri Lanka,
     “National Fuel Pass.”
 
-[^89]: Dialog Axiata PLC, “Dialog Axiata, MIT and ICTA Recognised by the
+[^88]: Dialog Axiata PLC, “Dialog Axiata, MIT and ICTA Recognised by the
     Ministry of Power....”
+
+[^89]: “Online Registered Vehicle Information Service - Department of
+    Motor Traffic - Sri Lanka.”
 
 [^90]: “Online Registered Vehicle Information Service - Department of
     Motor Traffic - Sri Lanka.”
 
-[^91]: “Online Registered Vehicle Information Service - Department of
-    Motor Traffic - Sri Lanka.”
+[^91]: Samarajiva, *Digitalisation will fail, unless \| Daily FT*.
 
-[^92]: Samarajiva, *Digitalisation will fail, unless \| Daily FT*.
+[^92]: “National AI Strategy for Sri Lanka.”
 
-[^93]: “National AI Strategy for Sri Lanka.”
-
-[^94]: Committee on Formulating a Strategy for Artificial Intelligence
+[^93]: Committee on Formulating a Strategy for Artificial Intelligence
     (CFSAI), *Artificial Intelligence in Sri Lanka*.
 
-[^95]: *Mohamed Razik Mohamed Ramzy v. B.M.A.S.K. Senaratne*.
+[^94]: *Mohamed Razik Mohamed Ramzy v. B.M.A.S.K. Senaratne*.
+
+[^95]: Online Safety Act, vol. 2024.
 
 [^96]: Online Safety Act, vol. 2024.
 
-[^97]: Online Safety Act, vol. 2024.
+[^97]: *Newswire*, “Online Safety Act.”
 
-[^98]: *Newswire*, “Online Safety Act.”
+[^98]: *Wickrematunga v. TRCSL*; Wickrematunge, “Blocked.”
 
-[^99]: *Wickrematunga v. TRCSL*.
-
-[^100]: Wickrematunge, “Blocked.”
-
-[^101]: “BASL CALLS UPON THE GOVERNMENT TO IMMEDIATELY WITHDRAW THE ANTI
+[^99]: “BASL CALLS UPON THE GOVERNMENT TO IMMEDIATELY WITHDRAW THE ANTI
     – TERRORISM BILL ANDTHE ONLINE SAFETY BILL - BASL,” accessed October
     31, 2023,
     https://basl.lk/anti-terrorism-bill-and-the-online-safety-bill/.
 
-[^102]: Digital Watch Observatory, “AIC warns online safety bill.”
+[^100]: Digital Watch Observatory, “AIC warns online safety bill.”
 
-[^103]: “Sri Lanka: Proposed Online Safety Bill Would Be an Assault on
+[^101]: “Sri Lanka: Proposed Online Safety Bill Would Be an Assault on
     Freedom of Expression, Opinion, and Information.”
 
-[^104]: Sooriyagoda, “Speaker’s act of certifying Online Safety Bill
+[^102]: Sooriyagoda, “Speaker’s act of certifying Online Safety Bill
     challenged in SC by Sumanthiran.”
 
-[^105]: Online Safety Amendment Bill.
+[^103]: Online Safety Amendment Bill.
 
-[^106]: Rajapakse, “Comments on the Cyber Security Bill - Sri Lanka
+[^104]: Rajapakse, “Comments on the Cyber Security Bill - Sri Lanka
     2023.”
 
-[^107]: Sri Lanka CERT, “Information and-Cyber Security Policy for
+[^105]: Sri Lanka CERT, “Information and-Cyber Security Policy for
     Government Organizations.”
 
-[^108]: “Home \| NCOSC.”
+[^106]: “Home \| NCOSC.”
 
-[^109]: Democratic Socialist Republic of Sri Lanka and Sri Lanka CERT,
+[^107]: Democratic Socialist Republic of Sri Lanka and Sri Lanka CERT,
     *Sri Lanka National Information and Cyber Security Strategy
     2019-2023*.
 
-[^110]: Democratic Socialist Republic of Sri Lanka and Sri Lanka CERT.
+[^108]: Democratic Socialist Republic of Sri Lanka and Sri Lanka CERT.
 
-[^111]: Sri Lanka CERT, “Proposed Information Security Policy Framework
+[^109]: Sri Lanka CERT, “Proposed Information Security Policy Framework
     for government organizations.”
 
-[^112]: Sri Lanka CERT, “Information and-Cyber Security Policy for
+[^110]: Sri Lanka CERT, “Information and-Cyber Security Policy for
     Government Organizations.”
 
-[^113]: “Minimum Information Security Standards.”
+[^111]: “Minimum Information Security Standards.”
 
-[^114]: *Banking Act Directions No. 16 of 2021: Regulatory framework on
-    technology risk management and resilience for licensed banks*.
+[^112]: Central Bank of Sri Lanka, *Banking Act Directions No. 16 of
+    2021: Regulatory framework on technology risk management and
+    resilience for licensed banks*; Finance Business Act Directions,
+    vol. 2022.
 
-[^115]: Finance Business Act Directions, vol. 2022.
-
-[^116]: Central Bank of Sri Lanka, *Banking Act Directions No. 16 of
+[^113]: Central Bank of Sri Lanka, *Banking Act Directions No. 16 of
     2021: Regulatory framework on technology risk management and
     resilience for licensed banks*.
 
-[^117]: Central Bank of Sri Lanka.
+[^114]: Central Bank of Sri Lanka.
 
-[^118]: Personal Data Protection Act.
+[^115]: Personal Data Protection Act.
 
-[^119]: Personal Data Protection Act.
+[^116]: Personal Data Protection Act.
 
-[^120]: *Daily FT*, “Personal Data Protection Authority Progresses with
+[^117]: *Daily FT*, “Personal Data Protection Authority Progresses with
     Board Appointment.”
 
-[^121]: Gazette on operation of Personal Data Protection.
+[^118]: Gazette on operation of Personal Data Protection.
 
-[^122]: Intellectual Property Act, 36/ 2003.
+[^119]: Intellectual Property Act, 36/ 2003.
 
-[^123]: See Section 11.
+[^120]: See Section 11.
 
-[^124]: “Paris Convention for the Protection of Industrial Property.”
+[^121]: “Paris Convention for the Protection of Industrial Property.”
 
-[^125]: The Copyright (Amendment) Act.
+[^122]: The Copyright (Amendment) Act; Copyright Act, 14/1957.
 
-[^126]: Copyright Act, 14/1957.
-
-[^127]: Committee on Formulating a Strategy for Artificial Intelligence
+[^123]: Committee on Formulating a Strategy for Artificial Intelligence
     (CFSAI), *Artificial Intelligence in Sri Lanka*.
 
-[^128]: Department of Commerce, USA, “Sri Lanka Country Commercial
+[^124]: Department of Commerce, USA, “Sri Lanka Country Commercial
     Guide.”
+
+[^125]: Sri Lanka–Singapore Free Trade Agreement (SLSFTA).
+
+[^126]: Sri Lanka–Singapore Free Trade Agreement (SLSFTA).
+
+[^127]: Electronic Transaction (e-Registration of Persons) Regulations
+    No. 1 of 2019, vol. 2019.
+
+[^128]: Use of Electronic Documents and Electronic Communication for
+    Official Use.
 
 [^129]: Sri Lanka–Singapore Free Trade Agreement (SLSFTA).
 
-[^130]: Sri Lanka–Singapore Free Trade Agreement (SLSFTA).
+[^130]: SAFTA Agreement.
 
-[^131]: Electronic Transaction (e-Registration of Persons) Regulations
-    No. 1 of 2019, vol. 2019.
+[^131]: Mutual Assistance in Criminal Matters Act 2002, vol. 2002.
 
-[^132]: Use of Electronic Documents and Electronic Communication for
-    Official Use.
-
-[^133]: Sri Lanka–Singapore Free Trade Agreement (SLSFTA).
-
-[^134]: SAFTA Agreement.
-
-[^135]: Mutual Assistance in Criminal Matters Act 2002, vol. 2002.
-
-[^136]: Mutual Assistance in Criminal Matters (Amendment) Act No 24 of
+[^132]: Mutual Assistance in Criminal Matters (Amendment) Act No 24 of
     2018, vol. 2018.
 
-[^137]: Natesan, “Towards Efficient Reporting Mechanisms for Enhancing
+[^133]: Natesan, “Towards Efficient Reporting Mechanisms for Enhancing
     Institutional Transparency.”
 
-[^138]: K.K.G Chandrika v. Office of the Director General of Health
+[^134]: K.K.G Chandrika v. Office of the Director General of Health
     Services, Galle RTIC Appeal 2110/2020 ; W.R.M.F.H.A Walosundara v.
     District Secretariat, Gampaha RTIC Appeal 83/ 2017 ; Methsiri de
     Silva v District Health Service Office, Galle RTIC Appeal 1166 /
@@ -4170,85 +4169,85 @@ blocking of websites in Sri Lanka.” *Groundviews*, 2017.
     Appeal RTIC Appeal 191 / 2018; G R M N B Rathnayake V. Central
     Environmental Authority RTIC Appeal(In-Person) /219/2018
 
-[^139]: Regulations Promulgated Under the Right to Information Act, No.
+[^135]: Regulations Promulgated Under the Right to Information Act, No.
     12 of 2016, vol. 2017.
+
+[^136]: Verite Research, *Proactive Disclosure under the RTI Act in Sri
+    Lanka: Ranking Public Authorities 2023*.
+
+[^137]: Verite Research.
+
+[^138]: Verite Research.
+
+[^139]: Perera and Bandara, *Proactive Disclosure Under the RTI Act in
+    Sri Lanka - Ranking Key Public Authorities in 2024*.
 
 [^140]: Verite Research, *Proactive Disclosure under the RTI Act in Sri
     Lanka: Ranking Public Authorities 2023*.
 
-[^141]: Verite Research.
-
-[^142]: Verite Research.
-
-[^143]: Perera and Bandara, *Proactive Disclosure Under the RTI Act in
-    Sri Lanka - Ranking Key Public Authorities in 2024*.
-
-[^144]: Verite Research, *Proactive Disclosure under the RTI Act in Sri
-    Lanka: Ranking Public Authorities 2023*.
-
-[^145]: Natesan, *Breaking Barriers: Women and Right to Information in
+[^141]: Natesan, *Breaking Barriers: Women and Right to Information in
     Sri Lanka.*
 
-[^146]: United Nations Development Programme, *Review of Legislation for
+[^142]: United Nations Development Programme, *Review of Legislation for
     Conistency with the RTI Legal Regime*.
 
-[^147]: *Transparency International Sri Lanka v Presidential
+[^143]: *Transparency International Sri Lanka v Presidential
     Secretariat*.
 
-[^148]: *Chamara Sampath v. Parliament of Sri Lanka*.
+[^144]: *Chamara Sampath v. Parliament of Sri Lanka*.
 
-[^149]: *Chamara Sampath v. Neil Iddawala*.
+[^145]: *Chamara Sampath v. Neil Iddawala*.
 
-[^150]: Pinto-Jayawardena et al., *Legal Commentaries to Selected Orders
+[^146]: Pinto-Jayawardena et al., *Legal Commentaries to Selected Orders
     of the Right to Information Commission of Sri Lanka 2019- 2021*.
 
-[^151]: RTI Commission of Sri Lanka, *Selected Orders of the Right to
+[^147]: RTI Commission of Sri Lanka, *Selected Orders of the Right to
     Information Commission of Sri Lanka 2017-2018*.
 
-[^152]: Natesan, *Right to Information Vs. Protection of Personal Data
+[^148]: Natesan, *Right to Information Vs. Protection of Personal Data
     in Sri Lanka*.
 
-[^153]: *Litro Gas Lanka Limited vs. W.K.S. Karunarathne*.
+[^149]: *Litro Gas Lanka Limited vs. W.K.S. Karunarathne*.
 
-[^154]: Centre for Law and Democracy and Access Info Europe, *Global
+[^150]: Centre for Law and Democracy and Access Info Europe, *Global
     Right to Information Rating*.
 
-[^155]: Natesan, “Is the Proposed Data Protection legislation a cause
+[^151]: Natesan, “Is the Proposed Data Protection legislation a cause
     for concern for journalistic expression?”
 
-[^156]: Personal Data Protection Act.
+[^152]: Personal Data Protection Act.
 
-[^157]: The Personal Data Protection Bill, 2019.
+[^153]: The Personal Data Protection Bill, 2019.
 
-[^158]: The Personal Data Protection Bill, 2019.
+[^154]: The Personal Data Protection Bill, 2019.
 
-[^159]: Walpola, *“Implementation of Personal Data Protection Act likely
+[^155]: Walpola, *“Implementation of Personal Data Protection Act likely
     to be hampered by political interference”*.
 
-[^160]: Electronic Transaction (e-Registration of Persons) Regulations
+[^156]: Electronic Transaction (e-Registration of Persons) Regulations
     No. 1 of 2019, vol. 2019.
 
-[^161]: Walpola, *“Implementation of Personal Data Protection Act likely
+[^157]: Walpola, *“Implementation of Personal Data Protection Act likely
     to be hampered by political interference”*.
 
-[^162]: *The Morning*, “Data Protection Bill further delayed.”
+[^158]: *The Morning*, “Data Protection Bill further delayed.”
 
-[^163]: *The Morning*, “Data Protection Bill further delayed.”
+[^159]: *The Morning*, “Data Protection Bill further delayed.”
 
-[^164]: United Nations Development Programme, *Country programme
+[^160]: United Nations Development Programme, *Country programme
     document for Sri Lanka (2018-2022)*.
 
-[^165]: Information and Communication Technology Agency of Sri Lanka
+[^161]: Information and Communication Technology Agency of Sri Lanka
     (ICTA), *National Data Sharing Policy Draft*.
 
-[^166]: Government cloud policy – draft v 1.7.
+[^162]: Government cloud policy – draft v 1.7.
 
-[^167]: Information and Communication Technology Agency of Sri Lanka,
+[^163]: Information and Communication Technology Agency of Sri Lanka,
     *Digital Document Management Policy Draft 1.9*.
 
-[^168]: Information and Communication Technology Agency of Sri Lanka
+[^164]: Information and Communication Technology Agency of Sri Lanka
     (ICTA), *Sri Lanka Government Information Classification Framework
     (SLGICF)*.
 
-[^169]: Information and Communication Technology Agency of Sri Lanka,
+[^165]: Information and Communication Technology Agency of Sri Lanka,
     *Information Classification Policy for Government Organizations*.
