@@ -6,7 +6,7 @@ project:
     - "!reports/_common/*.qmd" # Do not render included files
   post-render: 
     - quarto run _scripts/collect_outputs.ts
-    - quarto run _scripts/manage_citations.ts
+    #- quarto run _scripts/manage_citations.ts
   
 # 1. Global metadata
 lang: en-US
