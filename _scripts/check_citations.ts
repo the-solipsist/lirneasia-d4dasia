@@ -1,13 +1,26 @@
 import { parse } from "stdlib/flags";
 import { join, relative } from "stdlib/path";
 
+/**
+ * Interface representing a CSL JSON bibliography item.
+ * We primarily care about the 'id' field for validation.
+ */
+interface BibItem {
+  id: string;
+  type?: string;
+  title?: string;
+  author?: Array<{ family?: string; given?: string; literal?: string }>;
+  issued?: { "date-parts"?: Array<Array<number | string>> };
+  [key: string]: unknown; // Allow other fields without losing type safety for 'id'
+}
+
 const args = parse(Deno.args, {
   string: ["input", "bib"],
 });
 
 if (import.meta.main) {
   if (!args.input || !args.bib) {
-    console.log("Usage: quarto run _scripts/check_citations.ts --input <path> --bib <path>");
+    console.error("❌ Usage: quarto run _scripts/check_citations.ts --input <path> --bib <path>");
     Deno.exit(1);
   }
 
@@ -19,33 +32,33 @@ if (import.meta.main) {
 
 async function run(inputPath: string, bibPath: string) {
   // 1. Read Bibliography
-  console.log(`Reading Bibliography: ${relative(Deno.cwd(), bibPath)}`);
+  console.log(`📖 Reading Bibliography: ${relative(Deno.cwd(), bibPath)}`);
   let bibContent = "";
   try {
     bibContent = await Deno.readTextFile(bibPath);
   } catch (e) {
-    console.error(`Error reading Bib file: ${e.message}`);
+    console.error(`❌ Error reading Bib file: ${e.message}`);
     Deno.exit(1);
   }
 
-  let bibData: any[];
+  let bibData: BibItem[];
   try {
     bibData = JSON.parse(bibContent);
   } catch (e) {
-    console.error(`Error parsing Bib JSON: ${e.message}`);
+    console.error(`❌ Error parsing Bib JSON: ${e.message}`);
     Deno.exit(1);
   }
 
-  const validKeys = new Set(bibData.map((item: any) => item.id));
-  console.log(`Loaded ${validKeys.size} citation keys from bibliography.`);
+  const validKeys = new Set(bibData.map((item) => item.id));
+  console.log(`✅ Loaded ${validKeys.size} citation keys from bibliography.`);
 
   // 2. Read Input File (CSV or TSV)
-  console.log(`Reading Input: ${relative(Deno.cwd(), inputPath)}`);
+  console.log(`📖 Reading Input: ${relative(Deno.cwd(), inputPath)}`);
   let inputContent = "";
   try {
     inputContent = await Deno.readTextFile(inputPath);
   } catch (e) {
-    console.error(`Error reading input file: ${e.message}`);
+    console.error(`❌ Error reading input file: ${e.message}`);
     Deno.exit(1);
   }
 
@@ -56,7 +69,7 @@ async function run(inputPath: string, bibPath: string) {
 
   // Skip header if it looks like one
   let startIndex = 0;
-  if (lines[0].toLowerCase().includes("footnote") || lines[0].toLowerCase().includes("citation key")) {
+  if (lines.length > 0 && (lines[0].toLowerCase().includes("footnote") || lines[0].toLowerCase().includes("citation key"))) {
     startIndex = 1;
   }
 
@@ -72,7 +85,6 @@ async function run(inputPath: string, bibPath: string) {
         if (!cell) continue;
 
         // Pandoc citation keys start with @. We match all sequences starting with @
-        // and consisting of valid key characters.
         const matches = cell.matchAll(/@([a-zA-Z0-9_\-:]+)/g);
         for (const match of matches) {
             const rawKey = match[1];
@@ -87,22 +99,22 @@ async function run(inputPath: string, bibPath: string) {
   }
 
   // 3. Report
-  console.log("\nAnalysis Result:");
+  console.log("\n📊 Analysis Result:");
   if (missingKeys.size === 0) {
-    console.log("All citation keys found in bibliography.");
+    console.log("✅ All citation keys found in bibliography.");
   } else {
-    console.log(`Found ${missingKeys.size} missing citation keys:\n`);
+    console.log(`⚠️  Found ${missingKeys.size} missing citation keys:\n`);
     const sortedMissing = Array.from(missingKeys).sort();
     
     for (const key of sortedMissing) {
       const suggestion = findBestMatch(key, validKeys);
       if (suggestion) {
-        console.log(`- ${key}  --> Did you mean: ${suggestion}?`);
+        console.log(`   - ${key.padEnd(30)} --> Did you mean: ${suggestion}?`);
       } else {
-        console.log(`- ${key}`);
+        console.log(`   - ${key}`);
       }
     }
-    console.log(`\n(Found ${foundKeys.size} valid keys)`);
+    console.log(`\n(Found ${foundKeys.size} valid keys in use)`);
   }
 }
 
@@ -111,36 +123,32 @@ async function run(inputPath: string, bibPath: string) {
  */
 function findBestMatch(missing: string, validKeys: Set<string>): string | null {
   let bestMatch: string | null = null;
-  let bestScore = Infinity; // Lower is better for Levenshtein
+  let bestScore = Infinity;
 
   for (const valid of validKeys) {
     // 1. Substring checks (High confidence)
     if (valid.includes(missing) || missing.includes(valid)) {
-      // Prefer the one that is closer in length
       const lenDiff = Math.abs(valid.length - missing.length);
       if (lenDiff < bestScore) {
-        bestScore = lenDiff; // Treat length diff as a "score" for substrings
+        bestScore = lenDiff;
         bestMatch = valid;
       }
       continue;
     }
 
     // 2. Common Prefix (Medium confidence)
-    // Keys often start with author name.
     if (missing.length > 5 && valid.length > 5) {
         let commonPrefix = 0;
         while (commonPrefix < missing.length && commonPrefix < valid.length && missing[commonPrefix] === valid[commonPrefix]) {
             commonPrefix++;
         }
-        if (commonPrefix >= 8) { // 8 chars is a decent overlap for author + partial title
-             // Only pick if we haven't found a substring match
+        if (commonPrefix >= 8) {
              if (bestMatch === null) bestMatch = valid;
              continue;
         }
     }
 
     // 3. Levenshtein (Low confidence / Typo fix)
-    // Only run on keys that look somewhat similar in length to avoid costly n^2 on all keys
     if (Math.abs(valid.length - missing.length) <= 3) {
         const dist = levenshtein(missing, valid);
         if (dist <= 3 && dist < bestScore) {
@@ -157,39 +165,28 @@ function findBestMatch(missing: string, validKeys: Set<string>): string | null {
  * Calculates Levenshtein distance between two strings.
  */
 function levenshtein(a: string, b: string): number {
-  if (a.length === 0) return b.length;
-  if (b.length === 0) return a.length;
+  const n = a.length;
+  const m = b.length;
+  if (n === 0) return m;
+  if (m === 0) return n;
 
-  const matrix = [];
+  const d = Array.from({ length: n + 1 }, () => Array(m + 1).fill(0));
 
-  // increment along the first column of each row
-  for (let i = 0; i <= b.length; i++) {
-    matrix[i] = [i];
-  }
+  for (let i = 0; i <= n; i++) d[i][0] = i;
+  for (let j = 0; j <= m; j++) d[0][j] = j;
 
-  // increment each column in the first row
-  for (let j = 0; j <= a.length; j++) {
-    matrix[0][j] = j;
-  }
-
-  // Fill in the rest of the matrix
-  for (let i = 1; i <= b.length; i++) {
-    for (let j = 1; j <= a.length; j++) {
-      if (b.charAt(i - 1) == a.charAt(j - 1)) {
-        matrix[i][j] = matrix[i - 1][j - 1];
-      } else {
-        matrix[i][j] = Math.min(
-          matrix[i - 1][j - 1] + 1, // substitution
-          Math.min(
-            matrix[i][j - 1] + 1, // insertion
-            matrix[i - 1][j] + 1 // deletion
-          )
-        );
-      }
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= m; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      d[i][j] = Math.min(
+        d[i - 1][j] + 1,      // deletion
+        d[i][j - 1] + 1,      // insertion
+        d[i - 1][j - 1] + cost // substitution
+      );
     }
   }
 
-  return matrix[b.length][a.length];
+  return d[n][m];
 }
 
 /**
