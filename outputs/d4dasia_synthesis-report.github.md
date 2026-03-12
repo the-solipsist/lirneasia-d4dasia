@@ -956,8 +956,6 @@ Law No. 28 of 2011</p></li>
 </tbody>
 </table>
 
-##### 
-
 ##### India
 
 The Public Records Act, 1993 and the Companies Act, 2013 both contain
@@ -4161,7 +4159,7 @@ https://web.archive.org/web/20231116070519/https://cdac.in/?id=st_oss_free_open_
 Centre for Law and Democracy, and Access Info Europe. *Global Right to
 Information Rating*. Center for law and democracy, 2023.
 https://web.archive.org/web/20240812115711/https://www.rti-rating.org/rating/.
-<https://www.rti-rating.org/rating/>.
+<https://www.rti-rating.org/rating>.
 
 </div>
 
@@ -4464,8 +4462,7 @@ National Policy on Information Technology (2012).
 
 </div>
 
-<div id="ref-nationalstatisticalofficeIntroductionGovernmentData2020"
-class="csl-entry">
+<div id="ref-nsoIntroductionGovernment2020" class="csl-entry">
 
 National Statistical Office. “Introduction to Government Data Catalogs.”
 2020.
@@ -4473,8 +4470,7 @@ National Statistical Office. “Introduction to Government Data Catalogs.”
 
 </div>
 
-<div id="ref-nationalstatisticalofficeNationalStatistical2023"
-class="csl-entry">
+<div id="ref-thailandNationalStatisticalOffice2023" class="csl-entry">
 
 National Statistical Office. “National Statistical Office Website.”
 2023. <https://www.nso.go.th/nsoweb/index>.

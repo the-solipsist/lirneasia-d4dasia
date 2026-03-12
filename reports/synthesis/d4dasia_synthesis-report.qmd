@@ -300,7 +300,7 @@ The Census Ordinance of 1900 has substantially remained the basis for census tak
 
 ##### Thailand
 
-Section 6 of the Statistics Act B.E. 2550 (2007) imposes the responsibility on the National Statistical Office of Thailand (NSOT) to prepare, collect and create statistics [@nationalstatisticalofficeNationalStatistical2023; @nepalStatisticsAct2007]. The NSOT has a significant role in maintaining and operating databases and accessibility to public information and all government agencies are required to cooperate with the NSOT [@thailandPersonalDataAct2021] [^8] to create catalogues of government data focusing on statistics and directory services [@nationalstatisticalofficeIntroductionGovernmentData2020].
+Section 6 of the Statistics Act B.E. 2550 (2007) imposes the responsibility on the National Statistical Office of Thailand (NSOT) to prepare, collect and create statistics [@thailandNationalStatisticalOffice2023; @nepalStatisticsAct2007]. The NSOT has a significant role in maintaining and operating databases and accessibility to public information and all government agencies are required to cooperate with the NSOT [@thailandPersonalDataAct2021] [^8] to create catalogues of government data focusing on statistics and directory services [@nsoIntroductionGovernment2020].
 
 ### Other proactive disclosure of information
 
@@ -353,7 +353,6 @@ All the countries studied have a national archive which is maintained according 
 | Thailand                          | - Cabinet resolution on 7th May 2019                                                   |
 +===================================+========================================================================================+
 
-##### 
 
 ##### India
 
