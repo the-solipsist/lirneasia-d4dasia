@@ -2341,13 +2341,6 @@ framework.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-ASTIDatasets" class="csl-entry">
-
-Advanced Science and Technology Institute (ASTI). “COARE Datasets.”
-DOST-ASTI, July 6, 2018. <https://coaredata.asti.dost.gov.ph/>.
-
-</div>
-
 <div id="ref-AirPhilippines2007" class="csl-entry">
 
 Air Philippines Corporation v. Pennswell, Inc., G.R. No. 172835 (Supreme
@@ -3143,8 +3136,7 @@ Vintage Vehicle Regulation Act, Pub. L. Nos. Republic Act No. 11698
     Offerings; Department of the Interior and Local Government (DILG),
     “Full Disclosure Policy Portal.”
 
-[^26]: Advanced Science and Technology Institute (ASTI), “COARE
-    Datasets.”
+[^26]: **ASTIDatasets?**
 
 [^27]: National Archives of the Philippines Act of 2007, s. 3.
 
