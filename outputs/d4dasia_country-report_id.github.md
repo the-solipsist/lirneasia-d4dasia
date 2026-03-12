@@ -997,7 +997,7 @@ Data Governance in Indonesia
 
 <div id="fig-sdi">
 
-<img src="./images/output.png" data-fig-alt="..." />
+<img src="./images/output.png" data-fig-alt="..." alt="..." />
 
 Figure 1: Current condition and future expected situation with SDI
 

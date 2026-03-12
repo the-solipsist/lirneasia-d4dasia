@@ -15,8 +15,8 @@ October 1, 2025
     report](#structure-of-the-report)
     - [<span class="toc-section-number">2.1.1</span> Governance
       background](#governance-background)
-    - [<span class="toc-section-number">2.1.2</span> Increasing openness
-      / access](#increasing-openness--access)
+    - [<span class="toc-section-number">2.1.2</span> Increasing
+      openness/access](#increasing-opennessaccess)
     - [<span class="toc-section-number">2.1.3</span> Decreasing
       openness/access](#decreasing-opennessaccess)
 - [<span class="toc-section-number">3</span> Background](#background)
@@ -29,7 +29,7 @@ October 1, 2025
     - [<span class="toc-section-number">3.2.1</span> Policies issued by
       ICTA](#policies-issued-by-icta)
   - [<span class="toc-section-number">3.3</span> Increasing
-    openness/access](#increasing-opennessaccess)
+    openness/access](#increasing-opennessaccess-1)
     - [<span class="toc-section-number">3.3.1</span> Right to
       Information Act No. 12 of
       2016](#right-to-information-act-no-12-of-2016)
@@ -227,47 +227,44 @@ do not necessarily represent those of IDRC or its Board of Governors.
 # Introduction
 
 This report on data governance in **Sri Lanka** is part of the
-“Harnessing Data for Democratic Development in South and Southeast Asia”
-(D4DAsia) project, which aims, *inter alia*, to create and mobilize new
-knowledge about tensions, gaps, and the evolution of the data governance
-ecosystem, taking into account formal and informal policies and
+‘Harnessing Data for Democratic Development in South and Southeast Asia’
+(D4DAsia) project, which aims, *inter alia*, to create and mobilise new
+knowledge about tensions, gaps and the evolution of the data governance
+ecosystem taking into account formal and informal policies and
 practices.
 
 In today’s digital age, data governance ecosystems play a crucial role
 in shaping our societies. These ecosystems, comprising policies, laws,
-practices, behaviors, and technologies, aim to govern data in ways that
+practices, behaviours, and technologies, aim to govern data in ways that
 protect rights, foster innovation, enhance transparency, and ultimately
-promote democratic and inclusive governance. However, the landscape of
-data governance is complex and often fraught with challenges,
-particularly in South and Southeast Asia.
+promote democratic and inclusive governance. An ideal data governance
+system would protect rights, enable innovation, improve transparency,
+and help in bringing about democratic, inclusive governance. However,
+the landscape of data governance is complex and often fraught with
+challenges, particularly in South and Southeast Asia.
 
-A data governance ecosystem comprises the policies, laws, practices,
-behaviors, and technologies that govern data. An ideal data governance
-system would protect rights, enable innovation, enhance transparency,
-and contribute to achieving democratic and inclusive governance.
-Throughout the remainder of the report, unless the context indicates
-otherwise, the term “policies” is used as shorthand for policies,
-statutes, regulations, rules, administrative orders, and even practices
-and technologies used to implement these as part of the data governance
-ecosystem.
+Through the rest of the report, unless the context indicates otherwise,
+the term ‘policies’ is used as shorthand for policies, statutes,
+regulations, rules, administrative orders and even practices and
+technologies that are used to implement all of those as part of data
+governance ecosystems.
 
-Data is increasingly being recognized as an enabler for development. It
+Data is increasingly being recognised as an enabler for development. It
 is an essential requirement for policymaking and monitoring of
 development goals and targets. When effectively managed, data can be
 used as an asset to support significant development actions such as
-poverty reduction, food security, mitigating the impact of climate
-change, and disaster management. If mismanaged, it can exacerbate
-inequalities and undermine the development potential of the same
-actions.
+poverty reduction, food security, mitigating impact of climate change,
+and disaster management. If mismanaged, it can exacerbate inequalities
+and undermine the development potential of the same actions.
 
-The D4DAsia project has produced nine reports so far — seven detailed
-individual country reports which deal with the issues of data governance
-in the following countries: India, Indonesia, Nepal, Pakistan,
+The D4DAsia project has produced nine reports so far: seven detailed
+individual country reports that deal with the issues of data governance
+in the following countries; India, Indonesia, Nepal, Pakistan,
 Philippines, Sri Lanka and Thailand; a detailed look at data protection
-in South Korea; and a synthesis report that summarizes the findings from
+in South Korea; and a synthesis report that summarises the findings from
 the various countries while drawing out the contrasts amongst them,
-along with detailed findings to the research questions we posed, which
-were:
+along with detailed findings for the research questions we had posed.
+The questions are:
 
 1.  What is common, and what is nationally specific, in the emerging
     data governance architectures in South and Southeast Asia? What are
@@ -282,7 +279,7 @@ were:
     objectives such as greater accountability of powerholders, economic
     growth, including the creation of employment and wealth, resilience
     of systems, etc. How have different societies: (a) explicitly
-    recognized the trade-offs or not; and (b) handled them?
+    recognised the trade-offs or not; and (b) handled them?
 
 4.  Are there legislative or policy innovations with potential for
     replication? What are the modalities of sharing experiences? Are
@@ -300,52 +297,52 @@ were:
 
 ### Governance background
 
-The report starts by providing contextual information about the
+This report starts by providing contextual information about the
 constitution and governance framework in **Sri Lanka**, including how
 lawmaking powers are distributed and delegated, the powers of the
 judiciary to overturn laws or to enforce policies, and the legal and
 regulatory background in the country.
 
-### Increasing openness / access
+### Increasing openness/access
 
 The report then discusses policies that increase openness or access. By
-this, we mean policies that allow greater access by citizens, consumers,
+this we mean policies that allow greater access by citizens, consumers,
 and corporations to data, or facilitate interoperability or cross-border
 data transfer. Specifically, we do not include increased governmental
 access to citizens’ private data or non-public corporate data.
 
 This section discusses open data policies, the question of how much
-governmental data is made available proactively, and how much is
-reactive as well as the quality of data being disseminated. The report
-also assesses government policies favoring or requiring free and open
-source software (FOSS) or open standards, noting any specific standards
-that are mandated.
+governmental data is made available proactively and how much is reactive
+as well as the quality of data being disseminated. The report also
+assesses government policies favouring or requiring free and open source
+software (FOSS) or open standards, noting any specific standards that
+are mandated.
 
 ### Decreasing openness/access
 
-The report then moves on to discuss the opposite, i.e., laws, policies,
-and practices which decrease openness or access. By this we mean
+The report then moves on to discuss the opposite, i.e. laws, policies
+and practices that decrease openness or access. By this we mean
 decreasing access of citizens, consumers, and corporations to data. To
 be clear, this is not a negative value judgement, since upholding
 important individual and collective rights, such as privacy and public
-security, necessitates reducing citizens’ access to data.
+security, necessitate reducing citizens’ access to data.
 
-This theme explores issues of security, such as whether there are any
-data retention or localization requirements, restrictions on the right
-to access information (such as national security, privacy, etc.) and
+This theme explores issues of security such as whether there are any
+data retention or localisation requirements, restrictions on the right
+to access information (such as national security, privacy etc.) and
 exceptions to data security requirements for law enforcement. We further
 discuss the privacy and copyright framework in brief and specifically
 try to answer whether there are any exceptions for search engines as
 well as for research and artificial intelligence (AI).
 
 The issue of data governance and the policies surrounding its
-implementation is critical for governments, citizens, and businesses
-across the world. As mentioned earlier, we use the term data governance
-to refer to “diverse arrangements, including technical, policy,
-regulatory or institutional provisions, that affect data and their
-creation, collection, storage, use, protection, access, sharing and
-deletion across policy domains and organizational and national
-borders”.[^1]
+implementation is a critical one for governments, citizens and
+businesses across the world. As mentioned earlier, we use the term data
+governance to refer to ‘diverse arrangements, including technical,
+policy, regulatory or institutional provisions, that affect data and
+their creation, collection, storage, use, protection, access, sharing
+and deletion across policy domains and organisational and national
+borders.’[^1]
 
 # Background
 
@@ -512,7 +509,8 @@ class="quarto-xref">Figure 1</a> below depicts this.
 <div id="fig-national-policy-framework">
 
 <img src="./images/policy-framework-digital-transformation.jpg"
-data-fig-alt="Diagram titled &quot;Policy Framework - Digital Transformation.&quot; It is structured around three main pillars: Digital Government (listing Digital Foundation, National Data Exchange, Shared Solutions, Line of Business Digitalisation, Common Access); Digital Economy (listing Tech Industry Development, Startup Eco System Development, Technology Diffusion, Capacity Building, Regional Cluster Development); and Digital Services (listing Government Tech Infrastructure Services, Technology and Transformation Consultancy Services, Digital ID and Authentication Services, Digital Payment Services). Both the three pillars rest on foundational layers labeled Technology and Digital Laws and Policies." />
+data-fig-alt="Diagram titled &quot;Policy Framework - Digital Transformation.&quot; It is structured around three main pillars: Digital Government (listing Digital Foundation, National Data Exchange, Shared Solutions, Line of Business Digitalisation, Common Access); Digital Economy (listing Tech Industry Development, Startup Eco System Development, Technology Diffusion, Capacity Building, Regional Cluster Development); and Digital Services (listing Government Tech Infrastructure Services, Technology and Transformation Consultancy Services, Digital ID and Authentication Services, Digital Payment Services). Both the three pillars rest on foundational layers labeled Technology and Digital Laws and Policies."
+alt="Diagram titled &quot;Policy Framework - Digital Transformation.&quot; It is structured around three main pillars: Digital Government (listing Digital Foundation, National Data Exchange, Shared Solutions, Line of Business Digitalisation, Common Access); Digital Economy (listing Tech Industry Development, Startup Eco System Development, Technology Diffusion, Capacity Building, Regional Cluster Development); and Digital Services (listing Government Tech Infrastructure Services, Technology and Transformation Consultancy Services, Digital ID and Authentication Services, Digital Payment Services). Both the three pillars rest on foundational layers labeled Technology and Digital Laws and Policies." />
 
 Figure 1: National Policy Framework for Digital Transformation
 
@@ -2888,7 +2886,7 @@ licensed banks*. Central Bank of Sri Lanka, 2021.
 Centre for Law and Democracy, and Access Info Europe. *Global Right to
 Information Rating*. Center for law and democracy, 2023.
 https://web.archive.org/web/20240812115711/https://www.rti-rating.org/rating/.
-<https://www.rti-rating.org/rating/>.
+<https://www.rti-rating.org/rating>.
 
 </div>
 
