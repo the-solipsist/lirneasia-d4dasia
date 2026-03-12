@@ -17,8 +17,8 @@ December 10, 2024
     report](#structure-of-the-report)
     - [<span class="toc-section-number">3.1.1</span> Governance
       background](#governance-background)
-    - [<span class="toc-section-number">3.1.2</span> Increasing openness
-      / access](#increasing-openness--access)
+    - [<span class="toc-section-number">3.1.2</span> Increasing
+      openness/access](#increasing-opennessaccess)
     - [<span class="toc-section-number">3.1.3</span> Decreasing
       openness/access](#decreasing-opennessaccess)
 - [<span class="toc-section-number">4</span> Country
@@ -26,7 +26,7 @@ December 10, 2024
   - [<span class="toc-section-number">4.1</span> Legal background and
     landscape](#legal-background-and-landscape)
   - [<span class="toc-section-number">4.2</span> Increasing
-    openness/access](#increasing-opennessaccess)
+    openness/access](#increasing-opennessaccess-1)
     - [<span class="toc-section-number">4.2.1</span> Open data and
       content](#open-data-and-content)
     - [<span class="toc-section-number">4.2.2</span> Open standards and
@@ -35,7 +35,7 @@ December 10, 2024
     openness/access](#decreasing-opennessaccess-1)
     - [<span class="toc-section-number">4.3.1</span> National security
       and public order](#national-security-and-public-order)
-    - [<span class="toc-section-number">4.3.2</span> Privacy Protection
+    - [<span class="toc-section-number">4.3.2</span> Privacy protection
       of personal data and taxpayer
       information](#privacy-protection-of-personal-data-and-taxpayer-information)
     - [<span class="toc-section-number">4.3.3</span> Intellectual
@@ -69,14 +69,14 @@ December 10, 2024
     national banking and financial
     sector](#data-governance-in-the-national-banking-and-financial-sector)
     - [<span class="toc-section-number">5.2.1</span> Public sector: Bank
-      of Thailand (BoT)](#public-sector-bank-of-thailand-bot)
+      of Thailand](#public-sector-bank-of-thailand)
     - [<span class="toc-section-number">5.2.2</span> Private sector:
       Private banks](#private-sector-private-banks)
 - [<span class="toc-section-number">6</span> Summary of
   findings](#summary-of-findings)
-  - [<span class="toc-section-number">6.1</span> Commonality &
+  - [<span class="toc-section-number">6.1</span> Commonality and
     divergences in data governance
-    architecture](#commonality--divergences-in-data-governance-architecture)
+    architecture](#commonality-and-divergences-in-data-governance-architecture)
   - [<span class="toc-section-number">6.2</span> Frictions within
     policies](#frictions-within-policies)
   - [<span class="toc-section-number">6.3</span> Trade-offs among data
@@ -89,8 +89,9 @@ December 10, 2024
 
 ## List of abbreviations
 
+| Abbreviation | Full Form / Description |
+|----|----|
 | AI | Artificial Intelligence |
-|:---|:---|
 | APSEM | Act on Carrying Out of Public Service via Electronic Means |
 | BMP | Bitmap |
 | CEO | Chief Executive Officer |
@@ -173,10 +174,8 @@ do not necessarily represent those of IDRC or its Board of Governors.
 
 # Executive summary
 
-**Data Governance in Thailand**
-
 Thailand’s data governance landscape is undergoing a significant
-transformation, shaped by the country’s ambition to modernize its
+transformation, shaped by the country’s ambition to modernise its
 administrative systems, promote digital development, and respond to
 rising concerns about privacy, security, and transparency. This report,
 developed under the D4DAsia initiative, examines how Thailand’s evolving
@@ -186,7 +185,7 @@ civic participation.
 
 Historically, Thailand adopted Continental European legal traditions
 during the 19th century as part of its broader efforts to avoid
-colonization and modernize its state machinery. Today, its data
+colonisation and modernise its state machinery. Today, its data
 governance framework is anchored in the 2017 Constitution, which affirms
 the right to information and the protection of personal data. Over the
 past two decades, the country has enacted several key laws, including
@@ -202,7 +201,7 @@ lies in the inconsistent application and interpretation of overlapping
 legal frameworks. For instance, while the OIA mandates the disclosure of
 public sector data, many government agencies exercise broad discretion
 to withhold information on grounds of national security, institutional
-convenience, or unclear data classification schemes. Similarly, the PDPA
+convenience or unclear data classification schemes. Similarly, the PDPA
 establishes individual rights to data protection and privacy but has
 suffered delays in full enforcement and is often misunderstood by public
 and private actors alike. These legal frictions result in a landscape
@@ -216,7 +215,7 @@ primarily through the work of the Digital Government Development Agency
 Portal. These platforms aim to consolidate and release public sector
 datasets to improve service delivery, increase transparency, and foster
 innovation. The DGA also sets key performance indicators (KPIs) for
-agencies and offers training programs to support open data practices.
+agencies and offers training programmes to support open data practices.
 Despite these efforts, most datasets (around 90%) remain accessible only
 through reactive disclosure mechanisms, such as citizen requests, rather
 than proactive publication.
@@ -226,17 +225,17 @@ by Thailand’s political and administrative culture. Security laws such
 as the Computer-Related Crime Act and the Cybersecurity Act, along with
 broad definitions of disinformation and national interest, often create
 a chilling effect on data sharing and public discourse. Moreover,
-institutions responsible for regulating or managing data – such as DGA,
+institutions responsible for regulating or managing data—such as DGA,
 the Digital Government Development Committee (DGDC), and the Personal
-Data Protection Committee (PDPC) – face limitations in authority,
-coordination, and capacity.
+Data Protection Committee (PDPC)—face limitations in authority,
+coordination and capacity.
 
 Sector-specific case studies illustrate the practical difficulties and
 opportunities for advancing data governance. In the health sector, the
 National Health Security Office (NHSO) has demonstrated a proactive
 attitude toward data sharing and citizen participation, particularly in
 managing the Universal Coverage Scheme. Yet legal uncertainty about what
-data can be shared and under which conditions continue to inhibit
+data can be shared and under which conditions continues to inhibit
 transparency. In contrast, the financial sector has benefited from more
 coherent regulatory guidance, with the Bank of Thailand emerging as a
 leader in data governance implementation, particularly in the adoption
@@ -245,69 +244,66 @@ sector, inconsistent interpretation of the PDPA poses operational
 challenges.
 
 Ultimately, Thailand’s data governance system reflects a broader tension
-between aspiration and implementation. While the state recognizes the
-value of data for development, innovation, and democratic participation,
-it often defaults to risk aversion, legal ambiguity, and bureaucratic
+between aspiration and implementation. While the state recognises the
+value of data for development, innovation and democratic participation,
+it often defaults to risk aversion, legal ambiguity and bureaucratic
 discretion. Capacity constraints—particularly among local-level
 officials and small- and medium-sized enterprises—further hinder
 effective compliance and innovation. Moreover, public awareness of data
 rights and participation in governance processes remain limited.
 
-To move forward, Thailand must prioritize legal harmonization,
-institutional coordination, and capacity building. Clearer guidance on
+To move forward, Thailand must prioritise legal harmonisation,
+institutional coordination and capacity building. Clearer guidance on
 the relationship between openness and privacy, better training for both
-public officials and private actors, and more inclusive mechanisms for
+public officials and private actors and more inclusive mechanisms for
 stakeholder engagement will be essential. Comparative lessons from
-countries like South Korea, Australia, and the UK offer valuable models,
+countries like South Korea, Australia and the UK offer valuable models,
 but successful reform will ultimately require local adaptation and
 political will. Data governance in Thailand is at a crossroads: whether
-it becomes a tool for democratization or control depends on the choices
+it becomes a tool for democratisation or control depends on the choices
 made in the coming years.
 
 # Introduction
 
 This report on data governance in **Thailand** is part of the
-“Harnessing Data for Democratic Development in South and Southeast Asia”
-(D4DAsia) project, which aims, *inter alia*, to create and mobilize new
-knowledge about tensions, gaps, and the evolution of the data governance
-ecosystem, taking into account formal and informal policies and
+‘Harnessing Data for Democratic Development in South and Southeast Asia’
+(D4DAsia) project, which aims, *inter alia*, to create and mobilise new
+knowledge about tensions, gaps and the evolution of the data governance
+ecosystem taking into account formal and informal policies and
 practices.
 
 In today’s digital age, data governance ecosystems play a crucial role
 in shaping our societies. These ecosystems, comprising policies, laws,
-practices, behaviors, and technologies, aim to govern data in ways that
+practices, behaviours, and technologies, aim to govern data in ways that
 protect rights, foster innovation, enhance transparency, and ultimately
-promote democratic and inclusive governance. However, the landscape of
-data governance is complex and often fraught with challenges,
-particularly in South and Southeast Asia.
+promote democratic and inclusive governance. An ideal data governance
+system would protect rights, enable innovation, improve transparency,
+and help in bringing about democratic, inclusive governance. However,
+the landscape of data governance is complex and often fraught with
+challenges, particularly in South and Southeast Asia.
 
-A data governance ecosystem comprises the policies, laws, practices,
-behaviors, and technologies that govern data. An ideal data governance
-system would protect rights, enable innovation, enhance transparency,
-and contribute to achieving democratic and inclusive governance.
-Throughout the remainder of the report, unless the context indicates
-otherwise, the term “policies” is used as shorthand for policies,
-statutes, regulations, rules, administrative orders, and even practices
-and technologies used to implement these as part of the data governance
-ecosystem.
+Through the rest of the report, unless the context indicates otherwise,
+the term ‘policies’ is used as shorthand for policies, statutes,
+regulations, rules, administrative orders and even practices and
+technologies that are used to implement all of those as part of data
+governance ecosystems.
 
-Data is increasingly being recognized as an enabler for development. It
+Data is increasingly being recognised as an enabler for development. It
 is an essential requirement for policymaking and monitoring of
 development goals and targets. When effectively managed, data can be
 used as an asset to support significant development actions such as
-poverty reduction, food security, mitigating the impact of climate
-change, and disaster management. If mismanaged, it can exacerbate
-inequalities and undermine the development potential of the same
-actions.
+poverty reduction, food security, mitigating impact of climate change,
+and disaster management. If mismanaged, it can exacerbate inequalities
+and undermine the development potential of the same actions.
 
-The D4DAsia project has produced nine reports so far — seven detailed
-individual country reports which deal with the issues of data governance
-in the following countries: India, Indonesia, Nepal, Pakistan,
+The D4DAsia project has produced nine reports so far: seven detailed
+individual country reports that deal with the issues of data governance
+in the following countries; India, Indonesia, Nepal, Pakistan,
 Philippines, Sri Lanka and Thailand; a detailed look at data protection
-in South Korea; and a synthesis report that summarizes the findings from
+in South Korea; and a synthesis report that summarises the findings from
 the various countries while drawing out the contrasts amongst them,
-along with detailed findings to the research questions we posed, which
-were:
+along with detailed findings for the research questions we had posed.
+The questions are:
 
 1.  What is common, and what is nationally specific, in the emerging
     data governance architectures in South and Southeast Asia? What are
@@ -322,7 +318,7 @@ were:
     objectives such as greater accountability of powerholders, economic
     growth, including the creation of employment and wealth, resilience
     of systems, etc. How have different societies: (a) explicitly
-    recognized the trade-offs or not; and (b) handled them?
+    recognised the trade-offs or not; and (b) handled them?
 
 4.  Are there legislative or policy innovations with potential for
     replication? What are the modalities of sharing experiences? Are
@@ -340,61 +336,61 @@ were:
 
 ### Governance background
 
-The report starts by providing contextual information about the
+This report starts by providing contextual information about the
 constitution and governance framework in **Thailand**, including how
 lawmaking powers are distributed and delegated, the powers of the
 judiciary to overturn laws or to enforce policies, and the legal and
 regulatory background in the country.
 
-### Increasing openness / access
+### Increasing openness/access
 
 The report then discusses policies that increase openness or access. By
-this, we mean policies that allow greater access by citizens, consumers,
+this we mean policies that allow greater access by citizens, consumers,
 and corporations to data, or facilitate interoperability or cross-border
 data transfer. Specifically, we do not include increased governmental
 access to citizens’ private data or non-public corporate data.
 
 This section discusses open data policies, the question of how much
-governmental data is made available proactively, and how much is
-reactive as well as the quality of data being disseminated. The report
-also assesses government policies favoring or requiring free and open
-source software (FOSS) or open standards, noting any specific standards
-that are mandated.
+governmental data is made available proactively and how much is reactive
+as well as the quality of data being disseminated. The report also
+assesses government policies favouring or requiring free and open source
+software (FOSS) or open standards, noting any specific standards that
+are mandated.
 
 ### Decreasing openness/access
 
-The report then moves on to discuss the opposite, i.e., laws, policies,
-and practices which decrease openness or access. By this we mean
+The report then moves on to discuss the opposite, i.e. laws, policies
+and practices that decrease openness or access. By this we mean
 decreasing access of citizens, consumers, and corporations to data. To
 be clear, this is not a negative value judgement, since upholding
 important individual and collective rights, such as privacy and public
-security, necessitates reducing citizens’ access to data.
+security, necessitate reducing citizens’ access to data.
 
-This theme explores issues of security, such as whether there are any
-data retention or localization requirements, restrictions on the right
-to access information (such as national security, privacy, etc.) and
+This theme explores issues of security such as whether there are any
+data retention or localisation requirements, restrictions on the right
+to access information (such as national security, privacy etc.) and
 exceptions to data security requirements for law enforcement. We further
 discuss the privacy and copyright framework in brief and specifically
 try to answer whether there are any exceptions for search engines as
 well as for research and artificial intelligence (AI).
 
 The issue of data governance and the policies surrounding its
-implementation is critical for governments, citizens, and businesses
-across the world. As mentioned earlier, we use the term data governance
-to refer to “diverse arrangements, including technical, policy,
-regulatory or institutional provisions, that affect data and their
-creation, collection, storage, use, protection, access, sharing and
-deletion across policy domains and organizational and national
-borders”.[^1]
+implementation is a critical one for governments, citizens and
+businesses across the world. As mentioned earlier, we use the term data
+governance to refer to ‘diverse arrangements, including technical,
+policy, regulatory or institutional provisions, that affect data and
+their creation, collection, storage, use, protection, access, sharing
+and deletion across policy domains and organisational and national
+borders.’[^1]
 
 # Country overview
 
 ## Legal background and landscape
 
-Thailand, formerly known as “Siam”, is among a handful of Asian
-countries to have avoided colonization by Western powers. Nevertheless,
+Thailand, formerly known as ‘Siam’, is among a handful of Asian
+countries to have avoided colonisation by Western powers. Nevertheless,
 it was indirectly forced to adopt Western legal systems and traditions
-to abolish the “extraterritorial jurisdiction” granted to citizens of
+to abolish the ‘extraterritorial jurisdiction’ granted to citizens of
 Western nations.[^2] Consequently, in the 19th century, Thailand
 underwent a modernization of its legal systems, with special reference
 to the legal frameworks of France, Germany, and Japan, to align them
@@ -407,7 +403,7 @@ of expression, the right to access information held by government
 agencies, and the right to privacy, which underpins the personal data
 protection framework.
 
-At present, Thailand regards itself as a “civil law country”, focusing
+At present, Thailand regards itself as a ‘civil law country’, focusing
 on statutory law instead of relying on judicial decisions as in common
 law jurisdictions. It should be noted that Thailand is a unitary state,
 not a federal one. In terms of hierarchy, the Thai Constitution holds
@@ -446,9 +442,9 @@ effectively.[^8] It should be noted that the right to access to public
 information in the possession of government agencies is now guaranteed
 by Section 41 of the 2017 Thai Constitution.
 
-Three ICT-related laws — namely, the Electronic Transactions Act (No.4)
+Three ICT-related laws—namely, the Electronic Transactions Act (No.4)
 B.E. 2562 (2019), the Computer-Related Crime Act (No.2) B.E.2560 (2017)
-and the PDPA — and the OIA have contributed significantly to the
+and the PDPA—and the OIA have contributed significantly to the
 development of data-related framework beyond the secret
 protection-related provisions in the Thai Criminal Code.
 
@@ -457,7 +453,7 @@ shaping the data governance framework, especially in the public sector.
 It is the primary piece of legislation that establishes the strategies
 and policies for the development and improvement of public
 administration and services, which in turn serve as the legal basis for
-the policies, standards, and practice guidelines pertaining to data
+the policies standards, and practice guidelines pertaining to data
 governance in the public sector. In 2020, DGDC, a body established by
 the power of the DPASDA, issued the Announcement on Data Governance for
 Government 2020, which aimed to be part of the implementation of the
@@ -493,7 +489,7 @@ private sector regarding openness and access to data.
 
 ### Open data and content
 
-The 1997 Thai Constitution is widely recognized as the People’s
+The 1997 Thai Constitution is widely recognised as the People’s
 Constitution, as a majority of Thai people participated in its drafting
 from the very early stages.[^11] It was promulgated after Black May
 1992, one of the most violent crackdowns on demonstrators and a moment
@@ -501,8 +497,8 @@ of significant political unrest in modern Thai history.[^12] The Black
 May incident eroded Thai people’s trust in their government[^13] and
 intensified their demand for knowing and accessing information held by
 government agencies.[^14] Currently, under the 2017 Thai Constitution,
-Section 41(1)[^15] guarantees the right to be informed by and to access
-public data or information held by the governmental agencies. On the
+Section 41(1) guarantees the right to be informed by and to access
+public data or information held by governmental agencies.[^15] On the
 other hand, Section 59 makes it the duty of the Thai government to
 disclose any public data or information and also ensure convenient
 access to such data or information.[^16] As stated above, the Official
@@ -521,13 +517,13 @@ on Public Sector Rebalancing and Development[^20] was translated into
 the 12th National Economic and Social Plan 2017-2021, which *inter alia*
 set a policy to improve the management of the public sector, prevent
 corruption, and establish good governance with an aim to achieve
-“transparent, effective, and accountable public administration.”[^21]
+‘transparent, effective and accountable public administration.’[^21]
 This in turn paved the way for the Digital Development for National
 Economic and Social Plan, one of whose aims is to advance digital
 administration.[^22] As a consequence, a series of Digital Government
 Development Plans were announced, including the first-phase plan
 2016-2018,[^23] the second-phase plan (drafted for 2017-2021 but never
-finalized),[^24] the third-phase plan (2020-2022)[^25] and the
+finalised),[^24] the third-phase plan (2020-2022)[^25] and the
 fourth-phased plan (2023-2027).[^26] Notably, the DPASDA mandates the
 establishment of the DGDC and the DGA as the Committee’s administrative
 and supporting body to implement measures in accordance with the Digital
@@ -568,14 +564,14 @@ information is readily accessible to the public (proactively), with the
 remaining 90% disclosed only upon request (reactively).
 
 The legal principles and policies deriving from the OIA can be
-summarized as follows.[^30] First, all government agencies and public
+summarised as follows.[^30] First, all government agencies and public
 officials are required to comply with all requirements imposed by this
 law in order to safeguard the right to access public information, as the
 exercise of political rights and freedom of expression is essential for
 a healthy democracy. As a consequence, all government agencies are
-required to compile data catalogs of the public information they possess
-and make them available to the public through the Government Data
-Catalog website (<https://gdcatalog.go.th/>).[^31] Second, a clear
+required to compile data catalogues of the public information they
+possess and make them available to the public through the Government
+Data Catalog website (<https://gdcatalog.go.th/>).[^31] Second, a clear
 distinction is made between what information should be made available to
 the public (the principle) and what information should be withheld (the
 exceptions prescribed in Sections 14 and 15 of the OIA). Under the
@@ -594,11 +590,11 @@ to the PDPA, and information that falls within the scope of exception
 should comprise a small portion. According to the cabinet resolution of
 29 April 2011, all information covered by Sections 7 and 9 of the OIA
 must be made publicly available on the websites of all government
-agencies[^33][^34].[^35] Last, as required by Section 33 paragraph 2,
-all government agencies and public officers have to allow the Office of
-the Official Information Commission or anyone assigned by the Commission
-to access and assess the information in question, regardless of whether
-it is publicly disclosable or not. To sum up, the OIA and the cabinet
+agencies.[^33] Last, as required by Section 33 paragraph 2, all
+government agencies and public officers have to allow the Office of the
+Official Information Commission or anyone assigned by the Commission to
+access and assess the information in question, regardless of whether it
+is publicly disclosable or not. To sum up, the OIA and the cabinet
 resolution of 29 April 2011 have made the majority of public information
 in the possession of government agencies (especially those on the lists
 in Sections 7 and 9) available on the websites of individual government
@@ -606,7 +602,7 @@ agencies. To date, there has been no study assessing the effectiveness
 of the cabinet resolution regarding compliance with Sections 7 and 9 of
 the OIA. Not only does the Official Information Commission under the OIA
 play a significant role in proactive data sharing, but so does the DGA,
-a public organization whose mission is to establish an effective digital
+a public organisation whose mission is to establish an effective digital
 government in accordance with the DPASDA. As previously stated, Section
 59 of the Thai Constitution mandates the disclosure of any public data
 or information possessed by governmental agencies. In addition, it must
@@ -615,7 +611,7 @@ government initiated its Open Government Data project by commissioning
 the Electronic Government Agency (EGA) to compile a list of types of
 public information that need to be disclosed, and then ordering all
 government agencies to provide the required public information on the
-list for uploading to data.go.th.[^36] EGA was under the administration
+list for uploading to data.go.th.[^34] EGA was under the administration
 of the Ministry of Digital Economy and Society until 2018, when it was
 renamed DGA and its administration was transferred to the Office of the
 Prime Minister. This website is aimed to be “\[d\]eveloped under the
@@ -623,46 +619,46 @@ concept of being the central point for accessing open government data,
 allowing citizens to conveniently and rapidly access government data at
 all times. The published dataset should be in a structured format such
 as CSV, XLS, XLSX, XML, or JSON to ensure it is fully machine-readable.
-Additionally, data sets and metadata can also be managed.”[^37]
+Additionally, data sets and metadata can also be managed.”[^35]
 
 This one-stop information website contains information pertinent to
 culture, law and justice, education, economy and finance, public health,
 official statistics, agriculture, social welfare, transportation and
 logistics, politics, science and technology, and local and regional
 affairs among other topics. It is still extremely active, with 3,878,375
-users and 14,920,495 downloads as of 9 October 2023.[^38]
+users and 14,920,495 downloads as of 9 October 2023.[^36]
 
 The National Statistical Office of Thailand (NSO) also plays a crucial
-role in the country’s data governance framework.[^39] Under Section 6 of
+role in the country’s data governance framework.[^37] Under Section 6 of
 the Statistics Act B.E. 2550 (2007), the NSO is responsible for
-preparing, collecting, and creating national statistics.[^40]
+preparing, collecting, and creating national statistics.[^38]
 Furthermore, as stipulated by Section 8(5) of the DPASDA and a Cabinet
 resolution from 7 May 2019, all government agencies are required to
 collaborate with the NSO, a division of the Ministry of Digital Economy
-and Society, to create data catalogs focused on statistical and
-directory services.[^41] These statistics are then made publicly
-available on catalog.nso.go.th, covering a range of topics including
+and Society, to create data catalogues focused on statistical and
+directory services.[^39] These statistics are then made publicly
+available on catalogue.nso.go.th, covering a range of topics including
 logistics, energy, consumption, science and technology, demography,
 social welfare, religion, and culture. Currently, 752 sets of
 statistical data are accessible through this platform.
 
 Importantly, apart from dealing with open data or statistical data, the
 NSO has been appointed by DGDC as the national registrar for all types
-of government data catalogs. Meanwhile, the DGA manages data.or.th, the
-central platform for open data, as specified by the DPASDA.
+of government data catalogues. Meanwhile, the DGA manages data.or.th,
+the central platform for open data, as specified by the DPASDA.
 
 In practice, however, most government agencies have so far posted data
-catalogs for open data only. This is because all government agencies are
-driven by KPIs set out by the Office of the Public Sector Development
-Commission (OPDC). In the first phase of this initiative (2021-2023),
-the primary objective was to build open data resources. The KPI for this
-phase measured the number of open data sets cataloged on the NSO website
-and made available on data.or.th or agency-specific sites, following
-DGA’s data governance guidelines.
+catalogues for open data only. This is because all government agencies
+are driven by KPIs set out by the Office of the Public Sector
+Development Commission (OPDC). In the first phase of this initiative
+(2021-2023), the primary objective was to build open data resources. The
+KPI for this phase measured the number of open data sets catalogued on
+the NSO website and made available on data.or.th or agency-specific
+sites, following DGA’s data governance guidelines.
 
 Starting from the second phase (2024), the KPIs have shifted focus to
 encourage data sharing among government agencies. Key agencies are now
-expected to share “master data” with other agencies, and the KPI will
+expected to share ‘master data’ with other agencies, and the KPI will
 reward data sets that are beneficial across multiple agencies. This
 shift reflects a broader objective: data governance as a tool for
 inter-agency collaboration and resource-sharing, rather than an end in
@@ -671,8 +667,8 @@ itself.
 As far as data openness on websites of government agencies is concerned,
 the 2021 Government Website Standard Handbook issued by EGA sets
 guidelines for the content that government agency websites should
-include.[^42] It specifies that a government agency website should
-provide information such as the organization’s history or background,
+include.[^40] It specifies that a government agency website should
+provide information such as the organisation’s history or background,
 aims and vision, information about the CEO, and relevant laws and
 regulations.
 
@@ -693,7 +689,7 @@ Another major initiative is the Law Portal, launched by the Office of
 the Council of State in partnership with DGA. This online platform
 provides access to all legislations and related decrees, allowing users
 to search and cross-reference laws, decrees, and subordinate
-regulations.[^43]
+regulations.[^41]
 
 Interestingly, there is no open access mandate for scholarly literature
 imposed by either governmental agencies or private funders. Open access
@@ -703,16 +699,16 @@ institutions. The main scheme is the ThaiLIS Digital Collection (TCD),
 which serves as a repository of dissertations, theses, and research
 reports from numerous colleges and universities nationwide. ThaiLIS is
 supported by the Ministry of Higher Education, Science, Research, and
-Innovation.[^44] Thailand also has an academic journal database, Thai
+Innovation.[^42] Thailand also has an academic journal database, Thai
 Journals Online (ThaiJO), which is supported by Thailand Science
 Research and Innovation (TSRI), an agency under the Ministry of Higher
 Education, Science, Research and Innovation, National Electronics and
 Computer Technology Center, Thai-Journal Citation Index Center,
 Thammasat University and King Mongkut’s University of Technology
-Thonburi.[^45] With regard to geo-informatics, the Ministry of Natural
+Thonburi.[^43] With regard to geo-informatics, the Ministry of Natural
 Resources and Environment is the main government agency responsible for
 making this information available. It can be accessed via
-data.go.th.[^46]
+data.go.th.[^44]
 
 ##### Reactive data disclosure in the public sector
 
@@ -725,7 +721,7 @@ above); information that falls within the scope of exception and thus
 cannot be disclosed (Sections 14 and 15 of the OIA); and information
 that is not within the scope of the first two (Section 11 of the OIA).
 The final category refers to public information that is disclosed upon
-request, which accounts for 90% of all public information.[^47]
+request, which accounts for 90% of all public information.[^45]
 Currently, significantly more data is disclosed reactively than
 proactively. Reactive disclosure of data is subject to exceptions set
 forth in Article 15 of the OIA. These exceptions include cases where
@@ -739,19 +735,19 @@ the consent of the data subject is prohibited.
 
 There is no uniform policy or framework regarding data and content
 openness in the private sector. Moreover, data and information of
-private companies and organizations can be disclosed through the legal
+private companies and organisations can be disclosed through the legal
 frameworks of the OIA and the PDPA. For companies that are not public,
 the Department of Business Development has a duty to make publicly
 available information regarding company registration, financial
 statements, shareholder registration, and business collateral
 registration (on the department’s website). Likewise, the public can
-access information on charitable and non-profit organizations by using
+access information on charitable and non-profit organisations by using
 the OIA. However, this is subject to the PDPA. For public companies,
 Article 24/1 of the Securities Exchange Act, 1992, requires the
 Securities and Exchange Commission (SEC) to disclose information
 concerning the issuance or offering for sale of securities, the
 companies issuing or offering securities, securities companies, the
-Securities Exchange, over-the-counter centers, organizations related to
+Securities Exchange, over-the-counter centres, organisations related to
 the securities business, or information relating to any violations and
 penalties imposed on violators. This includes any other information
 obtained in the performance of duties under this Act, such as current
@@ -763,7 +759,7 @@ public (as required by Article 56).
 
 At present, Thailand has bilateral free trade agreements with six
 different countries, namely Australia, Chile, India, Japan, New Zealand,
-and Peru.[^48] With regard to open access to law and open data relating
+and Peru.[^46] With regard to open access to law and open data relating
 to macro-economics, according to Article 7 of the Framework Agreement on
 Closer Economic Partnership between the Government of the Republic of
 Peru and the Government of the Kingdom of Thailand, both Thailand and
@@ -772,14 +768,14 @@ economic data are made available, for example via the Internet, in such
 a manner as to enable the other Party to become acquainted with them.
 Upon request from the other Party, a Party will endeavour to promptly
 provide information and respond to questions pertaining to any actual or
-proposed measure referred to in paragraph 1.”[^49] In addition, certain
+proposed measure referred to in paragraph 1.”[^47] In addition, certain
 trade agreements require Thailand to have personal data protection
 measures in place.
 
 ### Open standards and software
 
-This section focuses on how Thai government agencies – such as DGA and
-DGDC – ensure consistency in data format, quality, and interoperability.
+This section focuses on how Thai government agencies—such as DGA and
+DGDC—ensure consistency in data format, quality, and interoperability.
 Despite this, the use and promotion of open-source software remain
 underdeveloped and underfunded.
 
@@ -788,76 +784,76 @@ underdeveloped and underfunded.
 In Thailand, a ministerial or departmental announcement is a type of
 secondary legislation that a department can issue within the scope
 allowed by an act. By virtue of the DPASDA, the DGDC issued the
-Announcement on Data Governance for Government on 12 March 2020.[^50] It
+Announcement on Data Governance for Government on 12 March 2020.[^48] It
 serves as the foundation for policies and legal measures that explicitly
 address data governance. The announcement states clearly that the Thai
 government’s data governance serves as a set of principles and
 guidelines for all government agencies to follow in order to develop
 systems that effectively manage and integrate discrete and disparate
-pieces public information, as well as safeguard them with reliable data
-security mechanisms.[^51] Besides the announcement, DGA also issued the
-Data Governance for Government Handbook version 1.0 in 2018. It provides
-essential information about data governance in the form of the core
-concepts, definitions, framework of data governance, data rules, metrics
-and success measures, data quality and security assessments as well as
-case studies of Australia, South Korea and the United Kingdom as good
-models of data governance.[^52] In 2020, DGDC also issued the
+pieces of public information, as well as safeguard them with reliable
+data security mechanisms.[^49] Besides the announcement, DGA also issued
+the Data Governance for Government Handbook version 1.0 in 2018. It
+provides essential information about data governance in the form of the
+core concepts, definitions, framework of data governance, data rules,
+metrics and success measures, data quality and security assessments as
+well as case studies of Australia, South Korea and the United Kingdom as
+good models of data governance.[^50] In 2020, DGDC also issued the
 Announcement on Disclosure of Public Sector Information in Digital
-Format to the Public and the 2020 Handbook.[^53] The aim of this
+Format to the Public and the 2020 Handbook.[^51] The aim of this
 announcement is to mandate all government agencies to make the
 information in their possession ready for public availability and free
 of charge. The handbook accompanying the announcement provides a set of
-guidelines to ensure standardization in how data is made accessible,
+guidelines to ensure standardisation in how data is made accessible,
 usable, and shareable. It also specifies the file formats used to store
 and exchange data, ensuring the data can be accessed and used without
 proprietary constraints, with an expectation that the information will
 be circulated and utilized for wider benefits and interests.
 Furthermore, the announcement requires the establishment of a central
-information center, which will serve as a liaison and facilitator
+information centre, which will serve as a liaison and facilitator
 between various government agencies in order to make public information
-available to the public.[^54] The handbook contains details regarding
+available to the public.[^52] The handbook contains details regarding
 the nature of information that is disclosed, the criteria that should be
 taken into account when evaluating whether public information is ready
 to be made available, the procedure for making information publicly
-available, the designated center for public information, and potential
-applications of public information.[^55]
+available, the designated centre for public information, and potential
+applications of public information.[^53]
 
-In 2023, DGA issued the Data Governance for Government Handbook version
-2.0 The second version incorporates several modifications and
+In 2023, the DGA issued the Data Governance for Government Handbook,
+Version 2.0. This second version incorporates several modifications and
 supplementary content. These include updating definitions to align more
 closely with the present circumstances, providing more details on data
-governance and information categorization, modifying the criterion for
+governance and information categorisation, modifying the criterion for
 assessing data quality, incorporating guidance on how to implement a
 data governance framework in practice, and supplementing the first
 edition with clearer, step-by-step instructions to assist individual
-government agencies. The second announcement is on Data Quality
-Assessment Framework for Government Agencies 2023.[^56] Its handbook
+government agencies. The second announcement is on the Data Quality
+Assessment Framework for Government Agencies 2023.[^54] Its handbook
 aims to provide a framework and tools for assessing the quality of
 public information in relation to data management, monitoring, and
 control. Its main purpose is to provide users of public information with
 the assurance that the data is accurate, reliable, and of sufficient
 quality to be utilized for precise policy and operational
 decision-making, as well as accurate analysis. The third announcement is
-on Recommendations for Writing Data Management Policies.[^57] The
+on Recommendations for Writing Data Management Policies.[^55] The
 primary purpose of this announcement and its handbook is to serve as a
 template for a data management model that individual government agencies
 can refer to in developing their own data governance guidelines,
 aligning with the data policies they have publicly declared.
 
 The last one is the Announcement on Government Data Catalog and
-Registration Guidelines 2023.[^58] There are two handbooks accompanying
+Registration Guidelines 2023.[^56] There are two handbooks accompanying
 this announcement. The Handbook on Government Data Catalog provides
 information to the government agencies’ technical and non-technical
-teams regarding the creation of data catalogs (with metadata) that can
+teams regarding the creation of data catalogues (with metadata) that can
 be supplied to the central database of public information. The Handbook
 on Government Data Registration aims to furnish guidance that will
 establish a standardized framework for the registration process of
-diverse data catalogs.
+diverse data catalogues.
 
 In 2012, EGA published the first version of the Government Website
 Standard Handbook with an expectation to establish a uniform criterion
 that different government agencies could implement on their respective
-organizational websites.[^59] This handbook contains information
+organisational websites.[^57] This handbook contains information
 regarding: 1. government website contents; 2. government data exchange
 (i.e., how to integrate public information from various websites into a
 one-stop-service platform or application.); 3. information security; 4.
@@ -865,35 +861,35 @@ recommended features (i.e., web designs and displays, languages (Thai
 and English), fonts (the Thai government requires government agencies to
 use 13 open-source fonts developed by Software Industry Promotion Agency
 on their websites. Additionally, these fonts have also been promoted for
-use in the private sector,[^60] web navigation system, pop-ups and tool
+use in the private sector,[^58] web navigation system, pop-ups and tool
 tips, web analytic tools, naming of files and directories, hyperlinks;
-[^61] and 5. Phases of Online Service Development.[^62]
+[^59] and 5. Phases of Online Service Development.[^60]
 
 In 2021, the Government Website Standard Version 2.0 was released. The
 second version of the handbook, like the first version, draws from
-existing open standards such as WCAG 2.0[^63]. It contains information
-on 8 issues: 1. website domain names; 2. basic organizational
-information of a government agency; 3. organizational policies on open
-government data; 4. services provided by a government agency; 5. public
-participation (such as public relations, social interaction, public
-hearing and online surveys); 6. recommended features; 7. website
-security; and 8. relevant policies (such as website policy, privacy
-policy, and website security policy).[^64] DGA motivates agencies to
-adopt data governance practices through incentives and KPIs. One key
-incentive is the annual Digital Government Award, led by the Prime
-Minister, which recognizes government agencies that excel in advancing
-their digital maturity, with specific categories for achievements in
-open data and data governance. The OPDC’s KPI serves as a mandatory
-benchmark, requiring top-performing agencies to align with DGA’s
-data-related standards and to actively promote data usage. DGA not only
-establishes and promotes these standards and guidelines but also
+existing open standards such as WCAG 2.0[^61] and its recent
+update.[^62] It contains information on 8 issues: 1. website domain
+names; 2. basic organisational information of a government agency; 3.
+organisational policies on open government data; 4. services provided by
+a government agency; 5. public participation (such as public relations,
+social interaction, public hearing and online surveys); 6. recommended
+features; 7. website security; and 8. relevant policies (such as website
+policy, privacy policy, and website security policy).[^63] DGA motivates
+agencies to adopt data governance practices through incentives and KPIs.
+One key incentive is the annual Digital Government Award, led by the
+Prime Minister, which recognises government agencies that excel in
+advancing their digital maturity, with specific categories for
+achievements in open data and data governance. The OPDC’s KPI serves as
+a mandatory benchmark, requiring top-performing agencies to align with
+DGA’s data-related standards and to actively promote data usage. DGA not
+only establishes and promotes these standards and guidelines but also
 provides training for government employees. However, DGA is not a
 regulatory or enforcement body; each government department is
 responsible for implementing and adhering to the recommended standards
 and guidelines.
 
 In 2012, the Act on Carrying Out of Public Service via Electronic Means
-B.E. 2565 (APSEM) was passed.[^65] In essence, the law grants citizens
+B.E. 2565 (APSEM) was passed.[^64] In essence, the law grants citizens
 the right to access all government services and related information
 online. It mandates that government agencies provide these electronic
 services in line with standards approved by the cabinet. Failure to
@@ -907,17 +903,17 @@ The OPDC, Office of the Council of State, Electronic Transactions
 Development Agency (ETDA), and DGA issued two Handbooks on Carrying Out
 of Public Service via Electronic Means. One edition is designed for
 novices, while the other is intended for more experienced government
-agencies.[^66] These handbooks provide guidelines regarding
+agencies.[^65] These handbooks provide guidelines regarding
 submission/receipt of petitions or cases, contacting government
 agencies, sending/receiving electronic documents, presenting evidence,
 and the preparation and verification of licenses. Importantly, they also
 set standards for the format of electronic documents to be in PDF, JPEG
 and BMP. Furthermore, in the case that certification is necessary, the
 document in question needs to be certified by the National Root
-Certification Authority of Thailand.[^67]
+Certification Authority of Thailand.[^66]
 
 DGDC also issued another major standard called TGIX with the aim of
-standardizing data format and data exchange protocol between government
+standardising data format and data exchange protocol between government
 agencies. TGIX contains both semantic and technical standards. The
 semantic standards for natural (Thai) personal data and address
 (location) data are already promulgated, with more planned to be
@@ -927,15 +923,15 @@ approved by DGDC soon.
 
 Similar to the public sector, Sections 7 and 10 of the Electronic
 Transactions Act (No.4) B.E. 2562 (2019) requires private companies and
-organizations to recognize and treat digital data or documents in the
+organisations to recognise and treat digital data or documents in the
 same way as hard copies.
 
-#### Free and Open-Source Software
+#### Free and open-source software
 
 The NECTEC is active in promoting open-source software, such as Linux
-and OpenOffice.org.[^68] In the private sector, Thailand has the
+and OpenOffice.org.[^67] In the private sector, Thailand has the
 Open-Source Education and Development Association (OSEDA) which aims to
-promote the study and development of open-source software.[^69]
+promote the study and development of open-source software.[^68]
 Unfortunately, at the moment, the Thai government does not give enough
 importance to the development of open-source software.
 
@@ -979,15 +975,13 @@ that publishing it would amount to a terrorism-related offence.
 In addition, the Rule on Maintenance of Official Secrets B.E. 2544
 (2001), the secondary legislation passed by the virtue of Section 16 and
 Section 26 paragraph 5 of the OIA, lays down a practical framework of
-how to categorize and treat different types of “official secrets”. Under
+how to categorise and treat different types of “official secrets”. Under
 this Rule, official secrets, i.e., public information not subject to be
-the disclosure requirement of the OIA \[Section 5 of the Rule on
-Maintenance of Official Secrets B.E. 2544 (2001)\], are classified into
-three different groups, namely confidential, secret, and top-secret
-information \[Section 12 of the Rule on Maintenance of Official Secrets
-(2001)\]. Confidential information refers to classified information
-that, if disclosed in whole or in part, would cause damage to the
-interests of the state \[Section 5 of the Rule on Maintenance of
+the disclosure requirement of the OIA,[^69] are classified into three
+different groups, namely confidential, secret, and top-secret
+information.[^70] Confidential information refers to classified
+information that, if disclosed in whole or in part, would cause damage
+to the interests of the state \[Section 5 of the Rule on Maintenance of
 Official Secrets (2001)\]. Secret information means classified
 information that, if disclosed in whole or in part, would cause serious
 damage to the interests of the state \[Section 5 of the Rule on
@@ -999,11 +993,11 @@ According to the Rule on Maintenance of Official Secrets (No.2) B.E.
 2561 (2018), heads of government agencies (such as individual heads of
 departments, provincial governors, Bangkok governor, directors or
 general managers of state enterprises, and the chief executive officers
-of organizations – for example, the Attorney General, the
+of organisations—for example, the Attorney General, the
 Secretary-General of the Office of the Judiciary, the Secretariat of The
 House of Representatives, and the Chairperson of the Lawyer Council of
 Thailand) have the power to determine the classification level of
-specific information within their respective organizations.[^70] They
+specific information within their respective organisations.[^71] They
 are also required to provide justifications for labelling information
 categories (i.e., types of particular pieces of information such as
 civil-related, military-related, public health-related, financial and
@@ -1011,15 +1005,14 @@ economic information) and classification levels (i.e., a confidential,
 secret or top-secret level). Notably, Section 16 of the Rule on
 Maintenance of Official Secrets (2001) was not amended by the Rule on
 Maintenance of Official Secrets (No.2) (2018). This classification and
-categorization are vital for protecting sensitive information and
+categorisation are vital for protecting sensitive information and
 ensuring that it is handled properly in accordance with the nature,
 characteristics, and impact of its disclosure or leakage. Moreover, the
 National Intelligence Agency has responsibility for the security and
-preservation of civil-related official secrets,[^71] the Armed Forces
-Security Center is responsible for military-related secrets,[^72] and
+preservation of civil-related official secrets,[^72] the Armed Forces
+Security Center is responsible for military-related secrets,[^73] and
 the Special Branch Bureau of Royal Thai Police is responsible for
-police-related secrets[^73] \[Section 11 of the Rule on Maintenance of
-Official Secrets (No.2) (2018)\].
+police-related secrets.[^74]
 
 The final piece of legislation to be discussed here is the National
 Intelligence Act B.E.2562 (2019). The data and information derived from
@@ -1031,26 +1024,26 @@ typically classified as a state secret and is not made public.
 
 #### Disinformation
 
-In Thailand, Section 14 (1) and (2) of the Computer-Related Crime Act
+In Thailand, Section 14(1) and (2) of the Computer-Related Crime Act
 (No.2) B.E.2560 (2017) are two main provisions to combat disinformation.
 Section 14(1) makes it a criminal offence for a person to “dishonestly
 or by deception, \[enter\] wholly or partially distorted or false
 information or content in the form of computer data into a computer
-system in a manner likely to cause damage to the general public….”[^74]
+system in a manner likely to cause damage to the general public….”[^75]
 Section 14(2) also criminalizes the entry of “false computer data into a
 computer system in a manner which is likely to cause damage to the
 protection of national security, public safety, economic safety of
 \[Thailand\], infrastructures which are for public benefit; or to cause
-panic to the general public”.[^75] It can be concluded that in Thailand,
+panic to the general public.”[^76] It can be concluded that in Thailand,
 internet-based disinformation that may cause harm to the general public,
 vital national security and infrastructure, or panic among the populace
 is subject to criminal penalties. Furthermore, in 2019, the Ministry of
 Digital Economy and Society established the Anti-Fake News Center
 Thailand with the dual purpose of disseminating information regarding
 disinformation, and serving as a platform for the public to report
-instances of disinformation.[^76]
+instances of disinformation.[^77]
 
-#### Data localization
+#### Data localisation
 
 At present, Thailand does not have a specific law that requires
 non-personal data to be stored, processed, or handled within the
@@ -1088,14 +1081,14 @@ has expired \[Section 37(3) of PDPA\]. It should be noted that PDPA does
 not provide leeway for data controllers to retain data indefinitely.
 
 Interestingly, data retention is related to the archiving regulation set
-out by OIC and National Archives of Thailand. As OIC and other laws
+out by OIC and the National Archives of Thailand. As OIC and other laws
 regarding government data or information deal with information in the
 form of paper documents, treating data largely means opening or
 destroying the whole document. On the other hand, data mentioned in the
 DPASDA, the Computer Crime Act and the PDPA deal with each data set and
 data field as a unit regardless of its physical form.
 
-### Privacy Protection of personal data and taxpayer information
+### Privacy protection of personal data and taxpayer information
 
 #### Protection of individual rights and personal information
 
@@ -1104,19 +1097,19 @@ private information and secrets decrease data openness. Section 322
 makes it a criminal offence for a person to “\[break\] open or \[take\]
 away the closed letter, telegram or any document belonging to the other
 person so as to ascertain or to disclose its contents, if such act to be
-likely to cause injury to any person.”[^77] Section 323 focuses on
+likely to cause injury to any person.”[^78] Section 323 focuses on
 secrets deriving from duties or occupations. It is a criminal offence
 for a person who “knows or acquires a private secret of another person
 by reason of his functions as a competent official or his profession as
 a medical practitioner, pharmacist, druggist, midwife, nursing
 attendant, priest, advocate, lawyer or auditor, or by reason of being an
 assistant in such profession, and then discloses such private secret in
-a manner likely to cause injury to any person.”[^78] Under Section 324,
+a manner likely to cause injury to any person.”[^79] Under Section 324,
 a person is subject to criminal punishment if “on the ground that
 oneself having the duty, professing to call the trust, having known or
 acquired the secret according to industry, discovery or scientific
 invention, disclosing or using such secret for the benefit of oneself or
-other person.”[^79] Section 325 makes the aforementioned offences
+other person.”[^80] Section 325 makes the aforementioned offences
 compoundable offences. These provisions are based on traditional
 criminal offences aiming to protect certain types of secrets, and came
 into effect several decades prior to the introduction of data
@@ -1125,7 +1118,7 @@ public sector (DPASDA).
 
 As far as personal data protection is concerned, in 2010 the ETDA issued
 the Announcement on the Guideline of Government Agency’s Personal Data
-Protection.[^80] This guideline applies only to government agencies. In
+Protection.[^81] This guideline applies only to government agencies. In
 essence, it requires government agencies to handle people’s personal
 data in a proper manner, including through the limited collection of
 personal data, identification of purposes of personal data collection
@@ -1148,11 +1141,11 @@ personal data protection law was still in the legislative process. In
 December 2018, the Bill on Personal Data Protection was proposed to the
 National Legislative Assembly by the military junta at the 91/2561
 Assembly; and the PDPA was promulgated and came into effect in February
-2019.[^81] However, due to concerns that the public and private data
+2019.[^82] However, due to concerns that the public and private data
 controllers and processors might not be at the technical and
 technological capacity required, as well as due to the COVID-19
 pandemic, the full enforcement of the PDPA was postponed until 1 June
-2022.[^82] According to the Thai government, the postponement of the
+2022.[^83] According to the Thai government, the postponement of the
 enforcement of the PDPA will ensure that people’s right to privacy and
 personal data as guaranteed by the 2017 Thai Constitution will be
 properly protected, reduce and limit injuries caused by violations of
@@ -1160,11 +1153,11 @@ personal data, make the collection, storage, use, and dissemination of
 personal data meet international standards (especially the GDPR of the
 EU), ensure legal measures that are in line with other countries are in
 place, and increase transparency and good governance in relation to
-personal data.[^83] As with other countries’ personal data protection
+personal data.[^84] As with other countries’ personal data protection
 laws, the PDPA stipulates that personal data cannot be collected,
 processed, used, or disclosed without the data subject’s consent.
 However, it should be noted that Section 4 provides exceptions to the
-applicability of the PDPA.[^84] This means that in certain circumstances
+applicability of the PDPA.[^85] This means that in certain circumstances
 personal data can be lawfully collected, processed, and disclosed
 without consent.
 
@@ -1173,18 +1166,18 @@ guidance on various matters, including the process by which a data
 controller may request consent from a data subject, the specific
 information that ought to be presented to the data subject during the
 consent request process, and the appropriate course of action in
-response to consent revocation[^85] It should be noted, however, that
+response to consent revocation[^86] It should be noted, however, that
 this principle is subject to certain exceptions, including national,
 financial, or public safety, trial and adjudication, etc.
 
 According to PDPC’s Announcement on the Appointment of a Data Protection
-Officer under Section 41 (2) of the Personal Data Protection Act B.E.
-2562 in 2023,[^86] the data controller and data processor who have
+Officer under Section 41(2) of the Personal Data Protection Act B.E.
+2562 in 2023,[^87] the data controller and data processor who have
 activities involving the collection, use, or disclosure of personal data
 on a large scale (over 100,000 individuals) are required to appoint
 their own data protection officers. This provision is applicable to the
 data controller and data processor who collect, use, or disclose
-personal data for the purpose of behavioral advertising through search
+personal data for the purpose of behavioural advertising through search
 engines or online social media platforms.
 
 As far as AI and personal data are concerned, the PDPA is the primary
@@ -1207,22 +1200,22 @@ future.
 It is noteworthy that Thailand’s obligation to implement legal measures
 for protecting personal information and data is stipulated in several
 trade agreements. Specifically, this requirement is detailed in Article
-1106.1 of the Australia – Thailand Free Trade Agreement, Articles 10.7
-and 11.7 of the Peru – Thailand Free Trade Agreement, and Article 10.5
-of the Thailand – New Zealand Closer Economic Partnership Agreement.
+1106.1 of the Australia–Thailand Free Trade Agreement, Articles 10.7 and
+11.7 of the Peru–Thailand Free Trade Agreement, and Article 10.5 of the
+Thailand–New Zealand Closer Economic Partnership Agreement.
 
 #### Transfer of personal data to foreign countries
 
 Section 28 of the PDPA regulates the transfer of personal data from
 Thailand to other countries. This provision requires the destination
-country or international organization to have “adequate” data protection
+country or international organisation to have “adequate” data protection
 standards and also implement appropriate safeguards to protect personal
 data while it is being transferred and stored outside of Thailand. In
 December 2023, the Personal Data Committee issued the Announcement on
 the Criteria for Protecting Personal Data Sent or Transferred
-Abroad.[^87] Section 5 of the announcement requires the Personal Data
+Abroad.[^88] Section 5 of the announcement requires the Personal Data
 Committee to consider two main factors. The first pertains to whether
-the country or international organization receiving personal data has
+the country or international organisation receiving personal data has
 legal measures or mechanisms aligned with the PDPA. This involves
 specific requirements for the data controller, including the need to
 have suitable security and personal data protection measures, the
@@ -1230,12 +1223,12 @@ capability to implement measures safeguarding the rights of data
 subjects, and an effective remedy.
 
 The second factor pertains to whether the country or international
-organization has a regulatory body responsible for personal data
+organisation has a regulatory body responsible for personal data
 protection with the power to enforce legal or regulatory measures for
 data protection. Under Section 6 of the announcement, the data
 controller seeking to send or transfer personal data abroad can file a
 request to PDPC for an evaluation of the “suitable safeguards to protect
-personal data” in the foreign country or international organization.
+personal data” in the foreign country or international organisation.
 Alternatively, the Office of PDPC also has the authority to initiate the
 evaluation without a formal request from the data controller.
 Interestingly, the announcement and the website of the Office of the
@@ -1243,14 +1236,14 @@ Personal Data Committee have not yet provided details regarding the
 necessary documents, the procedural steps, or the expected waiting
 period.
 
-#### The PDPA, search engines, AI developers, and journalism
+#### The PDPA, search engines, AI developers and journalism
 
 Search engines are currently subject to the legal framework of the PDPA
 as part of the communications, telecommunications, computer, and digital
-sectors.[^88] Legally speaking, all requirements prescribed under the
-PDPA — such as obtaining the data subject’s consent, the duties and
+sectors.[^89] Legally speaking, all requirements prescribed under the
+PDPA—such as obtaining the data subject’s consent, the duties and
 responsibilities of data controllers and processors, and the rights of
-data subjects — are applicable to search engines operating in Thailand.
+data subjects—are applicable to search engines operating in Thailand.
 
 As of now, there are no official legal documents or guidelines from PDPC
 specifically addressing how PDPA requirements apply to search engines.
@@ -1258,16 +1251,16 @@ This results in ongoing ambiguity regarding how search engines collect
 and process personal data, including the legality of scraped personal
 data. Furthermore, although Section 33 of the PDPA introduces the right
 to be forgotten, enabling individuals to request the deletion or
-anonymization of their personal data from search engine results, there
+anonymisation of their personal data from search engine results, there
 is no official guidance on its implementation, leaving the issue
-unresolved.[^89]
+unresolved.[^90]
 
 Nonetheless, in 2022, Google Cloud (not the search engine business)
 published a white paper outlining its compliance with the Thai Personal
 Data Protection Act. The paper emphasized Google Cloud’s commitment to
 providing its services in alignment with the PDPA and to working with
 its customers to ensure that all services and their usage conform to the
-Act’s requirements.[^90]
+Act’s requirements.[^91]
 
 As far as journalists are concerned, Section 4(3) clearly states that
 the PDPA does not apply to the activities of mass media and journalism
@@ -1288,18 +1281,18 @@ information is strictly restricted. Revenue officials who obtain
 information about taxpayers or related individuals through their
 official duties are barred from sharing such details with others or
 making them public, unless the requester is legally permitted to access
-the information.[^91]
+the information.[^92]
 
 While the Official Information Act of 1997 promotes transparency by
 affirming that government-held information should generally be
 accessible, with confidentiality as an exception, this principle is not
 absolute. Specific types of information are shielded from disclosure
 when release could potentially harm national security or infringe on
-important private interests. For instance, taxpayer-related information
-– recognized as personal data – is explicitly protected and excluded
-from disclosure under the Act.[^92] Nonetheless, according to the last
-sentence of Section 10, taxpayer information may be disclosed if
-permitted by other laws – for example, when such disclosure is made
+important private interests. For instance, taxpayer-related
+information—recognised as personal data—is explicitly protected and
+excluded from disclosure under the Act.[^93] Nonetheless, according to
+the last sentence of Section 10, taxpayer information may be disclosed
+if permitted by other laws—for example, when such disclosure is made
 under a court judgment or order, explicitly authorized by statute,
 carried out in the public interest, or undertaken as part of the data
 controller’s official duties in exercising state authority.
@@ -1314,9 +1307,9 @@ laws, including a discussion on AI.
 The Copyright Act (No.5) B.E. 2565 (2022), the Patent Act (No. 3) B.E.
 2542 (1999), the Trademark Act (No.2) B.E. 2543 (2000), and the Trade
 Secret Act B.E. 2545 (2002) have certain provisions which prohibit the
-disclosure of data to the public.[^93]
+disclosure of data to the public.[^94]
 
-As far as copyright and research are concerned, Section 32 (1) of the
+As far as copyright and research are concerned, Section 32(1) of the
 Copyright Act provides an exemption for using copyrighted work for
 research on the condition that such research is not for profit.
 
@@ -1353,16 +1346,16 @@ infringing activity; and
 notifications, and provide information on the name, address, telephone
 number and electronic mail address, for contacting purposes, of the
 service \[providers\] or the person designated to receive notification,
-in a location easily accessible”.[^94]
+in a location easily accessible”.[^95]
 
 ##### Copyright law and AI
 
-The DIP makes it clear that it does not recognize the copyright of work
-purely generated by AI. However, it may recognize such work if it is
+The DIP makes it clear that it does not recognise the copyright of work
+purely generated by AI. However, it may recognise such work if it is
 generated by AI with the involvement or interference of a human
-creator.[^95] Nevertheless, the DIP and the Central Intellectual
+creator.[^96] Nevertheless, the DIP and the Central Intellectual
 Property and International Trade Court have not provided any comments
-regarding copyrighted work used to train AI yet**.**
+regarding copyrighted work used to train AI yet.
 
 In my opinion, the infringement of copyright occurs when someone uses
 other people’s copyrighted work without permission for commercial or
@@ -1372,7 +1365,7 @@ copyrighted work. In this case, AI simply relies on copyrighted work for
 training to “generate new work” that has distinctive features of its own
 and differs significantly from the original work. The use of copyrighted
 work to train AI may not violate copyright as long as the output has
-unique characteristics that differ from the original..[^96]
+unique characteristics that differ from the original..[^97]
 
 According to TDRI, the private sector sees the potential and welcomes
 the opportunities provided by using big data to train AI, and vice
@@ -1389,7 +1382,7 @@ concerns and the protection of personal data. Section 41 of the 2017
 Thai Constitution guarantees the right to access public information held
 by government agencies, while Section 59 mandates the Thai government to
 disclose public data and ensure easy access to it. The OIA is
-instrumental in requiring government departments and organizations to
+instrumental in requiring government departments and organisations to
 make public information available.
 
 However, several laws create exceptions to this rule. Notable among
@@ -1417,7 +1410,7 @@ yield to the need to protect national security and privacy rights.
 ### Good practices and potential learnings
 
 As mentioned in the Data Governance for Government Handbook accompanying
-the 2020 Announcement, Thailand appears to recognize data governance
+the 2020 Announcement, Thailand appears to recognise data governance
 models in Australia, South Korea, and the United Kingdom as good
 practices and sources for potential learning.
 
@@ -1430,57 +1423,57 @@ government agencies and the private sector.
 According to information from the Director of the Office of the Official
 Information Commission (Thailand), the first prominent challenge in
 relation to data governance in the public sector is that the
-categorization of information prescribed in the OIA differs from that
+categorisation of information prescribed in the OIA differs from that
 set in the Announcement on Data Governance for Government 2020 (issued
 under the DPASDA). Under the 2020 Announcement, information is
 classified into four groups: public information, personal information,
 national security-related information, and official secrets. However,
 under the OIA, there are three types of official information: (1)
-information that must be made publicly available (e.g. through online
+information that must be made publicly available (e.g., through online
 data catalogues), (2) undisclosed information, and (3) information that
 may be disclosed upon request. This discrepancy creates uncertainty for
-government agencies when categorizing the data in their possession, as
+government agencies when categorising the data in their possession, as
 they are required to comply with both frameworks.
 
 Furthermore, under the 2020 announcement, all government agencies are
-required to create data catalogs of the information they hold. DGA and
+required to create data catalogues of the information they hold. DGA and
 the Office of the Public Sector Development Commission (OPDC) are
-currently pushing for the registration of these catalogs to enable data
-exchange across government agencies, which is expected to lead to the
-release of more types of government data. Additionally, the disclosure
-of official documents without revealing sensitive, secret, or personal
-data can be achieved through techniques such as data masking and
-anonymization. DGA is currently drafting a standard for anonymization,
-which is pending approval by the Digital Government Development
-Promotion Committee (DGDP).
+currently pushing for the registration of these catalogues to enable
+data exchange across government agencies, which is expected to lead to
+the release of more types of government data. Additionally, the
+disclosure of official documents without revealing sensitive, secret, or
+personal data can be achieved through techniques such as data masking
+and anonymisation. DGA is currently drafting a standard for
+anonymisation, which is pending approval by the Digital Government
+Development Promotion Committee (DGDP).
 
 However, many government agencies have not thoroughly reviewed their
 documents. They tend to rely on brief summaries to generate data
-catalogs, resulting in documents with diverse content being grouped
+catalogues, resulting in documents with diverse content being grouped
 together due to similar summary descriptions. Consequently, public data
-catalogs often fail to accurately reflect the diversity and specific
+catalogues often fail to accurately reflect the diversity and specific
 details of the original documents. Given the volume and variety of
-government records, it is not surprising that the number of catalogs is
-lower than it should be. Moreover, since the available catalogs contain
-only condensed summaries rather than full information, individuals may
-have difficulty locating specific details or identifying documents in
-their requests. As a result, some requests are rejected by government
-agencies due to their ambiguity.
+government records, it is not surprising that the number of catalogues
+is lower than it should be. Moreover, since the available catalogues
+contain only condensed summaries rather than full information,
+individuals may have difficulty locating specific details or identifying
+documents in their requests. As a result, some requests are rejected by
+government agencies due to their ambiguity.
 
-Another problem is that current data catalogs do not include full lists
-of the documents they cover. Some of the listed documents may be
+Another problem is that current data catalogues do not include full
+lists of the documents they cover. Some of the listed documents may be
 classified. Even when individuals know that the information they seek is
 contained in a particular catalogue, they may be unaware that it cannot
 be disclosed. Their requests may then be rejected on these grounds. This
 has led to a breakdown of trust between the public and government
 agencies. For example, consider a person seeking information on public
 building project budgets in their village. They know this information is
-in Data Catalog A, but the catalog also contains documents related to
+in Data Catalog A, but the catalogue also contains documents related to
 classified military budgets. If the person submits a request for Catalog
 A without realizing it includes classified content, their request may be
 denied in full. Public officers may assume the requester is asking for
 access to all included documents. This situation arises because data
-catalogs do not specify the full list of documents or clearly indicate
+catalogues do not specify the full list of documents or clearly indicate
 which ones are public and which are classified.
 
 In the private sector, the main challenge is the lack of clear and
@@ -1489,9 +1482,9 @@ mandatory compliance. As a result, many businesses are uncertain whether
 they are meeting legal requirements, especially when adopting unfamiliar
 data practices. Furthermore, small and medium-sized enterprises are
 often reluctant to invest in internal data governance systems. The
-absence of comprehensive guidance from regulatory authorities –
-particularly PDPC – has left companies unsure whether their systems and
-tools are legally compliant.
+absence of comprehensive guidance from regulatory
+authorities—particularly PDPC—has left companies unsure whether their
+systems and tools are legally compliant.
 
 In addition, some interviewees identified the prevailing negative
 perception of data governance among executives, officers, and
@@ -1536,69 +1529,69 @@ policies on data governance in the public health sector. In March 2022,
 the Ministry of Public Health issued its Ministerial Order No. 378/2565
 to commission its Information and Communication Technology Center to
 regulate the ICT infrastructure in relation to digital data of public
-health, especially data security (Health CIRT).[^97] It also announced
+health, especially data security (Health CIRT).[^98] It also announced
 the Information Security Management System Policy to ensure data
 security by providing a guideline and training for public health
-personnel.[^98] At the national level, in September of the same year,
+personnel.[^99] At the national level, in September of the same year,
 Anutin Charnvirakul, the then Ministry of Public Health, announced the
 policies on public health, one of which was the development of a digital
 health data system with the aim of integrating scattered health data
 into a big national database, allowing people to access health-related
 information about, for example, how to prevent diabetes or types of food
 that can boost immunity, and access public health services and
-treatments across different health-care providers.[^99] This was
+treatments across different health-care providers.[^100] This was
 followed by the (Draft) Action plan for Thailand’s digital health system
-2023-2027, with the goals of fostering good data governance, building an
+2023–2027, with the goals of fostering good data governance, building an
 ecosystem for digital health data, integrating pertinent health data,
 and improving data security for sustainable digital data for public
-health.[^100] The document mentions that one of the aims is to increase
-the decentralization of the public health service, making it available
+health.[^101] The document mentions that one of the aims is to increase
+the decentralisation of the public health service, making it available
 to the wider public. However, it mainly addresses administrative
-decentralization and does not provide any details on how this can be
+decentralisation and does not provide any details on how this can be
 achieved. It reads more like an aspiration rather than actionable
 information for policy implementation.
 
 This report considers the NHSO and private hospitals as representatives
-of the public and private healthcare sectors respectively.[^101]
+of the public and private healthcare sectors respectively.[^102]
 
-The NHSO is a public organization that is responsible for policy-making
+The NHSO is a public organisation that is responsible for policy-making
 and implementation in relation to the promotion of the health care
 system under universal health coverage, ensuring that all people who
 live in Thailand have access to health care. Among other goals, it aims
 to achieve and implement an effective information system for
 communications, an evidence-based system of health care delivery,
 beneficiary registration facility, and a monitoring and evaluation
-system”.[^102]
+system”.[^103]
 
 Importantly, while the NHSO gave an interview, all private hospitals
 that the researcher approached declined to participate in the interview,
 due to internal policies. However, the researcher could interview a
 legal consultant specialized in providing legal advice to private
 hospitals and familiar with legal requirements in relation to data
-governance.[^103]
+governance.[^104]
 
 ### Laws and policies
 
 The laws and policies which the NHSO has to comply with can be divided
 into 4 categories as follows:
 
-• The first group is relevant to the implementation and operation of the
-NHSO, which includes the 2017 Thai Constitution, the Official
-Information Act 2540 (1997), DPASDA and the APSEM B.E. 2565 (2022).
+- The first group is relevant to the implementation and operation of the
+  NHSO, which includes the 2017 Thai Constitution, the Official
+  Information Act 2540 (1997), DPASDA and the APSEM B.E. 2565 (2022).
 
-• The second group is about information exchange and disclosure, which
-includes DPASDA, the Recommendation on ICT Standard for Electronic
-Transactions by the ETDA, and Open Government Data Guideline 2020 by
-DGDC.
+- The second group is about information exchange and disclosure, which
+  includes DPASDA, the Recommendation on ICT Standard for Electronic
+  Transactions by the ETDA, and Open Government Data Guideline 2020 by
+  DGDC.
 
-• The third group is about personal data protection which includes the
-Official Information Act B.E.2540 (1997), the PDPA and the Announcement
-on the Guideline of Government Agency’s Personal Data Protection 2010 by
-the ETDA.
+- The third group is about personal data protection which includes the
+  Official Information Act B.E.2540 (1997), the PDPA and the
+  Announcement on the Guideline of Government Agency’s Personal Data
+  Protection 2010 by the ETDA.
 
-• The final group is about secret protection, which includes the
-National Intelligence Act B.E. 2562 (2019) and the Rule on Maintenance
-of Official Secrets (No.2) B.E. 2561 (2018).
+- The final group is about secret protection, which includes the
+  National Intelligence Act B.E. 2562 (2019) and the Rule on Maintenance
+  of Official Secrets (No.2) B.E. 2561 (2018).
 
 For the majority of private hospitals, the relevant laws with regard to
 data governance that they have to comply with are the Social Security
@@ -1628,7 +1621,7 @@ conflicts, as they are not subject to the Official Information Act of
 
 ### Policy objectives, trade-offs, and their recognition
 
-The NHSO recognizes the competing objectives of accessibility and
+The NHSO recognises the competing objectives of accessibility and
 privacy, as required by laws concerning official information and
 personal data protection. However, it does not have a clear strategy to
 resolve this conflict. Currently, it is attempting to comply with both
@@ -1644,21 +1637,21 @@ between accessibility and privacy protection is not an issue for them.
 
 As the NHSO is a government agency, it adopts DGA’s Data Governance for
 Government as best practice. The officers of the NHSO have been sent to
-participate in both online and offline training sessions organized by
+participate in both online and offline training sessions organised by
 DGA. There are a few examples in the healthcare sector of open data
 sharing and data exchange. During the COVID-19 pandemic, the Department
 of Disease Control, MOPH, reported the COVID-19 cases daily with the
-data anonymized. Data on home isolation and community isolation patients
+data anonymised. Data on home isolation and community isolation patients
 were also shared with emergency medical service providers and hospitals
 for efficient patient transfer, using the DGA-RC standard agreed upon
 among related government agencies. Other examples include the open
-datasets on road accident fatalities, which include anonymized
+datasets on road accident fatalities, which include anonymised
 individual details and GPS location of the accidents.
 
 There are no specific best practices in the private healthcare sector.
 The officers of private hospitals have the opportunity to participate in
 workshops or training sessions offered by both private and governmental
-organizations, such as private companies and public and private
+organisations, such as private companies and public and private
 universities.
 
 ### Policy development and capacity challenges
@@ -1679,7 +1672,7 @@ data governance, most of them are not systematic and clear, making it
 difficult for relevant officers to implement in practice. The budgets on
 procurement of technical tools are limited. The NHSO lacks technicians
 and officials who have expertise in data management systems and policy
-analysis to create a framework for data governance. The organizational
+analysis to create a framework for data governance. The organisational
 executives do not give enough importance to data governance within their
 departments. There is a lack of comprehensive data management strategy.
 Furthermore, there is a lack of processes or mechanisms to ensure that
@@ -1687,7 +1680,7 @@ government agencies adhere to laws and policies. Although all parts and
 levels of the public sector are required to give importance to data
 governance and should devote more time and budgets to pursue this goal,
 at present, a number of government agencies have not yet truly and fully
-recognized these matters.
+recognised these matters.
 
 For private hospitals, the major concern is how to satisfy the
 requirements imposed by the PDPA, especially with regard to the request
@@ -1697,7 +1690,7 @@ hospitals remain uncertain whether their internal procedures adhere to
 the legal obligations. For example, after receiving consent from a
 patient, a hospital may be uncertain as to whether it is necessary to
 request for consent again before connecting its patient database to
-external organizations, such as an insurance company or the Pao Tang App
+external organisations, such as an insurance company or the Pao Tang App
 (a Thai government-adopted e-service and wallet). Furthermore, there is
 confusion regarding what qualifies as consent (such as a consent given
 through a telephone), and how long the consent will be valid. In
@@ -1725,54 +1718,54 @@ this area.
 At the national level, the Bank of Thailand (BoT) plays the main role in
 making policies, regulations, and guidelines regarding data governance
 for the bank and the financial sector. In 2021, BoT issued its Guideline
-on Data Governance[^104] with an aim to promote the effective use of
+on Data Governance[^105] with an aim to promote the effective use of
 financial data to develop and improve financial products and services
 while protecting the personal information of clients against all
 potential risks. In addition, the bank’s Regulation on Information
 Technology Risk, which aims to ensure that both bank and non-bank
 payment service providers *inter alia* have proper IT risk management
-plans to tackle cyber threats, was also issued in the same year.[^105]
+plans to tackle cyber threats, was also issued in the same year.[^106]
 Furthermore, BoT also promotes open banking and open data in the form of
 digital bank statements. Open banking allows clients to manage their
-personal financial data through digital channels with convenience,
+personal financial data through digital channels with convenience
 especially with regard to the consent given to the banks to send their
 data to third-parties (such as FinTech companies or government agencies)
-under good data governance and the principle of secret protection.[^106]
+under good data governance and the principle of secret protection.[^107]
 As regards digital banking, BoT encourages commercial banks to provide a
 service which makes it possible for a bank statement issued by one bank
 to be sent digitally to another bank directly with a high level of
 security and verification. Financial service customers can use a mobile
 banking app to request bank statement data from their own bank and send
 it directly to another bank that has requested the bank statement from
-them.[^107]
+them.[^108]
 
-### Public sector: Bank of Thailand (BoT)
+### Public sector: Bank of Thailand
 
 #### Laws and policies
 
 According to information from the Deputy Director of Data Management and
 Analytics Department, BoT’s data governance is subject to various laws
-and policies, most of which are similar to those which regulate other
+and policies most of which are similar to those which regulate other
 government agencies. The laws and policies in relation to data openness
 include the Official Information Act 2540 (1997), DPASDA, and the
 Announcement on Data Governance for Government 2020. For the law and
 policies concerning the protection of personal information and state
 secrets, the bank has to comply with the Rule on Maintenance of Official
-Secrets (No.2) B.E. 2561 (2018) and the PDPA.[^108] However, as a
+Secrets (No.2) B.E. 2561 (2018) and the PDPA.[^109] However, as a
 regulatory body, the bank also has power to promote plans for openness
 of financial data and issue regulations on data governance and
 information technology risk with which private financial institutions
 have to comply.
 
 There is a recent collaboration between the bank and DGA in implementing
-the “Open Finance” policy, which transfers data from various government
+the ‘Open Finance’ policy, which transfers data from various government
 sources to facilitate loan application for people lacking access to
-financial services. The main concept is to utilize individual consent to
+financial services. The main concept is to utilise individual consent to
 obtain their personal data currently in possession of government
 agencies. The service has been launched to obtain individual water usage
 or electricity usage and bill payment information from Metropolitan and
 Provincial Electricity Authority and Metropolitan and Provincial
-Waterworks Authority, and send it to financial institutions to consider
+Waterworks Authority and send it to financial institutions to consider
 that individual for loan approval. This policy is planned to be expanded
 to all other personal data held by government agencies.
 
@@ -1783,18 +1776,18 @@ different government agencies in the financial sector. Firstly, the
 DPASDA requires government agencies to share and connect databases among
 the government agencies in the financial sector in general. However, due
 to specific pieces of legislation which aim to restrict the disclosure
-of financial data – for example, the Financial Institution Business Act
-B.E. 2551 (2008)[^109] and the Credit Information Business Act B.E. 2545
-(2002)[^110] – certain organizations, such as the National Credit
-Bureau,[^111] are not allowed to disclose or share financial information
-with other government agencies.[^112] Secondly, although BoT is subject
+of financial data—for example, the Financial Institution Business Act
+B.E. 2551 (2008)[^110] and the Credit Information Business Act B.E. 2545
+(2002)[^111]—certain organisations, such as the National Credit
+Bureau,[^112] are not allowed to disclose or share financial information
+with other government agencies.[^113] Secondly, although BoT is subject
 to the OIA, which requires making public information accessible to the
 public, the PDPA prevents it from disclosing information that can be
 considered personal data.
 
 #### Policy objectives, trade-offs and recognition
 
-BoT recognizes the trade-offs and must comply with the laws that
+BoT recognises the trade-offs and must comply with the laws that
 restrict the disclosure of financial and personal data, as discussed
 above.
 
@@ -1802,7 +1795,7 @@ above.
 
 BoT regards its Data Governance Guideline as a model of good practice
 for financial institutions. It also encourages its officers to attend
-the workshops and training programs organized by the DGA.
+the workshops and training programmes organised by the DGA.
 
 #### Policy development and capacity challenges
 
@@ -1813,21 +1806,21 @@ officers feel that it is a burdensome addition to their routine duties.
 Additionally, although there has been some investment in technical
 tools, technologies and human resources, it seems that the bank still
 lacks a one-stop-service platform that would enable it to implement data
-catalog registration, data search, right to access information
+catalogue registration, data search, right to access information
 management, the monitoring mechanisms to follow and evaluate impacts
-caused by the changes of data governance-related laws and policies, and
+caused by the changes of data governance-related laws and policies and
 the proper evaluation process of quality of data.
 
 As required by the DPASDA and the Announcement on Data Governance for
 Government 2020, all government agencies in the financial sector have to
-prepare and create data catalogs. As a result, the Thai government in
+prepare and create data catalogues. As a result, the Thai government in
 general and BoT in particular have invested more in both financial and
 human resources. Moreover, it is a time-consuming and difficult task to
 set a practical framework and to raise awareness of the importance of
-data governance in individual organizations.
+data governance in individual organisations.
 
 The inadequate understanding of the PDPA poses certain obstacles. Most
-government agencies and other relevant organizations are uncertain about
+government agencies and other relevant organisations are uncertain about
 the types of data and the extent to which such data can be disclosed and
 shared with other agencies. As a result, in practice, the PDPA is
 typically used as an excuse for refusing to share such information at
@@ -1857,9 +1850,9 @@ B.E.2545 (2002). For the protection of personal information, they have
 to adhere to the PDPA. In addition, they have to comply with BoT’s
 guidelines on data governance and the regulation on IT risk management.
 Interestingly, certain commercial banks, for example Siam Commercial
-Bank and Kasikorn Bank have their own organizational policies, some of
+Bank and Kasikorn Bank have their own organisational policies some of
 which address the transparency and data openness for shareholders and
-clients.[^113]
+clients.[^114]
 
 #### Policy gaps and frictions
 
@@ -1869,12 +1862,12 @@ not handled with special protection as is the case for health-related
 data (despite the fact that it is also a very important type of
 information especially to financial institutions and their clients). In
 addition, as regards data security, Section 37(1) requires banks to
-“provide appropriate security measures for preventing the unauthorized
+“provide appropriate security measures for preventing the unauthorised
 or unlawful loss, access to, use, alteration, correction or disclosure
-of \[personal data\].”[^114] However, there are no detailed criteria or
+of \[personal data\].”[^115] However, there are no detailed criteria or
 evaluation guidelines for the banks to know whether the systems they are
-using are regarded as “appropriate security measures” or not. This makes
-them uncertain whether their implementation of their organizational or
+using are regarded as ‘appropriate security measures’ or not. This makes
+them uncertain whether their implementation of their organisational or
 internal data security systems is in line with the legal requirements.
 
 #### Policy objectives, trade-offs and recognition
@@ -1898,7 +1891,7 @@ means additional investments and costs. Furthermore, as mentioned above,
 the law simply requires them to implement personal data protection
 measures, and there is no detailed guideline or criteria for the
 financial sector yet. As a result, banks are concerned that the measures
-they are implementing may not be “appropriate” enough in the eyes of the
+they are implementing may not be ‘appropriate’ enough in the eyes of the
 regulatory body (especially PDPC).
 
 Like most private hospitals, the majority of commercial banks are trying
@@ -1915,7 +1908,7 @@ this matter could be found during data collection for this report.
 
 # Summary of findings
 
-## Commonality & divergences in data governance architecture
+## Commonality and divergences in data governance architecture
 
 In the public sector, the Thai government has established a unified
 standard for the collection, processing, sharing, disclosure, and access
@@ -1925,20 +1918,20 @@ implementation. However, these efforts are influenced by other laws
 aimed at safeguarding national security, such as the Rules on
 Maintenance of Official Secrets of 2001 and 2018, as well as protecting
 privacy rights, particularly under the Personal Data Protection Act of
-2019. In contrast, private companies and organizations lack a similarly
+2019. In contrast, private companies and organisations lack a similarly
 clear and unified framework, and they are primarily governed by laws
 like the Personal Data Protection Act of 2019.
 
 For public data sharing, Thailand’s main platform is the Open Government
-Data of Thailand (data.go.th), which offers access to public data from
-various government departments and organizations. Additionally, the
-National Statistical Office of Thailand (https://www.nso.go.th/) plays a
-key role in managing and providing access to public information. Among
-developed countries, Thailand considers Australia, South Korea, and the
-United Kingdom as good models of data governance. Furthermore, the
-Personal Data Protection Act of 2019 is significantly influenced by the
-EU’s GDPR, especially the core principles regarding consent, the duties
-of data controllers and processors, the rights of data subjects, and the
+Data of Thailand,[^116] which offers access to public data from various
+government departments and organisations. Additionally, the National
+Statistical Office of Thailand[^117] plays a key role in managing and
+providing access to public information. Among developed countries,
+Thailand considers Australia, South Korea, and the United Kingdom as
+good models of data governance. Furthermore, the Personal Data
+Protection Act of 2019 is significantly influenced by the EU’s GDPR,
+especially the core principles regarding consent, the duties of data
+controllers and processors, the rights of data subjects, and the
 establishment of a supervisory authority.
 
 ## Frictions within policies
@@ -1948,7 +1941,7 @@ to access information held by government agencies, while Section 59
 obligates the Thai government to disclose any public data or information
 and ensure easy access to it. To support these constitutional
 provisions, the Official Information Act of 1997 plays a crucial role by
-requiring government departments and organizations to make public
+requiring government departments and organisations to make public
 information available to the public.
 
 However, there are several laws that create exceptions to this general
@@ -1999,18 +1992,19 @@ However, the landscape of data governance significantly changed with the
 promulgation of the DPASDA.
 
 The DPASDA mandates that all governmental agencies and departments
-prepare and implement measures to create data catalogs of public
-information and data in their possession. These catalogs must be entered
-and integrated into a centralized data platform to make them available
-to the public online. DGA is responsible for setting guidelines and
-standards for the creation and integration of these data catalogs and
-website portals. Despite the DPASDA, many governmental departments still
-face several challenges in meeting the data governance requirements set
-by DGA or complying with laws passed several decades ago. Additionally,
-there was limited public participation in the legislative process, and
-while the public could express opinions on more recent laws like the
-DPASDA through the government’s online platform, these opinions did not
-significantly influence the final content of the law.
+prepare and implement measures to create data catalogues of public
+information and data in their possession. These catalogues must be
+entered and integrated into a centralized data platform to make them
+available to the public online. DGA is responsible for setting
+guidelines and standards for the creation and integration of these data
+catalogues and website portals. Despite the DPASDA, many governmental
+departments still face several challenges in meeting the data governance
+requirements set by DGA or complying with laws passed several decades
+ago. Additionally, there was limited public participation in the
+legislative process, and while the public could express opinions on more
+recent laws like the DPASDA through the government’s online platform,
+these opinions did not significantly influence the final content of the
+law.
 
 Government departments are required to integrate data governance into
 their tasks, but most face capacity challenges such as a lack of
@@ -2019,7 +2013,7 @@ equipment, and willingness. Many are also unsure how to adjust existing
 operational behaviors to align with the "new" requirements of data
 governance, leading to a gap between government expectations and the
 actual capacity of individual departments. In contrast, the private
-sector, unlike public organizations, lacks clear and sufficient
+sector, unlike public organisations, lacks clear and sufficient
 guidelines for effective data governance. As a result, they often
 attempt to comply with fragmented and disparate legislation, focusing
 mainly on what is legally required, particularly concerning personal
@@ -2139,6 +2133,12 @@ Publicly Available Information of Tax.” Chulalongkorn University, 2021.
 
 Computer-Related Crime Act B.E.2550 (2007) (2007).
 <https://www.mdes.go.th/law/detail/3618-COMPUTER-RELATED-CRIME-ACT-B-E--2550--2007->.
+
+</div>
+
+<div id="ref-thailandConstitution2017" class="csl-entry">
+
+CONSTITUTION OF THE KINGDOM OF THAILAND (2017).
 
 </div>
 
@@ -2437,8 +2437,7 @@ from Software Industry Promotion Agency (SIPA).” NSTDA. Accessed July
 
 </div>
 
-<div id="ref-nationalstatisticalofficeIntroductionGovernmentData2020"
-class="csl-entry">
+<div id="ref-nsoIntroductionGovernment2020" class="csl-entry">
 
 National Statistical Office. “Introduction to Government Data Catalogs.”
 2020.
@@ -2446,8 +2445,7 @@ National Statistical Office. “Introduction to Government Data Catalogs.”
 
 </div>
 
-<div id="ref-nationalstatisticalofficeNationalStatistical2023"
-class="csl-entry">
+<div id="ref-thailandNationalStatisticalOffice2023" class="csl-entry">
 
 National Statistical Office. “National Statistical Office Website.”
 2023. <https://www.nso.go.th/nsoweb/index>.
@@ -2557,6 +2555,12 @@ class="csl-entry">
 Office of the Personal Data Protection Commission. “Benefits from the
 Personal Data Protection Act B.E.2562.” n.d. Accessed October 29, 2023.
 <https://www.mdes.go.th/law/detail/3823-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%82%E0%B8%A2%E0%B8%8A%E0%B8%99%E0%B9%8C%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%84%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%84%E0%B8%A5-%E0%B8%9E-%E0%B8%A8--%E0%B9%92%E0%B9%95%E0%B9%96%E0%B9%92>.
+
+</div>
+
+<div id="ref-thailandOfficialInformationAct1997" class="csl-entry">
+
+Official Information Act (1997).
 
 </div>
 
@@ -2704,6 +2708,12 @@ Thai Journal Online. “ThaiJo2.1: Thai Journal Online.” Accessed October
 
 </div>
 
+<div id="ref-thaiWCAG2025" class="csl-entry">
+
+THAI WEB CONTENT ACCESSIBILITY GUIDELINES 2025.
+
+</div>
+
 <div id="ref-thailandlawonlineThailandCriminal" class="csl-entry">
 
 Thailand Criminal Law Text. Accessed October 29, 2023.
@@ -2764,6 +2774,13 @@ March 2002.
 
 </div>
 
+<div id="ref-thaiWCAG2010" class="csl-entry">
+
+“Web Content Accessibility Guidelines (WCAG) 2.0.” Accessed March 9,
+2026. <https://www.w3.org/TR/WCAG20/>.
+
+</div>
+
 <div id="ref-yasudaLawDevelopment2003" class="csl-entry">
 
 Yasuda, Nobuyuki. “Law and Development from the Southeast Asian
@@ -2810,29 +2827,23 @@ Development in East and South-East Asia*, 1st Edition. Routledge, 2003.
 [^14]: Deputy Permanent Secretary of the Office of the Prime Minister
     (Thailand), interview, October 27, 2023.
 
-[^15]: The Thai Constitution B.E. 2560 (2017), Section 41(1) reads “A
-    person and community shall have the right to: (1) be informed and
-    have access to public data or information in possession of a State
-    agency as provided by law”.
+[^15]: CONSTITUTION OF THE KINGDOM OF THAILAND, s. 41(1).
 
-[^16]: The Thai Constitution B.E. 2560 (2017), Section 59 reads “The
-    State shall disclose any public data or information in the
-    possession of a State agency, which is not related to the security
-    of the State or government confidentiality as provided by law, and
-    shall ensure that the public can conveniently access such data or
-    information.”
+[^16]: CONSTITUTION OF THE KINGDOM OF THAILAND, s. 59.
 
 [^17]: Sombatpoonsiri, “The 2014 Military Coup in Thailand.”
 
-[^18]: See The Thai Constitution 2017, Sections 65, 142, 162, 270, 275
+[^18]: CONSTITUTION OF THE KINGDOM OF THAILAND, ss. 65, 142, 162, 270,
+    275.
 
 [^19]: National Strategy Secretariat Office, *National Strategy
     2018-2037 : A Short Version*.
 
-[^20]: *Id.* This agenda aims to “to reform and enhance the country’s
-    governmental administrative services based on the principle
-    of”government of the people for the people and the common good of
-    the nation and the happiness of the public at large.
+[^20]: CONSTITUTION OF THE KINGDOM OF THAILAND, note: “This agenda aims
+    to reform and enhance the country’s governmental administrative
+    services based on the principle of government of the people for the
+    people and the common good of the nation and the happiness of the
+    public at large.”
 
 [^21]: Office of the National Economic and Social Development Board
     Office of the Prime Minister, *Summary of The Twelfth National
@@ -2872,339 +2883,251 @@ Development in East and South-East Asia*, 1st Edition. Routledge, 2003.
 [^32]: “DGA Community Standard GOVERNMENT DATA CATALOG GUIDELINE
     REVIEW.”
 
-[^33]: The Official Information Act 2540 (1997), Section 7 reads “A
-    State agency shall at least publish the following official
-    information in the Government Gazette (1) the structure and
-    organization of its operation; (2) the summary of important powers
-    and duties and operational methods; (3) a contacting address for the
-    purpose of contacting the State agency in order to request and
-    obtain information or advice; (4) by- laws, resolutions of the
-    Council of Ministers, regulations, orders, circulars, Rules, work
-    pattern, policies or interpretations only insofar as they are made
-    or issued to have the same force as by-laws and intended to be of
-    general application to private individuals concerned; (5) such other
-    information as determined by the Board. If any information which has
-    already been published for dissemination in sufficient number is
-    published in the Government Gazette by making reference to such
-    prior published material, it shall be deemed to comply with the
-    provisions of paragraph one.”
+[^33]: Official Information Act, ss. 7, 9; Permanent Secretary of the
+    Ministry of Interior, *Report on the Implementation in Accordance
+    with the Official Information Act B.E. 2540 in the Fiscal Year
+    2010*.
 
-[^34]: The Official Information Act 2540 (1997), Section 9 reads
-    “Subject to section 14 and section 15, a State agency shall make
-    available at least the following official information for public
-    inspection in accordance with the rules and procedure prescribed by
-    the Board: (1) a result of consideration or a decision which has a
-    direct effect on a private individual including a dissenting opinion
-    and an order relating thereto; (2) a policy or an interpretation
-    which does not fall within the scope of the requirement of
-    publication in the Government Gazette under section 7 (4); (3) a
-    work-plan, project and annual expenditure estimate of the year of
-    its preparation; (4) a manual or order relating to work procedure of
-    State officials which affects the rights and duties of private
-    individuals; (5) the published material to which a reference is made
-    under section 7 paragraph two; (6) a concession contract, agreement
-    of a monopolistic nature or joint venture agreement with a private
-    individual for the provision of public services; (7) a resolution of
-    the Council of Ministers or of such Board, Tribunal, Commission or
-    Committee as established by law or by a resolution of the Council of
-    Ministers; provided that the titles of the technical reports, fact
-    reports or information relied on in such consideration shall also be
-    specified; (8) such other information as determined by the Board. If
-    any part of the information made available for public inspection
-    under paragraph one is prohibited from disclosure under section 14
-    or section 15, it shall be deleted, omitted or effected in such
-    other manners whatsoever so as not to disclose such part of the
-    information. A person, whether interested in the matter concerned or
-    not, has the right to inspect or obtain a copy or a certified copy
-    of the information under paragraph one. In an appropriate case, a
-    state agency may, with the approval of the Board, lay down the rules
-    on the collection of fees therefor. For this purpose, regard shall
-    also be had to the making of concession given to persons with low
-    incomes, unless otherwise provided by specific law. The extent to
-    which an alien may enjoy the right under this section shall be
-    provided by the Ministerial Regulation.”
-
-[^35]: Permanent Secretary of the Ministry of Interior, *Report on the
-    Implementation in Accordance with the Official Information Act B.E.
-    2540 in the Fiscal Year 2010*.
-
-[^36]: ThaiPublica, *Prayut Ordered the Electronic Government Agency
+[^34]: ThaiPublica, *Prayut Ordered the Electronic Government Agency
     (EGA) to Specify the Dataset That Every Government Agency Must
     Disclose to Reinforcing Anti-Corruption Measures. Preliminary
     Actions Include ’Procurement and Budget Uses.*
 
-[^37]: Digital Government Development Agency, “Q&A - Open Government
+[^35]: Digital Government Development Agency, “Q&A - Open Government
     Data of Thailand”; Digital Government Development Agency, “Welcome -
     Open Government Data of Thailand.”
 
-[^38]: Digital Government Development Agency, “Welcome - Open Government
+[^36]: Digital Government Development Agency, “Welcome - Open Government
     Data of Thailand.”
 
-[^39]: National Statistical Office, “National Statistical Office
+[^37]: National Statistical Office, “National Statistical Office
     Website.”
 
-[^40]: Statistics Act B.E.2550 (2007).
+[^38]: Statistics Act B.E.2550 (2007).
 
-[^41]: National Statistical Office, “Introduction to Government Data
+[^39]: National Statistical Office, “Introduction to Government Data
     Catalogs.”
 
-[^42]: Electronic Government Agency, *Government Website Standard :
+[^40]: Electronic Government Agency, *Government Website Standard :
     Version 2.0*.
 
-[^43]: Office of the Council of State, “Law Portal.”
+[^41]: Office of the Council of State, “Law Portal.”
 
-[^44]: Ministry of Higher Education, Science, Research and Innovation,
+[^42]: Ministry of Higher Education, Science, Research and Innovation,
     “ThaiLIS Digital Collection.”
 
-[^45]: Thai Journal Online, “ThaiJo2.1.”
+[^43]: Thai Journal Online, “ThaiJo2.1.”
 
-[^46]: Digital Government Development Agency, “Geographic Information
+[^44]: Digital Government Development Agency, “Geographic Information
     Services - Open Government Data of Thailand.”
 
-[^47]: Director of the Office of the Official Information Commission
+[^45]: Director of the Office of the Official Information Commission
     (Thailand), Jompon Pitaksantayothin, interview, October 27, 2023.
 
-[^48]: Official Website of the International Trade Administration,
+[^46]: Official Website of the International Trade Administration,
     “Thailand - Country Commercial Guide.”
 
-[^49]: SICE, “Trade Agreements: Peru - Thailand Free Trade Agreement.”
+[^47]: SICE, “Trade Agreements: Peru - Thailand Free Trade Agreement.”
 
-[^50]: Digital Government Development Agency, “Homepage”; Announcement
+[^48]: Digital Government Development Agency, “Homepage”; Announcement
     of Digital Government Committee on Data Governance.
 
-[^51]: Announcement of Digital Government Committee on Data Governance.
+[^49]: Announcement of Digital Government Committee on Data Governance.
 
-[^52]: Announcement of Digital Government Committee on Data Governance.
+[^50]: Announcement of Digital Government Committee on Data Governance.
+
+[^51]: Announcement on Disclosure of Public Sector Information in
+    Digital Format to the Public.
+
+[^52]: Announcement on Disclosure of Public Sector Information in
+    Digital Format to the Public.
 
 [^53]: Announcement on Disclosure of Public Sector Information in
     Digital Format to the Public.
 
-[^54]: Announcement on Disclosure of Public Sector Information in
-    Digital Format to the Public.
-
-[^55]: Announcement on Disclosure of Public Sector Information in
-    Digital Format to the Public.
-
-[^56]: Ruangchawee, “ประกาศคณะกรรมการพัฒนารัฐบาลดิจิทัล เรื่อง
+[^54]: Ruangchawee, “ประกาศคณะกรรมการพัฒนารัฐบาลดิจิทัล เรื่อง
     มาตรฐานรัฐบาลดิจิทัลว่าด้วยหลักเกณฑ์การประเมินคุณภาพข้อมูลสำหรับหน่วยงานภาครัฐ
     (มรด. 5.”
 
-[^57]: Ruangchawee, “ประกาศคณะกรรมการพัฒนารัฐบาลดิจิทัล เรื่อง
+[^55]: Ruangchawee, “ประกาศคณะกรรมการพัฒนารัฐบาลดิจิทัล เรื่อง
     มาตรฐานรัฐบาลดิจิทัลว่าด้วยข้อเสนอแนะสำหรับการจัดทำนโยบายและแนวปฏิบัติการบริหารจัดการข้อมูล
     (มรด. 4-1.”
 
-[^58]: Ruangchawee, “ประกาศคณะกรรมการพัฒนารัฐบาลดิจิทัล เรื่อง
+[^56]: Ruangchawee, “ประกาศคณะกรรมการพัฒนารัฐบาลดิจิทัล เรื่อง
     มาตรฐานรัฐบาลดิจิทัลว่าด้วยข้อเสนอแนะสำหรับแนวทางการจัดทำบัญชีข้อมูลภาครัฐและแนวทางการลงทะเบียนบัญชีข้อมูลภาครัฐ
     (มรด. 3-1.”
 
-[^59]: Electronic Government Agency, *Government Website Standard*.
+[^57]: Electronic Government Agency, *Government Website Standard*.
 
-[^60]: National Science and Technology Development Agency, “13 Standard
+[^58]: National Science and Technology Development Agency, “13 Standard
     Fonts from Software Industry Promotion Agency (SIPA).”
 
-[^61]: It is important to note that all of these should be consistent
+[^59]: It is important to note that all of these should be consistent
     with the standard of Web Content Accessibility Guidelines 2.0 (WCAG
     2.0) introduced by World Wide Web Consortium (W3C), an international
-    standard on accessibility for persons with disabilities.
+    standard on accessibility for persons with disabilities\].
 
-[^62]: Electronic Government Agency, *Government Website Standard*.
+[^60]: Electronic Government Agency, *Government Website Standard*.
 
-[^63]: The Ministry of ICT (the former name of the Ministry of Digital
-    Economy and Society) issued the Thai Web Content Accessibility
-    Guideline (hereinafter “TWCAG”) in 2010. The TWCAG 2010 aims to
-    encourage website developers in both public and private sectors to
-    create websites which meet the standards set out in the WCAG 2.0.
-    Content and user interface elements should be perceivable. User
-    interface and navigation should be operable, ensuring keyboard
-    accessibility and allowing sufficient time for user interaction. The
-    operation of the user interface and information must be
-    understandable, maintaining clear and consistent navigation and
-    readability of text. Content should be robust for reliable
-    interpretation by various user agents, including assistive
-    technologies. Hypertext Markup Language (HTML) should be at least
-    HTML 4.01 and XHTML 1.0 versions.
+[^61]: “Web Content Accessibility Guidelines (WCAG) 2.0.”
 
-[^64]: Electronic Government Agency, *Government Website Standard :
+[^62]: THAI WEB CONTENT ACCESSIBILITY GUIDELINES 2025.
+
+[^63]: Electronic Government Agency, *Government Website Standard :
     Version 2.0*.
 
-[^65]: Public Service via Electronic Means Act 2022, B.E. 2565/2022.
+[^64]: Public Service via Electronic Means Act 2022, B.E. 2565/2022.
 
-[^66]: Digital Government Development Agency, *E-Book Guidelines for
+[^65]: Digital Government Development Agency, *E-Book Guidelines for
     Initial*; Digital Government Development Agency,
     *E-BOOK-Guidelines-for-Standard.pdf*.
 
-[^67]: National Root Certificate Authority of Thailand, “Thailand
+[^66]: National Root Certificate Authority of Thailand, “Thailand
     National Root Certification.”
 
-[^68]: NECTEC, “National Electronics and Computer Technology Center.”
+[^67]: NECTEC, “National Electronics and Computer Technology Center.”
 
-[^69]: Open Source Education and Development Association, “SIPA
+[^68]: Open Source Education and Development Association, “SIPA
     Technology Meetup 2016 \#6.”
 
-[^70]: The Rule on Maintenance of Official Secrets (No.2) B.E. 2561.
+[^69]: The Rule on Maintenance of Official Secrets (No.2) B.E. 2561, s.
+    5.
 
-[^71]: National Intelligence Agency, “National Intelligence Agency.”
+[^70]: The Rule on Maintenance of Official Secrets (No.2) B.E. 2561, s.
+    12.
 
-[^72]: Armed Forces Security Center, “Armed Forces Security Center.”
+[^71]: The Rule on Maintenance of Official Secrets (No.2) B.E. 2561.
 
-[^73]: Special Branch Bureau - Royal Thai Police, “Special Branch
-    Bureau - Royal Thai Police.”
+[^72]: National Intelligence Agency, “National Intelligence Agency.”
 
-[^74]: Computer-Related Crime Act B.E.2550 (2007).
+[^73]: Armed Forces Security Center, “Armed Forces Security Center.”
+
+[^74]: Special Branch Bureau - Royal Thai Police, “Special Branch
+    Bureau - Royal Thai Police”; The Rule on Maintenance of Official
+    Secrets (No.2) B.E. 2561, s. 11.
 
 [^75]: Computer-Related Crime Act B.E.2550 (2007).
 
-[^76]: Ministry of Digital Economy and Society, “Ministry of Digital
+[^76]: Computer-Related Crime Act B.E.2550 (2007).
+
+[^77]: Ministry of Digital Economy and Society, “Ministry of Digital
     Economy and Society Opens Anti-Fakenews Center.”
 
-[^77]: Thailand Criminal Law Text.
+[^78]: Thailand Criminal Law Text, s. 322.
 
-[^78]: Thailand Criminal Law Text.
+[^79]: Thailand Criminal Law Text, s.323.
 
-[^79]: Thailand Criminal Law Text.
+[^80]: Thailand Criminal Law Text.
 
-[^80]: The Announcement of the Electronic Transactions Commission on the
+[^81]: The Announcement of the Electronic Transactions Commission on the
     Policy and Practices Guidelines for the Protection of Personal Data
     of State Agencies.
 
-[^81]: Digital Government Development Agency, “History of of the Digital
+[^82]: Digital Government Development Agency, “History of of the Digital
     Government Development Plan of Thailand for the years 2020-2022.”
 
-[^82]: Prachachat Online, *Postponement of the Enforcement of the
+[^83]: Prachachat Online, *Postponement of the Enforcement of the
     Personal Data Protection Act by Another 1 Year*.
 
-[^83]: Office of the Personal Data Protection Commission, “Benefits from
+[^84]: Office of the Personal Data Protection Commission, “Benefits from
     the Personal Data Protection Act B.E.2562”; Prachachat Online,
     *Postponement of the Enforcement of the Personal Data Protection Act
     by Another 1 Year*.
 
-[^84]: Section 4 This Act shall not apply to:
+[^85]: Personal Data Protection Act B.E. 2562 (2019) (English Version),
+    s. 4.
 
-    \(1\) the collection, use, or disclosure of Personal Data by a
-    Person who collects such Personal Data for personal benefit or
-    household activity of such Person only;
-
-    \(2\) operations of public authorities having the duties to maintain
-    state security, including financial security of the state or public
-    safety, including the duties with respect to the prevention and
-    suppression of money laundering, forensic science or cybersecurity;
-
-    \(3\) a Person or a juristic person who uses or discloses Personal
-    Data that is collected only for the activities of mass media, fine
-    arts, or literature, which are only in accordance with professional
-    ethics or for public interest;
-
-    \(4\) The House of Representatives, the Senate, and the Parliament,
-    including the committee appointed by the House of Representatives,
-    the Senate, or the Parliament, which collect, use or disclose
-    Personal Data in their consideration under the duties and power of
-    the House of Representatives, the Senate, the Parliament or their
-    committee, as the case may be;
-
-    \(5\) trial and adjudication of courts and work operations of
-    officers in legal proceedings, legal execution, and deposit of
-    property, including work operations in accordance with the criminal
-    justice procedure;
-
-    \(6\) operations of data undertaken by a credit bureau company and
-    its members, according to the law governing the operations of a
-    credit bureau business. The exceptions to apply all or parts of the
-    provisions of this Act to any Data Controller in any manner,
-    business or entity, in a similar manner to the Data Controller in
-    paragraph one, or for any other public interest purpose, shall be
-    promulgated in the form of the Royal Decree.
-
-    The Data Controller under paragraph one (2), (3), (4), (5), and (6)
-    and the Data Controller of the entities that are exempted under the
-    Royal Decree in accordance with paragraph two shall also put in
-    place a security protection of Personal Data in accordance with the
-    standard.
-
-[^85]: Personal Data Protection Committee, “Guidelines for Obtaining
+[^86]: Personal Data Protection Committee, “Guidelines for Obtaining
     Consent from the Owner of Personal Data in Accordance with the
     Personal Data Protection Act B.E. 2562.”
 
-[^86]: Announcement: Establishment of a Data Protection Officer (DPO)
+[^87]: Announcement: Establishment of a Data Protection Officer (DPO)
     Under Section 41(2) of the Personal Data Protection Act B.E.2562.
 
-[^87]: Announcement of the Personal Data Protection Committee on the
+[^88]: Announcement of the Personal Data Protection Committee on the
     criteria for the protection of personal data transmitted or
     transferred to foreign Countries under Section 28 of the Personal
     Data Protection Act B.E. 2562.
 
-[^88]: Plumkoson et al., “การคุ้มครองสิทธิในการถูกลืมบนระบบอินเทอร์เน็ต.”
+[^89]: Plumkoson et al., “การคุ้มครองสิทธิในการถูกลืมบนระบบอินเทอร์เน็ต.”
 
-[^89]: Plumkoson et al., 374.
+[^90]: Plumkoson et al., 374.
 
-[^90]: Google, *Thailand Personal Data Protection Act*.
+[^91]: Google, *Thailand Personal Data Protection Act*.
 
-[^91]: Chanataradhamma, “Personal Data Protection Standards of Publicly
+[^92]: Chanataradhamma, “Personal Data Protection Standards of Publicly
     Available Information of Tax.”
 
-[^92]: Chanataradhamma.
+[^93]: Chanataradhamma.
 
-[^93]: Announcement on Disclosure of Public Sector Information in
+[^94]: Announcement on Disclosure of Public Sector Information in
     Digital Format to the Public.
 
-[^94]: Copyright Act (No.5) B.E.2565 (2022).
+[^95]: Copyright Act (No.5) B.E.2565 (2022).
 
-[^95]: Thansettakij, “The Department of Intellectual Property emphasizes
+[^96]: Thansettakij, “The Department of Intellectual Property emphasizes
     that works created by AI ’cannot be registered for copyright.”
 
-[^96]: Thailand Development Research Institute (TDRI), “When using AI to
+[^97]: Thailand Development Research Institute (TDRI), “When using AI to
     manage Big Data for surveying the Thai job market.”
 
-[^97]: No.378-2565 Ministry of Public Health’s Order on Delegating
+[^98]: No.378-2565 Ministry of Public Health’s Order on Delegating
     Responsibilities to Agencies to Control and Supervise Critical
     Information Infrastructure in the Public Health Sector.
 
-[^98]: Ministry of Public Health, “MOPH Data Center Service.”
+[^99]: Ministry of Public Health, “MOPH Data Center Service.”
 
-[^99]: Ministry of Public Health, “Ministry of Public Health’s Focal
+[^100]: Ministry of Public Health, “Ministry of Public Health’s Focal
     Policies 2023.”
 
-[^100]: Ministry of Public Health, “"(Draft) Thailand’s 5-Year Digital
+[^101]: Ministry of Public Health, “"(Draft) Thailand’s 5-Year Digital
     Health System Implementation Plan (B.E. 2566-2570).”
 
-[^101]: National Health Security Office, “National Health Security
+[^102]: National Health Security Office, “National Health Security
     Office.”
 
-[^102]: National Health Security Office, “Philosophy Background.”
+[^103]: National Health Security Office, “Philosophy Background.”
 
-[^103]: Director of Digital Information Support Department, National
+[^104]: Director of Digital Information Support Department, National
     Health Security Office (Thailand), Jompon Pitaksantayothin,
     interview, October 26, 2023; Legal Consultant who is Specialized in
     Data Management and Protection, interview, October 30, 2023.
 
-[^104]: Bank of Thailand, “Bank of Thailand’s Policy Guidelines on Data
+[^105]: Bank of Thailand, “Bank of Thailand’s Policy Guidelines on Data
     Governance.”
 
-[^105]: Bank of Thailand, “Bank of Thailand’s Criteria for Supervising
+[^106]: Bank of Thailand, “Bank of Thailand’s Criteria for Supervising
     and Overseeing Information Technology Risks in Accordance with Laws
     Related to Payment Transactions.”
 
-[^106]: Bank of Thailand, “Open Banking and Its Benefits for Thai
+[^107]: Bank of Thailand, “Open Banking and Its Benefits for Thai
     People.”
 
-[^107]: Bank of Thailand, “dStatement Service (Digital Bank Statement).”
+[^108]: Bank of Thailand, “dStatement Service (Digital Bank Statement).”
 
-[^108]: Deputy Director of Data Management and Analytics Department,
+[^109]: Deputy Director of Data Management and Analytics Department,
     Bank of Thailand, interview, October 20, 2023.
 
-[^109]: Financial Institutions Business Act B.E.2551 (2008).
+[^110]: Financial Institutions Business Act B.E.2551 (2008).
 
-[^110]: Credit Information Business Act B.E. 2545 (2002).
+[^111]: Credit Information Business Act B.E. 2545 (2002).
 
-[^111]: National Credit Bureau, “National Credit Bureau.”
+[^112]: National Credit Bureau, “National Credit Bureau.”
 
-[^112]: It should be noted that the National Credit Bureau is a private
+[^113]: It should be noted that the National Credit Bureau is a private
     company. However, it has both public and private financial
     institutions as its shareholders.
 
-[^113]: Siam Commercial Bank Public Company Limited (SCB), “Policy on
+[^114]: Siam Commercial Bank Public Company Limited (SCB), “Policy on
     the Supervision and Management of Business Operations of Siam
     Commercial Bank Public Company Limited (SCB)”; Elamchamroonlarp, “An
     Approach for Disclosure of Official Information containing Personal
     Data.”
 
-[^114]: Personal Data Protection Act B.E. 2562 (2019) (English Version).
+[^115]: Personal Data Protection Act B.E. 2562 (2019) (English Version).
+
+[^116]: Digital Government Development Agency, “Welcome - Open
+    Government Data of Thailand.”
+
+[^117]: National Statistical Office, “National Statistical Office
+    Website.”
