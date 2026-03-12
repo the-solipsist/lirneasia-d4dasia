@@ -1,5 +1,6 @@
-
-October 1, 2025
+# Data Protection Framework: South Korea
+Juhee Kang
+May 1, 2025
 
 - [<span class="toc-section-number">0.1</span>
   Abbreviations](#abbreviations)
@@ -18,11 +19,10 @@ October 1, 2025
     - [<span class="toc-section-number">2.1.2</span> 2023 Amendments and
       Data Industry Promotion
       Acts](#2023-amendments-and-data-industry-promotion-acts)
-- [<span class="toc-section-number">3</span> ](#section)
-- [<span class="toc-section-number">4</span> Lessons Learned from the
+- [<span class="toc-section-number">3</span> Lessons Learned from the
   South Korean
   Experience](#lessons-learned-from-the-south-korean-experience)
-- [<span class="toc-section-number">5</span> References](#references)
+- [<span class="toc-section-number">4</span> References](#references)
 - [References](#bibliography)
 
 ## Abbreviations
@@ -382,76 +382,286 @@ pseudonymized data from diverse sectors such as telecommunications,
 insurance, finance, or healthcare can be merged and repurposed for
 innovative big data services, enabling a value-added data ecosystem.
 
-***Table 2: Three categories of personal information in South Korea:
-Definitions and examples***
+<table>
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 18%" />
-<col style="width: 47%" />
-<col style="width: 33%" />
-</colgroup>
+<caption>
+
+Table 2: Three categories of personal information in South Korea:
+Definitions and examples
+</caption>
+
 <thead>
+
 <tr>
-<th>Personal Information</th>
-<th>Pseudonymous data</th>
-<th>Anonymous data</th>
+
+<th>
+
+Personal Information
+</th>
+
+<th>
+
+Pseudonymous data
+</th>
+
+<th>
+
+Anonymous data
+</th>
+
 </tr>
+
 <tr>
-<th>Information that directly identifies an individual</th>
-<th>Data processed to prevent the identification of an individual
-without additional information</th>
-<th>Data irreversibly de-identified, used for aggregate insights</th>
+
+<td>
+
+Information that directly identifies an individual
+</td>
+
+<td>
+
+Data processed to prevent the identification of an individual without
+additional information
+</td>
+
+<td>
+
+Data irreversibly de-identified, used for aggregate insights
+</td>
+
 </tr>
-<tr>
-<th><ul>
-<li><p>Name: John Kim</p></li>
-<li><p>Birth: 1983/01/01</p></li>
-<li><p>Mobile: 010-1234-5678</p></li>
-<li><p>Home: 02-123-4567</p></li>
-<li><p>Address: 123 Banpo, Gangnam, Seoul</p></li>
-<li><p>Occupation: doctor</p></li>
-<li><p>Family: wife, son 1, daughter 1</p></li>
-<li><p>Blood pressure: 110 - 180</p></li>
-<li><p>Yearly credit card expense: $40,000</p></li>
-<li><p>Mobile data usage: 2000 MB</p></li>
-</ul></th>
-<th><ul>
-<li><p>Name: (removed)</p></li>
-<li><p>Birth: (removed)</p></li>
-<li><p>mobile: XXX-XXXX-XXXX or ajjejkc93 (encrypted)</p></li>
-<li><p>Home: (removed)</p></li>
-<li><p>Address: Gangnam, Seoul (area only)</p></li>
-<li><p>Occupation: (removed)</p></li>
-<li><p>Family: wife, son 1, daughter 1</p></li>
-<li><p>Blood pressure: 110 - 180</p></li>
-<li><p>Yearly credit card expense: $40,000</p></li>
-<li><p>Mobile data usage: 2000 MB</p></li>
-</ul></th>
-<th><ul>
-<li><p>Name: (removed)</p></li>
-<li><p>Birth: (removed)</p></li>
-<li><p>Mobile: (removed)</p></li>
-<li><p>Address: Gangnam, Seoul (area only)</p></li>
-<li><p>Occupation: (removed)</p></li>
-<li><p>Family: wife, son 1, daughter 1</p></li>
-<li><p>Blood pressure: 110 - 180</p></li>
-<li><p>Yearly credit card expense: $40,000</p></li>
-<li><p>Mobile data usage: 2000 MB</p></li>
-</ul></th>
-</tr>
-<tr>
-<th>Combined information cannot identify a specific person</th>
-<th>Information cannot identify a specific person, but has the potential
-to specify the person with additional information, such as mobile
-number</th>
-<th>Information is used only as statistical data points (e.g., A married
-man in his 30s living in Seoul)</th>
-</tr>
+
 </thead>
+
 <tbody>
-</tbody>
-</table>
+
+<tr>
+
+<td>
+
+- Name: John Kim
+  </td>
+
+      <td>- Name: (removed)</td>
+      <td>- Name: (removed)</td>
+
+  </tr>
+
+  <tr>
+
+  <td>
+
+  - Birth: 1983/01/01
+    </td>
+
+    <td>
+
+    - Birth: (removed)
+      </td>
+
+      <td>
+
+      - Birth: (removed)
+        </td>
+
+        </tr>
+
+        <tr>
+
+        <td>
+
+        - Mobile: 010-1234-5678
+          </td>
+
+          <td>
+
+          - mobile: XXX-XXXX-XXXX or ajjejkc93 (encrypted)
+            </td>
+
+            <td>
+
+            - Mobile: (removed)
+              </td>
+
+              </tr>
+
+              <tr>
+
+              <td>
+
+              - Home: 02-123-4567
+                </td>
+
+                <td>
+
+                - Home: (removed)
+                  </td>
+
+                  <td>
+
+                  - Address: Gangnam, Seoul (area only)
+                    </td>
+
+                    </tr>
+
+                    <tr>
+
+                    <td>
+
+                    - Address: 123 Banpo, Gangnam, Seoul
+                      </td>
+
+                      <td>
+
+                      - Address: Gangnam, Seoul (area only)
+                        </td>
+
+                        <td>
+
+                        - Occupation: (removed)
+                          </td>
+
+                          </tr>
+
+                          <tr>
+
+                          <td>
+
+                          - Occupation: doctor
+                            </td>
+
+                            <td>
+
+                            - Occupation: (removed)
+                              </td>
+
+                              <td>
+
+                              - Family: wife, son 1, daughter 1
+                                </td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>
+
+                                - Family: wife, son 1, daughter 1
+                                  </td>
+
+                                  <td>
+
+                                  - Family: wife, son 1, daughter 1
+                                    </td>
+
+                                    <td>
+
+                                    - Blood pressure: 110 - 180
+                                      </td>
+
+                                      </tr>
+
+                                      <tr>
+
+                                      <td>
+
+                                      - Blood pressure: 110 - 180
+                                        </td>
+
+                                        <td>
+
+                                        - Blood pressure: 110 - 180
+                                          </td>
+
+                                          <td>
+
+                                          - Yearly credit card expense:
+                                            \$40,000
+                                            </td>
+
+                                            </tr>
+
+                                            <tr>
+
+                                            <td>
+
+                                            - Yearly credit card
+                                              expense: \$40,000
+                                              </td>
+
+                                              <td>
+
+                                              - Yearly credit card
+                                                expense: \$40,000
+                                                </td>
+
+                                                <td>
+
+                                                - Mobile data usage:
+                                                  2000 MB
+                                                  </td>
+
+                                                  </tr>
+
+                                                  <tr>
+
+                                                  <td>
+
+                                                  - Mobile data usage:
+                                                    2000 MB
+                                                    </td>
+
+                                                    <td>
+
+                                                    - Mobile data usage:
+                                                      2000 MB
+                                                      </td>
+
+                                                      <td>
+
+                                                      </td>
+
+                                                      </tr>
+
+                                                      <tr>
+
+                                                      <td>
+
+                                                      Combined
+                                                      information cannot
+                                                      identify a
+                                                      specific person
+                                                      </td>
+
+                                                      <td>
+
+                                                      Information cannot
+                                                      identify a
+                                                      specific person,
+                                                      but has the
+                                                      potential to
+                                                      specify the person
+                                                      with additional
+                                                      information, such
+                                                      as mobile number
+                                                      </td>
+
+                                                      <td>
+
+                                                      Information is
+                                                      used only as
+                                                      statistical data
+                                                      points (e.g., A
+                                                      married man in his
+                                                      30s living in
+                                                      Seoul)
+                                                      </td>
+
+                                                      </tr>
+
+                                                      </tbody>
+
+                                                      </table>
 
 Source: Adapted from Shin & Kim (2021), Dokdok.co (2021), and Kim EC,
 Kim EY, Lee HC & Yoo BJ (2021).[^5]
@@ -536,8 +746,6 @@ providing financial and technical assistance to data business operators.
 It also created a system to train ‘registered data traders’ who can act
 as intermediaries, offering consultation and brokerage services for data
 trading.
-
-# 
 
 # Lessons Learned from the South Korean Experience
 
@@ -718,7 +926,7 @@ Retrieved June 6, 2025.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-kimDetailsOutlookThree2021" class="csl-entry">
+<div id="ref-kimDetailsOutlook2021" class="csl-entry">
 
 Kim, Eunchan, Kim， Eun-Young, Lee， Hyo-Chan, and Byungjoon Yoo. “The
 Details and Outlook of Three Data Acts Amendment in South Korea: With a

@@ -118,37 +118,80 @@ Second, the amendments clarified the classification of 'personal information' in
 
 Third, the amended law enabled the integration of pseudonymous data from multiple organizations by authorized data-specialized institutions, under strict security and procedural safeguards. For instance, pseudonymized data from diverse sectors such as telecommunications, insurance, finance, or healthcare can be merged and repurposed for innovative big data services, enabling a value-added data ecosystem.
 
-***Table 2: Three categories of personal information in South Korea: Definitions and examples***
+<table>
+  <caption>Table 2: Three categories of personal information in South Korea: Definitions and examples</caption>
+  <thead>
+    <tr>
+      <th>Personal Information</th>
+      <th>Pseudonymous data</th>
+      <th>Anonymous data</th>
+    </tr>
+    <tr>
+      <td>Information that directly identifies an individual</td>
+      <td>Data processed to prevent the identification of an individual without additional information</td>
+      <td>Data irreversibly de-identified, used for aggregate insights</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>- Name: John Kim</td>
+      <td>- Name: (removed)</td>
+      <td>- Name: (removed)</td>
+    </tr>
+    <tr>
+      <td>- Birth: 1983/01/01</td>
+      <td>- Birth: (removed)</td>
+      <td>- Birth: (removed)</td>
+    </tr>
+    <tr>
+      <td>- Mobile: 010-1234-5678</td>
+      <td>- mobile: XXX-XXXX-XXXX or ajjejkc93 (encrypted)</td>
+      <td>- Mobile: (removed)</td>
+    </tr>
+    <tr>
+      <td>- Home: 02-123-4567</td>
+      <td>- Home: (removed)</td>
+      <td>- Address: Gangnam, Seoul (area only)</td>
+    </tr>
+    <tr>
+      <td>- Address: 123 Banpo, Gangnam, Seoul</td>
+      <td>- Address: Gangnam, Seoul (area only)</td>
+      <td>- Occupation: (removed)</td>
+    </tr>
+    <tr>
+      <td>- Occupation: doctor</td>
+      <td>- Occupation: (removed)</td>
+      <td>- Family: wife, son 1, daughter 1</td>
+    </tr>
+    <tr>
+      <td>- Family: wife, son 1, daughter 1</td>
+      <td>- Family: wife, son 1, daughter 1</td>
+      <td>- Blood pressure: 110 - 180</td>
+    </tr>
+    <tr>
+      <td>- Blood pressure: 110 - 180</td>
+      <td>- Blood pressure: 110 - 180</td>
+      <td>- Yearly credit card expense: $40,000</td>
+    </tr>
+    <tr>
+      <td>- Yearly credit card expense: $40,000</td>
+      <td>- Yearly credit card expense: $40,000</td>
+      <td>- Mobile data usage: 2000 MB</td>
+    </tr>
+    <tr>
+      <td>- Mobile data usage: 2000 MB</td>
+      <td>- Mobile data usage: 2000 MB</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Combined information cannot identify a specific person</td>
+      <td>Information cannot identify a specific person, but has the potential to specify the person with additional information, such as mobile number</td>
+      <td>Information is used only as statistical data points (e.g., A married man in his 30s living in Seoul)</td>
+    </tr>
+  </tbody>
+</table>
 
-+--------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
-| Personal Information                                   | Pseudonymous data                                                                                                                             | Anonymous data                                                                                       |
-+--------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
-| Information that directly identifies an individual     | Data processed to prevent the identification of an individual without additional information                                                  | Data irreversibly de-identified, used for aggregate insights                                         |
-+--------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
-| - Name: John Kim                                       | - Name: (removed)                                                                                                                             | - Name: (removed)                                                                                    |
-|                                                        |                                                                                                                                               |                                                                                                      |
-| - Birth: 1983/01/01                                    | - Birth: (removed)                                                                                                                            | - Birth: (removed)                                                                                   |
-|                                                        |                                                                                                                                               |                                                                                                      |
-| - Mobile: 010-1234-5678                                | - mobile: XXX-XXXX-XXXX or ajjejkc93 (encrypted)                                                                                              | - Mobile: (removed)                                                                                  |
-|                                                        |                                                                                                                                               |                                                                                                      |
-| - Home: 02-123-4567                                    | - Home: (removed)                                                                                                                             | - Address: Gangnam, Seoul (area only)                                                                |
-|                                                        |                                                                                                                                               |                                                                                                      |
-| - Address: 123 Banpo, Gangnam, Seoul                   | - Address: Gangnam, Seoul (area only)                                                                                                         | - Occupation: (removed)                                                                              |
-|                                                        |                                                                                                                                               |                                                                                                      |
-| - Occupation: doctor                                   | - Occupation: (removed)                                                                                                                       | - Family: wife, son 1, daughter 1                                                                    |
-|                                                        |                                                                                                                                               |                                                                                                      |
-| - Family: wife, son 1, daughter 1                      | - Family: wife, son 1, daughter 1                                                                                                             | - Blood pressure: 110 - 180                                                                          |
-|                                                        |                                                                                                                                               |                                                                                                      |
-| - Blood pressure: 110 - 180                            | - Blood pressure: 110 - 180                                                                                                                   | - Yearly credit card expense: \$40,000                                                               |
-|                                                        |                                                                                                                                               |                                                                                                      |
-| - Yearly credit card expense: \$40,000                 | - Yearly credit card expense: \$40,000                                                                                                        | - Mobile data usage: 2000 MB                                                                         |
-|                                                        |                                                                                                                                               |                                                                                                      |
-| - Mobile data usage: 2000 MB                           | - Mobile data usage: 2000 MB                                                                                                                  |                                                                                                      |
-+--------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
-| Combined information cannot identify a specific person | Information cannot identify a specific person, but has the potential to specify the person with additional information, such as mobile number | Information is used only as statistical data points (e.g., A married man in his 30s living in Seoul) |
-+========================================================+===============================================================================================================================================+======================================================================================================+
-
-Source: Adapted from Shin & Kim (2021), Dokdok.co (2021), and Kim EC, Kim EY, Lee HC & Yoo BJ (2021)[@kimDetailsOutlookThree2021].
+Source: Adapted from Shin & Kim (2021), Dokdok.co (2021), and Kim EC, Kim EY, Lee HC & Yoo BJ (2021)[@kimDetailsOutlook2021].
 
 The 2023 amendments, which took effect in September 2023, introduced further guardrails in response to emerging technologies such as artificial intelligence, wearable devices, drones, and facial recognition systems. First, the amended law reinforced the 'MyData' framework, bolstering individuals' right to control and manage their personal data, including the newly codified right to data portability. This right enables individuals to obtain and transfer their sensitive personal data to themselves or an eligible third party in a structured, commonly used, and machine-readable format.
 
@@ -164,7 +207,6 @@ In parallel to these legal reforms, the South Korean National Assembly passed th
 
 The law officially acknowledges data as important 'assets with economic value', ownership of which needs legal and institutional protection. To ensure active data use, sharing, and trading by the private sector, especially among small firms and entrepreneurs, the law specifies several institutional measures. For instance, the government was mandated to develop standardized frameworks and metrics to evaluate the data values through specialized evaluation centers. It also set up a data dispute commission to consult and mitigate any data-related conflicts before they escalated into litigation. The commission serves as a quasi-judicial mediation body, offering non-binding but expert-backed resolutions to disputes involving data ownership, access, valuation, or misuse, particularly between private-sector actors and between individuals and data holders. Furthermore, to promote transparent and secure data trading, the government committed to providing financial and technical assistance to data business operators. It also created a system to train 'registered data traders' who can act as intermediaries, offering consultation and brokerage services for data trading.
 
-# 
 
 # Lessons Learned from the South Korean Experience
 
